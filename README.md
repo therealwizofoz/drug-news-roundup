@@ -8,6 +8,7 @@ no build dependencies beyond Python 3.
 data/2026-08-22.json     one file per edition  ← the only thing you ever edit
 build.py                 regenerates all HTML from data/
 publish.sh               build + git commit + push
+.gitlab-ci.yml           GitLab Pages deployment
 assets/style.css         the whole stylesheet
 index.html               generated — latest edition
 archive/index.html       generated — list of all editions
@@ -19,127 +20,65 @@ run `python3 build.py` and you get it back byte for byte.
 
 ---
 
-## Before you start: private repos and GitHub Pages
+## Hosting: GitLab Pages
 
-**GitHub Pages will not publish from a private repository on the free plan.**
-It needs GitHub Pro ($4/month) for personal accounts, or a Team/Enterprise plan
-for organizations. On a free account the repo can be private, but the Pages
-build will be rejected.
+The site is deployed by GitLab CI. `.gitlab-ci.yml` runs `build.py` on every push
+to `main`, assembles the output into a `public/` directory (the only directory
+GitLab Pages will serve), and publishes it.
 
-You have three ways forward:
+Because CI rebuilds from `data/`, the JSON files stay the single source of truth
+— hand-edited HTML can never drift out of sync.
 
-| Option | Repo | Site | Cost |
-| --- | --- | --- | --- |
-| **A.** Upgrade to GitHub Pro | Private | Public URL | $4/mo |
-| **B.** Public repo | Public | Public URL | Free |
-| **C.** Private repo + Cloudflare Pages | Private | Public URL (protectable) | Free |
+### One-time gotcha: identity verification
 
-Nothing in this site is sensitive — every story links to already-published
-reporting — so **B** is the least friction if you only made it private out of
-habit. **C** is the one to pick if you want the repo private *and* the site
-access-controlled: Cloudflare Pages builds from a private GitHub repo on the
-free tier, and Cloudflare Access can put an email-code login in front of it.
+GitLab.com requires identity verification — a credit card or phone number —
+before a free account can use shared CI runners. The card is not charged; a
+small authorization is placed and reversed. Without this, the pipeline will sit
+queued forever and the site will never build. Verify at
+**Settings → Account** if GitLab prompts you.
 
-Instructions for all three are below. Start with the common setup.
+Free accounts get 400 compute minutes per month. This site builds in well under
+a minute, so a daily push uses roughly 30 of them.
 
----
-
-## Common setup: create the repo and push
-
-Run these from the site folder on your Mac
-(`~/Documents/DrugNewsRoundup/site`).
-
-### 1. Install the GitHub CLI (once)
+### 1. Create the project and push
 
 ```bash
-brew install gh
-gh auth login
-```
-
-Choose **GitHub.com** → **HTTPS** → **Login with a web browser**, and paste the
-one-time code it shows you. When it asks whether to authenticate Git operations
-with your GitHub credentials, say **yes** — this stores a credential in the
-macOS Keychain, which is what lets the 6 AM task push without a prompt.
-
-If you would rather not use `gh`, create the repo manually at
-<https://github.com/new> and skip to step 3.
-
-### 2. Create the repository
-
-```bash
+# Set the remote (replace <username> with your GitLab username)
 cd ~/Documents/DrugNewsRoundup/site
-git init -b main
-gh repo create drug-news-roundup --private --source=. --remote=origin
-```
-
-Swap `--private` for `--public` if you are going with option B.
-
-### 3. First commit and push
-
-```bash
-git add -A
-git commit -m "Initial site"
+git remote add origin https://gitlab.com/<username>/drug-news-roundup.git
 git push -u origin main
 ```
 
-If you created the repo by hand rather than with `gh`, add the remote first:
+Create the project first at <https://gitlab.com/projects/new#blank_project> —
+name it `drug-news-roundup`, set **Visibility Level** to **Private**, and
+uncheck **Initialize repository with a README** so the push is not rejected.
 
-```bash
-git remote add origin https://github.com/<your-username>/drug-news-roundup.git
-git push -u origin main
-```
+GitLab will prompt for a username and password on first push. Use a **personal
+access token** as the password, not your account password: **Settings → Access
+tokens → Add new token**, scope `write_repository`, then let the macOS keychain
+store it so the 6 AM task can push unattended.
 
-### 4. Make the publish script executable
+### 2. Watch the first pipeline
 
-```bash
-chmod +x publish.sh
-```
+**Build → Pipelines** in the project. The `pages` job should go green in under
+a minute. If it stays *pending*, that is the identity verification issue above.
 
----
+### 3. Find your URL
 
-## Option A — private repo on GitHub Pages (requires GitHub Pro)
+**Deploy → Pages**. New projects get a unique domain, so the URL looks like
+`https://drug-news-roundup-a1b2c3.gitlab.io` rather than a predictable path.
 
-1. Upgrade at <https://github.com/settings/billing> → **Plans and usage** →
-   **Upgrade to Pro**.
-2. In the repo, go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to *Deploy from a branch*,
-   **Branch** to `main`, folder `/ (root)`. Save.
-4. Wait a minute or two. Your site appears at
-   `https://<your-username>.github.io/drug-news-roundup/`.
+### 4. Make the site private (optional)
 
-The site itself is public even though the repo is private — Pages has no way to
-restrict viewers on Pro. If you need the *site* private too, use option C.
+By default the site is public even though the repo is private. To restrict it:
 
-## Option B — public repo on GitHub Pages (free)
+**Settings → General → Visibility, project features, permissions**, find
+**Pages**, and set access to **Only project members**. Viewers then have to be
+signed in to a GitLab account you have added to the project. Changes take about
+a minute to propagate through the cache.
 
-Identical to option A, minus the upgrade. If you already created the repo as
-private, flip it:
-
-```bash
-gh repo edit --visibility public --accept-visibility-change-consequences
-```
-
-Then **Settings → Pages → Deploy from a branch → main → / (root)**.
-
-## Option C — private repo, hosted on Cloudflare Pages (free)
-
-1. Sign in at <https://dash.cloudflare.com> and go to
-   **Workers & Pages → Create → Pages → Connect to Git**.
-2. Authorize Cloudflare for GitHub and pick `drug-news-roundup`. Granting access
-   to just this one repository is enough.
-3. Build settings:
-   - **Framework preset:** None
-   - **Build command:** *(leave empty)*
-   - **Build output directory:** `/`
-4. Deploy. You get a `https://drug-news-roundup.pages.dev` URL, and every push
-   to `main` redeploys automatically.
-5. *(Optional, to keep the site itself private)* **Zero Trust → Access →
-   Applications → Add an application → Self-hosted**, point it at your
-   `.pages.dev` hostname, and add a policy allowing only
-   `ryan.oconnor.kc@icloud.com`. Visitors then get a one-time email code before
-   the site loads.
-
----
+This is available on the free tier, and unlike GitHub Pages it needs no external
+auth service.
 
 ## The daily update
 
@@ -148,17 +87,24 @@ goes out:
 
 1. Writes `data/YYYY-MM-DD.json` for the new edition.
 2. Runs `./publish.sh`, which rebuilds every page and pushes to `main`.
-3. GitHub Pages or Cloudflare redeploys within a minute or two.
+3. GitLab CI runs the `pages` job and the site updates within a minute or two.
 
-For the push to work unattended, the credential has to be stored — that is what
-`gh auth login` did in step 1. To confirm it works without a prompt:
+For the push to work unattended, the personal access token has to be stored in
+the macOS keychain. To confirm it works without a prompt:
 
 ```bash
 cd ~/Documents/DrugNewsRoundup/site && ./publish.sh "test push"
 ```
 
 If that succeeds silently, the scheduled task will too. If it asks for a
-username and password, run `gh auth setup-git` and try again.
+username and password every time, tell git to use the keychain:
+
+```bash
+git config --global credential.helper osxkeychain
+```
+
+then push once by hand, entering your GitLab username and the personal access
+token as the password.
 
 ### Adding or fixing an edition by hand
 
@@ -207,9 +153,10 @@ hours" rather than disappearing.
 
 ## Notes
 
-- `.nojekyll` is generated on every build. It stops GitHub Pages from running
-  Jekyll over the output, which would otherwise ignore any file or folder
-  beginning with an underscore.
+- `.nojekyll` is generated on every build. GitLab Pages ignores it — it only
+  matters on GitHub Pages — but it is harmless and keeps the option open.
+- CI builds on `python:3.12-alpine`; your Mac builds on the system Python 3.9.
+  `build.py` uses nothing version-specific, so both produce identical output.
 - The stylesheet follows the reader's system light/dark setting. There is no
   theme toggle and no JavaScript anywhere on the site.
 - Story text and URLs are HTML-escaped at build time, so quotes, ampersands and
