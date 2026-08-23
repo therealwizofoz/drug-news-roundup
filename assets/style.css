@@ -1,0 +1,288 @@
+/* Drug News Roundup — archive site
+   Single stylesheet. Light palette on :root, dark under prefers-color-scheme. */
+
+:root {
+  --bg:        #fbfaf8;
+  --surface:   #ffffff;
+  --border:    #e4e0d9;
+  --border-sf: #d6d1c8;
+  --ink:       #1c1a17;
+  --ink-2:     #46423b;
+  --ink-3:     #78726a;
+  --accent:    #9a3412;
+  --accent-sf: #f5ede8;
+  --chip-bg:   #f3f0eb;
+  --link:      #8a3a14;
+  --shadow:    0 1px 2px rgba(28,26,23,.05), 0 1px 8px rgba(28,26,23,.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #14130f;
+    --surface:   #1c1a16;
+    --border:    #2e2b25;
+    --border-sf: #3a362e;
+    --ink:       #f0ece5;
+    --ink-2:     #c3bcb1;
+    --ink-3:     #8d867c;
+    --accent:    #f08b5a;
+    --accent-sf: #2a1d15;
+    --chip-bg:   #262218;
+    --link:      #f0a179;
+    --shadow:    none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.6 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-feature-settings: "kern" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 5rem;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+  padding: 2.5rem 0 1.5rem;
+}
+
+.masthead .kicker {
+  font-size: .6875rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 650;
+  margin: 0 0 .5rem;
+}
+
+.masthead h1 {
+  font-size: clamp(1.65rem, 5vw, 2.2rem);
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  margin: 0 0 .65rem;
+  font-weight: 700;
+}
+
+.masthead .dateline {
+  color: var(--ink-2);
+  font-size: .9375rem;
+  margin: 0;
+}
+
+.masthead .window {
+  color: var(--ink-3);
+  font-size: .875rem;
+  margin: .35rem 0 0;
+}
+
+nav.top {
+  display: flex;
+  gap: 1.25rem;
+  align-items: baseline;
+  font-size: .875rem;
+  padding: 1.25rem 0 0;
+  flex-wrap: wrap;
+}
+
+nav.top a {
+  color: var(--ink-3);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+}
+
+nav.top a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+nav.top a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* ---------- contents ---------- */
+
+.toc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin: 0 0 2.75rem;
+  box-shadow: var(--shadow);
+}
+
+.toc h2 {
+  font-size: .6875rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 .6rem;
+  font-weight: 650;
+}
+
+.toc ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: .3rem;
+  counter-reset: toc;
+}
+
+.toc li { counter-increment: toc; display: flex; gap: .55rem; align-items: baseline; }
+.toc li::before {
+  content: counter(toc) ".";
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  font-size: .8125rem;
+  min-width: 1.1em;
+}
+.toc a { color: var(--ink-2); text-decoration: none; font-size: .9375rem; }
+.toc a:hover { color: var(--accent); }
+.toc .count { color: var(--ink-3); font-size: .8125rem; margin-left: .3rem; }
+
+/* ---------- sections ---------- */
+
+section.block { margin: 0 0 3rem; scroll-margin-top: 1.5rem; }
+
+section.block > h2 {
+  display: flex;
+  align-items: baseline;
+  gap: .7rem;
+  font-size: 1.0625rem;
+  letter-spacing: -.005em;
+  margin: 0 0 1.25rem;
+  padding-bottom: .6rem;
+  border-bottom: 2px solid var(--accent);
+  font-weight: 700;
+}
+
+section.block > h2 .num {
+  font-size: .75rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  background: var(--accent-sf);
+  border-radius: 4px;
+  padding: .15rem .4rem;
+  font-weight: 650;
+}
+
+/* ---------- stories ---------- */
+
+article.story {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.15rem 1.25rem;
+  margin: 0 0 .85rem;
+  box-shadow: var(--shadow);
+}
+
+article.story h3 {
+  font-size: 1.0625rem;
+  line-height: 1.35;
+  letter-spacing: -.01em;
+  margin: 0 0 .55rem;
+  font-weight: 650;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: 0 0 .7rem;
+}
+
+.chip {
+  font-size: .75rem;
+  line-height: 1.4;
+  color: var(--ink-2);
+  background: var(--chip-bg);
+  border: 1px solid var(--border-sf);
+  border-radius: 999px;
+  padding: .1rem .55rem;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chip.qty { color: var(--accent); border-color: var(--accent); background: var(--accent-sf); font-weight: 600; }
+
+article.story p {
+  margin: 0 0 .8rem;
+  color: var(--ink-2);
+  font-size: .9375rem;
+}
+
+.source {
+  font-size: .8125rem;
+  display: flex;
+  gap: .4rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.source .label { color: var(--ink-3); }
+.source a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--link) 35%, transparent);
+  word-break: break-word;
+}
+.source a:hover { border-bottom-color: var(--link); }
+
+.empty {
+  color: var(--ink-3);
+  font-style: italic;
+  font-size: .9375rem;
+  margin: 0;
+}
+
+/* ---------- archive list ---------- */
+
+ul.archive { list-style: none; margin: 0; padding: 0; }
+
+ul.archive li {
+  border-bottom: 1px solid var(--border);
+}
+ul.archive li:first-child { border-top: 1px solid var(--border); }
+
+ul.archive a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: .85rem .25rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ul.archive a:hover { background: var(--surface); }
+ul.archive .d { font-weight: 600; font-size: .9375rem; }
+ul.archive .n { color: var(--ink-3); font-size: .8125rem; font-variant-numeric: tabular-nums; }
+
+/* ---------- footer ---------- */
+
+footer {
+  border-top: 1px solid var(--border);
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  color: var(--ink-3);
+  font-size: .8125rem;
+}
+footer p { margin: 0 0 .4rem; }
+footer a { color: var(--ink-3); }
+
+@media (max-width: 30rem) {
+  .wrap { padding: 0 1rem 4rem; }
+  article.story { padding: 1rem; }
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-22",
+  "window": "Covering the past 24 hours (Aug 21–22), with two significant Aug 20 items.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Multi-state trafficking pipeline dismantled from Detroit to West Virginia",
+          "body": "28 defendants were charged in a 114-count indictment over a corridor running from Detroit to Morgantown, WV, with distribution across Monongalia County and neighboring states. Agents seized over 8 lbs of methamphetamine, 2 lbs of fentanyl mixtures, a half-pound of cocaine and crack, 10 firearms and $21,906 in cash. Alleged leader Brendan Bragg, 32, of Detroit.",
+          "quantity": "8 lb meth · 2 lb fentanyl",
+          "location": "Detroit, MI → Morgantown, WV",
+          "arrests": "28 charged",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/08/21/multi-state-drug-trafficking-operation-dismantled-part-homeland-security"
+        },
+        {
+          "headline": "Ten sentenced in South Florida cocaine conspiracy",
+          "body": "Ten defendants received sentences from 21 to 188 months in a Miami-area conspiracy involving five or more kilograms of cocaine, running September 2024 through September 2025. Investigators seized more than $450,000 in drug proceeds; three co-defendants remain fugitives.",
+          "quantity": "5+ kg cocaine",
+          "location": "South Florida",
+          "arrests": "10 sentenced, 3 at large",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/08/21/homeland-security-task-force-ten-defendants-sentenced-south-florida"
+        },
+        {
+          "headline": "CBP finds 1,675 lbs of meth in a celery shipment at Pharr, Texas",
+          "body": "Officers at the Pharr International Bridge pulled roughly $14.9 million in methamphetamine from a commercial load of fresh celery arriving from Mexico — one of the larger single-load meth interceptions on the South Texas border this year.",
+          "quantity": "1,675 lb meth ($14.9M)",
+          "location": "Pharr International Bridge, TX",
+          "source": "CBP",
+          "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-seizes-more-14-million-methamphetamine-pharr-international-bridge"
+        },
+        {
+          "headline": "VA nurse indicted for diverting opioids",
+          "body": "A Department of Veterans Affairs nurse was indicted on charges of stealing opioid medication from a VA facility — a smaller case, but part of DEA's continuing diversion-control enforcement push.",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/08/21/veterans-affairs-nurse-indicted-for-stealing-opioids"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Fentanyl packaging mill raided in the Bronx — “Game of Death” branding",
+          "body": "Seven people were arrested at a sixth-floor apartment on Bronx Boulevard in Wakefield, where investigators recovered roughly 4 kilograms of fentanyl mixtures worth more than $1 million, packaged in glassines stamped “Game of Death.”",
+          "quantity": "4 kg fentanyl ($1M+)",
+          "location": "Wakefield, Bronx, NY",
+          "arrests": "7 arrested",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/08/21/fentanyl-packaging-mill-dismantled-bronx-new-york-packages-branded-game"
+        },
+        {
+          "headline": "17 charged in Western New York ring supplied from Puerto Rico",
+          "body": "A takedown across Erie, Monroe, Niagara and Onondaga counties produced 117 charges against 17 people — four suppliers and 11 resellers — with 10 kilograms of cocaine and 250 grams of fentanyl and heroin seized. Product was shipped from Puerto Rico into Western New York.",
+          "quantity": "10 kg cocaine · 250 g fentanyl/heroin",
+          "location": "Western New York",
+          "arrests": "17 charged, 117 counts",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/08/21/dea-new-york-enforcement-division-announces-takedown-western-new-york"
+        },
+        {
+          "headline": "DEA Detroit reports 8.5 million potentially lethal fentanyl doses seized",
+          "body": "DEA's Detroit division announced cumulative results totaling 8.5 million potentially deadly doses of fentanyl, 142 firearms and 176 arrests across its operating area. Announced August 20.",
+          "quantity": "8.5M fentanyl doses · 142 guns",
+          "location": "Detroit division",
+          "arrests": "176 arrests",
+          "source": "ClickOnDetroit",
+          "url": "https://www.clickondetroit.com/news/local/2026/08/20/dea-detroit-seizes-85-million-potentially-deadly-doses-of-fentanyl-142-guns-seized-176-arrests/"
+        },
+        {
+          "headline": "Marianna, Florida man sentenced to 45 months",
+          "body": "A Marianna man received a 45-month federal sentence for conspiring to distribute cocaine and marijuana.",
+          "location": "Marianna, FL",
+          "arrests": "1 sentenced",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/08/21/marianna-man-sentenced-forty-five-months-federal-prison-for-conspiring"
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Ecuador — 1,011 kg of cocaine found inside lifting machinery at Posorja",
+          "body": "National Police drilled into the structures of four electromagnetic lifting machines in a container at the Port of Posorja, Guayas province, and found 1,011.52 kg of cocaine, about 9.23 million doses, valued between $27.7M and $43.2M. The container was declared as industrial equipment and bound for Lázaro Cárdenas, Mexico. No arrests reported.",
+          "quantity": "1,011 kg cocaine",
+          "location": "Port of Posorja, Guayas, Ecuador",
+          "arrests": "None reported",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/08/21/ecuador-incauta-101-toneladas-de-cocaina-que-tenia-como-destino-mexico/"
+        },
+        {
+          "headline": "Ecuador — Interpol red-notice trafficker captured in Guayaquil",
+          "body": "Rubén Bermúdez Loor, 61, wanted by US authorities on conspiracy to distribute cocaine destined for Guatemala, was arrested in northern Guayaquil. The same transnational operation netted Wilson Eduardo Mendoza Barberán — a former senior Guatemalan water-secretariat official linked to Los Choneros — in Guatemala, and Elixandro Ico Cuervo, an alleged liaison to FARC dissidents, in Colombia.",
+          "location": "Guayaquil, Ecuador",
+          "arrests": "3 across 3 countries",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/america-latina/2026/08/21/ecuador-detuvo-en-una-operacion-transnacional-a-un-delincuente-con-alerta-roja-de-interpol-buscado-por-narcotrafico/"
+        },
+        {
+          "headline": "Colombia — 4.5 tonnes of cocaine seized in Putumayo and Norte de Santander",
+          "body": "Authorities seized 4.5 tonnes of cocaine plus 300 kilos and 220 gallons of coca base in operations against the ELN, the Coordinadora Nacional Ejército Bolivariano and the Comandos de Frontera. The load was headed for Central America; officials put the financial hit to the groups at roughly $85 million and about 7.7 million doses.",
+          "quantity": "4.5 t cocaine + coca base",
+          "location": "Putumayo & Norte de Santander, Colombia",
+          "arrests": "None reported",
+          "source": "Chicanoticias",
+          "url": "https://www.chicanoticias.com/2026/08/21/incautan-45-toneladas-de-cocaina/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Spain — Ten arrested and nearly six tonnes of hashish seized off Huelva",
+          "body": "Police detained 10 members of a trafficking crew that opened fire on a Guardia Civil patrol boat earlier in the week off the Huelva coast. The pursuit ended with almost six tonnes of hashish recovered.",
+          "quantity": "~6 t hashish",
+          "location": "Huelva, Spain",
+          "arrests": "10 arrested",
+          "source": "El Debate",
+          "url": "https://www.eldebate.com/espana/andalucia/20260822/huida-tiros-narcos-frente-huelva-acaba-diez-detenidos-casi-seis-toneladas-hachis_451406.html"
+        },
+        {
+          "headline": "Indonesia — 2.6 tonnes of liquid methamphetamine intercepted off Bengkalis",
+          "body": "A joint law-enforcement team stopped an attempt to smuggle 2.6 tonnes of liquid “sabu” through waters off Bengkalis, Riau — one of Indonesia's larger maritime meth interdictions this year.",
+          "quantity": "2.6 t liquid meth",
+          "location": "Bengkalis, Riau, Indonesia",
+          "source": "The Jakarta Post",
+          "url": "https://www.thejakartapost.com/indonesia/2026/08/21/joint-team-foils-effort-to-smuggle-2-6-tonnes-of-liquid-sabu-off-bengkalis"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "CJNG — regional boss “Tío Lako” slips a military raid, blockades follow",
+          "body": "Heraclio Guerrero Martínez escaped a Mexican military operation in Michoacán, triggering narco blockades across the state. InSight Crime frames the escape as evidence of how decentralized CJNG command has become since El Mencho's death.",
+          "location": "Michoacán, Mexico",
+          "source": "InSight Crime",
+          "url": "https://insightcrime.org/mexico-organized-crime-news/"
+        },
+        {
+          "headline": "US counter-narcotics posture — maritime campaign may move onto land",
+          "body": "InSight Crime reports the administration is weighing an expansion of anti-drug operations from maritime interdiction to ground campaigns, alongside hardline security moves in Chile and Peru and increased use of explosives and drones by criminal groups.",
+          "source": "InSight Crime",
+          "url": "https://insightcrime.org/feed/"
+        },
+        {
+          "headline": "Ecuador's gang landscape — updated profiles on Choneros and Lobos",
+          "body": "InSight Crime published refreshed assessments of both organizations: the Choneros in decline since “Fito's” 2025 arrest, and the Lobos expanding into 16 provinces and consolidating control in Quito. Useful background to the Guayaquil arrests above.",
+          "location": "Ecuador",
+          "source": "InSight Crime",
+          "url": "https://insightcrime.org/feed/"
+        }
+      ]
+    }
+  ]
+}
