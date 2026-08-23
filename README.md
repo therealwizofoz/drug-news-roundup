@@ -9,7 +9,6 @@ data/2026-08-22.json     one file per edition  ← the only thing you ever edit
 build.py                 regenerates all HTML from data/
 make_email.py            renders one edition as the HTML email
 publish.sh               build + git commit + push
-.gitlab-ci.yml           GitLab Pages deployment
 assets/style.css         the whole stylesheet
 index.html               generated — latest edition
 archive/index.html       generated — list of all editions
@@ -40,10 +39,10 @@ The design is deliberately light-only. Email clients handle a fixed light
 palette far more predictably than a themed one, so unlike the website the email
 does not follow your system dark mode.
 
-**Once GitLab Pages is live**, open `make_email.py` and set:
+**Once GitHub Pages is live**, open `make_email.py` and set:
 
 ```python
-SITE_URL = "https://drug-news-roundup-a1b2c3.gitlab.io"
+SITE_URL = "https://<your-username>.github.io/drug-news-roundup"
 ```
 
 Each email then carries a "Read this edition on the web →" link under the
@@ -51,65 +50,82 @@ masthead. Leave it empty and the link is simply omitted.
 
 ---
 
-## Hosting: GitLab Pages
+## Hosting: GitHub Pages
 
-The site is deployed by GitLab CI. `.gitlab-ci.yml` runs `build.py` on every push
-to `main`, assembles the output into a `public/` directory (the only directory
-GitLab Pages will serve), and publishes it.
+The site is plain committed HTML — `publish.sh` runs `build.py` before every
+commit, so what lands in the repo is what gets served. GitHub Pages needs no
+build step and no Actions workflow: it deploys the branch as-is.
 
-Because CI rebuilds from `data/`, the JSON files stay the single source of truth
-— hand-edited HTML can never drift out of sync.
+### Public or private?
 
-### One-time gotcha: identity verification
+**GitHub Pages will not publish from a private repository on the free plan.**
+It needs GitHub Pro ($4/month). Nothing on this site is sensitive — every story
+links to already-published reporting — so the steps below use `--public`. If you
+have Pro and want the repo private, swap `--public` for `--private`; everything
+else is identical, though the *site* stays publicly reachable either way. Pages
+has no viewer restriction at any tier.
 
-GitLab.com requires identity verification — a credit card or phone number —
-before a free account can use shared CI runners. The card is not charged; a
-small authorization is placed and reversed. Without this, the pipeline will sit
-queued forever and the site will never build. Verify at
-**Settings → Account** if GitLab prompts you.
-
-Free accounts get 400 compute minutes per month. This site builds in well under
-a minute, so a daily push uses roughly 30 of them.
-
-### 1. Create the project and push
+### 1. Install the GitHub CLI
 
 ```bash
-# Set the remote (replace <username> with your GitLab username)
-cd ~/Documents/DrugNewsRoundup/site
-git remote add origin https://gitlab.com/<username>/drug-news-roundup.git
-git push -u origin main
+brew install gh
+gh auth login
 ```
 
-Create the project first at <https://gitlab.com/projects/new#blank_project> —
-name it `drug-news-roundup`, set **Visibility Level** to **Private**, and
-uncheck **Initialize repository with a README** so the push is not rejected.
+Choose **GitHub.com → HTTPS → Login with a web browser**, paste the one-time
+code, and answer **yes** to "authenticate Git operations with your GitHub
+credentials". That stores a credential in the macOS keychain, which is what lets
+the 6 AM task push unattended.
 
-GitLab will prompt for a username and password on first push. Use a **personal
-access token** as the password, not your account password: **Settings → Access
-tokens → Add new token**, scope `write_repository`, then let the macOS keychain
-store it so the 6 AM task can push unattended.
+### 2. Create the repo and push
 
-### 2. Watch the first pipeline
+```bash
+cd ~/Documents/DrugNewsRoundup/site
+gh repo create drug-news-roundup --public --source=. --remote=origin --push
+```
 
-**Build → Pipelines** in the project. The `pages` job should go green in under
-a minute. If it stays *pending*, that is the identity verification issue above.
+This creates the repository, wires up `origin`, and pushes `main` in one step.
 
-### 3. Find your URL
+### 3. Turn on Pages
 
-**Deploy → Pages**. New projects get a unique domain, so the URL looks like
-`https://drug-news-roundup-a1b2c3.gitlab.io` rather than a predictable path.
+```bash
+gh api -X POST repos/:owner/drug-news-roundup/pages \
+  -f 'source[branch]=main' -f 'source[path]=/'
+```
 
-### 4. Make the site private (optional)
+Or in the browser: **Settings → Pages → Build and deployment → Source:
+Deploy from a branch → Branch: `main` → Folder: `/ (root)` → Save**.
 
-By default the site is public even though the repo is private. To restrict it:
+### 4. Get your URL
 
-**Settings → General → Visibility, project features, permissions**, find
-**Pages**, and set access to **Only project members**. Viewers then have to be
-signed in to a GitLab account you have added to the project. Changes take about
-a minute to propagate through the cache.
+```bash
+gh api repos/:owner/drug-news-roundup/pages --jq .html_url
+```
 
-This is available on the free tier, and unlike GitHub Pages it needs no external
-auth service.
+Typically `https://<your-username>.github.io/drug-news-roundup/`. The first
+deploy takes a minute or two; later ones are usually under 30 seconds.
+
+### 5. Put the URL in the email
+
+Open `make_email.py` and set:
+
+```python
+SITE_URL = "https://<your-username>.github.io/drug-news-roundup"
+```
+
+Each morning's email then carries a "Read this edition on the web →" link under
+the masthead.
+
+### 6. Confirm the unattended push works
+
+```bash
+./publish.sh "test push"
+```
+
+If it completes without prompting for a password, tomorrow's 6 AM task will
+publish on its own. If it does prompt, run `gh auth setup-git` and retry.
+
+---
 
 ## The daily update
 
@@ -118,24 +134,18 @@ goes out:
 
 1. Writes `data/YYYY-MM-DD.json` for the new edition.
 2. Runs `./publish.sh`, which rebuilds every page and pushes to `main`.
-3. GitLab CI runs the `pages` job and the site updates within a minute or two.
+3. GitHub Pages redeploys the branch, usually within 30 seconds.
 
-For the push to work unattended, the personal access token has to be stored in
-the macOS keychain. To confirm it works without a prompt:
+For the push to work unattended, the credential has to be stored in the macOS
+keychain — that is what `gh auth login` did. To confirm it works without a
+prompt:
 
 ```bash
 cd ~/Documents/DrugNewsRoundup/site && ./publish.sh "test push"
 ```
 
 If that succeeds silently, the scheduled task will too. If it asks for a
-username and password every time, tell git to use the keychain:
-
-```bash
-git config --global credential.helper osxkeychain
-```
-
-then push once by hand, entering your GitLab username and the personal access
-token as the password.
+username and password every time, run `gh auth setup-git` and push once by hand.
 
 ### Adding or fixing an edition by hand
 
@@ -184,10 +194,12 @@ hours" rather than disappearing.
 
 ## Notes
 
-- `.nojekyll` is generated on every build. GitLab Pages ignores it — it only
-  matters on GitHub Pages — but it is harmless and keeps the option open.
-- CI builds on `python:3.12-alpine`; your Mac builds on the system Python 3.9.
-  `build.py` uses nothing version-specific, so both produce identical output.
+- `.nojekyll` is generated on every build. It stops GitHub Pages from running
+  Jekyll over the output, which would otherwise ignore any file or folder whose
+  name begins with an underscore.
+- The site is built on your Mac by `publish.sh`, not in CI, so the committed
+  HTML is always what gets served. Never hand-edit an HTML file — the next
+  build overwrites it. Edit the JSON in `data/` instead.
 - The stylesheet follows the reader's system light/dark setting. There is no
   theme toggle and no JavaScript anywhere on the site.
 - Story text and URLs are HTML-escaped at build time, so quotes, ampersands and
