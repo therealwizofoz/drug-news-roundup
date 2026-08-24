@@ -25,9 +25,7 @@ import tally
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 
-# Fill this in once GitLab Pages is live, e.g.
-# SITE_URL = "https://drug-news-roundup-a1b2c3.gitlab.io"
-SITE_URL = ""
+SITE_URL = "https://therealwizofoz.github.io/drug-news-roundup"
 
 SECTION_ORDER = [
     ("federal", "National / Federal (US)"),
