@@ -248,6 +248,93 @@ article.story p {
   margin: 0;
 }
 
+/* ---------- running tally ---------- */
+
+.toc .toc-tally { margin-top: .35rem; padding-top: .4rem; border-top: 1px dashed var(--border); }
+.toc .toc-tally::before { content: "\2211"; font-size: .875rem; }
+
+section.tally > h2 { border-bottom-color: var(--ink-3); }
+
+.tally-note {
+  color: var(--ink-3);
+  font-size: .8125rem;
+  line-height: 1.55;
+  margin: -.4rem 0 1rem;
+  max-width: 40rem;
+}
+
+.tally-headline {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.5rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .35rem .9rem;
+}
+
+.tally-headline .big {
+  font-size: 1.9rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.tally-headline .meta { font-size: .8125rem; color: var(--ink-3); }
+
+section.tally h3 {
+  font-size: .6875rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  font-weight: 650;
+  margin: 1.5rem 0 .6rem;
+}
+
+section.tally h3:first-of-type { margin-top: 0; }
+
+.scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+table.tally-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .875rem;
+}
+
+table.tally-table th,
+table.tally-table td {
+  text-align: left;
+  padding: .6rem .75rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: baseline;
+}
+
+table.tally-table tr:first-child th,
+table.tally-table tr:first-child td { border-top: 1px solid var(--border); }
+
+table.tally-table th {
+  font-weight: 650;
+  color: var(--ink);
+  white-space: nowrap;
+  padding-left: 0;
+}
+
+table.tally-table td.brk { color: var(--ink-3); font-size: .8125rem; }
+
+table.tally-table td.amt {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  color: var(--accent);
+  padding-right: 0;
+}
+
 /* ---------- archive list ---------- */
 
 ul.archive { list-style: none; margin: 0; padding: 0; }

@@ -8,6 +8,7 @@ no build dependencies beyond Python 3.
 data/2026-08-22.json     one file per edition  ← the only thing you ever edit
 build.py                 regenerates all HTML from data/
 make_email.py            renders one edition as the HTML email
+tally.py                 year-to-date seizure totals, shared by both
 publish.sh               build + git commit + push
 assets/style.css         the whole stylesheet
 index.html               generated — latest edition
@@ -173,7 +174,10 @@ The JSON shape:
           "location": "Putumayo, Colombia",
           "arrests": "12 arrested",
           "source": "DEA",
-          "url": "https://example.org/story"
+          "url": "https://example.org/story",
+          "seizures": [
+            {"drug": "cocaine", "kg": 4500, "place": "Colombia"}
+          ]
         }
       ]
     }
@@ -185,10 +189,50 @@ The JSON shape:
 `source` are optional and render as small chips under the headline — omit any
 that the reporting does not give.
 
+`seizures` is the structured, summable version of `quantity`, and feeds the
+running tally. See below.
+
 Section `id` must be one of `federal`, `local`, `south-america`, `world`,
 `ongoing`. They always render in that order regardless of how the file lists
 them, and a section with no stories shows "Nothing significant in the past 24
 hours" rather than disappearing.
+
+---
+
+## The running tally
+
+Every edition page and every email ends with a year-to-date tally of weight
+intercepted, broken out by US state and by country. `tally.py` computes it;
+`build.py` and `make_email.py` both render it.
+
+It is driven entirely by the `seizures` field on each story:
+
+```json
+"seizures": [
+  {"drug": "cocaine", "kg": 1011.52, "place": "Ecuador"},
+  {"drug": "fentanyl", "kg": 4, "place": "New York"}
+]
+```
+
+Four rules keep the numbers honest:
+
+1. **Always kilograms.** Convert before writing the JSON — 1 lb = 0.45359237 kg,
+   1 tonne = 1000 kg. The display rescales to tonnes or grams on its own.
+2. **`place` is a US state name or a country name.** `tally.py` holds the list
+   of US states and routes each row into the right table. A place it does not
+   recognise as a state is treated as a country, so spelling matters —
+   "New York", not "NY"; "Colombia", not "Putumayo".
+3. **Seizures only.** Sentencings, indictments and court outcomes describe
+   drugs seized in the past, often years earlier and already counted. They get
+   no `seizures` entry.
+4. **Omit it when no weight is given.** Dose and pill counts are not reliably
+   convertible to weight, so a story reporting "8.5 million doses" contributes
+   nothing to the tally. Better a slightly low number than a fabricated one.
+
+An edition's tally covers its own calendar year, up to and including its own
+date. So each archived page shows the total as it stood that morning, the front
+page shows the current total, and everything resets to zero on 1 January
+automatically — there is nothing to clear by hand.
 
 ---
 

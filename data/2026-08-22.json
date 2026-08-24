@@ -13,7 +13,24 @@
           "location": "Detroit, MI → Morgantown, WV",
           "arrests": "28 charged",
           "source": "DEA",
-          "url": "https://www.dea.gov/press-releases/2026/08/21/multi-state-drug-trafficking-operation-dismantled-part-homeland-security"
+          "url": "https://www.dea.gov/press-releases/2026/08/21/multi-state-drug-trafficking-operation-dismantled-part-homeland-security",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 3.629,
+              "place": "West Virginia"
+            },
+            {
+              "drug": "fentanyl",
+              "kg": 0.907,
+              "place": "West Virginia"
+            },
+            {
+              "drug": "cocaine",
+              "kg": 0.227,
+              "place": "West Virginia"
+            }
+          ]
         },
         {
           "headline": "Ten sentenced in South Florida cocaine conspiracy",
@@ -30,7 +47,14 @@
           "quantity": "1,675 lb meth ($14.9M)",
           "location": "Pharr International Bridge, TX",
           "source": "CBP",
-          "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-seizes-more-14-million-methamphetamine-pharr-international-bridge"
+          "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-seizes-more-14-million-methamphetamine-pharr-international-bridge",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 759.77,
+              "place": "Texas"
+            }
+          ]
         },
         {
           "headline": "VA nurse indicted for diverting opioids",
@@ -51,7 +75,14 @@
           "location": "Wakefield, Bronx, NY",
           "arrests": "7 arrested",
           "source": "DEA",
-          "url": "https://www.dea.gov/press-releases/2026/08/21/fentanyl-packaging-mill-dismantled-bronx-new-york-packages-branded-game"
+          "url": "https://www.dea.gov/press-releases/2026/08/21/fentanyl-packaging-mill-dismantled-bronx-new-york-packages-branded-game",
+          "seizures": [
+            {
+              "drug": "fentanyl",
+              "kg": 4,
+              "place": "New York"
+            }
+          ]
         },
         {
           "headline": "17 charged in Western New York ring supplied from Puerto Rico",
@@ -60,7 +91,19 @@
           "location": "Western New York",
           "arrests": "17 charged, 117 counts",
           "source": "DEA",
-          "url": "https://www.dea.gov/press-releases/2026/08/21/dea-new-york-enforcement-division-announces-takedown-western-new-york"
+          "url": "https://www.dea.gov/press-releases/2026/08/21/dea-new-york-enforcement-division-announces-takedown-western-new-york",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 10,
+              "place": "New York"
+            },
+            {
+              "drug": "fentanyl/heroin",
+              "kg": 0.25,
+              "place": "New York"
+            }
+          ]
         },
         {
           "headline": "DEA Detroit reports 8.5 million potentially lethal fentanyl doses seized",
@@ -92,7 +135,14 @@
           "location": "Port of Posorja, Guayas, Ecuador",
           "arrests": "None reported",
           "source": "Infobae",
-          "url": "https://www.infobae.com/america/agencias/2026/08/21/ecuador-incauta-101-toneladas-de-cocaina-que-tenia-como-destino-mexico/"
+          "url": "https://www.infobae.com/america/agencias/2026/08/21/ecuador-incauta-101-toneladas-de-cocaina-que-tenia-como-destino-mexico/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 1011.52,
+              "place": "Ecuador"
+            }
+          ]
         },
         {
           "headline": "Ecuador — Interpol red-notice trafficker captured in Guayaquil",
@@ -109,7 +159,19 @@
           "location": "Putumayo & Norte de Santander, Colombia",
           "arrests": "None reported",
           "source": "Chicanoticias",
-          "url": "https://www.chicanoticias.com/2026/08/21/incautan-45-toneladas-de-cocaina/"
+          "url": "https://www.chicanoticias.com/2026/08/21/incautan-45-toneladas-de-cocaina/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 4500,
+              "place": "Colombia"
+            },
+            {
+              "drug": "coca base",
+              "kg": 300,
+              "place": "Colombia"
+            }
+          ]
         }
       ]
     },
@@ -124,7 +186,14 @@
           "location": "Huelva, Spain",
           "arrests": "10 arrested",
           "source": "El Debate",
-          "url": "https://www.eldebate.com/espana/andalucia/20260822/huida-tiros-narcos-frente-huelva-acaba-diez-detenidos-casi-seis-toneladas-hachis_451406.html"
+          "url": "https://www.eldebate.com/espana/andalucia/20260822/huida-tiros-narcos-frente-huelva-acaba-diez-detenidos-casi-seis-toneladas-hachis_451406.html",
+          "seizures": [
+            {
+              "drug": "hashish",
+              "kg": 6000,
+              "place": "Spain"
+            }
+          ]
         },
         {
           "headline": "Indonesia — 2.6 tonnes of liquid methamphetamine intercepted off Bengkalis",
@@ -132,7 +201,14 @@
           "quantity": "2.6 t liquid meth",
           "location": "Bengkalis, Riau, Indonesia",
           "source": "The Jakarta Post",
-          "url": "https://www.thejakartapost.com/indonesia/2026/08/21/joint-team-foils-effort-to-smuggle-2-6-tonnes-of-liquid-sabu-off-bengkalis"
+          "url": "https://www.thejakartapost.com/indonesia/2026/08/21/joint-team-foils-effort-to-smuggle-2-6-tonnes-of-liquid-sabu-off-bengkalis",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 2600,
+              "place": "Indonesia"
+            }
+          ]
         }
       ]
     },

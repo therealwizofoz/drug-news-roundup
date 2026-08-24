@@ -20,6 +20,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+import tally
+
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 
@@ -109,7 +111,66 @@ def story_block(story):
     )
 
 
-def build(day):
+def tally_rows(bucket):
+    out = ""
+    for place, drugs, total in tally.rows(bucket):
+        items = sorted(drugs.items(), key=lambda kv: -kv[1])
+        brk = " &middot; ".join(f"{e(d)} {tally.fmt_kg(kg)}" for d, kg in items)
+        out += (
+            f'<tr>'
+            f'<td style="padding:9px 10px 9px 0;border-bottom:1px solid {BORDER};'
+            f'font-size:14px;font-weight:650;color:{INK};vertical-align:top;">{e(place)}'
+            f'<div style="font-size:12px;font-weight:400;color:{INK3};'
+            f'margin-top:2px;">{brk}</div></td>'
+            f'<td style="padding:9px 0;border-bottom:1px solid {BORDER};'
+            f'font-size:14px;font-weight:650;color:{ACCENT};text-align:right;'
+            f'white-space:nowrap;vertical-align:top;">{tally.fmt_kg(total)}</td>'
+            f"</tr>"
+        )
+    return out
+
+
+def tally_block(days, upto_date):
+    us, intl, drugs, n = tally.collect(days, upto_date)
+    if not tally.has_data(us, intl):
+        return ""
+
+    total = tally.grand_total(us, intl)
+    places = len(us) + len(intl)
+    year = tally.year_of(upto_date)
+
+    groups = ""
+    for label, bucket in (("United States", us), ("International", intl)):
+        if not bucket:
+            continue
+        groups += (
+            f'<div style="font-size:11px;letter-spacing:1.3px;text-transform:uppercase;'
+            f'color:{INK3};font-weight:650;margin:20px 0 6px;">{label}</div>'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0"'
+            f' border="0" style="width:100%;border-collapse:collapse;">'
+            f"{tally_rows(bucket)}</table>"
+        )
+
+    return f"""<div style="margin:0 0 34px;">
+<div style="border-bottom:2px solid {INK3};padding:0 0 8px;margin:0 0 14px;">
+<span style="font-size:17px;font-weight:700;color:{INK};">{e(year)} Running Tally</span>
+</div>
+<div style="font-size:13px;line-height:20px;color:{INK3};margin:0 0 14px;">
+Total weight intercepted across every story covered so far this year, through
+{e(pretty_date(upto_date))}. Counts seizures only — sentencings and indictments
+are not double-counted — and resets to zero each 1 January.</div>
+<div style="background:{SURFACE};border:1px solid {BORDER};border-radius:10px;
+            padding:14px 18px;">
+<span style="font-size:28px;font-weight:700;color:{ACCENT};">{tally.fmt_kg(total)}</span>
+<span style="font-size:13px;color:{INK3};margin-left:10px;">{n} {"edition" if n == 1 else "editions"}
+&middot; {places} {"place" if places == 1 else "places"}
+&middot; {len(drugs)} {"substance" if len(drugs) == 1 else "substances"}</span>
+</div>
+{groups}
+</div>"""
+
+
+def build(day, all_days=()):
     by_id = {s.get("id"): s for s in day.get("sections", [])}
     blocks = []
     total = 0
@@ -181,6 +242,8 @@ def build(day):
 
 {"".join(blocks)}
 
+{tally_block(all_days, day["date"])}
+
 <div style="border-top:1px solid {BORDER};padding:16px 0 0;font-size:13px;
             line-height:20px;color:{INK3};">
 <div style="margin:0 0 5px;">Compiled automatically each morning at 6:00 AM Central.
@@ -215,7 +278,15 @@ def main():
         day = json.load(fh)
     day.setdefault("date", day_iso)
 
-    rendered = build(day)
+    # Every edition, so the tally can sum the year to date.
+    all_days = []
+    for f in sorted(DATA.glob("*.json")):
+        with f.open(encoding="utf-8") as fh:
+            d = json.load(fh)
+        d.setdefault("date", f.stem)
+        all_days.append(d)
+
+    rendered = build(day, all_days)
 
     if out:
         out.write_text(rendered, encoding="utf-8")

@@ -19,6 +19,8 @@ import shutil
 from datetime import date
 from pathlib import Path
 
+import tally
+
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 ARCHIVE = ROOT / "archive"
@@ -104,6 +106,51 @@ def story_html(story):
     )
 
 
+def breakdown(drugs):
+    """'cocaine 4.5 t · coca base 300 kg', heaviest first."""
+    items = sorted(drugs.items(), key=lambda kv: -kv[1])
+    return " · ".join(f"{e(d)} {tally.fmt_kg(kg)}" for d, kg in items)
+
+
+def tally_table(bucket):
+    body = "".join(
+        f"<tr><th scope=\"row\">{e(place)}</th>"
+        f'<td class="brk">{breakdown(drugs)}</td>'
+        f'<td class="amt">{tally.fmt_kg(total)}</td></tr>'
+        for place, drugs, total in tally.rows(bucket)
+    )
+    return f'<div class="scroll-x"><table class="tally-table"><tbody>{body}</tbody></table></div>'
+
+
+def render_tally(days, upto_date):
+    us, intl, drugs, n = tally.collect(days, upto_date)
+    if not tally.has_data(us, intl):
+        return ""
+
+    total = tally.grand_total(us, intl)
+    places = len(us) + len(intl)
+    year = tally.year_of(upto_date)
+
+    groups = ""
+    if us:
+        groups += f'<h3>United States</h3>{tally_table(us)}'
+    if intl:
+        groups += f'<h3>International</h3>{tally_table(intl)}'
+
+    return f"""<section class="block tally" id="tally">
+<h2>{e(year)} Running Tally</h2>
+<p class="tally-note">Total weight intercepted across every story covered
+so far this year, through {e(short_date(upto_date))}. Counts seizures only —
+sentencings and indictments are not double-counted — and resets to zero each
+1 January.</p>
+<div class="tally-headline"><span class="big">{tally.fmt_kg(total)}</span>
+<span class="meta">{n} {"edition" if n == 1 else "editions"} ·
+{places} {"place" if places == 1 else "places"} ·
+{len(drugs)} {"substance" if len(drugs) == 1 else "substances"}</span></div>
+{groups}
+</section>"""
+
+
 def page(title, body, css_prefix=""):
     return f"""<!doctype html>
 <html lang="en">
@@ -124,9 +171,10 @@ def page(title, body, css_prefix=""):
 """
 
 
-def render_day(day, css_prefix="", is_home=False, day_count=0):
+def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
     sections = ordered_sections(day)
     total = sum(len(s[2]) for s in sections)
+    tally_html = render_tally(all_days, day["date"])
 
     nav = (
         '<nav class="top">'
@@ -146,6 +194,8 @@ def render_day(day, css_prefix="", is_home=False, day_count=0):
         f'<span class="count">{len(stories)}</span></li>'
         for sid, name, stories in sections
     )
+    if tally_html:
+        toc_items += f'<li class="toc-tally"><a href="#tally">Running Tally</a></li>'
 
     blocks = []
     for i, (sid, name, stories) in enumerate(sections, start=1):
@@ -176,6 +226,8 @@ def render_day(day, css_prefix="", is_home=False, day_count=0):
 </div>
 
 {"".join(blocks)}
+
+{tally_html}
 
 <footer>
 <p>Compiled automatically each morning at 6:00 AM Central. Every story is deduplicated against a running log, so nothing repeats between editions.</p>
@@ -223,13 +275,15 @@ def main():
     ARCHIVE.mkdir(parents=True)
 
     (ROOT / "index.html").write_text(
-        render_day(days[0], css_prefix="", is_home=True, day_count=len(days)),
+        render_day(days[0], css_prefix="", is_home=True, day_count=len(days),
+                   all_days=days),
         encoding="utf-8",
     )
 
     for day in days:
         (ARCHIVE / f"{day['date']}.html").write_text(
-            render_day(day, css_prefix="../", is_home=False, day_count=len(days)),
+            render_day(day, css_prefix="../", is_home=False, day_count=len(days),
+                       all_days=days),
             encoding="utf-8",
         )
 
