@@ -253,7 +253,7 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
     window = f'<p class="window">{e(day["window"])}</p>' if day.get("window") else ""
 
     body = f"""<header class="masthead">
-<p class="kicker">{"Latest edition" if is_home else "Archive edition"}</p>
+<p class="kicker">Edition {tally.fmt_edition(tally.edition_number(all_days, day["date"]))}</p>
 <h1>{e(SITE_TITLE)}</h1>
 <p class="dateline">{e(pretty_date(day["date"]))} · {total} {"story" if total == 1 else "stories"}</p>
 {window}

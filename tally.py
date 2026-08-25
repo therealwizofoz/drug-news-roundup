@@ -46,6 +46,22 @@ def year_of(iso):
     return iso.split("-")[0]
 
 
+def edition_number(days, date_iso):
+    """
+    Sequential edition number, oldest edition = 1, counting up one per
+    published day. Continuous across years — it is an issue number, not a
+    year-to-date counter, so it never resets.
+    """
+    return 1 + sum(
+        1 for d in days if d.get("date") and d["date"] < date_iso
+    )
+
+
+def fmt_edition(n):
+    """001, 002 … 999, then 1000 onward without padding."""
+    return f"{n:03d}"
+
+
 def collect(days, upto_date, restrict_year=True):
     """
     Sum every seizure from editions dated on or before `upto_date`.
