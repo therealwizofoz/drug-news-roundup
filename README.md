@@ -1,6 +1,6 @@
-# O'Drug News Roundup — archive site
+# Drug News Roundup — archive site
 
-A static site that mirrors the daily O'Drug News Roundup email. One JSON file per
+A static site that mirrors the daily Drug News Roundup email. One JSON file per
 day is the source of truth; `build.py` turns those files into HTML. No frameworks,
 no build dependencies beyond Python 3.
 

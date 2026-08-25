@@ -58,8 +58,13 @@ def edition_number(days, date_iso):
 
 
 def fmt_edition(n):
-    """001, 002 … 999, then 1000 onward without padding."""
-    return f"{n:03d}"
+    """
+    O'001, O'002 … O'999, then O'1000 onward without padding.
+
+    The O' prefix is a quiet nod to O'Connor — the masthead stays plain
+    "Drug News Roundup", and this is the only place the name shows up.
+    """
+    return f"O'{n:03d}"
 
 
 def collect(days, upto_date, restrict_year=True):

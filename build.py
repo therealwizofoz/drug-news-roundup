@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the O'Drug News Roundup archive site from data/*.json.
+Build the Drug News Roundup archive site from data/*.json.
 
 Usage:  python3 build.py
 
@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 ARCHIVE = ROOT / "archive"
 
-SITE_TITLE = "O'Drug News Roundup"
+SITE_TITLE = "Drug News Roundup"
 SITE_BLURB = "A daily digest of significant drug-related enforcement news — large seizures, trafficking takedowns, cartel developments and notable sentencings."
 
 # Canonical section order. A day's JSON may list sections in any order or
@@ -253,7 +253,7 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
     window = f'<p class="window">{e(day["window"])}</p>' if day.get("window") else ""
 
     body = f"""<header class="masthead">
-<p class="kicker">Edition {tally.fmt_edition(tally.edition_number(all_days, day["date"]))}</p>
+<p class="kicker">Edition {e(tally.fmt_edition(tally.edition_number(all_days, day["date"])))}</p>
 <h1>{e(SITE_TITLE)}</h1>
 <p class="dateline">{e(pretty_date(day["date"]))} · {total} {"story" if total == 1 else "stories"}</p>
 {window}
