@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-25",
+  "window": "Covering reporting published in the past 24 hours (Aug 24–25). Several items were announced on Aug 24 for operations carried out earlier in the month; incident dates are noted.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "\"Operation Last Stand\" — 31 charged across a Charleston-area cartel supply network",
+          "body": "South Carolina's Attorney General announced five indictments naming 31 defendants on 59 charges, capping a multi-year investigation that began with a February 2026 nightclub raid. Authorities describe hundreds of kilos of cocaine, methamphetamine and fentanyl moved from cartel sources through Texas, Georgia and Florida into the greater Charleston area, along with 33 firearms including multiple machine guns. SLED and Homeland Security Investigations worked the case with six county sheriff's offices.",
+          "quantity": "Hundreds of kg · 33 firearms",
+          "location": "Charleston area, South Carolina",
+          "arrests": "31 charged, 59 counts",
+          "source": "FITSNews",
+          "url": "https://www.fitsnews.com/2026/08/24/hundreds-of-kilos-state-federal-authorities-target-alleged-cartel-drug-network/"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "44 lbs of crystal meth intercepted in a controlled delivery in Logan County, Kentucky",
+          "body": "The South-Central Kentucky Drug Task Force arrested two people in a traffic stop after they collected a package delivered under a controlled operation bound for Sharon Grove. Officers recovered 44 pounds of crystal methamphetamine, valued by investigators at more than $1 million. Homeland Security Investigations, an aviation unit and the Kentucky State Police interdiction team assisted; the operation ran on August 19 and was announced August 24.",
+          "quantity": "44 lb methamphetamine ($1M+)",
+          "location": "Logan County, Kentucky",
+          "arrests": "2 arrested",
+          "source": "WBKO",
+          "url": "https://www.wbko.com/2026/08/24/2-arrested-south-central-kentucky-drug-task-force-meth-bust-worth-1m-officials-say/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 19.96,
+              "place": "Kentucky"
+            }
+          ]
+        },
+        {
+          "headline": "Brenham, Texas traffic stop yields 18 kg of methamphetamine",
+          "body": "Brenham police recovered roughly 40 pounds of methamphetamine and 7 grams of cocaine during a traffic stop on West Main Street. Three men from Hutto, Austin and Manor face felony manufacture-or-delivery charges. The stop took place August 14 and was reported August 24.",
+          "quantity": "18 kg methamphetamine",
+          "location": "Brenham, Texas",
+          "arrests": "3 charged",
+          "source": "KBTX",
+          "url": "https://www.kbtx.com/2026/08/24/police-seize-nearly-40-pounds-methamphetamine-during-brenham-traffic-stop/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 18,
+              "place": "Texas"
+            },
+            {
+              "drug": "cocaine",
+              "kg": 0.007,
+              "place": "Texas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombia — semi-submersible network running to the US dismantled with DEA help",
+          "body": "Simultaneous raids in Cali and Tumaco captured five members of a structure led by Jairo Alberto Núñez Palacios, alias \"El Indio,\" which authorities say had moved cocaine by semi-submersible and speedboat from Colombia's Pacific coast for roughly a decade. Investigators seized 430 million Colombian pesos in cash along with phones and GPS trackers. The Fiscalía, the Colombian Navy and the DEA worked the case jointly; all five face extradition requests from the Middle District of Florida. Operation carried out August 19, reported August 24.",
+          "location": "Cali and Tumaco, Colombia",
+          "arrests": "5 captured",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/colombia/2026/08/24/con-ayuda-de-la-dea-desarticulada-organizacion-que-enviaba-semisumergibles-cargados-de-droga-desde-el-pacifico-colombiano-a-estados-unidos/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": []
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
