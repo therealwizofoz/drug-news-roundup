@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the Drug News Roundup archive site from data/*.json.
+Build the O'Drug News Roundup archive site from data/*.json.
 
 Usage:  python3 build.py
 
@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 ARCHIVE = ROOT / "archive"
 
-SITE_TITLE = "Drug News Roundup"
+SITE_TITLE = "O'Drug News Roundup"
 SITE_BLURB = "A daily digest of significant drug-related enforcement news — large seizures, trafficking takedowns, cartel developments and notable sentencings."
 
 # Canonical section order. A day's JSON may list sections in any order or

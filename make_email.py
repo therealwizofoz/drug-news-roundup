@@ -282,7 +282,7 @@ def build(day, all_days=()):
 <div style="font-size:11px;letter-spacing:1.6px;text-transform:uppercase;
             color:{ACCENT};font-weight:650;margin:0 0 8px;">Edition {tally.fmt_edition(tally.edition_number(all_days, day["date"]))}</div>
 <div style="font-size:30px;line-height:34px;font-weight:700;color:{INK};
-            letter-spacing:-0.5px;margin:0 0 10px;">Drug News Roundup</div>
+            letter-spacing:-0.5px;margin:0 0 10px;">O'Drug News Roundup</div>
 <div style="font-size:15px;line-height:22px;color:{INK2};">
 {e(pretty_date(day["date"]))} &middot; {total} {"story" if total == 1 else "stories"}</div>
 {window}
