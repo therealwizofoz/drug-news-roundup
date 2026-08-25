@@ -369,6 +369,79 @@ nav.top a[aria-current] {
   white-space: nowrap;
 }
 
+/* ---------- previous years ---------- */
+
+.prior-years { margin-top: 44px; padding-bottom: 24px; }
+.prior-years > h3 { margin-bottom: 10px; }
+
+details.year {
+  border-top: 1px solid var(--n-900);
+}
+details.year:last-of-type { border-bottom: 1px solid var(--n-900); }
+
+details.year > summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 16px;
+  padding: 15px 0;
+  list-style: none;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+details.year > summary::-webkit-details-marker { display: none; }
+details.year > summary::before {
+  content: "＋";
+  order: 3;
+  margin-left: auto;
+  font: 400 13px/1 var(--font);
+  color: var(--n-500);
+}
+details.year[open] > summary::before { content: "－"; }
+details.year > summary:hover .y { color: var(--accent-200); }
+
+details.year .y {
+  font: 500 15px/1.3 var(--font);
+  color: var(--text);
+  min-width: 4ch;
+}
+details.year .t {
+  font: 500 15px/1.3 var(--font);
+  color: var(--accent-200);
+  white-space: nowrap;
+}
+details.year .m { font: 400 12.5px/1.4 var(--font); color: var(--n-500); }
+
+.year-body {
+  margin: 0 0 6px 2px;
+  padding: 4px 0 18px 18px;
+  border-left: 1px solid var(--n-900);
+}
+.year-body h3 { margin-top: 22px; }
+.year-body h3:first-child { margin-top: 0; }
+
+.all-time {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 22px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--n-800);
+}
+.all-time .label {
+  font: 500 12px/1 var(--font);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--n-400);
+}
+.all-time .v {
+  font: 500 20px/1.2 var(--font);
+  letter-spacing: -0.02em;
+  color: var(--accent-200);
+  white-space: nowrap;
+}
+
 /* ---------- archive index ---------- */
 
 ul.archive {

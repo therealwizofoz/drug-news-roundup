@@ -122,32 +122,72 @@ def tally_table(bucket):
     return f'<div class="scroll-x"><table class="tally-table"><tbody>{body}</tbody></table></div>'
 
 
+def tally_groups(us, intl):
+    out = ""
+    if us:
+        out += f"<h3>United States</h3>{tally_table(us)}"
+    if intl:
+        out += f"<h3>International</h3>{tally_table(intl)}"
+    return out
+
+
+def render_prior_years(days, upto_date):
+    """Closed years, newest first, each collapsed to a summary line."""
+    years = tally.closed_years(days, upto_date)
+    if not years:
+        return ""
+
+    items = ""
+    for year in years:
+        us, intl, drugs, n, total = tally.year_summary(days, year)
+        if not tally.has_data(us, intl):
+            continue
+        places = len(us) + len(intl)
+        items += f"""<details class="year">
+<summary><span class="y">{e(year)}</span>
+<span class="t">{tally.fmt_kg(total)}</span>
+<span class="m">{n} {"edition" if n == 1 else "editions"} ·
+{places} {"place" if places == 1 else "places"}</span></summary>
+<div class="year-body">{tally_groups(us, intl)}</div>
+</details>"""
+
+    if not items:
+        return ""
+
+    all_us, all_intl, _, _ = tally.collect(days, upto_date, restrict_year=False)
+    all_time = tally.grand_total(all_us, all_intl)
+
+    return f"""<div class="prior-years">
+<h3>Previous years</h3>
+{items}
+<p class="all-time"><span class="label">All time</span>
+<span class="v">{tally.fmt_kg(all_time)}</span></p>
+</div>"""
+
+
 def render_tally(days, upto_date):
     us, intl, drugs, n = tally.collect(days, upto_date)
-    if not tally.has_data(us, intl):
+    prior = render_prior_years(days, upto_date)
+
+    if not tally.has_data(us, intl) and not prior:
         return ""
 
     total = tally.grand_total(us, intl)
     places = len(us) + len(intl)
     year = tally.year_of(upto_date)
 
-    groups = ""
-    if us:
-        groups += f'<h3>United States</h3>{tally_table(us)}'
-    if intl:
-        groups += f'<h3>International</h3>{tally_table(intl)}'
-
     return f"""<section class="block tally" id="tally">
 <h2>{e(year)} Running Tally</h2>
 <p class="tally-note">Total weight intercepted across every story covered
 so far this year, through {e(short_date(upto_date))}. Counts seizures only —
 sentencings and indictments are not double-counted — and resets to zero each
-1 January.</p>
+1 January. Earlier years are kept below.</p>
 <div class="tally-headline"><span class="big">{tally.fmt_kg(total)}</span>
 <span class="meta">{n} {"edition" if n == 1 else "editions"} ·
 {places} {"place" if places == 1 else "places"} ·
 {len(drugs)} {"substance" if len(drugs) == 1 else "substances"}</span></div>
-{groups}
+{tally_groups(us, intl)}
+{prior}
 </section>"""
 
 

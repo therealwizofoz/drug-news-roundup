@@ -46,15 +46,19 @@ def year_of(iso):
     return iso.split("-")[0]
 
 
-def collect(days, upto_date):
+def collect(days, upto_date, restrict_year=True):
     """
-    Sum every seizure from editions in the same calendar year as
-    `upto_date`, dated on or before it.
+    Sum every seizure from editions dated on or before `upto_date`.
+
+    With restrict_year=True (the default) only editions in the same
+    calendar year as `upto_date` count — that is the year-to-date tally,
+    which resets on 1 January. With restrict_year=False every edition up
+    to that date counts, giving the all-time total.
 
     Returns (us, intl, drugs, n_editions) where us/intl map
     place -> {drug: kg} and `drugs` is the sorted set of drug names seen.
     """
-    year = year_of(upto_date)
+    year = year_of(upto_date) if restrict_year else None
     us = defaultdict(lambda: defaultdict(float))
     intl = defaultdict(lambda: defaultdict(float))
     drugs = set()
@@ -62,7 +66,9 @@ def collect(days, upto_date):
 
     for day in days:
         d = day.get("date", "")
-        if year_of(d) != year or d > upto_date:
+        if not d or d > upto_date:
+            continue
+        if year is not None and year_of(d) != year:
             continue
         n += 1
         for section in day.get("sections", []):
@@ -86,6 +92,27 @@ def collect(days, upto_date):
         sorted(drugs),
         n,
     )
+
+
+def closed_years(days, upto_date):
+    """
+    Calendar years strictly before `upto_date`'s year that have at least
+    one edition, newest first. These are the finished years whose totals
+    are kept on the page after the running tally rolls over.
+    """
+    current = year_of(upto_date)
+    years = {
+        year_of(day.get("date", ""))
+        for day in days
+        if day.get("date") and year_of(day["date"]) < current
+    }
+    return sorted(years, reverse=True)
+
+
+def year_summary(days, year):
+    """(us, intl, drugs, n_editions, total_kg) for one complete year."""
+    us, intl, drugs, n = collect(days, f"{year}-12-31")
+    return us, intl, drugs, n, grand_total(us, intl)
 
 
 def fmt_kg(kg):

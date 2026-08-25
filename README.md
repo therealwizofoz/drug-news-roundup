@@ -234,6 +234,23 @@ date. So each archived page shows the total as it stood that morning, the front
 page shows the current total, and everything resets to zero on 1 January
 automatically — there is nothing to clear by hand.
 
+### Previous years
+
+Nothing is lost at the rollover. Once an edition falls in a later year than
+some of the data, a **Previous years** block appears under the current tally:
+one collapsible row per finished year showing its final total, editions and
+place count, expanding to that year's full state-and-country breakdown. An
+**All time** figure closes the section.
+
+This is derived, not stored — the tally is recomputed from `data/*.json` on
+every build, so a correction to an old edition's JSON updates that year's
+historical total the next time the site is built. Archived pages stay honest
+too: a page dated in 2027 lists 2026 as a previous year, while the 2026 pages
+show only what was known then.
+
+The email carries the same block collapsed to one total per year, since email
+clients do not support `<details>`. The full breakdown lives on the site.
+
 ---
 
 ## Notes

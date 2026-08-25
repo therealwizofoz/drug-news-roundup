@@ -128,6 +128,54 @@ def tally_rows(bucket):
     return out
 
 
+def prior_years_block(days, upto_date):
+    """
+    Closed years as one compact row each, plus an all-time line.
+    Email clients do not support <details>, so unlike the website this
+    stays collapsed to totals — the site carries the full breakdown.
+    """
+    years = tally.closed_years(days, upto_date)
+    if not years:
+        return ""
+
+    rows = ""
+    for year in years:
+        us, intl, _, n, total = tally.year_summary(days, year)
+        if not tally.has_data(us, intl):
+            continue
+        places = len(us) + len(intl)
+        rows += (
+            f"<tr>"
+            f'<td style="padding:9px 10px 9px 0;border-bottom:1px solid {BORDER};'
+            f'font-size:14px;font-weight:650;color:{INK};">{e(year)}'
+            f'<div style="font-size:12px;font-weight:400;color:{INK3};margin-top:2px;">'
+            f'{n} {"edition" if n == 1 else "editions"} &middot; '
+            f'{places} {"place" if places == 1 else "places"}</div></td>'
+            f'<td style="padding:9px 0;border-bottom:1px solid {BORDER};'
+            f'font-size:14px;font-weight:650;color:{ACCENT};text-align:right;'
+            f'white-space:nowrap;">{tally.fmt_kg(total)}</td>'
+            f"</tr>"
+        )
+
+    if not rows:
+        return ""
+
+    all_us, all_intl, _, _ = tally.collect(days, upto_date, restrict_year=False)
+    all_time = tally.fmt_kg(tally.grand_total(all_us, all_intl))
+
+    return (
+        f'<div style="font-size:11px;letter-spacing:1.3px;text-transform:uppercase;'
+        f'color:{INK3};font-weight:650;margin:24px 0 6px;">Previous years</div>'
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0"'
+        f' border="0" style="width:100%;border-collapse:collapse;">{rows}</table>'
+        f'<div style="margin:12px 0 0;padding-top:10px;border-top:2px solid {BORDER};'
+        f'font-size:14px;color:{INK};">'
+        f'<span style="font-weight:650;">All time</span>'
+        f'<span style="float:right;font-weight:650;color:{ACCENT};">{all_time}</span>'
+        f'</div>'
+    )
+
+
 def tally_block(days, upto_date):
     us, intl, drugs, n = tally.collect(days, upto_date)
     if not tally.has_data(us, intl):
@@ -149,6 +197,8 @@ def tally_block(days, upto_date):
             f"{tally_rows(bucket)}</table>"
         )
 
+    groups += prior_years_block(days, upto_date)
+
     return f"""<div style="margin:0 0 34px;">
 <div style="border-bottom:2px solid {INK3};padding:0 0 8px;margin:0 0 14px;">
 <span style="font-size:17px;font-weight:700;color:{INK};">{e(year)} Running Tally</span>
@@ -156,7 +206,8 @@ def tally_block(days, upto_date):
 <div style="font-size:13px;line-height:20px;color:{INK3};margin:0 0 14px;">
 Total weight intercepted across every story covered so far this year, through
 {e(pretty_date(upto_date))}. Counts seizures only — sentencings and indictments
-are not double-counted — and resets to zero each 1 January.</div>
+are not double-counted — and resets to zero each 1 January. Earlier years are
+kept below.</div>
 <div style="background:{SURFACE};border:1px solid {BORDER};border-radius:10px;
             padding:14px 18px;">
 <span style="font-size:28px;font-weight:700;color:{ACCENT};">{tally.fmt_kg(total)}</span>
