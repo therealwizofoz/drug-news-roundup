@@ -192,10 +192,60 @@ that the reporting does not give.
 `seizures` is the structured, summable version of `quantity`, and feeds the
 running tally. See below.
 
+`image` is optional and attaches a photograph — see **Story photographs**.
+
 Section `id` must be one of `federal`, `local`, `south-america`, `world`,
 `ongoing`. They always render in that order regardless of how the file lists
 them, and a section with no stories shows "Nothing significant in the past 24
 hours" rather than disappearing.
+
+---
+
+## Story photographs
+
+A story may carry a photo, shown as a thumbnail beside the text (stacked above
+it on narrow screens):
+
+```json
+"image": {
+  "file": "2026-08-22-bronx-glassines.jpg",
+  "alt": "Glassine envelopes stamped Game of Death on an evidence table",
+  "credit": "U.S. Drug Enforcement Administration"
+}
+```
+
+The file lives in `assets/img/`. Stories without an `image` keep the plain
+full-width layout, so an edition where only two stories have photos still reads
+as deliberate rather than broken.
+
+### The one rule: public domain only
+
+**Only US federal government photographs go in `assets/img/`.** Works of the US
+government carry no copyright (17 U.S.C. § 105), which makes DEA, CBP, DHS,
+Coast Guard and DOJ press images free to republish. That is the entire
+permitted set.
+
+Photos from news outlets — Infobae, El Debate, The Jakarta Post, InSight Crime,
+local TV stations — are copyrighted, and many are AP, Reuters or AFP wire images
+licensed only to that outlet. Republishing them here would be infringement, so
+they are never copied, hotlinked, or embedded. In practice this means most
+South America and Rest of World stories have no photo. That is the correct
+outcome, not a gap to fill.
+
+Always set `credit` to the issuing agency, and write `alt` describing what is
+actually visible for anyone using a screen reader.
+
+### Getting the files
+
+DEA's CDN (Akamai) returns 403 to scripted requests for image files, even
+though the press-release pages themselves are public. Rather than working
+around that, save the image from the page in a browser — right-click, Save
+Image As — into `assets/img/`, then add the `image` block to that day's JSON
+and run `./publish.sh`. Other federal sources are less restrictive and can
+often be fetched directly.
+
+Keep files under roughly 400 KB; anything larger is worth resizing first, since
+the thumbnail renders at 232–300 px wide.
 
 ---
 

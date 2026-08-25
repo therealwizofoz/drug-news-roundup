@@ -369,6 +369,52 @@ nav.top a[aria-current] {
   white-space: nowrap;
 }
 
+/* ---------- story photographs ---------- */
+
+/* Only stories carrying a public-domain photo get this treatment; every
+   other story keeps the plain full-width layout above, so a sparse
+   edition still reads as deliberate. */
+
+.story.has-shot {
+  grid-template-columns: minmax(0, 1fr) 232px;
+  gap: 12px 30px;
+  align-items: start;
+}
+.story.has-shot .story-text { display: grid; gap: 12px; min-width: 0; }
+
+figure.shot { margin: 0; display: grid; gap: 8px; }
+
+figure.shot img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--n-900);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+figure.shot figcaption {
+  font: 400 11px/1.45 var(--font);
+  letter-spacing: 0.04em;
+  color: var(--n-500);
+  text-wrap: pretty;
+}
+
+/* the lead story earns a larger photo */
+#federal .story.has-shot:first-of-type { grid-template-columns: minmax(0, 1fr) 300px; }
+
+/* inside the ongoing cards the column is already narrow — stack instead */
+#ongoing .story.has-shot { grid-template-columns: 1fr; gap: 11px; }
+#ongoing figure.shot { order: -1; }
+
+@media (max-width: 780px) {
+  .story.has-shot,
+  #federal .story.has-shot:first-of-type { grid-template-columns: 1fr; gap: 12px; }
+  figure.shot { order: -1; }
+  figure.shot img { aspect-ratio: 16 / 9; }
+}
+
 /* ---------- previous years ---------- */
 
 .prior-years { margin-top: 44px; padding-bottom: 24px; }

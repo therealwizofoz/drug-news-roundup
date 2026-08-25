@@ -77,7 +77,31 @@ def ordered_sections(day):
     return out
 
 
-def story_html(story):
+def image_html(story, css_prefix=""):
+    """
+    Thumbnail for a story, when a photo is available.
+
+    Only public-domain images are ever stored in assets/img — in practice
+    that means US federal agency releases (DEA, CBP, DHS, USCG, DOJ),
+    whose works are not subject to copyright under 17 U.S.C. § 105.
+    Photos from news outlets and wire agencies are not reproduced.
+    """
+    img = story.get("image")
+    if not img or not img.get("file"):
+        return ""
+
+    credit = img.get("credit", "")
+    caption = f'<figcaption>{e(credit)}</figcaption>' if credit else ""
+
+    return (
+        f'<figure class="shot">'
+        f'<img src="{css_prefix}assets/img/{e(img["file"])}" '
+        f'alt="{e(img.get("alt", ""))}" loading="lazy" decoding="async">'
+        f"{caption}</figure>"
+    )
+
+
+def story_html(story, css_prefix=""):
     chips = []
     if story.get("quantity"):
         chips.append(f'<span class="chip qty">{e(story["quantity"])}</span>')
@@ -96,14 +120,19 @@ def story_html(story):
         else ""
     )
 
-    return (
-        '<article class="story">'
+    body = (
         f'<h3>{e(story.get("headline", "Untitled"))}</h3>'
         f"{chip_block}"
         f'<p>{e(story.get("body", ""))}</p>'
         f"{link}"
-        "</article>"
     )
+
+    shot = image_html(story, css_prefix)
+    if shot:
+        # Text and photo become siblings so they can sit side by side.
+        return f'<article class="story has-shot"><div class="story-text">{body}</div>{shot}</article>'
+
+    return f'<article class="story">{body}</article>'
 
 
 def breakdown(drugs):
@@ -240,7 +269,7 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
     blocks = []
     for i, (sid, name, stories) in enumerate(sections, start=1):
         inner = (
-            "".join(story_html(s) for s in stories)
+            "".join(story_html(s, css_prefix) for s in stories)
             if stories
             else '<p class="empty">Nothing significant in the past 24 hours.</p>'
         )
