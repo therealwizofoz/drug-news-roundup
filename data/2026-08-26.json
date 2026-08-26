@@ -7,6 +7,22 @@
       "name": "National / Federal (US)",
       "stories": [
         {
+          "headline": "US strikes alleged drug boat in the eastern Pacific, two killed",
+          "body": "A US military strike on a low-profile vessel in the eastern Pacific on August 23 killed two people — the first such strike in more than two months, and the first carried out by Joint Task Force Western Hemisphere, formerly Joint Task Force Southern Spear. SOUTHCOM commander Gen. Francis Donovan said confirmed intelligence showed the vessel was actively involved in narco-trafficking, and that the task force was created to \"accelerate, synchronize and execute lethal actions\" against trafficking networks.",
+          "location": "Eastern Pacific",
+          "arrests": "2 killed",
+          "source": "USNI News",
+          "url": "https://news.usni.org/2026/08/24/southcom-strikes-first-suspected-drug-boat-in-two-months"
+        },
+        {
+          "headline": "Second US strike in three days kills four in the Caribbean",
+          "body": "A US strike on an alleged drug-trafficking boat in the Caribbean on August 25 killed four people, the second strike in three days after a two-month pause. SOUTHCOM has now publicly acknowledged 68 strikes since September 2, killing at least 227 people across the Caribbean and eastern Pacific. The campaign faces sustained criticism from UN experts and civil liberties groups as potential extrajudicial killing; Senator Tim Kaine has questioned whether commanders exceeded the targeting parameters set out in classified Justice Department guidance, and reporting has indicated that some of those killed were fishermen.",
+          "location": "Caribbean",
+          "arrests": "4 killed",
+          "source": "UPI",
+          "url": "https://www.upi.com/Top_News/World-News/2026/08/25/SOUTHCOM-kills-four/7491787708796/"
+        },
+        {
           "headline": "CBP seizes 1,172 lbs of khat at Chicago O'Hare, three travelers arrested",
           "body": "Customs and Border Protection officers at Chicago O'Hare International Airport made two separate seizures from travelers arriving from Senegal, recovering 755 pounds of khat from two passengers on August 19 and a further 417 pounds from a third passenger on August 20. All three were arrested and are being charged by state prosecutors with controlled substance trafficking and manufacture/delivery of more than 200 grams of a Schedule I and II controlled substance; the khat was valued at over $140,000. CBP said khat smuggling in traveler baggage is rising, citing separate recent seizures of 412 lbs and 847 lbs at Baltimore/Washington and 368 lbs at Dulles. Announced August 25.",
           "quantity": "1,172 lb khat ($140,000)",
