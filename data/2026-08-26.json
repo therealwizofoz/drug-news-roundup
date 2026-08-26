@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-26",
+  "window": "Covering reporting published in the past 24 hours (Aug 25–26). Several agencies announced on Aug 25 operations carried out earlier in the month; incident dates are stated in each item.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "CBP seizes 1,172 lbs of khat at Chicago O'Hare, three travelers arrested",
+          "body": "Customs and Border Protection officers at Chicago O'Hare International Airport made two separate seizures from travelers arriving from Senegal, recovering 755 pounds of khat from two passengers on August 19 and a further 417 pounds from a third passenger on August 20. All three were arrested and are being charged by state prosecutors with controlled substance trafficking and manufacture/delivery of more than 200 grams of a Schedule I and II controlled substance; the khat was valued at over $140,000. CBP said khat smuggling in traveler baggage is rising, citing separate recent seizures of 412 lbs and 847 lbs at Baltimore/Washington and 368 lbs at Dulles. Announced August 25.",
+          "quantity": "1,172 lb khat ($140,000)",
+          "location": "Chicago O'Hare, Illinois",
+          "arrests": "3 arrested",
+          "source": "U.S. Customs and Border Protection",
+          "url": "https://www.cbp.gov/newsroom/local-media-release/three-arrested-and-1172-pounds-khat-seized-chicago",
+          "seizures": [
+            {
+              "drug": "khat",
+              "kg": 531.61,
+              "place": "Illinois"
+            }
+          ]
+        },
+        {
+          "headline": "Portland fentanyl crackdown passes 100 prosecutions and 100 kg of fentanyl",
+          "body": "U.S. Attorney Scott E. Bradford announced on August 25 that federal prosecutors have charged more than 100 people with fentanyl trafficking in downtown Portland since 2023, an effort run jointly with the FBI and the Portland Police Bureau's Bike Squad and Central Precinct Neighborhood Response Team. Cumulatively the cases have produced more than 100 kilograms of fentanyl, 40 firearms and $1.3 million in proceeds. Officials framed the total as enough fentanyl to kill roughly 50 million people; the seizures span three years and are not new to the past 24 hours.",
+          "quantity": "100+ kg fentanyl (since 2023) · 40 firearms",
+          "location": "Portland, Oregon",
+          "arrests": "100+ charged",
+          "source": "Portland Tribune",
+          "url": "https://portlandtribune.com/2026/08/25/federal-officials-tout-portland-fentanyl-crackdown-after-more-than-100-prosecutions/"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Eight indicted in South Carolina State Grand Jury fentanyl pill-press case",
+          "body": "S.C. Attorney General Alan Wilson announced on August 25 that eight defendants have been indicted in the State Grand Jury investigation codenamed \"Pressed for Time,\" targeting an organization that allegedly used illegal pill presses to manufacture counterfeit blue pills containing fentanyl. The operation ran primarily in Greenwood and Abbeville counties with ties to Aiken, McCormick, Anderson, Greenville and Richland counties, and also trafficked methamphetamine. Across the investigation law enforcement seized roughly 4,119 grams of fentanyl and 3,782 grams of methamphetamine.",
+          "quantity": "4.1 kg fentanyl · 3.8 kg methamphetamine",
+          "location": "Greenwood and Abbeville counties, South Carolina",
+          "arrests": "8 indicted",
+          "source": "WIS-TV",
+          "url": "https://www.wistv.com/2026/08/25/eight-indicted-state-grand-jury-fentanyl-trafficking-investigation/"
+        },
+        {
+          "headline": "Nebraska traffic stop and motel search yield more than 5 lbs of methamphetamine",
+          "body": "A Nebraska State Patrol trooper stopped a speeding Cadillac on Highway 83 near Valentine late on August 18 and, with a Valentine Police K9, recovered over 100 grams of suspected methamphetamine. Investigators then obtained a warrant for the driver's Valentine motel room and on August 19 found more than five additional pounds of suspected methamphetamine plus 17 grams of suspected cocaine. James Zacher, 57, of Oakland, California, was arrested and faces possession and possession-with-intent-to-deliver charges; the case was reported August 25.",
+          "quantity": "~2.4 kg methamphetamine · 17 g cocaine",
+          "location": "Cherry County, Nebraska",
+          "arrests": "1 arrested",
+          "source": "KNOP",
+          "url": "https://www.knopnews2.com/2026/08/25/over-5-pounds-methamphetamine-cocaine-found-after-cherry-county-traffic-stop/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 2.37,
+              "place": "Nebraska"
+            },
+            {
+              "drug": "cocaine",
+              "kg": 0.017,
+              "place": "Nebraska"
+            }
+          ]
+        },
+        {
+          "headline": "Six arrested after West Virginia deputies find cocaine, fentanyl and meth in Marion County home",
+          "body": "Marion County deputies searching a home on the night of August 24 recovered six grams of cocaine, two grams of fentanyl and three grams of methamphetamine along with digital scales and packaging materials, according to Sheriff Roger Cunningham. All six people present were charged with one count each of possession with intent to deliver and conspiracy. Reported August 25.",
+          "quantity": "6 g cocaine · 2 g fentanyl · 3 g meth",
+          "location": "Marion County, West Virginia",
+          "arrests": "6 arrested",
+          "source": "WDTV",
+          "url": "https://www.wdtv.com/2026/08/25/6-people-arrested-after-deputies-find-cocaine-fentanyl-meth-marion-county/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 0.006,
+              "place": "West Virginia"
+            },
+            {
+              "drug": "fentanyl",
+              "kg": 0.002,
+              "place": "West Virginia"
+            },
+            {
+              "drug": "methamphetamine",
+              "kg": 0.003,
+              "place": "West Virginia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazil — Polícia Federal seizes 27 kg of cocaine and arrests five at Guarulhos airport",
+          "body": "The Polícia Federal reported on August 25 that a week of operations at São Paulo's Guarulhos International Airport between August 21 and 25 produced five arrests and more than 27 kilograms of cocaine. One man was caught in the act with a backpack holding 23 kg of cocaine found near the airport perimeter fence after Receita Federal flagged the package; two Bolivian nationals were arrested trying to board a flight to Lisbon with about 4.5 kg; and a Nigerian national was detained attempting to fly to Addis Ababa with cocaine swallowed in capsules.",
+          "quantity": "27+ kg cocaine",
+          "location": "Guarulhos, São Paulo, Brazil",
+          "arrests": "5 arrested",
+          "source": "Polícia Federal (Brazil)",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-prende-cinco-pessoas-e-apreende-mais-de-27-kg-de-cocaina-no-aeroporto-de-guarulhos",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 27,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil — 254.85 kg of cannabis and hashish seized in two São Paulo highway stops",
+          "body": "The São Paulo integrated organised-crime task force FICCO/SP, working with state highway tactical teams, seized 254.85 kilograms of drugs and arrested two people on August 24 in the interior of the state. Officers recovered 247.12 kg of cannabis from a vehicle near Marília and 7.73 kg of hashish hidden in a second car in Presidente Prudente. Both suspects were handed to Federal Police stations in Marília and Presidente Prudente; announced August 25.",
+          "quantity": "247 kg cannabis · 7.7 kg hashish",
+          "location": "Marília and Presidente Prudente, São Paulo, Brazil",
+          "arrests": "2 arrested",
+          "source": "Polícia Federal (Brazil)",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/ficco-sp-apreende-254-8-kg-de-drogas-e-prende-duas-pessoas-no-interior-de-sao-paulo",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 247.12,
+              "place": "Brazil"
+            },
+            {
+              "drug": "hashish",
+              "kg": 7.73,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil — Operation Bóreas targets air bridge flying cocaine from Bolivia and Peru into Tocantins",
+          "body": "The Polícia Federal launched Operation Bóreas on August 25 in Palmas, Tocantins, against a network accused of organising flights, aircraft and clandestine airstrips to move cocaine and firearms from Bolivia and Peru into Brazil. Three preventive arrest warrants and three search warrants were executed alongside seizures of aircraft and the freezing of assets, and the PF asked Interpol to place ten investigated individuals on its Red Notice list. No drug weight was reported.",
+          "location": "Palmas, Tocantins, Brazil",
+          "arrests": "3 arrest warrants · 10 Interpol red notices sought",
+          "source": "Polícia Federal (Brazil)",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-investiga-organizacao-criminosa-especializada-no-trafico-internacional-de-drogas-no-tocantins"
+        },
+        {
+          "headline": "Argentina — 52.6 kg of cocaine found in a Bolivian tanker truck on Route 34 in Santa Fe",
+          "body": "Gendarmería Nacional road-safety officers from the Rosario-Victoria squadron stopped a Bolivian-plated tanker truck at kilometre 58 of National Route 34 heading for Campana, Buenos Aires province, and found two unusually heavy backpacks in the cab holding 50 rectangular packages. Field tests confirmed cocaine with a total weight of 52 kilos 611 grams. The Rosario federal prosecutor ordered the seizure of the drugs and the truck and the arrest of the Bolivian driver. Announced August 25.",
+          "quantity": "52.6 kg cocaine",
+          "location": "Santa Fe, Argentina",
+          "arrests": "1 arrested",
+          "source": "Ministerio de Seguridad (Argentina)",
+          "url": "https://www.argentina.gob.ar/noticias/gendarmeria-secuestro-52-kilos-de-cocaina-y-detuvo-una-persona-en-un-control-de-ruta-en",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 52.611,
+              "place": "Argentina"
+            }
+          ]
+        },
+        {
+          "headline": "Colombia — two women stopped at Bogotá's El Dorado airport with 10 kg strapped to their bodies",
+          "body": "Colombian National Police intercepted two passengers on a Cali-bound flight at El Dorado International Airport after security cameras flagged unusual movements, and found 18 packages taped to their bodies containing 5,445 grams of cocaine and 4,315 grams of marijuana. One woman is Colombian and one a foreign national; both were handed to the Fiscalía on manufacturing, trafficking and possession charges. Reported August 26; investigators are checking for a wider network.",
+          "quantity": "5.4 kg cocaine · 4.3 kg cannabis",
+          "location": "Bogotá, Colombia",
+          "arrests": "2 arrested",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/colombia/2026/08/26/dos-mujeres-fueron-capturadas-con-droga-adherida-a-su-cuerpo-en-el-aeropuerto-el-dorado-de-bogota-llevaban-10-kilos-de-estupefacientes/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 5.445,
+              "place": "Colombia"
+            },
+            {
+              "drug": "cannabis",
+              "kg": 4.315,
+              "place": "Colombia"
+            }
+          ]
+        },
+        {
+          "headline": "Colombia — government reports 1,574 arrests and 23,642 kg of drugs seized since August 7",
+          "body": "President Abelardo De La Espriella, speaking on August 25 after an extraordinary security council in Barranquilla, said 11 members of the Segunda Marquetalia's 53rd Front were captured in Puerto Gaitán, Meta, and two alleged Clan del Golfo members in Fundación, Magdalena, in the preceding hours. He also reported the destruction of a coca base processing laboratory in La Macarena. Since taking office on August 7 the government claims 1,574 arrests, 10 extraditions and 23,642 kilograms of narcotics seized, of which 12,296 kg is cocaine — a running national total rather than a single operation, so it is not counted in the tally below.",
+          "quantity": "23,642 kg total since Aug 7 (12,296 kg cocaine)",
+          "location": "Meta, Magdalena and Caquetá, Colombia",
+          "arrests": "1,574 arrests · 10 extraditions",
+          "source": "Chicanoticias",
+          "url": "https://www.chicanoticias.com/2026/08/25/presidente-reporta-1-574-capturas/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "South Africa — 334 kg of cocaine seized in two interceptions at OR Tambo airport",
+          "body": "A multidisciplinary law enforcement team drawn from the South African Police Service and the South African Revenue Service intercepted two large travel suitcases holding roughly 84 kg of cocaine in the terminal and, in a separate cargo operation the same day, four boxes containing about 250 kg of suspected cocaine. The combined haul at OR Tambo International Airport in Johannesburg on August 25 carries an estimated street value of more than R200 million. No arrests had been made at the time of reporting and investigations continue.",
+          "quantity": "334 kg cocaine (R200M+)",
+          "location": "Johannesburg, South Africa",
+          "arrests": "None reported",
+          "source": "NovaNews",
+          "url": "https://novanews.co.za/r200-million-cocaine-haul-seized-at-or-tambo-as-airport-drug-busts-escalate/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 334,
+              "place": "South Africa"
+            }
+          ]
+        },
+        {
+          "headline": "InSight Crime — organised crime groups across Latin America are pairing commercial drones with IEDs",
+          "body": "In an analysis published August 25, InSight Crime co-director Jeremy McDermott and Deborah Bonello trace the spread of weaponised commercial drones from the CJNG's dedicated drone unit in Mexico to gang warfare in Rio de Janeiro's favelas and ELN surveillance drones in Colombia. The piece follows an August 17 US–Mexico declaration of intent giving Mexico's Defense Ministry access to the US Army's digital marketplace for unmanned and counter-drone systems, reportedly the first time the Pentagon has agreed to sell drone technology to Mexico specifically for its campaign against organised crime.",
+          "location": "Mexico, Colombia and Brazil",
+          "source": "InSight Crime",
+          "url": "https://insightcrime.org/news/the-insight-take-organized-crime-adopts-the-latest-technologies-in-the-drone-ied-arms-race/"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
