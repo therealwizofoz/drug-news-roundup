@@ -7,8 +7,8 @@ no build dependencies beyond Python 3.
 ```
 data/2026-08-22.json     one file per edition  ← the only thing you ever edit
 build.py                 regenerates all HTML from data/
-make_email.py            renders one edition as the HTML email
-tally.py                 year-to-date seizure totals, shared by both
+tally.py                 year-to-date seizure totals
+make_email.py            unused — retired email renderer, kept for reference
 publish.sh               build + git commit + push
 assets/style.css         the whole stylesheet
 index.html               generated — latest edition
@@ -21,33 +21,16 @@ run `python3 build.py` and you get it back byte for byte.
 
 ---
 
-## The daily email
+## Delivery: the website only
 
-The 6 AM email is generated from the same JSON as the website, so the two can
-never disagree:
+Email delivery was retired on 26 August 2026. The site is now the sole
+deliverable, and a run succeeds when the new edition is live at
+https://therealwizofoz.github.io/drug-news-roundup/.
 
-```bash
-python3 make_email.py 2026-08-22 --out email.html
-```
-
-That writes an email-safe HTML file — every style inline, one centred column,
-no external CSS, JavaScript or remote images — which the scheduled task hands to
-Mail via AppleScript's `html content` property. Apple Mail on macOS and iOS both
-render it as-is. `email.html` is regenerated every morning and is not tracked in
-git.
-
-The design is deliberately light-only. Email clients handle a fixed light
-palette far more predictably than a themed one, so unlike the website the email
-does not follow your system dark mode.
-
-**Once GitHub Pages is live**, open `make_email.py` and set:
-
-```python
-SITE_URL = "https://<your-username>.github.io/drug-news-roundup"
-```
-
-Each email then carries a "Read this edition on the web →" link under the
-masthead. Leave it empty and the link is simply omitted.
+`make_email.py` is kept in the repo but is no longer called by anything — it
+still renders an edition as email-safe HTML if you ever want that back. The
+helper that actually sent mail (`send-email.sh`, which lived outside this repo)
+has been deleted.
 
 ---
 
@@ -136,6 +119,12 @@ goes out:
 1. Writes `data/YYYY-MM-DD.json` for the new edition.
 2. Runs `./publish.sh`, which rebuilds every page and pushes to `main`.
 3. GitHub Pages redeploys the branch, usually within 30 seconds.
+4. Verifies the new archive URL is actually live, then logs the stories.
+
+The job runs from launchd on the Mac mini at 06:00 local time, not from the
+cloud — see `~/DrugNewsRoundup/roundup-prompt.md` and `run-roundup.sh`. The
+project deliberately lives outside `~/Documents`, which macOS protects from
+scheduled jobs.
 
 For the push to work unattended, the credential has to be stored in the macOS
 keychain — that is what `gh auth login` did. To confirm it works without a
