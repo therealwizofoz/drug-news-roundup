@@ -1,163 +1,163 @@
 {
- "date": "2026-08-26",
- "dateLabel": "Wednesday, August 26, 2026",
- "window": "Covering reporting published in the past 24 hours (Aug 25–26). Several agencies announced on Aug 25 operations carried out earlier in the month; incident dates are stated in each item.",
+ "date": "2026-08-27",
+ "dateLabel": "Thursday, August 27, 2026",
+ "window": "Covering reporting published in the past 24 hours (Aug 26–27). Search indexes are running a day or two behind, so several items announced in this window describe operations carried out earlier in the week; the incident date is stated in each story.",
  "siteUrl": "https://therealwizofoz.github.io/drug-news-roundup/",
- "storyCount": 15,
+ "storyCount": 12,
  "sectionCounts": [
   {
    "id": "federal",
    "name": "National / Federal (US)",
-   "count": 4
+   "count": 2
   },
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 3
+   "count": 2
   },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 6
+   "count": 4
   },
   {
    "id": "world",
    "name": "Rest of World",
-   "count": 2
+   "count": 4
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "US strikes alleged drug boat in the eastern Pacific, two killed",
-   "summary": "A US military strike on a low-profile vessel in the eastern Pacific on August 23 killed two people — the first such strike in more than two months, and the first carried out by…",
-   "location": "Eastern Pacific",
+   "headline": "CJNG's Michoacán commanders — brothers \"R1\" and \"R2\" — indicted in Washington",
+   "summary": "A federal grand jury in the District of Columbia returned an indictment on August 26 charging Ramón Álvarez Ayala, 44, and Rafael Álvarez Ayala, 42, both Mexican nationals, with…",
+   "location": "Washington, D.C. / Michoacán, Mexico",
    "quantity": "",
-   "arrests": "2 killed",
-   "source": "USNI News",
-   "url": "https://news.usni.org/2026/08/24/southcom-strikes-first-suspected-drug-boat-in-two-months"
+   "arrests": "2 charged",
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/cartel-commanders-charged-international-cocaine-and-methamphetamine-trafficking-conspiracy"
   },
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Second US strike in three days kills four in the Caribbean",
-   "summary": "A US strike on an alleged drug-trafficking boat in the Caribbean on August 25 killed four people, the second strike in three days after a two-month pause.",
-   "location": "Caribbean",
-   "quantity": "",
-   "arrests": "4 killed",
-   "source": "UPI",
-   "url": "https://www.upi.com/Top_News/World-News/2026/08/25/SOUTHCOM-kills-four/7491787708796/"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "CBP seizes 1,172 lbs of khat at Chicago O'Hare, three travelers arrested",
-   "summary": "Customs and Border Protection officers at Chicago O'Hare International Airport made two separate seizures from travelers arriving from Senegal, recovering 755 pounds of khat from…",
-   "location": "Chicago O'Hare, Illinois",
-   "quantity": "1,172 lb khat ($140,000)",
-   "arrests": "3 arrested",
-   "source": "U.S. Customs and Border Protection",
-   "url": "https://www.cbp.gov/newsroom/local-media-release/three-arrested-and-1172-pounds-khat-seized-chicago"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Portland fentanyl crackdown passes 100 prosecutions and 100 kg of fentanyl",
-   "summary": "U.S. Attorney Scott E. Bradford announced on August 25 that federal prosecutors have charged more than 100 people with fentanyl trafficking in downtown Portland since 2023, an…",
-   "location": "Portland, Oregon",
-   "quantity": "100+ kg fentanyl (since 2023) · 40 firearms",
-   "arrests": "100+ charged",
-   "source": "Portland Tribune",
-   "url": "https://portlandtribune.com/2026/08/25/federal-officials-tout-portland-fentanyl-crackdown-after-more-than-100-prosecutions/"
+   "headline": "\"Operation Last Call\" — 44 arrested on federal gun and drug charges in Nashville",
+   "summary": "Forty-four people were arrested on federal indictments over the weekend of August 19–23 in a joint initiative by the U.S.",
+   "location": "Nashville, Tennessee",
+   "quantity": "2+ kg meth · 1+ kg fentanyl · 150+ firearms",
+   "arrests": "44 arrested",
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/usao-mdtn/pr/operation-last-call-effort-results-arrests-44-illegal-firearms-and-narcotics-offenses"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Eight indicted in South Carolina State Grand Jury fentanyl pill-press case",
-   "summary": "S.C. Attorney General Alan Wilson announced on August 25 that eight defendants have been indicted in the State Grand Jury investigation codenamed \"Pressed for Time,\" targeting an…",
-   "location": "Greenwood and Abbeville counties, South Carolina",
-   "quantity": "4.1 kg fentanyl · 3.8 kg methamphetamine",
-   "arrests": "8 indicted",
-   "source": "WIS-TV",
-   "url": "https://www.wistv.com/2026/08/25/eight-indicted-state-grand-jury-fentanyl-trafficking-investigation/"
+   "headline": "Alabama — parking-lot hand-off in Semmes yields meth, cocaine, fentanyl and ten guns",
+   "summary": "Mobile County sheriff's deputies working with Homeland Security Investigations broke up an alleged drug hand-off in a commercial parking lot in Semmes on August 25, seizing five…",
+   "location": "Semmes, Alabama",
+   "quantity": "5 lb meth · 1 kg cocaine · 21 g fentanyl · 10 guns",
+   "arrests": "2 charged",
+   "source": "FOX10 News",
+   "url": "https://www.fox10tv.com/2026/08/26/drug-bust-that-sparked-2-chases-took-down-big-operation-mobile-county-sheriff-says/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Nebraska traffic stop and motel search yield more than 5 lbs of methamphetamine",
-   "summary": "A Nebraska State Patrol trooper stopped a speeding Cadillac on Highway 83 near Valentine late on August 18 and, with a Valentine Police K9, recovered over 100 grams of suspected…",
-   "location": "Cherry County, Nebraska",
-   "quantity": "~2.4 kg methamphetamine · 17 g cocaine",
-   "arrests": "1 arrested",
-   "source": "KNOP",
-   "url": "https://www.knopnews2.com/2026/08/25/over-5-pounds-methamphetamine-cocaine-found-after-cherry-county-traffic-stop/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Six arrested after West Virginia deputies find cocaine, fentanyl and meth in Marion County home",
-   "summary": "Marion County deputies searching a home on the night of August 24 recovered six grams of cocaine, two grams of fentanyl and three grams of methamphetamine along with digital…",
-   "location": "Marion County, West Virginia",
-   "quantity": "6 g cocaine · 2 g fentanyl · 3 g meth",
-   "arrests": "6 arrested",
-   "source": "WDTV",
-   "url": "https://www.wdtv.com/2026/08/25/6-people-arrested-after-deputies-find-cocaine-fentanyl-meth-marion-county/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — Polícia Federal seizes 27 kg of cocaine and arrests five at Guarulhos airport",
-   "summary": "The Polícia Federal reported on August 25 that a week of operations at São Paulo's Guarulhos International Airport between August 21 and 25 produced five arrests and more than 27…",
-   "location": "Guarulhos, São Paulo, Brazil",
-   "quantity": "27+ kg cocaine",
-   "arrests": "5 arrested",
-   "source": "Polícia Federal (Brazil)",
-   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-prende-cinco-pessoas-e-apreende-mais-de-27-kg-de-cocaina-no-aeroporto-de-guarulhos"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — 254.85 kg of cannabis and hashish seized in two São Paulo highway stops",
-   "summary": "The São Paulo integrated organised-crime task force FICCO/SP, working with state highway tactical teams, seized 254.85 kilograms of drugs and arrested two people on August 24 in…",
-   "location": "Marília and Presidente Prudente, São Paulo, Brazil",
-   "quantity": "247 kg cannabis · 7.7 kg hashish",
+   "headline": "Ohio — two kilos of cocaine thrown from a fleeing car during a Richland County pursuit",
+   "summary": "The METRICH Enforcement Unit, assisted by the Richland County Sheriff's Office, ran a traffic enforcement operation on August 25 against two vehicles suspected of moving large…",
+   "location": "Richland County, Ohio",
+   "quantity": "~2 kg cocaine",
    "arrests": "2 arrested",
-   "source": "Polícia Federal (Brazil)",
-   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/ficco-sp-apreende-254-8-kg-de-drogas-e-prende-duas-pessoas-no-interior-de-sao-paulo"
+   "source": "Richland Source",
+   "url": "https://www.richlandsource.com/2026/08/26/two-mansfield-men-arrested-as-metrich-enforcement-unit-recovers-2-kilos-of-cocaine/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazil — Operation Bóreas targets air bridge flying cocaine from Bolivia and Peru into Tocantins",
-   "summary": "The Polícia Federal launched Operation Bóreas on August 25 in Palmas, Tocantins, against a network accused of organising flights, aircraft and clandestine airstrips to move…",
-   "location": "Palmas, Tocantins, Brazil",
-   "quantity": "",
-   "arrests": "3 arrest warrants · 10 Interpol red notices sought",
-   "source": "Polícia Federal (Brazil)",
-   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-investiga-organizacao-criminosa-especializada-no-trafico-internacional-de-drogas-no-tocantins"
+   "headline": "Ecuador — 43 arrested and a smuggling plane seized as police hit Los Lobos and Los Choneros",
+   "summary": "Ecuador's National Police executed two simultaneous operations, codenamed \"Factoría\" and \"Jericó,\" on the morning of August 26, carrying out 36 raids across the provinces of…",
+   "location": "Guayas, Manabí, Esmeraldas and three other provinces, Ecuador",
+   "quantity": "~2.5 t drugs · aircraft · $1M + €858,000",
+   "arrests": "43 arrested",
+   "source": "Infobae / Expreso",
+   "url": "https://www.infobae.com/america/america-latina/2026/08/27/megaoperativo-en-ecuador-detuvieron-a-43-integrantes-de-las-bandas-criminales-de-los-choneros-y-los-lobos/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentina — 52.6 kg of cocaine found in a Bolivian tanker truck on Route 34 in Santa Fe",
-   "summary": "Gendarmería Nacional road-safety officers from the Rosario-Victoria squadron stopped a Bolivian-plated tanker truck at kilometre 58 of National Route 34 heading for Campana…",
-   "location": "Santa Fe, Argentina",
-   "quantity": "52.6 kg cocaine",
-   "arrests": "1 arrested",
+   "headline": "Peru — 352 kg of cocaine seized after a chase on the Binational Highway in Moquegua",
+   "summary": "Peruvian National Police intercepted a vehicle on the Carretera Binacional in Moquegua on the night of August 25–26 and recovered 352 kilograms 150 grams of cocaine hydrochloride…",
+   "location": "Moquegua, Peru",
+   "quantity": "352.15 kg cocaine",
+   "arrests": "4 detained",
+   "source": "La Prensa Regional",
+   "url": "https://prensaregional.pe/incautan-mas-de-352-kilos-de-cocaina-tras-persecucion-en-la-carretera-binacional-de-moquegua/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — 373 kg of skunk cannabis taken off a boat outside Rio Branco",
+   "summary": "The Acre integrated organised-crime task force FICCO/AC seized 373.5 kilograms of skunk cannabis, along with a boat and its outboard motor, during operations in rural Rio Branco…",
+   "location": "Rio Branco, Acre, Brazil",
+   "quantity": "373.5 kg cannabis (skunk)",
+   "arrests": "",
+   "source": "Polícia Federal (FICCO/AC)",
+   "url": "https://www.pontaporainforma.com.br/ficco-ac-em-acao-conjunta-apreende-373-kg-de-drogas/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina — Naval Prefecture pulls 340 kg of marijuana out of the Paraná at Puerto Iguazú",
+   "summary": "Prefectura Naval Argentina reported on August 26 that it had seized more than 340 kilograms of marijuana, packed in 452 bundles inside 11 large sacks, at Puerto Carolina in Puerto…",
+   "location": "Puerto Iguazú, Misiones, Argentina",
+   "quantity": "340+ kg cannabis",
+   "arrests": "",
    "source": "Ministerio de Seguridad (Argentina)",
-   "url": "https://www.argentina.gob.ar/noticias/gendarmeria-secuestro-52-kilos-de-cocaina-y-detuvo-una-persona-en-un-control-de-ruta-en"
+   "url": "https://www.argentina.gob.ar/noticias/pna-secuestro-droga-valuada-en-1300-millones-de-pesos"
   },
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombia — two women stopped at Bogotá's El Dorado airport with 10 kg strapped to their bodies",
-   "summary": "Colombian National Police intercepted two passengers on a Cali-bound flight at El Dorado International Airport after security cameras flagged unusual movements, and found 18…",
-   "location": "Bogotá, Colombia",
-   "quantity": "5.4 kg cocaine · 4.3 kg cannabis",
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Guatemala — 202 packages of cocaine found in a hidden compartment in San Marcos",
+   "summary": "Anti-narcotics officers of the Policía Nacional Civil's SGAIA unit stopped a pickup truck at a checkpoint in Aldea San Isidro, in the municipality of Malacatán, San Marcos, on…",
+   "location": "Malacatán, San Marcos, Guatemala",
+   "quantity": "202 packages of cocaine",
+   "arrests": "3 captured",
+   "source": "Emisoras Unidas",
+   "url": "https://emisorasunidas.com/nacional/2026/08/26/san-marcos-droga-cocaina-carro-capturados"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "India — cross-border heroin cartel broken up in Jammu, 5.16 kg seized",
+   "summary": "The Narcotics Control Bureau announced on August 27 that it had dismantled a cross-border heroin trafficking cartel operating in Jammu, seizing 5.16 kilograms of heroin and…",
+   "location": "Jammu, India",
+   "quantity": "5.16 kg heroin",
+   "arrests": "3 arrested",
+   "source": "Kashmir Images",
+   "url": "https://thekashmirimages.com/2026/08/27/3-arrested-with-5-16-kg-heroin-as-ncb-busts-cross-border-cartel-in-jammu/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "India — 13 held and 45 kg of ganja seized in a Chennai city-wide crackdown",
+   "summary": "Chennai police raided multiple locations across the city and arrested 13 people, recovering about 45 kilograms of ganja, more than 1,000 narcotic tablets and quantities of…",
+   "location": "Chennai, India",
+   "quantity": "45 kg cannabis · 1,000+ tablets",
+   "arrests": "13 arrested",
+   "source": "News Today",
+   "url": "https://newstodaynet.com/2026/08/27/13-held-in-chennai-drug-crackdown-45-kg-ganja-seized/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Afghanistan — 218 kg of narcotics seized in two operations in Ghor province",
+   "summary": "Counter-narcotics police in Ghor province, western Afghanistan, seized 218 kilograms of narcotics — including 101 kilograms of opium — from two cars in separate operations in and…",
+   "location": "Ghor province, Afghanistan",
+   "quantity": "218 kg narcotics (101 kg opium)",
    "arrests": "2 arrested",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/08/26/dos-mujeres-fueron-capturadas-con-droga-adherida-a-su-cuerpo-en-el-aeropuerto-el-dorado-de-bogota-llevaban-10-kilos-de-estupefacientes/"
+   "source": "Xinhua",
+   "url": "https://english.news.cn/asiapacific/20260827/d96c2d0e3da84977953f8371b35b1d73/c.html"
   }
  ]
 }

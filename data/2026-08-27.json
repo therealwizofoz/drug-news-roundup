@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-27",
+  "window": "Covering reporting published in the past 24 hours (Aug 26–27). Search indexes are running a day or two behind, so several items announced in this window describe operations carried out earlier in the week; the incident date is stated in each story.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "CJNG's Michoacán commanders — brothers \"R1\" and \"R2\" — indicted in Washington",
+          "body": "A federal grand jury in the District of Columbia returned an indictment on August 26 charging Ramón Álvarez Ayala, 44, and Rafael Álvarez Ayala, 42, both Mexican nationals, with conspiring to manufacture and distribute five kilograms or more of cocaine and 500 grams or more of methamphetamine for importation into the United States between 2004 and December 2023, and with using, carrying, brandishing and discharging a firearm — including a machine gun — in furtherance of that conspiracy. The brothers, known as \"R1\" and \"R2,\" were regional commanders for the Cártel de Jalisco Nueva Generación in Michoacán; Ramón was arrested by Mexican authorities in Atotonilco el Alto, Jalisco on July 30, 2026 and is held at the Altiplano federal prison. Each faces a mandatory minimum of 40 years and a maximum of two consecutive life sentences. The case is being investigated by the DEA's Special Operations Division Bilateral Investigations Unit in Los Angeles.",
+          "location": "Washington, D.C. / Michoacán, Mexico",
+          "arrests": "2 charged",
+          "source": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/cartel-commanders-charged-international-cocaine-and-methamphetamine-trafficking-conspiracy"
+        },
+        {
+          "headline": "\"Operation Last Call\" — 44 arrested on federal gun and drug charges in Nashville",
+          "body": "Forty-four people were arrested on federal indictments over the weekend of August 19–23 in a joint initiative by the U.S. Attorney's Office for the Middle District of Tennessee, ATF, the U.S. Marshals Service and Metro Nashville Police, announced August 24. Undercover agents made controlled gun and drug purchases in areas selected after a years-long review of shots-fired calls; the operation recovered more than 150 firearms, over 2 kg of methamphetamine, over 1 kg of fentanyl and more than half a kilogram of cocaine, along with multiple machine-gun conversion devices. Twenty-seven of the 44 had prior felony convictions and 10 were on probation, parole, supervised release or bond at the time.",
+          "quantity": "2+ kg meth · 1+ kg fentanyl · 150+ firearms",
+          "location": "Nashville, Tennessee",
+          "arrests": "44 arrested",
+          "source": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/usao-mdtn/pr/operation-last-call-effort-results-arrests-44-illegal-firearms-and-narcotics-offenses",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 2,
+              "place": "Tennessee"
+            },
+            {
+              "drug": "fentanyl",
+              "kg": 1,
+              "place": "Tennessee"
+            },
+            {
+              "drug": "cocaine",
+              "kg": 0.5,
+              "place": "Tennessee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Alabama — parking-lot hand-off in Semmes yields meth, cocaine, fentanyl and ten guns",
+          "body": "Mobile County sheriff's deputies working with Homeland Security Investigations broke up an alleged drug hand-off in a commercial parking lot in Semmes on August 25, seizing five pounds of suspected methamphetamine, one kilogram of suspected powder cocaine, 21 grams of suspected fentanyl and ten firearms — three semiautomatic rifles and seven handguns. Two high-speed pursuits followed. Dramico Monte Bailey Jr., 29, of Mobile is charged with drug trafficking, reckless endangerment and illegal possession of firearms; Kashunte Quintrell Tate, 28, of Prichard is charged with attempting to elude. Sheriff Paul Burch said the supply ran from South Florida and that further arrests are expected.",
+          "quantity": "5 lb meth · 1 kg cocaine · 21 g fentanyl · 10 guns",
+          "location": "Semmes, Alabama",
+          "arrests": "2 charged",
+          "source": "FOX10 News",
+          "url": "https://www.fox10tv.com/2026/08/26/drug-bust-that-sparked-2-chases-took-down-big-operation-mobile-county-sheriff-says/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 2.27,
+              "place": "Alabama"
+            },
+            {
+              "drug": "cocaine",
+              "kg": 1,
+              "place": "Alabama"
+            },
+            {
+              "drug": "fentanyl",
+              "kg": 0.021,
+              "place": "Alabama"
+            }
+          ]
+        },
+        {
+          "headline": "Ohio — two kilos of cocaine thrown from a fleeing car during a Richland County pursuit",
+          "body": "The METRICH Enforcement Unit, assisted by the Richland County Sheriff's Office, ran a traffic enforcement operation on August 25 against two vehicles suspected of moving large quantities of cocaine near Mansfield. One driver stopped and was questioned; the second fled, and roughly two kilograms of cocaine were thrown from the car during the pursuit and later recovered along the route. Two men were arrested on felony drug charges, with child endangering charges added because a woman and a child were passengers in the fleeing vehicle.",
+          "quantity": "~2 kg cocaine",
+          "location": "Richland County, Ohio",
+          "arrests": "2 arrested",
+          "source": "Richland Source",
+          "url": "https://www.richlandsource.com/2026/08/26/two-mansfield-men-arrested-as-metrich-enforcement-unit-recovers-2-kilos-of-cocaine/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 2,
+              "place": "Ohio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Ecuador — 43 arrested and a smuggling plane seized as police hit Los Lobos and Los Choneros",
+          "body": "Ecuador's National Police executed two simultaneous operations, codenamed \"Factoría\" and \"Jericó,\" on the morning of August 26, carrying out 36 raids across the provinces of Guayas, Santo Domingo, El Oro, Los Ríos, Manabí and Esmeraldas. Interior Minister John Reimberg said 43 alleged members of Los Lobos and Los Choneros were detained, among them two Mexican nationals linked to the Jalisco New Generation Cartel who allegedly ran a clandestine air bridge — using unlicensed airstrips and light aircraft — to move cocaine from Ecuador toward North America. Seizures included roughly 2.5 tonnes of controlled substances, more than one million US dollars and €858,000 in cash, 25 firearms and about a thousand rounds of ammunition, 21 vehicles, an aircraft, close to a thousand litres of aviation fuel, 47 mobile phones and ballistic vests. The operations were coordinated with the Attorney General's Office with cooperation from the DEA and support from US Southern Command.",
+          "quantity": "~2.5 t drugs · aircraft · $1M + €858,000",
+          "location": "Guayas, Manabí, Esmeraldas and three other provinces, Ecuador",
+          "arrests": "43 arrested",
+          "source": "Infobae / Expreso",
+          "url": "https://www.infobae.com/america/america-latina/2026/08/27/megaoperativo-en-ecuador-detuvieron-a-43-integrantes-de-las-bandas-criminales-de-los-choneros-y-los-lobos/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 2500,
+              "place": "Ecuador"
+            }
+          ]
+        },
+        {
+          "headline": "Peru — 352 kg of cocaine seized after a chase on the Binational Highway in Moquegua",
+          "body": "Peruvian National Police intercepted a vehicle on the Carretera Binacional in Moquegua on the night of August 25–26 and recovered 352 kilograms 150 grams of cocaine hydrochloride packed in brick-shaped bundles hidden beneath the seats and in compartments. A second vehicle running ahead as a lookout was also stopped. Four people were detained; police attribute the shipment to a criminal organisation known as \"Los Maléficos del Sur.\"",
+          "quantity": "352.15 kg cocaine",
+          "location": "Moquegua, Peru",
+          "arrests": "4 detained",
+          "source": "La Prensa Regional",
+          "url": "https://prensaregional.pe/incautan-mas-de-352-kilos-de-cocaina-tras-persecucion-en-la-carretera-binacional-de-moquegua/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 352.15,
+              "place": "Peru"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil — 373 kg of skunk cannabis taken off a boat outside Rio Branco",
+          "body": "The Acre integrated organised-crime task force FICCO/AC seized 373.5 kilograms of skunk cannabis, along with a boat and its outboard motor, during operations in rural Rio Branco on August 25. Officers acted on anonymous tips about a vessel carrying illicit cargo in an area known as \"Furo,\" near Ramal Caipora. The task force draws on the Federal Police and Acre's civil, military and penal police, with support from BOPE, the environmental policing battalion, the Xapuri civil police and the border special operations group GEFRON.",
+          "quantity": "373.5 kg cannabis (skunk)",
+          "location": "Rio Branco, Acre, Brazil",
+          "source": "Polícia Federal (FICCO/AC)",
+          "url": "https://www.pontaporainforma.com.br/ficco-ac-em-acao-conjunta-apreende-373-kg-de-drogas/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 373.5,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Argentina — Naval Prefecture pulls 340 kg of marijuana out of the Paraná at Puerto Iguazú",
+          "body": "Prefectura Naval Argentina reported on August 26 that it had seized more than 340 kilograms of marijuana, packed in 452 bundles inside 11 large sacks, at Puerto Carolina in Puerto Iguazú, at kilometre 1,865 of the Paraná River. Crews detected an incoming boat and recovered the cargo after a combined land and water search; the load was valued at about 1.3 billion pesos. The seizure falls under Plan Guaçurarí, the national border-control push in Misiones province. No arrests were reported.",
+          "quantity": "340+ kg cannabis",
+          "location": "Puerto Iguazú, Misiones, Argentina",
+          "source": "Ministerio de Seguridad (Argentina)",
+          "url": "https://www.argentina.gob.ar/noticias/pna-secuestro-droga-valuada-en-1300-millones-de-pesos",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 340,
+              "place": "Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Guatemala — 202 packages of cocaine found in a hidden compartment in San Marcos",
+          "body": "Anti-narcotics officers of the Policía Nacional Civil's SGAIA unit stopped a pickup truck at a checkpoint in Aldea San Isidro, in the municipality of Malacatán, San Marcos, on August 26 and found 202 packages of suspected cocaine inside a purpose-built compartment, detected with the help of a K-9 unit. Three people — two men and a woman — were captured and handed to prosecutors. Authorities had not published a weight for the load; laboratory confirmation was still under way.",
+          "quantity": "202 packages of cocaine",
+          "location": "Malacatán, San Marcos, Guatemala",
+          "arrests": "3 captured",
+          "source": "Emisoras Unidas",
+          "url": "https://emisorasunidas.com/nacional/2026/08/26/san-marcos-droga-cocaina-carro-capturados"
+        },
+        {
+          "headline": "India — cross-border heroin cartel broken up in Jammu, 5.16 kg seized",
+          "body": "The Narcotics Control Bureau announced on August 27 that it had dismantled a cross-border heroin trafficking cartel operating in Jammu, seizing 5.16 kilograms of heroin and arresting three people including the alleged mastermind of the network.",
+          "quantity": "5.16 kg heroin",
+          "location": "Jammu, India",
+          "arrests": "3 arrested",
+          "source": "Kashmir Images",
+          "url": "https://thekashmirimages.com/2026/08/27/3-arrested-with-5-16-kg-heroin-as-ncb-busts-cross-border-cartel-in-jammu/",
+          "seizures": [
+            {
+              "drug": "heroin",
+              "kg": 5.16,
+              "place": "India"
+            }
+          ]
+        },
+        {
+          "headline": "India — 13 held and 45 kg of ganja seized in a Chennai city-wide crackdown",
+          "body": "Chennai police raided multiple locations across the city and arrested 13 people, recovering about 45 kilograms of ganja, more than 1,000 narcotic tablets and quantities of methamphetamine and other contraband, according to reporting published August 27. Only the cannabis figure carries a stated weight.",
+          "quantity": "45 kg cannabis · 1,000+ tablets",
+          "location": "Chennai, India",
+          "arrests": "13 arrested",
+          "source": "News Today",
+          "url": "https://newstodaynet.com/2026/08/27/13-held-in-chennai-drug-crackdown-45-kg-ganja-seized/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 45,
+              "place": "India"
+            }
+          ]
+        },
+        {
+          "headline": "Afghanistan — 218 kg of narcotics seized in two operations in Ghor province",
+          "body": "Counter-narcotics police in Ghor province, western Afghanistan, seized 218 kilograms of narcotics — including 101 kilograms of opium — from two cars in separate operations in and around Firoz Koah city, arresting two smugglers, Xinhua reported on August 27 citing the Ministry of Interior Affairs. The composition of the remaining 117 kilograms was described inconsistently in the ministry's account, so only the opium figure is carried into the running tally.",
+          "quantity": "218 kg narcotics (101 kg opium)",
+          "location": "Ghor province, Afghanistan",
+          "arrests": "2 arrested",
+          "source": "Xinhua",
+          "url": "https://english.news.cn/asiapacific/20260827/d96c2d0e3da84977953f8371b35b1d73/c.html",
+          "seizures": [
+            {
+              "drug": "opium",
+              "kg": 101,
+              "place": "Afghanistan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
