@@ -315,7 +315,7 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
             else f'<a href="{css_prefix}index.html">Latest</a>'
         )
         + f'<a href="{css_prefix}archive/index.html">Archive'
-        + (f" ({day_count} {'day' if day_count == 1 else 'days'})" if day_count else "")
+        + (f" ({day_count})" if day_count else "")
         + "</a>"
         + "</nav>"
     )
@@ -333,7 +333,13 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
         inner = (
             "".join(story_html(s, css_prefix) for s in stories)
             if stories
-            else '<p class="empty">Nothing significant in the past 24 hours.</p>'
+            else '<p class="empty">'
+            + (
+                "Nothing significant found for this month."
+                if tally.is_retrospective(day)
+                else "Nothing significant in the past 24 hours."
+            )
+            + "</p>"
         )
         blocks.append(
             f'<section class="block" id="{sid}">'
@@ -343,10 +349,32 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
 
     window = f'<p class="window">{e(day["window"])}</p>' if day.get("window") else ""
 
+    # A retrospective is a backfilled month, not a morning edition, so it
+    # is labelled by the period it covers and carries no O' number.
+    retro = tally.is_retrospective(day)
+    if retro:
+        kicker = "Archive"
+        dateline = e(day.get("period") or pretty_date(day["date"]))
+        note = (
+            "<p>A retrospective edition, compiled after the fact to fill in "
+            "the record before this site began publishing daily. Coverage is "
+            "the month's significant events rather than every incident.</p>"
+        )
+    else:
+        kicker = "Edition " + e(
+            tally.fmt_edition(tally.edition_number(all_days, day["date"]))
+        )
+        dateline = e(pretty_date(day["date"]))
+        note = (
+            "<p>Compiled automatically each morning at 6:00 AM Central. Every "
+            "story is deduplicated against a running log, so nothing repeats "
+            "between editions.</p>"
+        )
+
     body = f"""<header class="masthead">
-<p class="kicker">Edition {e(tally.fmt_edition(tally.edition_number(all_days, day["date"])))}</p>
+<p class="kicker">{kicker}</p>
 <h1>{e(SITE_TITLE)}</h1>
-<p class="dateline">{e(pretty_date(day["date"]))} · {total} {"story" if total == 1 else "stories"}</p>
+<p class="dateline">{dateline} · {total} {"story" if total == 1 else "stories"}</p>
 {window}
 {nav}
 </header>
@@ -361,26 +389,45 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
 {tally_html}
 
 <footer>
-<p>Compiled automatically each morning at 6:00 AM Central. Every story is deduplicated against a running log, so nothing repeats between editions.</p>
+{note}
 <p>Links go to the original reporting; quantities and arrest counts are as stated by the source.</p>
 </footer>"""
 
     return page(f"{SITE_TITLE} — {short_date(day['date'])}", body, css_prefix)
 
 
-def render_archive(days):
-    items = "".join(
+def archive_items(days):
+    return "".join(
         f'<li><a href="{e(d["date"])}.html">'
-        f'<span class="d">{e(pretty_date(d["date"]))}</span>'
+        f'<span class="d">'
+        f'{e(d.get("period") or pretty_date(d["date"]))}</span>'
         f'<span class="n">{sum(len(s.get("stories") or []) for s in d.get("sections", []))} stories</span>'
         "</a></li>"
         for d in days
     )
 
+
+def render_archive(days):
+    # Daily editions are the record of what this site published; the monthly
+    # retrospectives are backfill. Keeping them apart stops 19 catch-up
+    # entries from burying the handful of real editions.
+    daily = [d for d in days if not tally.is_retrospective(d)]
+    retro = [d for d in days if tally.is_retrospective(d)]
+
+    items = archive_items(daily)
+    retro_block = (
+        '<h2 class="arch-h">Retrospectives</h2>'
+        '<p class="arch-note">Backfilled monthly summaries covering the period '
+        'before daily publication began.</p>'
+        f'<ul class="archive">{archive_items(retro)}</ul>'
+        if retro
+        else ""
+    )
+
     body = f"""<header class="masthead">
 <p class="kicker">Archive</p>
 <h1>{e(SITE_TITLE)}</h1>
-<p class="dateline">{len(days)} {"edition" if len(days) == 1 else "editions"}</p>
+<p class="dateline">{len(daily)} {"edition" if len(daily) == 1 else "editions"}{f" · {len(retro)} retrospectives" if retro else ""}</p>
 <nav class="top">
 <a href="../index.html">Latest</a>
 <a href="index.html" aria-current="page">Archive</a>
@@ -388,6 +435,8 @@ def render_archive(days):
 </header>
 
 <ul class="archive">{items}</ul>
+
+{retro_block}
 
 <footer>
 <p>Every edition since the roundup began. Stories are never repeated across editions.</p>
@@ -460,12 +509,17 @@ def main():
     if not days:
         raise SystemExit("No data files found in data/ — nothing to build.")
 
+    # The front page and the widget feed always show the newest real daily
+    # edition. A backfilled retrospective must never take over the homepage,
+    # however it happens to sort by date.
+    newest = next((d for d in days if not tally.is_retrospective(d)), days[0])
+
     if ARCHIVE.exists():
         shutil.rmtree(ARCHIVE)
     ARCHIVE.mkdir(parents=True)
 
     (ROOT / "index.html").write_text(
-        render_day(days[0], css_prefix="", is_home=True, day_count=len(days),
+        render_day(newest, css_prefix="", is_home=True, day_count=len(days),
                    all_days=days),
         encoding="utf-8",
     )
@@ -483,11 +537,11 @@ def main():
     (ROOT / "CNAME").write_text(CUSTOM_DOMAIN + "\n", encoding="utf-8")
 
     (ROOT / "latest.json").write_text(
-        json.dumps(render_feed(days[0]), ensure_ascii=False, indent=1) + "\n",
+        json.dumps(render_feed(newest), ensure_ascii=False, indent=1) + "\n",
         encoding="utf-8",
     )
 
-    print(f"Built {len(days)} edition(s). Latest: {days[0]['date']}")
+    print(f"Built {len(days)} edition(s). Latest: {newest['date']}")
 
 
 if __name__ == "__main__":

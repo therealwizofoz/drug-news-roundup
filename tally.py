@@ -46,6 +46,16 @@ def year_of(iso):
     return iso.split("-")[0]
 
 
+def is_retrospective(day):
+    """True for a backfilled monthly retrospective.
+
+    Retrospectives are historical catch-up editions, not days the
+    roundup actually ran, so they stay out of the edition numbering.
+    Their seizures still count toward the tally.
+    """
+    return bool(day.get("retrospective"))
+
+
 def edition_number(days, date_iso):
     """
     Sequential edition number, oldest edition = 1, counting up one per
@@ -53,7 +63,9 @@ def edition_number(days, date_iso):
     year-to-date counter, so it never resets.
     """
     return 1 + sum(
-        1 for d in days if d.get("date") and d["date"] < date_iso
+        1
+        for d in days
+        if d.get("date") and d["date"] < date_iso and not is_retrospective(d)
     )
 
 
