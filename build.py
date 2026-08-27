@@ -142,13 +142,34 @@ def breakdown(drugs):
 
 
 def tally_table(bucket):
-    body = "".join(
-        f"<tr><th scope=\"row\">{e(place)}</th>"
-        f'<td class="brk">{breakdown(drugs)}</td>'
-        f'<td class="amt">{tally.fmt_kg(total)}</td></tr>'
-        for place, drugs, total in tally.rows(bucket)
-    )
-    return f'<div class="scroll-x"><table class="tally-table"><tbody>{body}</tbody></table></div>'
+    """
+    One expandable row per place. The summary carries the place and its
+    total; tapping it reveals the per-drug breakdown.
+
+    This replaced a three-column table, whose breakdown column the
+    stylesheet hides below 640px — on a phone the drugs simply vanished.
+    A <details> element keeps the detail reachable everywhere and needs no
+    JavaScript. It also scales: by December this list is long, and totals
+    with detail on demand read better than a wall of text.
+    """
+    out = ""
+    for place, drugs, total in tally.rows(bucket):
+        items = sorted(drugs.items(), key=lambda kv: -kv[1])
+        n = len(items)
+        rows = "".join(
+            f'<li><span class="d">{e(drug)}</span>'
+            f'<span class="w">{tally.fmt_kg(kg)}</span></li>'
+            for drug, kg in items
+        )
+        out += (
+            '<details class="place">'
+            f'<summary><span class="p">{e(place)}</span>'
+            f'<span class="n">{n} {"substance" if n == 1 else "substances"}</span>'
+            f'<span class="t">{tally.fmt_kg(total)}</span></summary>'
+            f'<ul class="drugs">{rows}</ul>'
+            "</details>"
+        )
+    return f'<div class="places">{out}</div>'
 
 
 def tally_groups(us, intl):

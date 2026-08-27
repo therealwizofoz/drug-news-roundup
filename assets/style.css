@@ -548,3 +548,86 @@ a:hover { color: var(--accent-200); }
   body { background: #fff; color: #000; }
   .masthead::before, nav.top, .toc { display: none; }
 }
+
+/* ---------- tally: expandable place rows ---------- */
+/* Replaces the old three-column .tally-table, whose breakdown column was
+   hidden below 640px. Each place is a <details>: total always visible,
+   per-drug detail one tap away. No JavaScript. */
+
+.places { border-top: 1px solid var(--n-900); }
+
+details.place { border-bottom: 1px solid var(--n-900); }
+
+details.place > summary {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: baseline;
+  gap: 4px 14px;
+  padding: 13px 0;
+  list-style: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.15s;
+}
+details.place > summary::-webkit-details-marker { display: none; }
+
+details.place .p {
+  font: 500 15px/1.3 var(--font);
+  color: var(--text);
+  min-width: 0;
+}
+details.place .n {
+  font: 400 12px/1.3 var(--font);
+  color: var(--n-500);
+  white-space: nowrap;
+}
+details.place .t {
+  font: 500 15px/1.3 var(--font);
+  color: var(--accent-200);
+  white-space: nowrap;
+  text-align: right;
+  border-bottom: 1px dotted var(--accent-800);
+  padding-bottom: 1px;
+}
+
+details.place > summary:hover .p,
+details.place > summary:hover .t { color: var(--accent-200); }
+details.place > summary:hover .t { border-bottom-color: var(--accent-500); }
+details.place[open] > summary .t { border-bottom-color: transparent; }
+
+details.place > summary::after {
+  content: "＋";
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: end;
+  font: 400 11px/1 var(--font);
+  color: var(--n-500);
+}
+details.place[open] > summary::after { content: "－"; }
+
+ul.drugs {
+  margin: 0 0 14px;
+  padding: 2px 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--n-900);
+  display: grid;
+  gap: 7px;
+}
+ul.drugs li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+}
+ul.drugs .d { font: 400 13.5px/1.4 var(--font); color: var(--n-300); }
+ul.drugs .w {
+  font: 400 13.5px/1.4 var(--font);
+  color: var(--n-400);
+  white-space: nowrap;
+}
+
+/* wider screens: the substance count and the +/- fit on one line */
+@media (min-width: 560px) {
+  details.place > summary { grid-template-columns: 1fr auto auto auto; gap: 14px; }
+  details.place > summary::after { grid-column: 4; grid-row: 1; }
+}
