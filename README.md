@@ -14,6 +14,7 @@ assets/style.css         the whole stylesheet
 index.html               generated — latest edition
 archive/index.html       generated — list of all editions
 archive/2026-08-22.html  generated — one page per edition
+latest.json              generated — compact feed for the iPhone widget
 ```
 
 Everything outside `data/` and `assets/` is generated. Delete all the HTML and
@@ -31,6 +32,22 @@ https://therealwizofoz.github.io/drug-news-roundup/.
 still renders an edition as email-safe HTML if you ever want that back. The
 helper that actually sent mail (`send-email.sh`, which lived outside this repo)
 has been deleted.
+
+---
+
+## The iPhone widget feed
+
+`build.py` also writes `latest.json` at the site root — a stripped-down copy of
+the newest edition, up to twelve stories with headline, one-line summary,
+quantity, location, arrests, source and link. It exists so the home screen
+widget can fetch one 8 KB file instead of parsing HTML:
+
+```
+https://therealwizofoz.github.io/drug-news-roundup/latest.json
+```
+
+Nothing extra to run — publishing the site publishes the feed. The Xcode
+project that consumes it lives in `../ios`.
 
 ---
 
