@@ -369,7 +369,7 @@ def render_archive(days):
 # HTML. Headlines and metadata only — no bodies, no markup.
 # ---------------------------------------------------------------------------
 
-SITE_URL = "https://therealwizofoz.github.io/drug-news-roundup/"
+SITE_URL = "https://www.drugnewsroundup.com/"
 FEED_STORY_LIMIT = 12
 FEED_SUMMARY_CHARS = 180
 
