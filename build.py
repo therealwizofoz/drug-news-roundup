@@ -19,6 +19,7 @@ import html
 import shutil
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import tally
 
@@ -33,6 +34,12 @@ SITE_TITLE = "Drug News Roundup"
 # deletion -- losing that file silently reverts the site to *.github.io.
 CUSTOM_DOMAIN = "www.drugnewsroundup.com"
 SITE_BLURB = "A daily digest of significant drug-related enforcement news — large seizures, trafficking takedowns, cartel developments and notable sentencings."
+
+# GoatCounter analytics. Set this to the site code only -- the bit before
+# .goatcounter.com. An empty string disables tracking completely and the
+# pages build exactly as they did before, which is what we want if the
+# account ever lapses: no dead script tag left on every page.
+GOATCOUNTER_CODE = "drugnewsroundup"
 
 # Canonical section order. A day's JSON may list sections in any order or
 # omit them entirely; output always follows this sequence.
@@ -121,7 +128,7 @@ def story_html(story, css_prefix=""):
     src = story.get("source") or "Source"
     link = (
         f'<div class="source"><span class="label">Source</span>'
-        f'<a href="{e(url)}" rel="noopener noreferrer nofollow" target="_blank">{e(src)}</a></div>'
+        f'<a href="{e(url)}"{click_attr(url)} rel="noopener noreferrer nofollow" target="_blank">{e(src)}</a></div>'
         if url
         else ""
     )
@@ -247,6 +254,34 @@ sentencings and indictments are not double-counted — and resets to zero each
 </section>"""
 
 
+def analytics_html():
+    """GoatCounter beacon, or nothing at all when tracking is off."""
+    if not GOATCOUNTER_CODE:
+        return ""
+    return (
+        '<script data-goatcounter="https://'
+        f'{GOATCOUNTER_CODE}.goatcounter.com/count"'
+        ' async src="//gc.zgo.at/count.js"></script>\n'
+    )
+
+
+def click_attr(url):
+    """Count a click as ext-<host> so sources aggregate across editions.
+
+    Deliberately host-level rather than per-story: it answers "which
+    outlets do readers actually follow" without spawning a new event name
+    for every headline we ever publish.
+    """
+    if not GOATCOUNTER_CODE or not url:
+        return ""
+    host = urlsplit(url).netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    if not host:
+        return ""
+    return f' data-goatcounter-click="ext-{e(host)}"'
+
+
 def page(title, body, css_prefix=""):
     return f"""<!doctype html>
 <html lang="en">
@@ -262,7 +297,7 @@ def page(title, body, css_prefix=""):
 <div class="wrap">
 {body}
 </div>
-</body>
+{analytics_html()}</body>
 </html>
 """
 
