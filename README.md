@@ -26,7 +26,7 @@ run `python3 build.py` and you get it back byte for byte.
 
 Email delivery was retired on 26 August 2026. The site is now the sole
 deliverable, and a run succeeds when the new edition is live at
-https://therealwizofoz.github.io/drug-news-roundup/.
+https://www.drugnewsroundup.com/.
 
 `make_email.py` is kept in the repo but is no longer called by anything — it
 still renders an edition as email-safe HTML if you ever want that back. The
@@ -43,7 +43,7 @@ quantity, location, arrests, source and link. It exists so the home screen
 widget can fetch one 8 KB file instead of parsing HTML:
 
 ```
-https://therealwizofoz.github.io/drug-news-roundup/latest.json
+https://www.drugnewsroundup.com/latest.json
 ```
 
 Nothing extra to run — publishing the site publishes the feed. The Xcode
