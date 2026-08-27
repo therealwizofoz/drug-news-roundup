@@ -8,6 +8,7 @@ Reads every data/YYYY-MM-DD.json file and writes:
   index.html                  latest roundup + link to the archive
   archive/index.html          list of every day
   archive/YYYY-MM-DD.html     one page per day
+  latest.json                 compact feed for the iPhone widget
 
 Nothing else is touched. Safe to re-run at any time; output is
 regenerated from scratch, so the JSON files are the only source of truth.
@@ -355,6 +356,65 @@ def render_archive(days):
     return page(f"{SITE_TITLE} — Archive", body, css_prefix="../")
 
 
+# ---------------------------------------------------------------------------
+# Widget feed
+#
+# latest.json is a stripped-down version of the newest edition, written to the
+# site root so the iPhone widget can fetch one small file instead of parsing
+# HTML. Headlines and metadata only — no bodies, no markup.
+# ---------------------------------------------------------------------------
+
+SITE_URL = "https://therealwizofoz.github.io/drug-news-roundup/"
+FEED_STORY_LIMIT = 12
+FEED_SUMMARY_CHARS = 180
+
+
+def summarize(text, limit=FEED_SUMMARY_CHARS):
+    """Trim a story body to a widget-sized summary, preferring a sentence break."""
+    text = " ".join(str(text or "").split())
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    stop = max(cut.rfind(". "), cut.rfind("? "), cut.rfind("! "))
+    if stop > 80:
+        return cut[: stop + 1]
+    space = cut.rfind(" ")
+    return (cut[:space] if space > 0 else cut).rstrip(",;:") + "\u2026"
+
+
+def render_feed(day):
+    sections = ordered_sections(day)
+    stories = []
+    for sid, name, items in sections:
+        for story in items:
+            stories.append(
+                {
+                    "section": sid,
+                    "sectionName": name,
+                    "headline": story.get("headline", ""),
+                    "summary": summarize(story.get("body", "")),
+                    "location": story.get("location", ""),
+                    "quantity": story.get("quantity", ""),
+                    "arrests": story.get("arrests", ""),
+                    "source": story.get("source", ""),
+                    "url": story.get("url", ""),
+                }
+            )
+    return {
+        "date": day["date"],
+        "dateLabel": pretty_date(day["date"]),
+        "window": day.get("window", ""),
+        "siteUrl": SITE_URL,
+        "storyCount": len(stories),
+        "sectionCounts": [
+            {"id": sid, "name": name, "count": len(items)}
+            for sid, name, items in sections
+            if items
+        ],
+        "stories": stories[:FEED_STORY_LIMIT],
+    }
+
+
 def main():
     days = load_days()
     if not days:
@@ -380,6 +440,11 @@ def main():
     (ARCHIVE / "index.html").write_text(render_archive(days), encoding="utf-8")
 
     (ROOT / ".nojekyll").touch()
+
+    (ROOT / "latest.json").write_text(
+        json.dumps(render_feed(days[0]), ensure_ascii=False, indent=1) + "\n",
+        encoding="utf-8",
+    )
 
     print(f"Built {len(days)} edition(s). Latest: {days[0]['date']}")
 

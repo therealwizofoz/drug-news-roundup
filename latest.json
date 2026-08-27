@@ -1,0 +1,163 @@
+{
+ "date": "2026-08-26",
+ "dateLabel": "Wednesday, August 26, 2026",
+ "window": "Covering reporting published in the past 24 hours (Aug 25–26). Several agencies announced on Aug 25 operations carried out earlier in the month; incident dates are stated in each item.",
+ "siteUrl": "https://therealwizofoz.github.io/drug-news-roundup/",
+ "storyCount": 15,
+ "sectionCounts": [
+  {
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 4
+  },
+  {
+   "id": "local",
+   "name": "Local US Arrests",
+   "count": 3
+  },
+  {
+   "id": "south-america",
+   "name": "South America",
+   "count": 6
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
+   "count": 2
+  }
+ ],
+ "stories": [
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "US strikes alleged drug boat in the eastern Pacific, two killed",
+   "summary": "A US military strike on a low-profile vessel in the eastern Pacific on August 23 killed two people — the first such strike in more than two months, and the first carried out by…",
+   "location": "Eastern Pacific",
+   "quantity": "",
+   "arrests": "2 killed",
+   "source": "USNI News",
+   "url": "https://news.usni.org/2026/08/24/southcom-strikes-first-suspected-drug-boat-in-two-months"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Second US strike in three days kills four in the Caribbean",
+   "summary": "A US strike on an alleged drug-trafficking boat in the Caribbean on August 25 killed four people, the second strike in three days after a two-month pause.",
+   "location": "Caribbean",
+   "quantity": "",
+   "arrests": "4 killed",
+   "source": "UPI",
+   "url": "https://www.upi.com/Top_News/World-News/2026/08/25/SOUTHCOM-kills-four/7491787708796/"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "CBP seizes 1,172 lbs of khat at Chicago O'Hare, three travelers arrested",
+   "summary": "Customs and Border Protection officers at Chicago O'Hare International Airport made two separate seizures from travelers arriving from Senegal, recovering 755 pounds of khat from…",
+   "location": "Chicago O'Hare, Illinois",
+   "quantity": "1,172 lb khat ($140,000)",
+   "arrests": "3 arrested",
+   "source": "U.S. Customs and Border Protection",
+   "url": "https://www.cbp.gov/newsroom/local-media-release/three-arrested-and-1172-pounds-khat-seized-chicago"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Portland fentanyl crackdown passes 100 prosecutions and 100 kg of fentanyl",
+   "summary": "U.S. Attorney Scott E. Bradford announced on August 25 that federal prosecutors have charged more than 100 people with fentanyl trafficking in downtown Portland since 2023, an…",
+   "location": "Portland, Oregon",
+   "quantity": "100+ kg fentanyl (since 2023) · 40 firearms",
+   "arrests": "100+ charged",
+   "source": "Portland Tribune",
+   "url": "https://portlandtribune.com/2026/08/25/federal-officials-tout-portland-fentanyl-crackdown-after-more-than-100-prosecutions/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Eight indicted in South Carolina State Grand Jury fentanyl pill-press case",
+   "summary": "S.C. Attorney General Alan Wilson announced on August 25 that eight defendants have been indicted in the State Grand Jury investigation codenamed \"Pressed for Time,\" targeting an…",
+   "location": "Greenwood and Abbeville counties, South Carolina",
+   "quantity": "4.1 kg fentanyl · 3.8 kg methamphetamine",
+   "arrests": "8 indicted",
+   "source": "WIS-TV",
+   "url": "https://www.wistv.com/2026/08/25/eight-indicted-state-grand-jury-fentanyl-trafficking-investigation/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Nebraska traffic stop and motel search yield more than 5 lbs of methamphetamine",
+   "summary": "A Nebraska State Patrol trooper stopped a speeding Cadillac on Highway 83 near Valentine late on August 18 and, with a Valentine Police K9, recovered over 100 grams of suspected…",
+   "location": "Cherry County, Nebraska",
+   "quantity": "~2.4 kg methamphetamine · 17 g cocaine",
+   "arrests": "1 arrested",
+   "source": "KNOP",
+   "url": "https://www.knopnews2.com/2026/08/25/over-5-pounds-methamphetamine-cocaine-found-after-cherry-county-traffic-stop/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Six arrested after West Virginia deputies find cocaine, fentanyl and meth in Marion County home",
+   "summary": "Marion County deputies searching a home on the night of August 24 recovered six grams of cocaine, two grams of fentanyl and three grams of methamphetamine along with digital…",
+   "location": "Marion County, West Virginia",
+   "quantity": "6 g cocaine · 2 g fentanyl · 3 g meth",
+   "arrests": "6 arrested",
+   "source": "WDTV",
+   "url": "https://www.wdtv.com/2026/08/25/6-people-arrested-after-deputies-find-cocaine-fentanyl-meth-marion-county/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — Polícia Federal seizes 27 kg of cocaine and arrests five at Guarulhos airport",
+   "summary": "The Polícia Federal reported on August 25 that a week of operations at São Paulo's Guarulhos International Airport between August 21 and 25 produced five arrests and more than 27…",
+   "location": "Guarulhos, São Paulo, Brazil",
+   "quantity": "27+ kg cocaine",
+   "arrests": "5 arrested",
+   "source": "Polícia Federal (Brazil)",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-prende-cinco-pessoas-e-apreende-mais-de-27-kg-de-cocaina-no-aeroporto-de-guarulhos"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — 254.85 kg of cannabis and hashish seized in two São Paulo highway stops",
+   "summary": "The São Paulo integrated organised-crime task force FICCO/SP, working with state highway tactical teams, seized 254.85 kilograms of drugs and arrested two people on August 24 in…",
+   "location": "Marília and Presidente Prudente, São Paulo, Brazil",
+   "quantity": "247 kg cannabis · 7.7 kg hashish",
+   "arrests": "2 arrested",
+   "source": "Polícia Federal (Brazil)",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/ficco-sp-apreende-254-8-kg-de-drogas-e-prende-duas-pessoas-no-interior-de-sao-paulo"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — Operation Bóreas targets air bridge flying cocaine from Bolivia and Peru into Tocantins",
+   "summary": "The Polícia Federal launched Operation Bóreas on August 25 in Palmas, Tocantins, against a network accused of organising flights, aircraft and clandestine airstrips to move…",
+   "location": "Palmas, Tocantins, Brazil",
+   "quantity": "",
+   "arrests": "3 arrest warrants · 10 Interpol red notices sought",
+   "source": "Polícia Federal (Brazil)",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-investiga-organizacao-criminosa-especializada-no-trafico-internacional-de-drogas-no-tocantins"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina — 52.6 kg of cocaine found in a Bolivian tanker truck on Route 34 in Santa Fe",
+   "summary": "Gendarmería Nacional road-safety officers from the Rosario-Victoria squadron stopped a Bolivian-plated tanker truck at kilometre 58 of National Route 34 heading for Campana…",
+   "location": "Santa Fe, Argentina",
+   "quantity": "52.6 kg cocaine",
+   "arrests": "1 arrested",
+   "source": "Ministerio de Seguridad (Argentina)",
+   "url": "https://www.argentina.gob.ar/noticias/gendarmeria-secuestro-52-kilos-de-cocaina-y-detuvo-una-persona-en-un-control-de-ruta-en"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombia — two women stopped at Bogotá's El Dorado airport with 10 kg strapped to their bodies",
+   "summary": "Colombian National Police intercepted two passengers on a Cali-bound flight at El Dorado International Airport after security cameras flagged unusual movements, and found 18…",
+   "location": "Bogotá, Colombia",
+   "quantity": "5.4 kg cocaine · 4.3 kg cannabis",
+   "arrests": "2 arrested",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/08/26/dos-mujeres-fueron-capturadas-con-droga-adherida-a-su-cuerpo-en-el-aeropuerto-el-dorado-de-bogota-llevaban-10-kilos-de-estupefacientes/"
+  }
+ ]
+}
