@@ -121,7 +121,7 @@ goes out:
 3. GitHub Pages redeploys the branch, usually within 30 seconds.
 4. Verifies the new archive URL is actually live, then logs the stories.
 
-The job runs from launchd on the Mac mini at 05:00 local time, not from the
+The job runs from launchd on the Mac mini at 06:00 local time, not from the
 cloud — see `~/DrugNewsRoundup/roundup-prompt.md` and `run-roundup.sh`. The
 project deliberately lives outside `~/Documents`, which macOS protects from
 scheduled jobs.
