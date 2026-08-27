@@ -1,3 +1,4 @@
 .DS_Store
 email.html
 public/
+__pycache__/
