@@ -58,6 +58,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install the pixel-scene renderer's dependency
+        run: python3 -m pip install --quiet Pillow
+
       - name: Record starting commit
         id: before
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"

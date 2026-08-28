@@ -522,6 +522,15 @@ figure.shot figcaption {
 
 #federal .story.has-shot:first-of-type { grid-template-columns: minmax(0, 1fr) 300px; }
 
+/* pixel evidence: sprite scenes stay chunky, never smoothed or cropped */
+figure.shot img.pixel {
+  height: auto;
+  image-rendering: pixelated;
+  object-fit: contain;
+  padding: 12px;
+  background: linear-gradient(180deg, #262838, #1c1e2b);
+}
+
 #ongoing .story.has-shot { grid-template-columns: 1fr; gap: 11px; }
 #ongoing figure.shot { order: -1; }
 

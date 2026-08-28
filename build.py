@@ -15,6 +15,7 @@ regenerated from scratch, so the JSON files are the only source of truth.
 """
 
 import json
+import re
 import html
 import shutil
 from datetime import date
@@ -22,6 +23,11 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 import tally
+
+try:
+    from pixelbust import render_scene
+except Exception:          # Pillow missing, or the module failed to load
+    render_scene = None    # scenes are then simply omitted
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -114,7 +120,56 @@ def image_html(story, css_prefix=""):
     )
 
 
-def story_html(story, css_prefix=""):
+PIXEL_DIR = ROOT / "assets" / "pixel"
+
+
+def slugify(text, limit=60):
+    out = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return out[:limit] or "story"
+
+
+def pixel_html(story, day_date, css_prefix=""):
+    """
+    A blocky overworld scene standing in for the seizure, built from the
+    story's own quantity chip: one sprite per real-world unit.
+
+    This is illustration, not evidence -- which is exactly why it suits a
+    site that can almost never use a real photograph. Wire-service images
+    are copyrighted and booking photos are off the table, so the
+    alternative was no picture at all.
+
+    Returns "" whenever the chip has nothing drawable in it. A story with
+    no weight, or a dollar figure alone, gets no scene rather than a
+    misleading one.
+    """
+    if render_scene is None:
+        return ""
+    qty = story.get("quantity")
+    if not qty:
+        return ""
+
+    slug = f"{day_date}-{slugify(story.get('headline', ''))}"
+    PIXEL_DIR.mkdir(parents=True, exist_ok=True)
+    out = PIXEL_DIR / f"{slug}.png"
+    try:
+        caption = render_scene(qty, str(out))
+    except Exception:
+        # An unusual chip must never take down the whole build.
+        return ""
+    if not caption:
+        return ""
+
+    alt = "Pixel-art scene of the seized items: " + qty.replace("\u00b7", ",")
+    return (
+        f'<figure class="shot">'
+        f'<img class="pixel" src="{css_prefix}assets/pixel/{e(slug)}.png" '
+        f'width="160" height="120" loading="lazy" decoding="async" '
+        f'alt="{e(alt)}">'
+        f'<figcaption>{e(caption)}</figcaption></figure>'
+    )
+
+
+def story_html(story, css_prefix="", day_date=""):
     chips = []
     if story.get("quantity"):
         chips.append(f'<span class="chip qty">{e(story["quantity"])}</span>')
@@ -140,7 +195,9 @@ def story_html(story, css_prefix=""):
         f"{link}"
     )
 
-    shot = image_html(story, css_prefix)
+    # A genuine public-domain photograph always wins; the pixel scene is
+    # what fills the gap on the many days no usable photo exists.
+    shot = image_html(story, css_prefix) or pixel_html(story, day_date, css_prefix)
     if shot:
         # Text and photo become siblings so they can sit side by side.
         return f'<article class="story has-shot"><div class="story-text">{body}</div>{shot}</article>'
@@ -331,7 +388,7 @@ def render_day(day, css_prefix="", is_home=False, day_count=0, all_days=()):
     blocks = []
     for i, (sid, name, stories) in enumerate(sections, start=1):
         inner = (
-            "".join(story_html(s, css_prefix) for s in stories)
+            "".join(story_html(s, css_prefix, day["date"]) for s in stories)
             if stories
             else '<p class="empty">'
             + (
