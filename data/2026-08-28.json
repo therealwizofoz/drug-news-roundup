@@ -1,0 +1,274 @@
+{
+  "date": "2026-08-28",
+  "window": "Covering reporting published in the past 24 hours (Aug 27–28). Search indexes run a day or two behind, so several items announced in this window describe operations carried out earlier in the month; each story states its own incident date.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "81 charged as federal agents dismantle the \"Los Baja Deo\" gang in western Puerto Rico",
+          "body": "Attorney General Todd Blanche travelled to Puerto Rico on August 27 to announce federal charges against 81 alleged members of Los Baja Deo, a drug-trafficking organisation that prosecutors say has run open-air drug points around Mayagüez since 2021. Seventy of the defendants were taken into custody the previous day in a takedown the FBI says required 13 SWAT teams and Critical Incident Response Group aircraft, working with the Puerto Rico Police Department and the DEA's Caribbean Division under the Homeland Security Task Force in San Juan. Over the life of the conspiracy the group is alleged to have moved at least 340 kilograms of fentanyl or fentanyl-laced product and at least 2,200 kilograms of cocaine — along with heroin, crack and marijuana sold within 1,000 feet of more than a dozen public housing projects — generating upwards of $49 million; investigators recovered 21 firearms, and FBI Director Kash Patel said the network also mailed drugs to the mainland through the U.S. Postal Service.",
+          "quantity": "340 kg fentanyl · 2,200 kg cocaine alleged distributed",
+          "location": "Mayagüez, Puerto Rico",
+          "arrests": "81 charged, 70 arrested",
+          "source": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/81-members-violent-gang-puerto-rico-charged-drug-trafficking-and-firearms-violations-part"
+        },
+        {
+          "headline": "Coast Guard cutter takes 3.3 tonnes of cocaine off a smuggling boat south of Puerto Rico, then burns the boat",
+          "body": "The crew of the Coast Guard Cutter Richard Dixon stopped a suspected smuggling vessel roughly 50 miles south of Puerto Rico on August 22 and removed about 7,250 pounds — some 3,288 kilograms — of cocaine, a load the service valued at $54.5 million wholesale. Five people aboard were detained pending further investigation, and the boat itself was destroyed on the water because it had become a hazard to navigation. Customs and Border Protection air and marine crews out of Air Station Miami cued the intercept; the Coast Guard released the details on August 27.",
+          "quantity": "3,288 kg cocaine",
+          "location": "Caribbean Sea, 50 mi south of Puerto Rico",
+          "arrests": "5 detained",
+          "source": "U.S. Coast Guard",
+          "url": "https://www.news.uscg.mil/Press-Releases/Article/4584195/coast-guard-stops-suspected-drug-boat-carrying-545-million-in-cocaine-off-puert/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 3288.54,
+              "place": "Puerto Rico"
+            }
+          ]
+        },
+        {
+          "headline": "Sinaloa cook who bought Chinese precursors and made \"several metric tons\" of fentanyl pleads guilty in Washington",
+          "body": "Hernán Geovani Ojeda Elenes, 48, of Culiacán, pleaded guilty on August 27 before U.S. District Judge Ana C. Reyes to conspiring to manufacture and distribute fentanyl for importation into the United States and to conspiring to distribute listed chemicals. According to the plea, from 2019 through 2024 he worked with his father and co-defendant Hernán Domingo Ojeda López to run a Sinaloa-based operation that ordered precursors such as 4-piperidone and N-phenylpiperidin-4-amine from Chinese suppliers, shipped them to a Mexican laboratory and turned out what prosecutors describe as several metric tons of fentanyl for the U.S. market. Ojeda Elenes was transferred from Mexico in January 2026 under Mexico's national security law and faces a mandatory minimum of 10 years and a maximum of life; no sentencing date has been set.",
+          "location": "Washington, D.C. / Culiacán, Mexico",
+          "arrests": "1 guilty plea",
+          "source": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/mexican-fentanyl-manufacturer-pleads-guilty-international-drug-trafficking-offenses"
+        },
+        {
+          "headline": "Dominican cocaine broker who fled to Colombia is extradited to face charges in Puerto Rico and New Jersey",
+          "body": "Erick Randhiel Mosquea Polanco, 45, described by the DEA as a Regional Priority Organizational Target and known as \"Ramón\" and \"E,\" was flown from Colombia to Puerto Rico on August 26 and made his first court appearance there on August 27. He is named in two Puerto Rico indictments dating to 2016 and 2022 covering cocaine importation from the Dominican Republic, Venezuela and Colombia, and in a New Jersey superseding indictment alleging he led a network that moved more than a thousand kilograms of cocaine through New Jersey and New York between January 2020 and September 2023 while laundering the proceeds back to the Dominican Republic. He was arrested in Colombia in December 2024 after leaving the Dominican Republic on false documents; investigators seized dozens of kilograms of cocaine and more than $6 million during the case, and several co-defendants have already been convicted.",
+          "location": "San Juan, Puerto Rico / Newark, New Jersey",
+          "arrests": "1 extradited",
+          "source": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/leader-dominican-based-drug-trafficking-organization-extradited-colombia-united-states-face"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "New York — 22 arrested and 7 kilos of cocaine and fentanyl taken in a year-long Rochester investigation",
+          "body": "Rochester police announced on August 27 that an investigation opened roughly a year ago into 36-year-old Javaris Corbit had ended with 22 people aged 16 to 56 in custody on drug and weapons charges. Two rounds of search warrants — 14 executed on June 24, which produced 16 arrests, and 10 more the following Wednesday, which produced six — yielded about 3.5 kilograms of suspected cocaine, about 3.5 kilograms of suspected fentanyl, 75 oxycodone tablets, 20 handguns, four assault rifles, two shotguns and a crossbow. Police said Corbit posted bail after the first sweep and is alleged to have restarted the operation before being taken back into custody. Greece police and the Ontario County Sheriff's Office supplied SWAT teams alongside county, state and federal partners.",
+          "quantity": "3.5 kg cocaine · 3.5 kg fentanyl · 26 firearms",
+          "location": "Rochester, New York",
+          "arrests": "22 arrested",
+          "source": "WXXI News",
+          "url": "https://www.wxxinews.org/local-news/2026-08-27/rochester-police-say-theyve-arrested-the-alleged-leader-of-a-city-drug-network",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 3.5,
+              "place": "New York"
+            },
+            {
+              "drug": "fentanyl",
+              "kg": 3.5,
+              "place": "New York"
+            }
+          ]
+        },
+        {
+          "headline": "Kentucky — fentanyl found at the jail after a Pike County traffic stop turns up 130 grams of meth",
+          "body": "Kentucky State Police stopped a car in the Belfry community of Pike County on August 26 and recovered 130 grams of methamphetamine, arresting Delbert Chambers and Terrell Wright on trafficking charges. During booking at the Pike County Detention Center troopers found a further 60 grams of fentanyl on Chambers. The arrests were made public on August 27.",
+          "quantity": "130 g meth · 60 g fentanyl",
+          "location": "Pike County, Kentucky",
+          "arrests": "2 arrested",
+          "source": "WSAZ",
+          "url": "https://www.wsaz.com/2026/08/27/two-arrested-drug-trafficking/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 0.13,
+              "place": "Kentucky"
+            },
+            {
+              "drug": "fentanyl",
+              "kg": 0.06,
+              "place": "Kentucky"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombia — second airstrike of the De la Espriella government hits a FARC dissident camp in Guaviare",
+          "body": "Colombian forces bombed camps used by the Jorge Suárez Briceño Bloc, part of the FARC dissident structure commanded by alias \"Calarcá,\" in rural El Retorno, Guaviare, in the pre-dawn hours of August 27. President Abelardo de la Espriella put the immediate toll at eight dead with 11 rifles and five machine guns recovered; the Fiscalía later reported 11 dissidents killed in the operation, code-named Amón. It was the second bombing raid ordered since De la Espriella took office on August 7 and the first carried out under the military and police command he installed the same week. The government frames the campaign as an attack on the armed groups' drug-trafficking finances; alias \"Uría Perdomo\" was reported among the dead.",
+          "quantity": "11 rifles · 5 machine guns",
+          "location": "El Retorno, Guaviare, Colombia",
+          "source": "Vanguardia",
+          "url": "https://www.vanguardia.com/colombia/2026/08/27/bombardeo-del-gobierno-de-de-la-espriella-contra-disidencias-de-calarca-en-guaviare-ocho-muertos/"
+        },
+        {
+          "headline": "Colombia — every trafficking group is now to be treated as \"terrorist\" under a new presidential directive",
+          "body": "President Abelardo de la Espriella issued an order on August 27 requiring Colombia's army, navy, air force and police to classify any criminal group involved in drug trafficking, illegal mining, extortion or smuggling as terrorists and to operate against them as a single unified force. The stated aim is to open up tougher judicial and financial prosecution routes. Colombia has applied the terrorism label to guerrilla organisations such as the FARC and ELN for five decades, but extending it wholesale to trafficking and mining structures leaves the legal consequences unsettled; the move follows the U.S. designation of 20 Latin American criminal groups as Foreign Terrorist Organizations and similar steps in Ecuador, Peru, Argentina and Guatemala. InSight Crime notes that past designations have tended to shift trafficking routes rather than shrink them.",
+          "location": "Colombia",
+          "source": "InSight Crime",
+          "url": "https://insightcrime.org/news/on-the-radar-de-la-espriella-labels-criminal-groups-terrorists/"
+        },
+        {
+          "headline": "Brazil — more than a tonne of cannabis and hashish pulled from a truck on the São Paulo–Paraná line",
+          "body": "A joint patrol of FICCO/SP, FICCO/PR and the Tático Ostensivo Rodoviário stopped a Paraná-registered vehicle at the state boundary on August 26 and found 29 bales hidden inside an otherwise legitimate load. The haul came to 1,139.35 kilograms of marijuana and 12.3 kilograms of hashish — 1,151.65 kilograms in all. One man was arrested at the scene and taken to the Federal Police station in Marília, where the arrest was formalised. The Federal Police published the seizure on August 27.",
+          "quantity": "1,139 kg cannabis · 12.3 kg hashish",
+          "location": "Marília, São Paulo, Brazil",
+          "arrests": "1 arrested",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/ficco-sp-apreende-mais-de-1-tonelada-de-drogas-e-prende-uma-pessoa-em-flagrante",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 1139.35,
+              "place": "Brazil"
+            },
+            {
+              "drug": "hashish",
+              "kg": 12.3,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil — Africa-bound container at Paranaguá gives up 33 kilos of cocaine",
+          "body": "Federal Police working the port area at Paranaguá located roughly 33 kilograms of cocaine concealed in a shipping container on August 27. The cargo was booked for a destination in Africa. No arrests were announced; the drugs went for forensic testing while investigators try to identify who arranged the shipment.",
+          "quantity": "33 kg cocaine",
+          "location": "Paranaguá, Paraná, Brazil",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-apreende-aproximadamente-33-kg-de-cocaina-no-porto-de-paranagua",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 33,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil — two passengers skip their flights in Manaus and leave 47 kilos of skunk behind",
+          "body": "Routine screening at Eduardo Gomes International Airport in Manaus on August 26 turned up about 47 kilograms of a substance with the characteristics of skunk cannabis across two separate incidents. In the first, an X-ray image flagged a suitcase whose owner never boarded and whose identity documents were found discarded nearby. In the second, two bags were offloaded after the passenger who checked them failed to appear at the gate; a re-inspection found more of the same material. The Federal Police in Amazonas released the details on August 27 and are still working to identify those responsible.",
+          "quantity": "47 kg cannabis (skunk)",
+          "location": "Manaus, Amazonas, Brazil",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-apreende-aproximadamente-47-kg-de-skunk-em-malas-no-aeroporto-de-manaus-am",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 47,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Ecuador — \"parallel courier\" network shipping cocaine to the US and Europe broken up after a year-long probe",
+          "body": "Police and prosecutors executed operation Encuentro 119, code-named Columbus, across Guayas, Manabí and Pichincha on the night of August 26, detaining five people — four Ecuadorians and a Mexican — accused of handling planning, logistics, transport, export and security for a cocaine export ring. Investigators say the group spread consignments across multiple courier companies and modified the internal structure of luggage to defeat export screening, a technique they call \"parallel couriers.\" Seized in the raids were more than 1.8 kilograms of cocaine, $35,125 in cash, a firearm, a vehicle and five mobile phones.",
+          "quantity": "1.8 kg cocaine · $35,125",
+          "location": "Guayas, Manabí and Pichincha, Ecuador",
+          "arrests": "5 detained",
+          "source": "Extra",
+          "url": "https://www.extra.ec/noticia/justicia/cae-red-internacional-enviaba-cocaina-oculta-maletas-encomiendas-ee-uu-161439.html",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 1.8,
+              "place": "Ecuador"
+            }
+          ]
+        },
+        {
+          "headline": "Peru — 12 kilos of cocaine sewn into vests and trousers stopped at Lima's Jorge Chávez airport",
+          "body": "Anti-drug officers from the PNP's Dirandro, working with customs and the Public Ministry, intercepted a Peruvian traveller at Jorge Chávez International Airport in Callao on August 27 with 12.04 kilograms of cocaine packed into 32 bundles. The drugs had been worked into four vests and four pairs of trousers inside checked luggage on a routing to London by way of France. Police also recovered a mobile phone, £500 and 110 soles, and put the destination-market value of the load above $485,000.",
+          "quantity": "12.04 kg cocaine",
+          "location": "Callao, Peru",
+          "arrests": "1 detained",
+          "source": "Infobae Perú",
+          "url": "https://www.infobae.com/peru/2026/08/27/camuflaron-12-kg-de-cocaina-en-chalecos-y-pantalones-capturan-a-peruano-que-intentaba-llevar-droga-a-europa-desde-el-jorge-chavez/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 12.04,
+              "place": "Peru"
+            }
+          ]
+        },
+        {
+          "headline": "Argentina — six kilos of cocaine and four men taken in twin raids in San Juan province",
+          "body": "Investigators reported on August 27 the results of Operación Delfín Blanco, two simultaneous vehicle intercepts staged days earlier in San Juan Capital and in Rawson. A Toyota Hilux was stopped in the capital and a Renault Logan in Rawson, together yielding six kilograms of cocaine along with firearms and documentation. Four men were arrested: Bolivian nationals Wilson Tejerina and Gorover Villa Lobos Solís, and Rawson residents Manuel Soraide and Nicolás Leonardo Villegas Luna. The intercepts closed out a longer-running investigation.",
+          "quantity": "6 kg cocaine",
+          "location": "San Juan, Argentina",
+          "arrests": "4 arrested",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/sociedad/policiales/2026/08/27/secuestraron-6-kilos-de-cocaina-armas-y-vehiculos-tras-un-operativo-en-san-juan-detuvieron-a-4-hombres/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 6,
+              "place": "Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Spain and Portugal — 10.6 tonnes of hashish and ten arrests after stash houses on both banks of the Guadiana are raided",
+          "body": "The Guardia Civil and Portugal's Guarda Nacional Republicana announced on August 28 that operation Tridente had dismantled a network using the Guadiana river as a smuggling corridor between the two countries. Surveillance led officers to a stash house in Ayamonte, Huelva in the early hours of August 20, where three members of the group were caught with 132 bales weighing 5,280 kilograms. Two days later, on August 22, the two forces raided a second stash house on the Portuguese bank and found a further 133 bales weighing 5,320 kilograms. The combined haul of 265 bales came to 10,600 kilograms of hashish, one of the Guardia Civil's largest; ten people were arrested and nine vehicles and three firearms seized. The drugs were destined for distribution across the Iberian peninsula and the wider European market.",
+          "quantity": "10,600 kg hashish",
+          "location": "Huelva, Spain and the Portuguese Guadiana",
+          "arrests": "10 arrested",
+          "source": "Infobae España",
+          "url": "https://www.infobae.com/espana/2026/08/28/la-guardia-civil-logra-una-de-sus-mayores-incautaciones-con-mas-de-10000-kilos-de-hachis-encontrados-por-tierra-mar-y-aire-junto-a-portugal/",
+          "seizures": [
+            {
+              "drug": "hashish",
+              "kg": 5280,
+              "place": "Spain"
+            },
+            {
+              "drug": "hashish",
+              "kg": 5320,
+              "place": "Portugal"
+            }
+          ]
+        },
+        {
+          "headline": "Mexico — fentanyl and heroin found in a bus compartment on the Hermosillo–Nogales run to the Arizona line",
+          "body": "Mexican federal authorities searching a passenger bus on the highway between Hermosillo and the border crossing at Nogales recovered more than 20 pounds of fentanyl and more than 17 pounds of heroin — close to 40 pounds, or roughly 16.8 kilograms — from a hidden compartment, along with several mobile phones. Two people were arrested. The seizure was reported on August 27 and sits on the main northbound corridor into Arizona.",
+          "quantity": "9.1 kg fentanyl · 7.7 kg heroin",
+          "location": "Sonora, Mexico",
+          "arrests": "2 arrested",
+          "source": "KJZZ",
+          "url": "https://www.kjzz.org/fronteras-desk/2026-08-27/mexican-authorities-seize-almost-40-pounds-of-fentanyl-and-heroin-on-highway-to-arizona",
+          "seizures": [
+            {
+              "drug": "fentanyl",
+              "kg": 9.07,
+              "place": "Mexico"
+            },
+            {
+              "drug": "heroin",
+              "kg": 7.71,
+              "place": "Mexico"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}

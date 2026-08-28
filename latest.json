@@ -1,14 +1,14 @@
 {
- "date": "2026-08-27",
- "dateLabel": "Thursday, August 27, 2026",
- "window": "Covering reporting published in the past 24 hours (Aug 26–27). Search indexes are running a day or two behind, so several items announced in this window describe operations carried out earlier in the week; the incident date is stated in each story.",
+ "date": "2026-08-28",
+ "dateLabel": "Friday, August 28, 2026",
+ "window": "Covering reporting published in the past 24 hours (Aug 27–28). Search indexes run a day or two behind, so several items announced in this window describe operations carried out earlier in the month; each story states its own incident date.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 12,
+ "storyCount": 16,
  "sectionCounts": [
   {
    "id": "federal",
    "name": "National / Federal (US)",
-   "count": 2
+   "count": 4
   },
   {
    "id": "local",
@@ -18,146 +18,146 @@
   {
    "id": "south-america",
    "name": "South America",
-   "count": 4
+   "count": 8
   },
   {
    "id": "world",
    "name": "Rest of World",
-   "count": 4
+   "count": 2
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "CJNG's Michoacán commanders — brothers \"R1\" and \"R2\" — indicted in Washington",
-   "summary": "A federal grand jury in the District of Columbia returned an indictment on August 26 charging Ramón Álvarez Ayala, 44, and Rafael Álvarez Ayala, 42, both Mexican nationals, with…",
-   "location": "Washington, D.C. / Michoacán, Mexico",
-   "quantity": "",
-   "arrests": "2 charged",
+   "headline": "81 charged as federal agents dismantle the \"Los Baja Deo\" gang in western Puerto Rico",
+   "summary": "Attorney General Todd Blanche travelled to Puerto Rico on August 27 to announce federal charges against 81 alleged members of Los Baja Deo, a drug-trafficking organisation that…",
+   "location": "Mayagüez, Puerto Rico",
+   "quantity": "340 kg fentanyl · 2,200 kg cocaine alleged distributed",
+   "arrests": "81 charged, 70 arrested",
    "source": "U.S. Department of Justice",
-   "url": "https://www.justice.gov/opa/pr/cartel-commanders-charged-international-cocaine-and-methamphetamine-trafficking-conspiracy"
+   "url": "https://www.justice.gov/opa/pr/81-members-violent-gang-puerto-rico-charged-drug-trafficking-and-firearms-violations-part"
   },
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "\"Operation Last Call\" — 44 arrested on federal gun and drug charges in Nashville",
-   "summary": "Forty-four people were arrested on federal indictments over the weekend of August 19–23 in a joint initiative by the U.S.",
-   "location": "Nashville, Tennessee",
-   "quantity": "2+ kg meth · 1+ kg fentanyl · 150+ firearms",
-   "arrests": "44 arrested",
+   "headline": "Coast Guard cutter takes 3.3 tonnes of cocaine off a smuggling boat south of Puerto Rico, then burns the boat",
+   "summary": "The crew of the Coast Guard Cutter Richard Dixon stopped a suspected smuggling vessel roughly 50 miles south of Puerto Rico on August 22 and removed about 7,250 pounds — some…",
+   "location": "Caribbean Sea, 50 mi south of Puerto Rico",
+   "quantity": "3,288 kg cocaine",
+   "arrests": "5 detained",
+   "source": "U.S. Coast Guard",
+   "url": "https://www.news.uscg.mil/Press-Releases/Article/4584195/coast-guard-stops-suspected-drug-boat-carrying-545-million-in-cocaine-off-puert/"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Sinaloa cook who bought Chinese precursors and made \"several metric tons\" of fentanyl pleads guilty in Washington",
+   "summary": "Hernán Geovani Ojeda Elenes, 48, of Culiacán, pleaded guilty on August 27 before U.S. District Judge Ana C.",
+   "location": "Washington, D.C. / Culiacán, Mexico",
+   "quantity": "",
+   "arrests": "1 guilty plea",
    "source": "U.S. Department of Justice",
-   "url": "https://www.justice.gov/usao-mdtn/pr/operation-last-call-effort-results-arrests-44-illegal-firearms-and-narcotics-offenses"
+   "url": "https://www.justice.gov/opa/pr/mexican-fentanyl-manufacturer-pleads-guilty-international-drug-trafficking-offenses"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Dominican cocaine broker who fled to Colombia is extradited to face charges in Puerto Rico and New Jersey",
+   "summary": "Erick Randhiel Mosquea Polanco, 45, described by the DEA as a Regional Priority Organizational Target and known as \"Ramón\" and \"E,\" was flown from Colombia to Puerto Rico on…",
+   "location": "San Juan, Puerto Rico / Newark, New Jersey",
+   "quantity": "",
+   "arrests": "1 extradited",
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/leader-dominican-based-drug-trafficking-organization-extradited-colombia-united-states-face"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Alabama — parking-lot hand-off in Semmes yields meth, cocaine, fentanyl and ten guns",
-   "summary": "Mobile County sheriff's deputies working with Homeland Security Investigations broke up an alleged drug hand-off in a commercial parking lot in Semmes on August 25, seizing five…",
-   "location": "Semmes, Alabama",
-   "quantity": "5 lb meth · 1 kg cocaine · 21 g fentanyl · 10 guns",
-   "arrests": "2 charged",
-   "source": "FOX10 News",
-   "url": "https://www.fox10tv.com/2026/08/26/drug-bust-that-sparked-2-chases-took-down-big-operation-mobile-county-sheriff-says/"
+   "headline": "New York — 22 arrested and 7 kilos of cocaine and fentanyl taken in a year-long Rochester investigation",
+   "summary": "Rochester police announced on August 27 that an investigation opened roughly a year ago into 36-year-old Javaris Corbit had ended with 22 people aged 16 to 56 in custody on drug…",
+   "location": "Rochester, New York",
+   "quantity": "3.5 kg cocaine · 3.5 kg fentanyl · 26 firearms",
+   "arrests": "22 arrested",
+   "source": "WXXI News",
+   "url": "https://www.wxxinews.org/local-news/2026-08-27/rochester-police-say-theyve-arrested-the-alleged-leader-of-a-city-drug-network"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Ohio — two kilos of cocaine thrown from a fleeing car during a Richland County pursuit",
-   "summary": "The METRICH Enforcement Unit, assisted by the Richland County Sheriff's Office, ran a traffic enforcement operation on August 25 against two vehicles suspected of moving large…",
-   "location": "Richland County, Ohio",
-   "quantity": "~2 kg cocaine",
+   "headline": "Kentucky — fentanyl found at the jail after a Pike County traffic stop turns up 130 grams of meth",
+   "summary": "Kentucky State Police stopped a car in the Belfry community of Pike County on August 26 and recovered 130 grams of methamphetamine, arresting Delbert Chambers and Terrell Wright…",
+   "location": "Pike County, Kentucky",
+   "quantity": "130 g meth · 60 g fentanyl",
    "arrests": "2 arrested",
-   "source": "Richland Source",
-   "url": "https://www.richlandsource.com/2026/08/26/two-mansfield-men-arrested-as-metrich-enforcement-unit-recovers-2-kilos-of-cocaine/"
+   "source": "WSAZ",
+   "url": "https://www.wsaz.com/2026/08/27/two-arrested-drug-trafficking/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Ecuador — 43 arrested and a smuggling plane seized as police hit Los Lobos and Los Choneros",
-   "summary": "Ecuador's National Police executed two simultaneous operations, codenamed \"Factoría\" and \"Jericó,\" on the morning of August 26, carrying out 36 raids across the provinces of…",
-   "location": "Guayas, Manabí, Esmeraldas and three other provinces, Ecuador",
-   "quantity": "~2.5 t drugs · aircraft · $1M + €858,000",
-   "arrests": "43 arrested",
-   "source": "Infobae / Expreso",
-   "url": "https://www.infobae.com/america/america-latina/2026/08/27/megaoperativo-en-ecuador-detuvieron-a-43-integrantes-de-las-bandas-criminales-de-los-choneros-y-los-lobos/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Peru — 352 kg of cocaine seized after a chase on the Binational Highway in Moquegua",
-   "summary": "Peruvian National Police intercepted a vehicle on the Carretera Binacional in Moquegua on the night of August 25–26 and recovered 352 kilograms 150 grams of cocaine hydrochloride…",
-   "location": "Moquegua, Peru",
-   "quantity": "352.15 kg cocaine",
-   "arrests": "4 detained",
-   "source": "La Prensa Regional",
-   "url": "https://prensaregional.pe/incautan-mas-de-352-kilos-de-cocaina-tras-persecucion-en-la-carretera-binacional-de-moquegua/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — 373 kg of skunk cannabis taken off a boat outside Rio Branco",
-   "summary": "The Acre integrated organised-crime task force FICCO/AC seized 373.5 kilograms of skunk cannabis, along with a boat and its outboard motor, during operations in rural Rio Branco…",
-   "location": "Rio Branco, Acre, Brazil",
-   "quantity": "373.5 kg cannabis (skunk)",
+   "headline": "Colombia — second airstrike of the De la Espriella government hits a FARC dissident camp in Guaviare",
+   "summary": "Colombian forces bombed camps used by the Jorge Suárez Briceño Bloc, part of the FARC dissident structure commanded by alias \"Calarcá,\" in rural El Retorno, Guaviare, in the…",
+   "location": "El Retorno, Guaviare, Colombia",
+   "quantity": "11 rifles · 5 machine guns",
    "arrests": "",
-   "source": "Polícia Federal (FICCO/AC)",
-   "url": "https://www.pontaporainforma.com.br/ficco-ac-em-acao-conjunta-apreende-373-kg-de-drogas/"
+   "source": "Vanguardia",
+   "url": "https://www.vanguardia.com/colombia/2026/08/27/bombardeo-del-gobierno-de-de-la-espriella-contra-disidencias-de-calarca-en-guaviare-ocho-muertos/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentina — Naval Prefecture pulls 340 kg of marijuana out of the Paraná at Puerto Iguazú",
-   "summary": "Prefectura Naval Argentina reported on August 26 that it had seized more than 340 kilograms of marijuana, packed in 452 bundles inside 11 large sacks, at Puerto Carolina in Puerto…",
-   "location": "Puerto Iguazú, Misiones, Argentina",
-   "quantity": "340+ kg cannabis",
+   "headline": "Colombia — every trafficking group is now to be treated as \"terrorist\" under a new presidential directive",
+   "summary": "President Abelardo de la Espriella issued an order on August 27 requiring Colombia's army, navy, air force and police to classify any criminal group involved in drug trafficking…",
+   "location": "Colombia",
+   "quantity": "",
    "arrests": "",
-   "source": "Ministerio de Seguridad (Argentina)",
-   "url": "https://www.argentina.gob.ar/noticias/pna-secuestro-droga-valuada-en-1300-millones-de-pesos"
+   "source": "InSight Crime",
+   "url": "https://insightcrime.org/news/on-the-radar-de-la-espriella-labels-criminal-groups-terrorists/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Guatemala — 202 packages of cocaine found in a hidden compartment in San Marcos",
-   "summary": "Anti-narcotics officers of the Policía Nacional Civil's SGAIA unit stopped a pickup truck at a checkpoint in Aldea San Isidro, in the municipality of Malacatán, San Marcos, on…",
-   "location": "Malacatán, San Marcos, Guatemala",
-   "quantity": "202 packages of cocaine",
-   "arrests": "3 captured",
-   "source": "Emisoras Unidas",
-   "url": "https://emisorasunidas.com/nacional/2026/08/26/san-marcos-droga-cocaina-carro-capturados"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — more than a tonne of cannabis and hashish pulled from a truck on the São Paulo–Paraná line",
+   "summary": "A joint patrol of FICCO/SP, FICCO/PR and the Tático Ostensivo Rodoviário stopped a Paraná-registered vehicle at the state boundary on August 26 and found 29 bales hidden inside an…",
+   "location": "Marília, São Paulo, Brazil",
+   "quantity": "1,139 kg cannabis · 12.3 kg hashish",
+   "arrests": "1 arrested",
+   "source": "Polícia Federal",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/ficco-sp-apreende-mais-de-1-tonelada-de-drogas-e-prende-uma-pessoa-em-flagrante"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "India — cross-border heroin cartel broken up in Jammu, 5.16 kg seized",
-   "summary": "The Narcotics Control Bureau announced on August 27 that it had dismantled a cross-border heroin trafficking cartel operating in Jammu, seizing 5.16 kilograms of heroin and…",
-   "location": "Jammu, India",
-   "quantity": "5.16 kg heroin",
-   "arrests": "3 arrested",
-   "source": "Kashmir Images",
-   "url": "https://thekashmirimages.com/2026/08/27/3-arrested-with-5-16-kg-heroin-as-ncb-busts-cross-border-cartel-in-jammu/"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — Africa-bound container at Paranaguá gives up 33 kilos of cocaine",
+   "summary": "Federal Police working the port area at Paranaguá located roughly 33 kilograms of cocaine concealed in a shipping container on August 27.",
+   "location": "Paranaguá, Paraná, Brazil",
+   "quantity": "33 kg cocaine",
+   "arrests": "",
+   "source": "Polícia Federal",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-apreende-aproximadamente-33-kg-de-cocaina-no-porto-de-paranagua"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "India — 13 held and 45 kg of ganja seized in a Chennai city-wide crackdown",
-   "summary": "Chennai police raided multiple locations across the city and arrested 13 people, recovering about 45 kilograms of ganja, more than 1,000 narcotic tablets and quantities of…",
-   "location": "Chennai, India",
-   "quantity": "45 kg cannabis · 1,000+ tablets",
-   "arrests": "13 arrested",
-   "source": "News Today",
-   "url": "https://newstodaynet.com/2026/08/27/13-held-in-chennai-drug-crackdown-45-kg-ganja-seized/"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — two passengers skip their flights in Manaus and leave 47 kilos of skunk behind",
+   "summary": "Routine screening at Eduardo Gomes International Airport in Manaus on August 26 turned up about 47 kilograms of a substance with the characteristics of skunk cannabis across two…",
+   "location": "Manaus, Amazonas, Brazil",
+   "quantity": "47 kg cannabis (skunk)",
+   "arrests": "",
+   "source": "Polícia Federal",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-apreende-aproximadamente-47-kg-de-skunk-em-malas-no-aeroporto-de-manaus-am"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Afghanistan — 218 kg of narcotics seized in two operations in Ghor province",
-   "summary": "Counter-narcotics police in Ghor province, western Afghanistan, seized 218 kilograms of narcotics — including 101 kilograms of opium — from two cars in separate operations in and…",
-   "location": "Ghor province, Afghanistan",
-   "quantity": "218 kg narcotics (101 kg opium)",
-   "arrests": "2 arrested",
-   "source": "Xinhua",
-   "url": "https://english.news.cn/asiapacific/20260827/d96c2d0e3da84977953f8371b35b1d73/c.html"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Ecuador — \"parallel courier\" network shipping cocaine to the US and Europe broken up after a year-long probe",
+   "summary": "Police and prosecutors executed operation Encuentro 119, code-named Columbus, across Guayas, Manabí and Pichincha on the night of August 26, detaining five people — four…",
+   "location": "Guayas, Manabí and Pichincha, Ecuador",
+   "quantity": "1.8 kg cocaine · $35,125",
+   "arrests": "5 detained",
+   "source": "Extra",
+   "url": "https://www.extra.ec/noticia/justicia/cae-red-internacional-enviaba-cocaina-oculta-maletas-encomiendas-ee-uu-161439.html"
   }
  ]
 }
