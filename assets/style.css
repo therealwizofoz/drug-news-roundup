@@ -1,7 +1,20 @@
-/* Drug News Roundup — Nocturne
+/* Drug News Roundup — Nocturne · Relief
    Drop-in replacement for site/assets/style.css.
-   No build.py or HTML changes needed: every rule targets the markup
-   build.py already emits. */
+   No build.py or HTML changes: every rule targets the markup build.py
+   already emits.
+
+   What changed vs Nocturne — one physical model instead of scattered
+   effects. A single light source sits above the page:
+     · raised surfaces catch it on their top edge (1px inner highlight),
+       lighten slightly, and cast layered ambient shadow
+     · structural rules become engraved grooves (dark line + lit lip)
+     · empty slots and the current-page pill are pressed IN — depth
+       carries meaning: raised = act on it, flush = read it, recessed =
+       nothing here / where you already are
+   Plus: sticky glass section headers, a plinth for the lead story,
+   drawer physics on the tally rows, scroll-settle motion. All motion is
+   behind prefers-reduced-motion + @supports; the page is fully readable
+   with none of it. Changed blocks are marked ▲. */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 
@@ -24,11 +37,26 @@
   --font: "Inter", system-ui, -apple-system, sans-serif;
   --radius: 8px;
   --rule: linear-gradient(to right, var(--n-800) 0%, rgba(41, 43, 49, 0.6) 70%, transparent 100%);
+
+  /* ▲ depth tokens — the whole system in six values */
+  --edge-hi: rgba(233, 233, 237, 0.06);   /* lit top edge of raised things */
+  --line-lo: #0e101b;                      /* groove: the shadowed line   */
+  --seam: #0b0d17;                         /* grout between joined cells  */
+  --raise: linear-gradient(180deg, #272939 0%, #232532 62%);
+  --shadow-1: 0 1px 2px rgba(7, 8, 15, 0.45), 0 6px 18px -6px rgba(7, 8, 15, 0.45);
+  --shadow-2: 0 1px 2px rgba(7, 8, 15, 0.5), 0 8px 24px -6px rgba(7, 8, 15, 0.5), 0 24px 48px -18px rgba(7, 8, 15, 0.55);
+  --well-bg: #12141f;
+  --well-shadow: inset 0 2px 8px rgba(5, 6, 12, 0.55), inset 0 1px 2px rgba(5, 6, 12, 0.6), 0 1px 0 rgba(233, 233, 237, 0.04);
+  interpolate-size: allow-keywords;        /* lets <details> height animate where supported */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
 
 html { color-scheme: dark; }
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; } /* ▲ toc jumps glide */
+}
 
 body {
   margin: 0;
@@ -53,15 +81,30 @@ body {
   border-bottom: 1px solid var(--n-900);
   overflow: hidden;
 }
+/* ▲ two glow planes instead of one — the second, fainter echo makes the
+   first read as nearer. Parallax below separates them further. */
 .masthead::before {
   content: "";
   position: absolute;
   top: -260px; left: -120px;
   width: 720px; height: 520px;
-  background: radial-gradient(closest-side, rgba(145, 132, 217, 0.2), transparent);
+  background:
+    radial-gradient(closest-side, rgba(145, 132, 217, 0.2), transparent),
+    radial-gradient(closest-side at 78% 82%, rgba(145, 132, 217, 0.07), transparent);
   pointer-events: none;
 }
-.masthead > * { position: relative; }
+/* ▲ film grain over the glow only — gradients stop reading as "screen
+   default" and start reading as printed. Kept off body text. */
+.masthead::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+  opacity: 0.14;
+  pointer-events: none;
+}
+.masthead > * { position: relative; z-index: 1; } /* ▲ content above grain */
 
 .kicker {
   margin: 0 0 22px;
@@ -92,24 +135,33 @@ body {
   text-wrap: pretty;
 }
 
+/* ▲ nav pills become physical keys: lit top edge, soft drop, and a real
+   press on :active (works as tap feedback on mobile). The current page
+   is pressed IN — you are already "on" that key. */
 nav.top { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 30px; }
 nav.top a {
   padding: 8px 14px;
-  border: 1px solid var(--n-900);
+  border: 1px solid #30323f;
   border-radius: var(--radius);
-  background: var(--surface);
+  background: linear-gradient(180deg, #2a2c3c, var(--surface));
+  box-shadow: inset 0 1px 0 var(--edge-hi), 0 1px 2px rgba(7, 8, 15, 0.45), 0 2px 6px -1px rgba(7, 8, 15, 0.35);
   font: 400 13px/1 var(--font);
   color: var(--n-300);
   text-decoration: none;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.08s, box-shadow 0.12s;
 }
-nav.top a:hover { color: var(--text); border-color: var(--n-800); }
-nav.top a:active { background: var(--accent-800); }
+nav.top a:hover { color: var(--text); border-color: #3a3c4a; }
+nav.top a:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 1px 0 transparent, 0 1px 1px rgba(7, 8, 15, 0.3);
+  background: var(--surface);
+}
 nav.top a[aria-current] {
-  background: var(--accent-900);
+  background: #211e33;
   border-color: var(--accent-800);
   color: var(--accent-200);
   font-weight: 500;
+  box-shadow: inset 0 2px 5px rgba(7, 8, 15, 0.45), inset 0 -1px 0 rgba(233, 233, 237, 0.04);
 }
 
 /* ---------- contents ---------- */
@@ -122,6 +174,9 @@ nav.top a[aria-current] {
   text-transform: uppercase;
   color: var(--n-500);
 }
+/* ▲ the contents grid becomes one raised slab — an index card sitting on
+   the page — instead of hairline outlines flush with it. Cells stay
+   joined (calmer than six buttons); the slab casts the shadow. */
 .toc ol {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
@@ -130,8 +185,11 @@ nav.top a[aria-current] {
   padding: 0;
   list-style: none;
   counter-reset: toc;
-  border-radius: var(--radius);
+  border: 1px solid #2b2d3b;
+  border-radius: 12px;
   overflow: hidden;
+  background: var(--seam);
+  box-shadow: inset 0 1px 0 var(--edge-hi), var(--shadow-1);
 }
 .toc li { counter-increment: toc; position: relative; }
 .toc li a {
@@ -139,12 +197,11 @@ nav.top a[aria-current] {
   gap: 10px;
   height: 100%;
   padding: 16px;
-  background: var(--bg);
-  box-shadow: 0 0 0 1px var(--n-900);
+  background: #1b1d2a;
   font: 400 14px/1.35 var(--font);
   color: var(--n-300);
   text-decoration: none;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
 }
 .toc li a::before {
   content: "0" counter(toc);
@@ -154,6 +211,7 @@ nav.top a[aria-current] {
 }
 .toc li.toc-tally a::before { content: "↓"; letter-spacing: 0; }
 .toc li a:hover { background: var(--surface); color: var(--text); }
+.toc li a:active { background: var(--bg); box-shadow: inset 0 2px 6px rgba(7, 8, 15, 0.5); } /* ▲ tap feedback */
 .toc .count {
   position: absolute;
   top: 16px;
@@ -162,19 +220,43 @@ nav.top a[aria-current] {
   color: var(--n-500);
 }
 
+/* ▲ wide screens: contents fits one row — compact cells, any count */
+@media (min-width: 720px) {
+  .toc ol { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 1fr; }
+  .toc li a { padding: 11px 14px 12px; gap: 6px; font-size: 13px; }
+  .toc .count { top: 11px; right: 14px; }
+}
+
 /* ---------- sections ---------- */
 
-.block { margin-top: 64px; }
+.block { margin-top: 64px; scroll-margin-top: 6px; }
 
+/* ▲ section headers stick and float on frosted glass — the one place
+   backdrop-blur earns its keep: passing stories visibly slide UNDER the
+   header, demonstrating layers while doing navigation work (you always
+   know which section you're in). Falls back to a solid bar, degrades to
+   a normal header. */
 .block > h2 {
+  position: sticky;
+  top: 0;
+  z-index: 6;
   display: flex;
   align-items: baseline;
   gap: 16px;
   margin: 0 0 4px;
+  padding: 16px 0 14px;
   font: 500 13px/1 var(--font);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--text);
+  background: var(--bg);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .block > h2 {
+    background: rgba(22, 24, 38, 0.72);
+    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    backdrop-filter: blur(12px) saturate(140%);
+  }
 }
 .block > h2::after {
   content: "";
@@ -192,11 +274,16 @@ nav.top a[aria-current] {
 
 /* ---------- stories ---------- */
 
+/* ▲ stories stay flush — they are the paper itself; reading surfaces get
+   no chrome. But the rules between them become engraved grooves: a dark
+   line whose lower lip catches the light. The page reads carved, not
+   drawn, at zero ink cost. */
 .story {
   display: grid;
   gap: 12px;
   padding: 28px 0;
-  border-top: 1px solid var(--n-900);
+  border-top: 1px solid var(--line-lo);
+  box-shadow: inset 0 1px 0 rgba(233, 233, 237, 0.04);
 }
 .story h3 {
   margin: 0;
@@ -213,8 +300,21 @@ nav.top a[aria-current] {
   text-wrap: pretty;
 }
 
-/* the lead story of the edition carries the edition */
-#federal .story:first-of-type { padding: 34px 0 32px; gap: 14px; }
+/* ▲ the lead story gets a plinth: raised above the paper on a lit slab,
+   slightly wider than the column, with the masthead's violet light
+   grazing its top-left corner — the one card on the page, so it stays
+   singular. */
+#federal .story:first-of-type {
+  margin: 14px -22px 8px;
+  padding: 30px 26px 28px;
+  gap: 14px;
+  border: 1px solid #2e3042;
+  border-radius: 14px;
+  background:
+    radial-gradient(90% 130% at 10% -12%, rgba(145, 132, 217, 0.14), transparent 55%),
+    linear-gradient(180deg, #282a3c, #222431 70%);
+  box-shadow: inset 0 1px 0 rgba(233, 233, 237, 0.07), var(--shadow-2);
+}
 #federal .story:first-of-type h3 {
   font-size: clamp(24px, 2.6vw, 32px);
   line-height: 1.2;
@@ -231,9 +331,12 @@ nav.top a[aria-current] {
   font: 400 12px/1.4 var(--font);
   color: var(--n-300);
 }
+/* ▲ the seizure quantity is the triage datum — it becomes a raised token
+   (lit edge + tiny drop) so the eye can hop chip-to-chip down the page. */
 .chip.qty {
   border-color: transparent;
-  background: var(--accent-900);
+  background: linear-gradient(180deg, #332d52, var(--accent-900));
+  box-shadow: inset 0 1px 0 rgba(231, 229, 254, 0.12), 0 1px 3px rgba(7, 8, 15, 0.4);
   color: var(--accent-200);
   font-weight: 500;
 }
@@ -257,10 +360,15 @@ nav.top a[aria-current] {
 .source a:hover { color: var(--accent-200); border-color: var(--accent-500); }
 .source a:active { color: var(--accent-400); }
 
+/* ▲ empty sections are pressed INTO the page — a hollow tray. "Checked,
+   nothing here" reads as deliberate, the opposite plane from content. */
 .empty {
-  margin: 0;
-  padding: 28px 0;
-  border-top: 1px solid var(--n-900);
+  margin: 14px 0 0;
+  padding: 22px 20px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--well-bg);
+  box-shadow: var(--well-shadow);
   font: 400 15px/1.7 var(--font);
   color: var(--n-500);
 }
@@ -273,12 +381,13 @@ nav.top a[aria-current] {
   align-items: start;
 }
 #ongoing > h2 { grid-column: 1 / -1; margin-bottom: 20px; }
+#ongoing .empty { grid-column: 1 / -1; } /* ▲ tray spans the grid */
 #ongoing .story {
   padding: 18px;
-  border: 1px solid var(--n-900);
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+  border: 1px solid #2b2d3b;
+  border-radius: 12px;
+  background: var(--raise); /* ▲ same raised recipe as every lifted surface */
+  box-shadow: inset 0 1px 0 var(--edge-hi), var(--shadow-1);
   align-content: start;
   gap: 11px;
 }
@@ -288,19 +397,29 @@ nav.top a[aria-current] {
 
 /* ---------- running tally ---------- */
 
+/* ▲ the tally is the instrument panel of the page: the deepest slab,
+   lit from the same source, numbers set like a gauge. */
 .block.tally {
   margin-top: 80px;
   padding: 38px 32px 8px;
-  border: 1px solid var(--n-900);
-  border-radius: 12px;
-  background: linear-gradient(180deg, var(--surface), var(--bg) 70%);
+  border: 1px solid #2c2e3d;
+  border-radius: 16px;
+  background:
+    radial-gradient(120% 80% at 85% -20%, rgba(145, 132, 217, 0.1), transparent 60%),
+    linear-gradient(180deg, #252736, #1a1c29 55%, #171927);
+  box-shadow: inset 0 1px 0 var(--edge-hi), 0 2px 4px rgba(7, 8, 15, 0.4), 0 14px 40px -12px rgba(7, 8, 15, 0.6);
 }
 .block.tally > h2 {
+  position: static; /* ▲ no sticky inside the slab */
   display: block;
   margin: 0 0 14px;
+  padding: 0;
   font: 500 11px/1 var(--font);
   letter-spacing: 0.2em;
   color: var(--accent-400);
+  background: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 }
 .block.tally > h2::after { display: none; }
 
@@ -319,7 +438,8 @@ nav.top a[aria-current] {
   gap: 8px 18px;
   margin: 4px 0 34px;
   padding-bottom: 32px;
-  border-bottom: 1px solid var(--n-900);
+  border-bottom: 1px solid var(--line-lo);
+  box-shadow: 0 1px 0 rgba(233, 233, 237, 0.04); /* ▲ groove */
 }
 .tally-headline .big {
   font: 300 clamp(52px, 7vw, 84px)/0.9 var(--font);
@@ -338,6 +458,7 @@ nav.top a[aria-current] {
   color: var(--n-400);
 }
 .block.tally .scroll-x + h3 { margin-top: 40px; }
+.block.tally .places + h3 { margin-top: 36px; } /* ▲ matches new markup */
 
 .scroll-x { overflow-x: auto; margin-bottom: 8px; }
 
@@ -371,10 +492,6 @@ nav.top a[aria-current] {
 
 /* ---------- story photographs ---------- */
 
-/* Only stories carrying a public-domain photo get this treatment; every
-   other story keeps the plain full-width layout above, so a sparse
-   edition still reads as deliberate. */
-
 .story.has-shot {
   grid-template-columns: minmax(0, 1fr) 232px;
   gap: 12px 30px;
@@ -384,14 +501,16 @@ nav.top a[aria-current] {
 
 figure.shot { margin: 0; display: grid; gap: 8px; }
 
+/* ▲ photos read as prints lying on the page: lit edge + real drop */
 figure.shot img {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border: 1px solid var(--n-900);
+  border: 1px solid #2e3040;
   border-radius: var(--radius);
   background: var(--surface);
+  box-shadow: inset 0 1px 0 var(--edge-hi), var(--shadow-1);
 }
 
 figure.shot figcaption {
@@ -401,10 +520,8 @@ figure.shot figcaption {
   text-wrap: pretty;
 }
 
-/* the lead story earns a larger photo */
 #federal .story.has-shot:first-of-type { grid-template-columns: minmax(0, 1fr) 300px; }
 
-/* inside the ongoing cards the column is already narrow — stack instead */
 #ongoing .story.has-shot { grid-template-columns: 1fr; gap: 11px; }
 #ongoing figure.shot { order: -1; }
 
@@ -421,9 +538,10 @@ figure.shot figcaption {
 .prior-years > h3 { margin-bottom: 10px; }
 
 details.year {
-  border-top: 1px solid var(--n-900);
+  border-top: 1px solid var(--line-lo);
+  box-shadow: inset 0 1px 0 rgba(233, 233, 237, 0.04); /* ▲ groove */
 }
-details.year:last-of-type { border-bottom: 1px solid var(--n-900); }
+details.year:last-of-type { border-bottom: 1px solid var(--line-lo); }
 
 details.year > summary {
   display: flex;
@@ -490,14 +608,18 @@ details.year .m { font: 400 12.5px/1.4 var(--font); color: var(--n-500); }
 
 /* ---------- archive index ---------- */
 
+/* ▲ same raised-slab treatment as the contents grid */
 ul.archive {
   display: grid;
   gap: 1px;
   margin: 48px 0 0;
   padding: 0;
   list-style: none;
-  border-radius: var(--radius);
+  border: 1px solid #2b2d3b;
+  border-radius: 12px;
   overflow: hidden;
+  background: var(--seam);
+  box-shadow: inset 0 1px 0 var(--edge-hi), var(--shadow-1);
 }
 ul.archive a {
   display: flex;
@@ -505,12 +627,12 @@ ul.archive a {
   justify-content: space-between;
   gap: 16px;
   padding: 18px 20px;
-  background: var(--bg);
-  box-shadow: 0 0 0 1px var(--n-900);
+  background: #1b1d2a;
   text-decoration: none;
-  transition: background 0.15s;
+  transition: background 0.15s, box-shadow 0.15s;
 }
 ul.archive a:hover { background: var(--surface); }
+ul.archive a:active { background: var(--bg); box-shadow: inset 0 2px 6px rgba(7, 8, 15, 0.5); }
 ul.archive .d { font: 400 17px/1.3 var(--font); color: var(--text); }
 ul.archive .n { font: 400 12.5px/1 var(--font); color: var(--n-500); }
 
@@ -519,7 +641,8 @@ ul.archive .n { font: 400 12.5px/1 var(--font); color: var(--n-500); }
 footer {
   margin-top: 64px;
   padding-top: 28px;
-  border-top: 1px solid var(--n-900);
+  border-top: 1px solid var(--line-lo);
+  box-shadow: inset 0 1px 0 rgba(233, 233, 237, 0.04); /* ▲ groove */
   display: grid;
   gap: 10px;
   max-width: 74ch;
@@ -540,23 +663,29 @@ a:hover { color: var(--accent-200); }
 @media (max-width: 640px) {
   .wrap { padding: 0 20px 64px; }
   .masthead { margin: 0 -20px; padding: 52px 20px 36px; }
-  .block.tally { padding: 28px 20px 8px; }
+  .block.tally { padding: 28px 20px 8px; border-radius: 14px; }
   .tally-table .brk { display: none; }
+  #federal .story:first-of-type { margin: 12px -8px 8px; padding: 24px 18px 22px; } /* ▲ */
 }
 
 @media print {
   body { background: #fff; color: #000; }
-  .masthead::before, nav.top, .toc { display: none; }
+  .masthead::before, .masthead::after, nav.top, .toc { display: none; }
+  /* ▲ depth is a screen phenomenon */
+  * { box-shadow: none !important; text-shadow: none !important; }
+  .block > h2 { position: static; background: none; }
 }
 
 /* ---------- tally: expandable place rows ---------- */
-/* Replaces the old three-column .tally-table, whose breakdown column was
-   hidden below 640px. Each place is a <details>: total always visible,
-   per-drug detail one tap away. No JavaScript. */
+/* Each place is a <details>: total always visible, per-drug detail one
+   tap away. No JavaScript.
+   ▲ Relief: opening a row pulls it out of the slab — it floats forward
+   as a drawer (wider than the list, lit edge, own shadow) and settles
+   back when closed. Tap-driven, so mobile gets the full effect. */
 
-.places { border-top: 1px solid var(--n-900); }
+.places { border-top: 1px solid var(--line-lo); box-shadow: inset 0 1px 0 rgba(233, 233, 237, 0.04); }
 
-details.place { border-bottom: 1px solid var(--n-900); }
+details.place { border-bottom: 1px solid var(--line-lo); }
 
 details.place > summary {
   display: grid;
@@ -605,11 +734,27 @@ details.place > summary::after {
 }
 details.place[open] > summary::after { content: "－"; }
 
+/* ▲ the drawer, pulled out. Negative margin + equal padding keeps the
+   numbers column perfectly aligned with the closed rows around it; a
+   shadow ring stands in for a border so nothing shifts by 1px. */
+details.place[open] {
+  margin: 5px -16px;
+  padding: 1px 16px 3px;
+  border-radius: 12px;
+  border-bottom-color: transparent;
+  background: linear-gradient(180deg, #2a2c3d, #242634);
+  box-shadow:
+    0 0 0 1px #32344a,
+    inset 0 1px 0 var(--edge-hi),
+    0 1px 2px rgba(7, 8, 15, 0.4),
+    0 10px 24px -8px rgba(7, 8, 15, 0.55);
+}
+
 ul.drugs {
   margin: 0 0 14px;
   padding: 2px 0 0 14px;
   list-style: none;
-  border-left: 1px solid var(--n-900);
+  border-left: 1px solid var(--n-800);
   display: grid;
   gap: 7px;
 }
@@ -626,8 +771,76 @@ ul.drugs .w {
   white-space: nowrap;
 }
 
-/* wider screens: the substance count and the +/- fit on one line */
 @media (min-width: 560px) {
   details.place > summary { grid-template-columns: 1fr auto auto auto; gap: 14px; }
   details.place > summary::after { grid-column: 4; grid-row: 1; }
+}
+
+/* ---------- ▲ top-lit type (screen only, guarded) ---------- */
+/* The title and the headline tonnage take a vertical gradient — white
+   where the light hits, dimming downward — the same physics as the
+   surfaces. Print and non-supporting browsers keep solid text. */
+
+@media screen {
+  @supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .masthead h1 {
+      background: linear-gradient(180deg, #ffffff 0%, var(--text) 46%, #b3b3c2 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: var(--text);
+    }
+    .tally-headline .big {
+      background: linear-gradient(180deg, #f4f2ff 0%, var(--accent-300) 48%, var(--accent-500) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: var(--accent-300);
+      filter: drop-shadow(0 0 26px rgba(145, 132, 217, 0.22));
+    }
+  }
+}
+
+/* ---------- ▲ motion (all optional, all guarded) ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* drawer pull-out eases instead of snapping */
+  details.place {
+    transition: margin 0.2s ease, padding 0.2s ease, background 0.2s ease,
+                box-shadow 0.2s ease, border-radius 0.2s ease, border-color 0.2s ease;
+  }
+  /* height of the revealed list animates where ::details-content exists */
+  details.place::details-content {
+    block-size: 0;
+    overflow-y: clip;
+    transition: block-size 0.26s ease, content-visibility 0.26s allow-discrete;
+  }
+  details.place[open]::details-content { block-size: auto; }
+
+  /* scroll-settle: content drifts up ~14px into place as it enters the
+     viewport — the page feels layered in, not painted. Pure CSS
+     scroll-driven animation; browsers without it show the final state. */
+  @supports (animation-timeline: view()) {
+    .story, .empty, .toc ol, .block.tally, ul.archive {
+      animation: relief-settle linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+    /* the masthead glow lags the scroll — two planes moving at
+       different speeds read as depth behind the title */
+    .masthead::before {
+      animation: relief-drift linear both;
+      animation-timeline: scroll();
+      animation-range: 0px 640px;
+    }
+  }
+}
+
+@keyframes relief-settle {
+  from { opacity: 0.001; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes relief-drift {
+  to { translate: 36px 110px; scale: 1.06; opacity: 0.55; }
 }
