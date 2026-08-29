@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-29",
+  "window": "Covering reporting published in the past 24-48 hours (Aug 28-29). Search indexes lag, so several items describe operations carried out a day or two earlier; each story states its own incident date.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Marines sink a sanctioned \"floating refueling station\" that supplied Ecuador's Los Choneros in the Eastern Pacific",
+          "body": "Acting on Gen. Francis Donovan's orders and coordinating with Ecuador, Joint Task Force Western Hemisphere intercepted a vessel in international waters of the Eastern Pacific on August 28 that intelligence tied to a Treasury-sanctioned fuel-supply network for the Los Choneros trafficking organization. Marines and sailors launched from the amphibious transport USS San Antonio boarded, searched and cleared the ship without incident, ferried the people aboard safely to Ecuador, and then sank the empty vessel. SOUTHCOM described the boat as a key logistics node rather than a drug-carrying vessel itself, and no strike, casualties or drug seizure were reported — a notably different kind of action from the lethal strikes SOUTHCOM has carried out elsewhere in the Caribbean and Pacific this month.",
+          "quantity": "1 vessel sunk",
+          "location": "Eastern Pacific Ocean, off Ecuador",
+          "source": "U.S. Southern Command / DVIDS",
+          "url": "https://www.dvidshub.net/video/1021111/interdiction-narco-terrorist-refueling-vessel-aug-28-2026"
+        },
+        {
+          "headline": "Walmart to pay $50 million after DOJ says its pharmacists knowingly filled invalid opioid prescriptions",
+          "body": "The Justice Department and the DEA announced on August 28 that Walmart will pay $50 million to settle a civil complaint, first filed in December 2020, alleging that pharmacists and compliance staff at Walmart pharmacies nationwide knowingly filled thousands of invalid prescriptions for opioids and other controlled substances dating back to June 2013 — including scripts from known \"pill mill\" prescribers and orders with obvious red flags such as dangerous opioid combinations, excessive high-dose refills and repeated early-fill requests. As part of the resolution, Walmart also entered into a memorandum of agreement with the DEA governing how it will handle controlled-substance dispensing going forward.",
+          "quantity": "$50 million settlement",
+          "location": "Nationwide",
+          "source": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/walmart-agrees-pay-50-million-illegally-filling-unlawful-opioid-prescriptions"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "NYPD's biggest cocaine bust in a decade — 263 kilos out of a Queens storage unit",
+          "body": "Officers watching a Public Storage facility on Northern Boulevard in Long Island City saw 35-year-old Nelson Salcedo of Englewood, New Jersey loading boxes into a van on August 28 and stopped him; a search warrant on the storage unit turned up 230 brick-shaped packages of cocaine weighing roughly 580 pounds, valued at about $10 million. The NYPD called it its largest cocaine seizure in more than a decade and linked the case to suspected middlemen for an international cartel; two more people were taken into custody as the investigation continues.",
+          "quantity": "263 kg cocaine",
+          "location": "Queens, New York",
+          "arrests": "3 arrested",
+          "source": "Gothamist",
+          "url": "https://gothamist.com/news/nypd-seizes-580-pounds-of-cocaine-in-queens-its-biggest-bust-in-more-than-a-decade",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 263.08,
+              "place": "New York"
+            }
+          ]
+        },
+        {
+          "headline": "Washington state task force raids a Bothell home, finds six kinds of drugs, eight guns and $67,000",
+          "body": "The Snohomish Regional Drug Task Force served a search warrant on August 19 at a house on 207th Place Southeast in Bothell tied to a suspected trafficker; deputies said they recovered fentanyl, methamphetamine, cocaine, heroin, Xanax and methadone along with eight firearms, several vehicles, digital scales, packaging material and a currency counter, plus $67,000 in cash. U.S. Marshals arrested a 42-year-old man at the scene, and the Snohomish County Sheriff's Office said the wider investigation is continuing; the seizure was made public on August 28.",
+          "quantity": "$67,000 cash · 8 firearms",
+          "location": "Bothell, Washington",
+          "arrests": "1 arrested",
+          "source": "HeraldNet",
+          "url": "https://www.heraldnet.com/2026/08/28/snohomish-drug-task-force-seizes-guns-cars-and-nearly-150k/"
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazil — trucker stopped for a burned-out taillight found hauling 475 kilos of cocaine in Piauí",
+          "body": "Federal Highway Police pulled over a truck on BR-402 in Buriti dos Lopes, Piauí, on the night of August 27 over equipment violations, including headlights modified with blue lenses; officers said the 51-year-old driver grew visibly nervous, and a search of the cargo turned up seven bales holding 440 tablets of cocaine weighing about 475 kilograms. He was arrested on trafficking charges and taken to the federal police station in Parnaíba along with the truck and the drugs.",
+          "quantity": "475 kg cocaine",
+          "location": "Buriti dos Lopes, Piauí, Brazil",
+          "arrests": "1 arrested",
+          "source": "Polícia Rodoviária Federal",
+          "url": "https://www.tribunadeparnaiba.com/2026/08/prf-apreende-475-kg-cocaina-br-402-piaui/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 475,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Ecuador — 400 kilos of marijuana and five arrests at a border crossing in Tulcán",
+          "body": "Ecuadorian police intercepted a shipment of roughly 400 kilograms of marijuana — enough, they estimated, for about 800,000 individual doses — in the border city of Tulcán, Carchi province, on August 27. Interior Minister John Reimberg said five people were caught in the act, along with a pickup truck, two motorcycles and five cellphones; investigators are still working to trace the rest of the supply chain.",
+          "quantity": "400 kg cannabis",
+          "location": "Tulcán, Carchi, Ecuador",
+          "arrests": "5 arrested",
+          "source": "Centro TV Ecuador",
+          "url": "https://centrotvecuador.com/2026/08/27/incautacion-400-kilos-marihuana-tulcan-carchi/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 400,
+              "place": "Ecuador"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil — three caught trying to fly 28 kilos of cocaine out of Guarulhos airport",
+          "body": "Federal Police at São Paulo's Guarulhos International Airport arrested three people in flagrante on August 27 for international trafficking after finding about 24.5 kilograms of cocaine concealed in their belongings. In a parallel case at the same airport that day, officers intercepted a further 3.5 kilograms hidden inside decorative objects that had been packaged for shipment abroad.",
+          "quantity": "28 kg cocaine",
+          "location": "Guarulhos, São Paulo, Brazil",
+          "arrests": "3 arrested",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-prende-quatro-pessoas-e-apreende-mais-de-28-kg-de-cocaina-no-aeroporto-internacional-de-guarulhos-sp",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 28,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Colombia, Ecuador and the US discuss a joint border base to squeeze cocaine routes through the Pacific",
+          "body": "SOUTHCOM commander Gen. Francis Donovan met Colombian defense minister Jorge Mora and Ecuadorian defense minister Gian Carlo Loffredo in Tumaco and San Lorenzo on August 27 to advance plans for a binational base on the two countries' shared Pacific border, part of the Americas Counter Cartel Coalition all three governments have now joined. Officials described the frontier as a longstanding bottleneck for cocaine traffic and said the talks centered on sharing intelligence, improving interoperability between the three militaries and coordinating operations to close smuggling routes along the coast.",
+          "location": "Tumaco, Colombia and San Lorenzo, Ecuador",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/08/28/colombia-ecuador-y-eeuu-refuerzan-la-cooperacion-contra-el-narcotrafico-en-una-reunion-en-el-pacifico/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Italy — two Mexican travelers caught at Rome's airport with 17 kilos of meth in false-bottom suitcases",
+          "body": "Italy's Guardia di Finanza and customs officers stopped a 29-year-old man and a 27-year-old woman, both Mexican nationals, after they landed at Rome's Fiumicino airport on a flight from Monterrey via Mexico City on August 28. Agents said the pair's luggage felt unusually rigid and heavy; a search found 14 sealed packages hidden in a false bottom containing about 17.4 kilograms of methamphetamine, known in Mexico as \"shaboo.\" Both travelers were detained.",
+          "quantity": "17.4 kg methamphetamine",
+          "location": "Rome, Italy",
+          "arrests": "2 detained",
+          "source": "El Universal",
+          "url": "https://www.eluniversal.com.mx/mundo/video-detienen-en-roma-a-2-mexicanos-por-trafico-de-metanfetamina-droga-iba-oculta-en-maletas-con-doble-fondo/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 17.415,
+              "place": "Italy"
+            }
+          ]
+        },
+        {
+          "headline": "Malaysia — Penang police break up an MDMA ring hiding drugs in candy and drink packets, seven arrested",
+          "body": "Penang narcotics officers carried out four raids between August 15 and 22 against a syndicate police say had been trafficking since May, disguising drugs as packets of candy, iced lemon tea and hot chocolate mix. Police chief Comm. Dennis Lim Kwang Keng made the results public on August 28-29: a combined 11.4 kilograms of MDMA powder, 630 grams of ketamine, 1,755 ecstasy pills, 1,000 Erimin 5 tablets and nine methamphetamine vape cartridges, worth more than RM3 million in total. Seven suspects, including one woman, were arrested.",
+          "quantity": "11.4 kg MDMA · 630 g ketamine",
+          "location": "Penang, Malaysia",
+          "arrests": "7 arrested",
+          "source": "The Star",
+          "url": "https://www.thestar.com.my/news/nation/2026/08/28/039sweet039-disguises-bitter-consequences-seven-nabbed-drugs-worth-rm3mil-seized-in-penang-ops",
+          "seizures": [
+            {
+              "drug": "MDMA",
+              "kg": 11.4,
+              "place": "Malaysia"
+            },
+            {
+              "drug": "ketamine",
+              "kg": 0.63,
+              "place": "Malaysia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
