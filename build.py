@@ -29,6 +29,11 @@ try:
 except Exception:          # Pillow missing, or the module failed to load
     render_scene = None    # scenes are then simply omitted
 
+try:
+    from pixelevent import render_event
+except Exception:
+    render_event = None    # event scenes are then simply omitted
+
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 ARCHIVE = ROOT / "archive"
@@ -169,6 +174,38 @@ def pixel_html(story, day_date, css_prefix=""):
     )
 
 
+def event_html(story, day_date, css_prefix=""):
+    """
+    A scene for a story with no seizure weight at all -- a vessel strike,
+    an extradition, an indictment, a decree.
+
+    Classification is keyword-based and deliberately conservative: when
+    nothing matches it returns "" and the story simply carries no picture.
+    A confidently wrong illustration is worse than a blank space.
+    """
+    if render_event is None:
+        return ""
+
+    slug = f"{day_date}-{slugify(story.get('headline', ''))}"
+    PIXEL_DIR.mkdir(parents=True, exist_ok=True)
+    out = PIXEL_DIR / f"{slug}.png"
+    try:
+        caption = render_event(story.get("headline", ""),
+                               story.get("body", ""), str(out))
+    except Exception:
+        return ""
+    if not caption:
+        return ""
+
+    return (
+        f'<figure class="shot">'
+        f'<img class="pixel" src="{css_prefix}assets/pixel/{e(slug)}.png" '
+        f'width="160" height="120" loading="lazy" decoding="async" '
+        f'alt="Pixel-art scene: {e(caption)}">'
+        f'<figcaption>{e(caption)}</figcaption></figure>'
+    )
+
+
 def story_html(story, css_prefix="", day_date=""):
     chips = []
     if story.get("quantity"):
@@ -195,9 +232,13 @@ def story_html(story, css_prefix="", day_date=""):
         f"{link}"
     )
 
-    # A genuine public-domain photograph always wins; the pixel scene is
-    # what fills the gap on the many days no usable photo exists.
-    shot = image_html(story, css_prefix) or pixel_html(story, day_date, css_prefix)
+    # Priority: a real public-domain photograph, else a quantity scene built
+    # from the seizure weight, else a scene of the event itself. Each step
+    # yields "" when it has nothing honest to draw, so a story can still end
+    # up with no picture -- which is the right outcome for some of them.
+    shot = (image_html(story, css_prefix)
+            or pixel_html(story, day_date, css_prefix)
+            or event_html(story, day_date, css_prefix))
     if shot:
         # Text and photo become siblings so they can sit side by side.
         return f'<article class="story has-shot"><div class="story-text">{body}</div>{shot}</article>'
