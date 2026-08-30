@@ -1,0 +1,209 @@
+{
+  "date": "2026-08-30",
+  "window": "Covering reporting published in the past 24-48 hours (Aug 29-30). Search indexes lag, so several items describe seizures or arrests carried out earlier in the month; each story states its own incident date.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Five plead guilty to running a three-boat, $31 million cocaine pipeline into South Florida",
+          "body": "Andy Gabriel Mercedes-Hernandez, Jesus Alberto Salcedo-Perez, Keisy Estibet Peguero, Enmanuel Amauris Rivera-Cabrera and Mario Joel Rijo-Jimenez pleaded guilty on August 27 in the Southern District of Florida to conspiring to import cocaine aboard U.S.-registered sport fishing vessels from the Dominican Republic. Investigators, working the case as \"Operation Horseman's Voyage,\" tied the group to three documented runs — about 1,600 kilograms aboard the Mysterry in 2023, 900 kilograms aboard the Maple Leaf in December 2024, and 1,000 kilograms aboard the Daviniki in mid-2025 — totaling more than 3,500 kilograms worth an estimated $31 million. Each defendant faces a mandatory minimum of 10 years and up to life in prison at sentencing.",
+          "quantity": "3,500+ kg cocaine · $31M",
+          "location": "South Florida",
+          "arrests": "5 pleaded guilty",
+          "source": "Keys News",
+          "url": "https://www.keysnews.com/news/crime/five-plead-guilty-to-importing-cocaine-into-south-florida/article_412a017c-6244-440f-bd70-68372c36c989.html"
+        },
+        {
+          "headline": "CBP finds $10.75 million in meth hidden in a leek shipment at the Pharr bridge",
+          "body": "Customs and Border Protection officers at the Pharr International Bridge cargo facility stopped a tractor-trailer arriving from Reynosa, Mexico on August 22 manifested as fresh leeks. Non-intrusive imaging showed anomalies in the trailer and a canine team alerted to narcotics; a physical search turned up 395 packages of methamphetamine weighing 1,204.82 pounds, valued at about $10.75 million. CBP seized both the drugs and the truck.",
+          "quantity": "546 kg methamphetamine",
+          "location": "Pharr, Texas",
+          "source": "U.S. Customs and Border Protection",
+          "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-officers-seize-more-10-million-methamphetamine-pharr-international",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 546.5,
+              "place": "Texas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "College Station traffic stop turns up nine kinds of drugs, from meth to LSD",
+          "body": "A College Station officer pulled over a vehicle just after 1:30 a.m. on August 29 in the 500 block of University Drive East; when a K-9 alerted on the car, a search produced marijuana, methamphetamine, cocaine, Adderall, Xanax, THC wax, THC cartridges, psilocybin mushrooms and more than 900 LSD tablets. Bryan Carbajal Roman of Bryan was arrested and charged with seven counts of manufacture or delivery of a controlled substance, three counts of possession, and one marijuana possession count; he is also being held on an ICE immigration detainer.",
+          "quantity": "9 drug types seized",
+          "location": "College Station, Texas",
+          "arrests": "1 arrested",
+          "source": "KBTX",
+          "url": "https://www.kbtx.com/2026/08/30/college-station-police-k-9-unit-finds-massive-amount-drugs-traffic-stop/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 1.814,
+              "place": "Texas"
+            }
+          ]
+        },
+        {
+          "headline": "Apple Valley parolee's traffic stop leads deputies to an AK-47 and a pound and a half of meth",
+          "body": "San Bernardino County sheriff's deputies stopped 49-year-old parolee James Moore near Choco Road on August 27 and found about a pound of suspected methamphetamine in his vehicle; a follow-up search of his residence on Pamlico Road turned up another half-pound of meth, two ounces of suspected cocaine, two ounces of psilocybin mushrooms, six firearms including an AK-47 and an unserialized weapon, digital scales and $1,300 in cash. Moore was booked on suspicion of possessing narcotics for sale and for violating his parole.",
+          "quantity": "0.68 kg methamphetamine · 6 firearms",
+          "location": "Apple Valley, California",
+          "arrests": "1 arrested",
+          "source": "Victor Valley News",
+          "url": "https://www.vvng.com/apple-valley-parolee-arrested-after-deputies-seize-six-firearms-suspected-methamphetamine-and-cocaine/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 0.68,
+              "place": "California"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazil — a Canadian's hashish, a body-strapped courier and cocaine hidden in an electric motor, all caught at Guarulhos in one day",
+          "body": "Federal Police at São Paulo's Guarulhos International Airport made three separate catches on August 26. A Canadian woman arriving from Toronto was arrested with about 16 kilograms of hashish in her luggage; a Paraguayan man was stopped before boarding a flight to Lisbon with roughly 2 kilograms of cocaine strapped to his body; and officers screening outbound cargo found another 12 kilograms of cocaine concealed inside an electric motor bound for Taiwan.",
+          "quantity": "16 kg hashish · 14 kg cocaine",
+          "location": "Guarulhos, São Paulo, Brazil",
+          "arrests": "2 arrested",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-prende-duas-pessoas-e-apreende-30-kg-de-drogas-no-aeroporto-internacional-de-guarulhos-sp",
+          "seizures": [
+            {
+              "drug": "hashish",
+              "kg": 16,
+              "place": "Brazil"
+            },
+            {
+              "drug": "cocaine",
+              "kg": 14,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Bolivia — 378 kilos of cocaine found in a refrigerated truck's false ceiling on the road to Bermejo",
+          "body": "Bolivia's anti-narcotics police (FELCN) stopped a refrigerated truck hauling mattresses from Oruro toward Bermejo late on August 19 after the driver grew visibly nervous at a checkpoint. A search uncovered a hidden compartment built into the top of the cargo box holding 360 brick-shaped packages of cocaine weighing about 378 kilograms, with an estimated value of $650,000 to $830,000. The driver was taken into custody and given 180 days of preventive detention while the case continues.",
+          "quantity": "378 kg cocaine",
+          "location": "Bermejo, Tarija, Bolivia",
+          "arrests": "1 arrested",
+          "source": "El Deber",
+          "url": "https://eldeber.com.bo/pais/tarija-incautan-378-kilos-droga-ocultos-camion-frigorifico_1787338785/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 378,
+              "place": "Bolivia"
+            }
+          ]
+        },
+        {
+          "headline": "Colombia captures the Ecuadorian boss of Los Tiguerones, a hitman gang tied to Los Choneros",
+          "body": "A joint operation by Colombian and Ecuadorian police and Colombia's Attorney General's Office captured Eduardo Cecilio Vásquez Ortiz, alias \"Colombia,\" in Armenia, Quindío on August 26. Ecuadorian authorities describe him as a longtime leader of Los Tiguerones, a contract-killing and trafficking outfit with more than two decades of alleged violence behind it; he escaped Ecuador's La Roca prison in 2013, was recaptured in Brazil and extradited, then walked away from a conditional release in 2022 and continued directing the gang's activities from Colombia.",
+          "location": "Armenia, Quindío, Colombia",
+          "arrests": "1 arrested",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/08/27/capturan-en-colombia-a-un-supuesto-cabecilla-de-la-banda-ecuatoriana-los-tiguerones/"
+        },
+        {
+          "headline": "Colombia's army pulls 50 kilos of marijuana, bagged for shipment, out of Yumbo",
+          "body": "Soldiers from the Colombian Army's Third Brigade seized 44 packages of marijuana weighing more than 50 kilograms in Yumbo, Valle del Cauca on August 29, describing the load as ready for transport along one of the department's trafficking corridors. The shipment was turned over to prosecutors, who are working to trace its origin and identify those responsible.",
+          "quantity": "50 kg cannabis",
+          "location": "Yumbo, Valle del Cauca, Colombia",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/colombia/2026/08/29/ejercito-incauto-mas-de-50-kilos-de-marihuana-en-yumbo-valle-del-cauca/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 50,
+              "place": "Colombia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Ireland — €2.3 million in cocaine, MDMA and cannabis seized in a Dublin suburb handover",
+          "body": "Gardaí watched a drug handover in public in Blanchardstown, Dublin on August 29 and seized about 18 kilograms of cocaine worth an estimated €1.8 million; a follow-up search of a nearby vehicle turned up another 4 kilograms of cocaine, and further searches recovered 5,000 MDMA tablets and 4 kilograms of cannabis herb. Two men in their 50s and 60s were arrested and detained under drug trafficking legislation, and Forensic Science Ireland is analyzing the haul.",
+          "quantity": "22 kg cocaine · 4 kg cannabis",
+          "location": "Blanchardstown, Dublin, Ireland",
+          "arrests": "2 arrested",
+          "source": "TheJournal.ie",
+          "url": "https://www.thejournal.ie/2-3million-euros-drug-seizure-dublin-7146216-Aug2026/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 22,
+              "place": "Ireland"
+            },
+            {
+              "drug": "cannabis",
+              "kg": 4,
+              "place": "Ireland"
+            }
+          ]
+        },
+        {
+          "headline": "India — Kerala police call a 12.8-kilo MDMA seizure one of the state's biggest-ever drug busts",
+          "body": "Malappuram district police's special investigation team, working under the anti-narcotics push \"Operation Thoofan,\" arrested three men in Coimbatore on August 29 after finding roughly 12.8 kilograms of high-purity MDMA — worth more than 10 crore rupees at street prices — hidden inside the door panels of an SUV. Police said the network flew to Delhi and Mumbai to source the drug and drove it back into Kerala in luxury vehicles bought specifically for the job, using towns in Tamil Nadu as transit points.",
+          "quantity": "12.8 kg MDMA",
+          "location": "Malappuram, Kerala, India",
+          "arrests": "3 arrested",
+          "source": "ANI",
+          "url": "https://aninews.in/news/national/general-news/operation-thoofan-malappuram-police-seize-12794-kg-mdma-worth-over-rs-10-crore20260829211614/",
+          "seizures": [
+            {
+              "drug": "MDMA",
+              "kg": 12.794,
+              "place": "India"
+            }
+          ]
+        },
+        {
+          "headline": "India — railway couriers caught with 18 kilos of amphetamine and MDMA in Bengaluru and Pune",
+          "body": "India's Directorate of Revenue Intelligence intercepted two women rail passengers on August 25 in separate operations. At Bengaluru's KSR station, a woman traveling from New Delhi was found carrying about 14.9 kilograms of amphetamine; at Pune Junction, another passenger from Delhi was carrying 2.53 kilograms of amphetamine and 878 grams of MDMA tablets. Four people were arrested across the two cases under India's Narcotic Drugs and Psychotropic Substances Act.",
+          "quantity": "17.4 kg amphetamine · 0.9 kg MDMA",
+          "location": "Bengaluru and Pune, India",
+          "arrests": "4 arrested",
+          "source": "ANI",
+          "url": "https://aninews.in/news/national/general-news/dri-seizes-around-18-kg-amphetamine-and-mdma-in-two-operations-4-arrested20260829205435/",
+          "seizures": [
+            {
+              "drug": "amphetamine",
+              "kg": 17.43,
+              "place": "India"
+            },
+            {
+              "drug": "MDMA",
+              "kg": 0.878,
+              "place": "India"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
