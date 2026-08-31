@@ -793,6 +793,13 @@ ul.drugs .w {
 @media screen {
   @supports ((-webkit-background-clip: text) or (background-clip: text)) {
     .masthead h1 {
+      /* background-clip:text paints the gradient only inside the element
+         box. The title sets line-height 0.98, so that box stops above the
+         baseline's descenders and the tail of the "g" never gets painted.
+         Pad the paint box down, then pull the same amount back off the
+         layout so nothing below it moves. */
+      padding-bottom: 0.16em;
+      margin-bottom: -0.16em;
       background: linear-gradient(180deg, #ffffff 0%, var(--text) 46%, #b3b3c2 100%);
       -webkit-background-clip: text;
       background-clip: text;
@@ -800,6 +807,10 @@ ul.drugs .w {
       color: var(--text);
     }
     .tally-headline .big {
+      /* same guard: line-height 0.9 here, so any glyph with a descender
+         would clip the moment the tally shows one */
+      padding-bottom: 0.16em;
+      margin-bottom: -0.16em;
       background: linear-gradient(180deg, #f4f2ff 0%, var(--accent-300) 48%, var(--accent-500) 100%);
       -webkit-background-clip: text;
       background-clip: text;
