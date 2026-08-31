@@ -1,24 +1,19 @@
 {
- "date": "2026-08-30",
- "dateLabel": "Sunday, August 30, 2026",
- "window": "Covering reporting published in the past 24-48 hours (Aug 29-30). Search indexes lag, so several items describe seizures or arrests carried out earlier in the month; each story states its own incident date.",
+ "date": "2026-08-31",
+ "dateLabel": "Monday, August 31, 2026",
+ "window": "Covering reporting published in the past 24-48 hours (Aug 30-31). Search indexes lag, so several items describe seizures or operations carried out earlier in the week; each story states its own incident date.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 11,
+ "storyCount": 9,
  "sectionCounts": [
-  {
-   "id": "federal",
-   "name": "National / Federal (US)",
-   "count": 2
-  },
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 2
+   "count": 3
   },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 4
+   "count": 3
   },
   {
    "id": "world",
@@ -28,125 +23,103 @@
  ],
  "stories": [
   {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Five plead guilty to running a three-boat, $31 million cocaine pipeline into South Florida",
-   "summary": "Andy Gabriel Mercedes-Hernandez, Jesus Alberto Salcedo-Perez, Keisy Estibet Peguero, Enmanuel Amauris Rivera-Cabrera and Mario Joel Rijo-Jimenez pleaded guilty on August 27 in the…",
-   "location": "South Florida",
-   "quantity": "3,500+ kg cocaine · $31M",
-   "arrests": "5 pleaded guilty",
-   "source": "Keys News",
-   "url": "https://www.keysnews.com/news/crime/five-plead-guilty-to-importing-cocaine-into-south-florida/article_412a017c-6244-440f-bd70-68372c36c989.html"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "CBP finds $10.75 million in meth hidden in a leek shipment at the Pharr bridge",
-   "summary": "Customs and Border Protection officers at the Pharr International Bridge cargo facility stopped a tractor-trailer arriving from Reynosa, Mexico on August 22 manifested as fresh…",
-   "location": "Pharr, Texas",
-   "quantity": "546 kg methamphetamine",
-   "arrests": "",
-   "source": "U.S. Customs and Border Protection",
-   "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-officers-seize-more-10-million-methamphetamine-pharr-international"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Florida — Plant City traffic stop leads to a 16-pound cocaine haul and a gun cache with illegal 'switches'",
+   "summary": "Hillsborough County deputies stopped Lino Moctezuma Rosas, 33, on August 27 and found about 9 ounces of cocaine in his vehicle; a follow-up search warrant at his Plant City home…",
+   "location": "Plant City, Florida",
+   "quantity": "7.6 kg cocaine · 0.45 kg meth",
+   "arrests": "1 arrested",
+   "source": "CBS12",
+   "url": "https://cbs12.com/news/crime/hillsborough-county-man-arrested-after-traffic-stop-leads-to-cocaine-guns-and-cash-haul-florida-news-florida-crime-hillsborough-county-sheriffs-office-hcso-drugs-guns-switches"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "College Station traffic stop turns up nine kinds of drugs, from meth to LSD",
-   "summary": "A College Station officer pulled over a vehicle just after 1:30 a.m. on August 29 in the 500 block of University Drive East; when a K-9 alerted on the car, a search produced…",
-   "location": "College Station, Texas",
-   "quantity": "9 drug types seized",
-   "arrests": "1 arrested",
-   "source": "KBTX",
-   "url": "https://www.kbtx.com/2026/08/30/college-station-police-k-9-unit-finds-massive-amount-drugs-traffic-stop/"
+   "headline": "South Carolina — state grand jury indicts eight in 'Pressed for Time' fentanyl pill-press ring",
+   "summary": "South Carolina's Attorney General announced August 25 that a State Grand Jury had indicted eight people tied to a fentanyl and methamphetamine trafficking operation based in…",
+   "location": "Greenwood County, South Carolina",
+   "quantity": "4.1 kg fentanyl · 3.8 kg meth",
+   "arrests": "8 indicted",
+   "source": "WIS-TV",
+   "url": "https://www.wistv.com/2026/08/25/eight-indicted-state-grand-jury-fentanyl-trafficking-investigation/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Apple Valley parolee's traffic stop leads deputies to an AK-47 and a pound and a half of meth",
-   "summary": "San Bernardino County sheriff's deputies stopped 49-year-old parolee James Moore near Choco Road on August 27 and found about a pound of suspected methamphetamine in his vehicle…",
-   "location": "Apple Valley, California",
-   "quantity": "0.68 kg methamphetamine · 6 firearms",
+   "headline": "Connecticut — Willimantic traffic stop turns up 534 bags of fentanyl",
+   "summary": "Willimantic police stopped a vehicle just after 2 a.m. on August 29 near Park Avenue and Jackson Street after K-9 Drogo alerted during a free-air sniff; a search produced 534…",
+   "location": "Willimantic, Connecticut",
+   "quantity": "534 bags fentanyl",
    "arrests": "1 arrested",
-   "source": "Victor Valley News",
-   "url": "https://www.vvng.com/apple-valley-parolee-arrested-after-deputies-seize-six-firearms-suspected-methamphetamine-and-cocaine/"
+   "source": "WFSB",
+   "url": "https://www.wfsb.com/2026/08/30/traffic-stop-k9-search-lead-seizure-over-500-bags-fentanyl-arrest/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazil — a Canadian's hashish, a body-strapped courier and cocaine hidden in an electric motor, all caught at Guarulhos in one day",
-   "summary": "Federal Police at São Paulo's Guarulhos International Airport made three separate catches on August 26.",
-   "location": "Guarulhos, São Paulo, Brazil",
-   "quantity": "16 kg hashish · 14 kg cocaine",
-   "arrests": "2 arrested",
-   "source": "Polícia Federal",
-   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-prende-duas-pessoas-e-apreende-30-kg-de-drogas-no-aeroporto-internacional-de-guarulhos-sp"
+   "headline": "Colombia leads a 30-country operation that seized 4.7 tonnes of cocaine over three weeks",
+   "summary": "Colombia's air force led Operation Zeus Arcano III from August 11 to 30, coordinating with agencies from 30 countries to fly 92 aerial missions and inspect 102 clandestine…",
+   "location": "Colombia",
+   "quantity": "4,687 kg cocaine (3-week total)",
+   "arrests": "8 captured",
+   "source": "Semana",
+   "url": "https://www.semana.com/nacion/articulo/abelardo-de-la-espriella-revela-millonario-golpe-al-narcotrafico-46-toneladas-de-cocaina-incautadas-y-8-capturas/202641/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Bolivia — 378 kilos of cocaine found in a refrigerated truck's false ceiling on the road to Bermejo",
-   "summary": "Bolivia's anti-narcotics police (FELCN) stopped a refrigerated truck hauling mattresses from Oruro toward Bermejo late on August 19 after the driver grew visibly nervous at a…",
-   "location": "Bermejo, Tarija, Bolivia",
-   "quantity": "378 kg cocaine",
-   "arrests": "1 arrested",
-   "source": "El Deber",
-   "url": "https://eldeber.com.bo/pais/tarija-incautan-378-kilos-droga-ocultos-camion-frigorifico_1787338785/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombia captures the Ecuadorian boss of Los Tiguerones, a hitman gang tied to Los Choneros",
-   "summary": "A joint operation by Colombian and Ecuadorian police and Colombia's Attorney General's Office captured Eduardo Cecilio Vásquez Ortiz, alias \"Colombia,\" in Armenia, Quindío on…",
-   "location": "Armenia, Quindío, Colombia",
-   "quantity": "",
-   "arrests": "1 arrested",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/08/27/capturan-en-colombia-a-un-supuesto-cabecilla-de-la-banda-ecuatoriana-los-tiguerones/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombia's army pulls 50 kilos of marijuana, bagged for shipment, out of Yumbo",
-   "summary": "Soldiers from the Colombian Army's Third Brigade seized 44 packages of marijuana weighing more than 50 kilograms in Yumbo, Valle del Cauca on August 29, describing the load as…",
-   "location": "Yumbo, Valle del Cauca, Colombia",
-   "quantity": "50 kg cannabis",
+   "headline": "Brazil — 185 kilos of marijuana found hidden in a van's roof at the Paraguay border bridge",
+   "summary": "Brazil's federal revenue service searched a van crossing the Friendship Bridge from Paraguay into Foz do Iguaçu on August 28 and found a hidden compartment built into the roof…",
+   "location": "Foz do Iguaçu, Paraná, Brazil",
+   "quantity": "185 kg cannabis",
    "arrests": "",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/08/29/ejercito-incauto-mas-de-50-kilos-de-marihuana-en-yumbo-valle-del-cauca/"
+   "source": "Rádio Cultura Foz",
+   "url": "https://www.radioculturafoz.com.br/2026/08/28/receita-federal-apreende-185-kg-de-maconha-escondidos-no-teto-de-van-paraguaia-na-ponte-da-amizade"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina — anti-narcotics police dismantle 18 drug sales points in Córdoba, arrest 11",
+   "summary": "Argentina's Antinarcotics Police Force closed out a five-month investigation on August 30 with raids on nine drug-selling points in Calamuchita department and another nine in the…",
+   "location": "Córdoba, Argentina",
+   "quantity": "1,862 doses cocaine",
+   "arrests": "11 arrested",
+   "source": "Hoy Día Córdoba",
+   "url": "https://hoydia.com.ar/sucesos/la-fpa-detuvo-a-11-personas-en-diferentes-operativos-antidrogas/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Ireland — €2.3 million in cocaine, MDMA and cannabis seized in a Dublin suburb handover",
-   "summary": "Gardaí watched a drug handover in public in Blanchardstown, Dublin on August 29 and seized about 18 kilograms of cocaine worth an estimated €1.8 million; a follow-up search of a…",
-   "location": "Blanchardstown, Dublin, Ireland",
-   "quantity": "22 kg cocaine · 4 kg cannabis",
-   "arrests": "2 arrested",
-   "source": "TheJournal.ie",
-   "url": "https://www.thejournal.ie/2-3million-euros-drug-seizure-dublin-7146216-Aug2026/"
+   "headline": "Hong Kong — seven-week 'Tailbacker' crackdown nets 321 arrests and 231 kilos of cocaine and ketamine",
+   "summary": "Hong Kong police wrapped up \"Operation Tailbacker,\" a citywide crackdown running from July 12 to August 29, with 321 arrests ranging in age from 13 to 72 across 234 drug cases.",
+   "location": "Hong Kong",
+   "quantity": "76 kg cocaine · 65 kg ketamine",
+   "arrests": "321 arrested",
+   "source": "South China Morning Post",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3365766/13-year-old-among-321-arrested-hong-kong-police-seize-drugs-worth-hk130m"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "India — Kerala police call a 12.8-kilo MDMA seizure one of the state's biggest-ever drug busts",
-   "summary": "Malappuram district police's special investigation team, working under the anti-narcotics push \"Operation Thoofan,\" arrested three men in Coimbatore on August 29 after finding…",
-   "location": "Malappuram, Kerala, India",
-   "quantity": "12.8 kg MDMA",
+   "headline": "Nigeria — captagon hidden in soap and 3.9 million opioid pills intercepted at Lagos airport",
+   "summary": "Nigeria's drug agency arrested Akinbile Kazeem Aikins, 49, at Lagos's international airport after finding 47,200 captagon tablets — the so-called \"jihadi drug\" — hidden inside…",
+   "location": "Lagos and Ondo State, Nigeria",
+   "quantity": "2,787 kg opioid pills · 1,069 kg cannabis",
+   "arrests": "6 arrested",
+   "source": "ThisDay",
+   "url": "https://www.thisdaylive.com/2026/08/31/ndlea-busts-n6-2bn-international-drug-pipeline-seizes-jihadi-drug-hidden-in-ghana-soap-3-9m-opioid-pills/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "South Africa — three arrested as police seize R1.5 million in mixed drugs in Gqeberha",
+   "summary": "South African police raided a Parliament Street address in central Gqeberha on August 27 under Operation UKUBUZA, arresting three men — two of them foreign nationals — and…",
+   "location": "Gqeberha, South Africa",
+   "quantity": "R1.5M mixed drugs",
    "arrests": "3 arrested",
-   "source": "ANI",
-   "url": "https://aninews.in/news/national/general-news/operation-thoofan-malappuram-police-seize-12794-kg-mdma-worth-over-rs-10-crore20260829211614/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "India — railway couriers caught with 18 kilos of amphetamine and MDMA in Bengaluru and Pune",
-   "summary": "India's Directorate of Revenue Intelligence intercepted two women rail passengers on August 25 in separate operations.",
-   "location": "Bengaluru and Pune, India",
-   "quantity": "17.4 kg amphetamine · 0.9 kg MDMA",
-   "arrests": "4 arrested",
-   "source": "ANI",
-   "url": "https://aninews.in/news/national/general-news/dri-seizes-around-18-kg-amphetamine-and-mdma-in-two-operations-4-arrested20260829205435/"
+   "source": "Joburg ETC",
+   "url": "https://www.joburgetc.com/news/r15m-drug-seizure-gqeberha-operation-ukubuza/"
   }
  ]
 }

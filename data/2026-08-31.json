@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "window": "Covering reporting published in the past 24-48 hours (Aug 30-31). Search indexes lag, so several items describe seizures or operations carried out earlier in the week; each story states its own incident date.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": []
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Florida — Plant City traffic stop leads to a 16-pound cocaine haul and a gun cache with illegal 'switches'",
+          "body": "Hillsborough County deputies stopped Lino Moctezuma Rosas, 33, on August 27 and found about 9 ounces of cocaine in his vehicle; a follow-up search warrant at his Plant City home turned up another 16.2 pounds of cocaine, a pound of methamphetamine, five firearms including an AK-platform rifle and a Kel-Tec submachine gun fitted with illegal automatic \"switches,\" and nearly $80,000 in cash. Rosas faces armed cocaine trafficking and weapons charges.",
+          "quantity": "7.6 kg cocaine · 0.45 kg meth",
+          "location": "Plant City, Florida",
+          "arrests": "1 arrested",
+          "source": "CBS12",
+          "url": "https://cbs12.com/news/crime/hillsborough-county-man-arrested-after-traffic-stop-leads-to-cocaine-guns-and-cash-haul-florida-news-florida-crime-hillsborough-county-sheriffs-office-hcso-drugs-guns-switches",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 7.6,
+              "place": "Florida"
+            },
+            {
+              "drug": "methamphetamine",
+              "kg": 0.45,
+              "place": "Florida"
+            }
+          ]
+        },
+        {
+          "headline": "South Carolina — state grand jury indicts eight in 'Pressed for Time' fentanyl pill-press ring",
+          "body": "South Carolina's Attorney General announced August 25 that a State Grand Jury had indicted eight people tied to a fentanyl and methamphetamine trafficking operation based in Greenwood and Abbeville counties with ties reaching into Aiken, McCormick, Anderson, Greenville and Richland counties. Investigators said the group used illegal pill presses to manufacture fentanyl-laced blue pills, and the probe recovered about 4,119 grams of fentanyl and 3,782 grams of methamphetamine.",
+          "quantity": "4.1 kg fentanyl · 3.8 kg meth",
+          "location": "Greenwood County, South Carolina",
+          "arrests": "8 indicted",
+          "source": "WIS-TV",
+          "url": "https://www.wistv.com/2026/08/25/eight-indicted-state-grand-jury-fentanyl-trafficking-investigation/",
+          "seizures": [
+            {
+              "drug": "fentanyl",
+              "kg": 4.119,
+              "place": "South Carolina"
+            },
+            {
+              "drug": "methamphetamine",
+              "kg": 3.782,
+              "place": "South Carolina"
+            }
+          ]
+        },
+        {
+          "headline": "Connecticut — Willimantic traffic stop turns up 534 bags of fentanyl",
+          "body": "Willimantic police stopped a vehicle just after 2 a.m. on August 29 near Park Avenue and Jackson Street after K-9 Drogo alerted during a free-air sniff; a search produced 534 individually packaged bags of suspected fentanyl, about 15 grams of crack cocaine, paraphernalia and $2,329 in cash. Alexis Raphael Tribouillier, 29, was arrested and charged with possession with intent to sell and sale of over half an ounce of cocaine.",
+          "quantity": "534 bags fentanyl",
+          "location": "Willimantic, Connecticut",
+          "arrests": "1 arrested",
+          "source": "WFSB",
+          "url": "https://www.wfsb.com/2026/08/30/traffic-stop-k9-search-lead-seizure-over-500-bags-fentanyl-arrest/"
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombia leads a 30-country operation that seized 4.7 tonnes of cocaine over three weeks",
+          "body": "Colombia's air force led Operation Zeus Arcano III from August 11 to 30, coordinating with agencies from 30 countries to fly 92 aerial missions and inspect 102 clandestine airstrips nationwide. The operation seized 4,687 kilograms of cocaine and 22 kilograms of THC, captured eight people and two speedboats, and President Abelardo De la Espriella said it stripped more than $157 million from organized crime's finances.",
+          "quantity": "4,687 kg cocaine (3-week total)",
+          "location": "Colombia",
+          "arrests": "8 captured",
+          "source": "Semana",
+          "url": "https://www.semana.com/nacion/articulo/abelardo-de-la-espriella-revela-millonario-golpe-al-narcotrafico-46-toneladas-de-cocaina-incautadas-y-8-capturas/202641/"
+        },
+        {
+          "headline": "Brazil — 185 kilos of marijuana found hidden in a van's roof at the Paraguay border bridge",
+          "body": "Brazil's federal revenue service searched a van crossing the Friendship Bridge from Paraguay into Foz do Iguaçu on August 28 and found a hidden compartment built into the roof holding about 185 kilograms of pressed marijuana.",
+          "quantity": "185 kg cannabis",
+          "location": "Foz do Iguaçu, Paraná, Brazil",
+          "source": "Rádio Cultura Foz",
+          "url": "https://www.radioculturafoz.com.br/2026/08/28/receita-federal-apreende-185-kg-de-maconha-escondidos-no-teto-de-van-paraguaia-na-ponte-da-amizade",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 185,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Argentina — anti-narcotics police dismantle 18 drug sales points in Córdoba, arrest 11",
+          "body": "Argentina's Antinarcotics Police Force closed out a five-month investigation on August 30 with raids on nine drug-selling points in Calamuchita department and another nine in the city of Córdoba, arresting 11 people including two Peruvian nationals identified as cocaine suppliers. Officers seized roughly 1,862 doses of cocaine, 118 doses of marijuana, eight cannabis plants, a revolver and more than $1.26 million pesos in cash.",
+          "quantity": "1,862 doses cocaine",
+          "location": "Córdoba, Argentina",
+          "arrests": "11 arrested",
+          "source": "Hoy Día Córdoba",
+          "url": "https://hoydia.com.ar/sucesos/la-fpa-detuvo-a-11-personas-en-diferentes-operativos-antidrogas/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Hong Kong — seven-week 'Tailbacker' crackdown nets 321 arrests and 231 kilos of cocaine and ketamine",
+          "body": "Hong Kong police wrapped up \"Operation Tailbacker,\" a citywide crackdown running from July 12 to August 29, with 321 arrests ranging in age from 13 to 72 across 234 drug cases. Seized drugs included 76 kilograms of cocaine, 65 kilograms of ketamine, smaller amounts of heroin, cannabis and methamphetamine, 3.7 liters of liquid etomidate and 6,400 etomidate vape pods, together valued at about HK$130 million.",
+          "quantity": "76 kg cocaine · 65 kg ketamine",
+          "location": "Hong Kong",
+          "arrests": "321 arrested",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3365766/13-year-old-among-321-arrested-hong-kong-police-seize-drugs-worth-hk130m",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 76,
+              "place": "Hong Kong"
+            },
+            {
+              "drug": "ketamine",
+              "kg": 65,
+              "place": "Hong Kong"
+            }
+          ]
+        },
+        {
+          "headline": "Nigeria — captagon hidden in soap and 3.9 million opioid pills intercepted at Lagos airport",
+          "body": "Nigeria's drug agency arrested Akinbile Kazeem Aikins, 49, at Lagos's international airport after finding 47,200 captagon tablets — the so-called \"jihadi drug\" — hidden inside bars of soap in luggage arriving from Ghana. Separately, officers recovered four abandoned air shipments of Tramadol and Tapentadol pills totaling roughly 3.9 million tablets and 2,787 kilograms sent from Bangladesh and Amsterdam, and seized more than a tonne of skunk cannabis in a linked Ondo state operation that led to five more arrests; NDLEA valued the combined seizures at over 6.2 billion naira.",
+          "quantity": "2,787 kg opioid pills · 1,069 kg cannabis",
+          "location": "Lagos and Ondo State, Nigeria",
+          "arrests": "6 arrested",
+          "source": "ThisDay",
+          "url": "https://www.thisdaylive.com/2026/08/31/ndlea-busts-n6-2bn-international-drug-pipeline-seizes-jihadi-drug-hidden-in-ghana-soap-3-9m-opioid-pills/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 1069,
+              "place": "Nigeria"
+            }
+          ]
+        },
+        {
+          "headline": "South Africa — three arrested as police seize R1.5 million in mixed drugs in Gqeberha",
+          "body": "South African police raided a Parliament Street address in central Gqeberha on August 27 under Operation UKUBUZA, arresting three men — two of them foreign nationals — and recovering a mix of dagga, tik, khat, cocaine and mandrax tablets worth an estimated R1.5 million, along with smoking pipes, syringes and a digital scale.",
+          "quantity": "R1.5M mixed drugs",
+          "location": "Gqeberha, South Africa",
+          "arrests": "3 arrested",
+          "source": "Joburg ETC",
+          "url": "https://www.joburgetc.com/news/r15m-drug-seizure-gqeberha-operation-ukubuza/"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
