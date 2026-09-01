@@ -1,0 +1,131 @@
+{
+  "date": "2026-09-01",
+  "window": "Covering reporting published in the past 24-48 hours (Aug 31-Sep 1). Search indexes lag, so several items describe seizures or operations carried out a few days to a few weeks earlier; each story states its own incident date. Coverage of DEA, CBP, DOJ and USCG press releases and US local police blotters was unusually thin today — most candidates found were duplicates of stories already logged in prior editions or too stale to include, so both US sections render as \"Nothing significant.\"",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": []
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": []
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazil — smugglers ditch 63 kilos of marijuana mid-handoff on the Paraná River at Foz do Iguaçu",
+          "body": "Federal Police and Military Police observed a boat cross from Paraguay to the Brazilian bank of the Paraná River near Avenida Beira Rio in Foz do Iguaçu just after midnight on August 31 and hand off bundles to people waiting on shore. As officers approached, the group abandoned the load and fled into nearby woodland; police recovered about 63.1 kilograms of marijuana from the bundles.",
+          "quantity": "63.1 kg cannabis",
+          "location": "Foz do Iguaçu, Paraná, Brazil",
+          "source": "O Paraná",
+          "url": "https://oparana.com.br/cotidiano/policia-apreende-376-kg-de-maconha-apos-barco-cruzar-rio-do-paraguai-para-foz-do-iguacu/",
+          "seizures": [
+            {
+              "drug": "cannabis",
+              "kg": 63.1,
+              "place": "Brazil"
+            }
+          ]
+        },
+        {
+          "headline": "Bolivia — anti-drug police intercept cocaine capsules and marijuana hidden in a boxing bag on the Bioceanic route",
+          "body": "Bolivia's anti-narcotics force FELCN ran three checks in Santa Cruz department on August 30-31 as part of the \"Frontera Segura\" border plan. In Roboré, officers searched a bus and found two passengers carrying five packages of cocaine hydrochloride and arrested both; in Puerto Suárez, a separate search turned up 16 packages of marijuana concealed inside a boxing bag and a false-bottomed metal safe designed to defeat inspection.",
+          "quantity": "5 packages cocaine · 16 packages cannabis",
+          "location": "Roboré and Puerto Suárez, Santa Cruz, Bolivia",
+          "arrests": "2 arrested",
+          "source": "El Diario (Bolivia)",
+          "url": "https://www.eldiario.net/portal/2026/08/31/felcn-incauta-droga-camuflada-en-encomiendas-en-la-ruta-bioceanica/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Sri Lanka — 463 kilos of crystal meth found in two containers at Colombo Port",
+          "body": "Sri Lanka's Police Narcotics Bureau and Central Crime Investigation Bureau, working with Customs, opened two suspicious containers at Colombo Port around September 1 and found roughly 463 kilograms of crystal methamphetamine, valued locally at more than Rs. 8 billion. Investigators arrested two Pakistani nationals and two Sri Lankan businessmen, including one whose fruit-and-vegetable import business had brought the container into the country, and are tracing the shipment's origin.",
+          "quantity": "463 kg methamphetamine",
+          "location": "Colombo Port, Sri Lanka",
+          "arrests": "4 arrested",
+          "source": "Lanka Newspapers",
+          "url": "https://www.lankanewspapers.com/2026/09/01/massive-crystal-meth-haul-of-463kg-seized-at-colombo-port-in-major-drug-bust",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 463,
+              "place": "Sri Lanka"
+            }
+          ]
+        },
+        {
+          "headline": "Pakistan — 23 kilos of heroin found in a roadside vehicle search in Charsadda",
+          "body": "Acting on a tip, Khyber Pakhtunkhwa's Excise Intelligence Squad and Excise Police Station Charsadda searched a vehicle on Pashtun Ghari Road on September 1 and recovered about 23.46 kilograms of heroin. Umar Khan, a resident of Lower Dir district, was arrested and a case was registered at the Charsadda excise station.",
+          "quantity": "23.46 kg heroin",
+          "location": "Charsadda, Khyber Pakhtunkhwa, Pakistan",
+          "arrests": "1 arrested",
+          "source": "The Nation (Pakistan)",
+          "url": "https://www.nation.com.pk/01-Sep-2026/drug-smuggling-bid-foiled-23-46kg-heroin-ice-recovered",
+          "seizures": [
+            {
+              "drug": "heroin",
+              "kg": 23.46,
+              "place": "Pakistan"
+            }
+          ]
+        },
+        {
+          "headline": "Malaysia and Thailand — tea-bag meth ring rolled up after cross-border police tip-off",
+          "body": "Thai police seized about 166 kilograms of methamphetamine from a Malaysian courier in Hua Hin on August 8 and passed the lead to Malaysian counterparts. Penang police used the tip to launch \"Ops Zoraptera,\" arresting four suspects — three Malaysian men and a Thai woman — on August 13 and recovering 86.2 kilograms of methamphetamine packed into tea bags inside a modified luxury sedan in Butterworth. Police said couriers were paid 6,000 ringgit per trip.",
+          "quantity": "86.2 kg methamphetamine (Malaysia) · 166 kg (Thailand)",
+          "location": "Penang, Malaysia and Hua Hin, Thailand",
+          "arrests": "4 arrested",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365958/malaysian-police-smash-cross-border-drug-ring-seize-us1-million-meth-disguised-tea",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 86.2,
+              "place": "Malaysia"
+            },
+            {
+              "drug": "methamphetamine",
+              "kg": 166,
+              "place": "Thailand"
+            }
+          ]
+        },
+        {
+          "headline": "Mexico — meth lab and a highway load of marijuana disguised as coconut candy both broken up in one day",
+          "body": "Mexico's security cabinet reported that federal and state forces dismantled a clandestine methamphetamine lab in Santa María del Río, San Luis Potosí, on August 31, seizing about 203 kilograms of the drug along with 3,300 liters of precursor chemicals and production equipment. The same day, agents stopped a cargo vehicle on the Coatzacoalcos-Villahermosa highway and found 1,822 kilograms of marijuana and 81 kilograms of methamphetamine packaged to look like coconut candy, arresting one person.",
+          "quantity": "284 kg methamphetamine · 1,822 kg cannabis",
+          "location": "San Luis Potosí and Tabasco/Veracruz highway corridor, Mexico",
+          "arrests": "1 arrested",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/mexico/2026/08/31/en-vivo-seguridad-narcotrafico-y-crimen-en-mexico-hoy-31-de-agosto-gabinete-de-seguridad-despliega-acciones-tras-ataque-con-explosivo-contra-comandancia-de-ojocaliente-zacatecas/",
+          "seizures": [
+            {
+              "drug": "methamphetamine",
+              "kg": 284,
+              "place": "Mexico"
+            },
+            {
+              "drug": "cannabis",
+              "kg": 1822,
+              "place": "Mexico"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}

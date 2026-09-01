@@ -1,125 +1,87 @@
 {
- "date": "2026-08-31",
- "dateLabel": "Monday, August 31, 2026",
- "window": "Covering reporting published in the past 24-48 hours (Aug 30-31). Search indexes lag, so several items describe seizures or operations carried out earlier in the week; each story states its own incident date.",
+ "date": "2026-09-01",
+ "dateLabel": "Tuesday, September 1, 2026",
+ "window": "Covering reporting published in the past 24-48 hours (Aug 31-Sep 1). Search indexes lag, so several items describe seizures or operations carried out a few days to a few weeks earlier; each story states its own incident date. Coverage of DEA, CBP, DOJ and USCG press releases and US local police blotters was unusually thin today — most candidates found were duplicates of stories already logged in prior editions or too stale to include, so both US sections render as \"Nothing significant.\"",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 9,
+ "storyCount": 6,
  "sectionCounts": [
-  {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 3
-  },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 3
+   "count": 2
   },
   {
    "id": "world",
    "name": "Rest of World",
-   "count": 3
+   "count": 4
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Florida — Plant City traffic stop leads to a 16-pound cocaine haul and a gun cache with illegal 'switches'",
-   "summary": "Hillsborough County deputies stopped Lino Moctezuma Rosas, 33, on August 27 and found about 9 ounces of cocaine in his vehicle; a follow-up search warrant at his Plant City home…",
-   "location": "Plant City, Florida",
-   "quantity": "7.6 kg cocaine · 0.45 kg meth",
-   "arrests": "1 arrested",
-   "source": "CBS12",
-   "url": "https://cbs12.com/news/crime/hillsborough-county-man-arrested-after-traffic-stop-leads-to-cocaine-guns-and-cash-haul-florida-news-florida-crime-hillsborough-county-sheriffs-office-hcso-drugs-guns-switches"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "South Carolina — state grand jury indicts eight in 'Pressed for Time' fentanyl pill-press ring",
-   "summary": "South Carolina's Attorney General announced August 25 that a State Grand Jury had indicted eight people tied to a fentanyl and methamphetamine trafficking operation based in…",
-   "location": "Greenwood County, South Carolina",
-   "quantity": "4.1 kg fentanyl · 3.8 kg meth",
-   "arrests": "8 indicted",
-   "source": "WIS-TV",
-   "url": "https://www.wistv.com/2026/08/25/eight-indicted-state-grand-jury-fentanyl-trafficking-investigation/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Connecticut — Willimantic traffic stop turns up 534 bags of fentanyl",
-   "summary": "Willimantic police stopped a vehicle just after 2 a.m. on August 29 near Park Avenue and Jackson Street after K-9 Drogo alerted during a free-air sniff; a search produced 534…",
-   "location": "Willimantic, Connecticut",
-   "quantity": "534 bags fentanyl",
-   "arrests": "1 arrested",
-   "source": "WFSB",
-   "url": "https://www.wfsb.com/2026/08/30/traffic-stop-k9-search-lead-seizure-over-500-bags-fentanyl-arrest/"
-  },
-  {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombia leads a 30-country operation that seized 4.7 tonnes of cocaine over three weeks",
-   "summary": "Colombia's air force led Operation Zeus Arcano III from August 11 to 30, coordinating with agencies from 30 countries to fly 92 aerial missions and inspect 102 clandestine…",
-   "location": "Colombia",
-   "quantity": "4,687 kg cocaine (3-week total)",
-   "arrests": "8 captured",
-   "source": "Semana",
-   "url": "https://www.semana.com/nacion/articulo/abelardo-de-la-espriella-revela-millonario-golpe-al-narcotrafico-46-toneladas-de-cocaina-incautadas-y-8-capturas/202641/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — 185 kilos of marijuana found hidden in a van's roof at the Paraguay border bridge",
-   "summary": "Brazil's federal revenue service searched a van crossing the Friendship Bridge from Paraguay into Foz do Iguaçu on August 28 and found a hidden compartment built into the roof…",
+   "headline": "Brazil — smugglers ditch 63 kilos of marijuana mid-handoff on the Paraná River at Foz do Iguaçu",
+   "summary": "Federal Police and Military Police observed a boat cross from Paraguay to the Brazilian bank of the Paraná River near Avenida Beira Rio in Foz do Iguaçu just after midnight on…",
    "location": "Foz do Iguaçu, Paraná, Brazil",
-   "quantity": "185 kg cannabis",
+   "quantity": "63.1 kg cannabis",
    "arrests": "",
-   "source": "Rádio Cultura Foz",
-   "url": "https://www.radioculturafoz.com.br/2026/08/28/receita-federal-apreende-185-kg-de-maconha-escondidos-no-teto-de-van-paraguaia-na-ponte-da-amizade"
+   "source": "O Paraná",
+   "url": "https://oparana.com.br/cotidiano/policia-apreende-376-kg-de-maconha-apos-barco-cruzar-rio-do-paraguai-para-foz-do-iguacu/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentina — anti-narcotics police dismantle 18 drug sales points in Córdoba, arrest 11",
-   "summary": "Argentina's Antinarcotics Police Force closed out a five-month investigation on August 30 with raids on nine drug-selling points in Calamuchita department and another nine in the…",
-   "location": "Córdoba, Argentina",
-   "quantity": "1,862 doses cocaine",
-   "arrests": "11 arrested",
-   "source": "Hoy Día Córdoba",
-   "url": "https://hoydia.com.ar/sucesos/la-fpa-detuvo-a-11-personas-en-diferentes-operativos-antidrogas/"
+   "headline": "Bolivia — anti-drug police intercept cocaine capsules and marijuana hidden in a boxing bag on the Bioceanic route",
+   "summary": "Bolivia's anti-narcotics force FELCN ran three checks in Santa Cruz department on August 30-31 as part of the \"Frontera Segura\" border plan.",
+   "location": "Roboré and Puerto Suárez, Santa Cruz, Bolivia",
+   "quantity": "5 packages cocaine · 16 packages cannabis",
+   "arrests": "2 arrested",
+   "source": "El Diario (Bolivia)",
+   "url": "https://www.eldiario.net/portal/2026/08/31/felcn-incauta-droga-camuflada-en-encomiendas-en-la-ruta-bioceanica/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Hong Kong — seven-week 'Tailbacker' crackdown nets 321 arrests and 231 kilos of cocaine and ketamine",
-   "summary": "Hong Kong police wrapped up \"Operation Tailbacker,\" a citywide crackdown running from July 12 to August 29, with 321 arrests ranging in age from 13 to 72 across 234 drug cases.",
-   "location": "Hong Kong",
-   "quantity": "76 kg cocaine · 65 kg ketamine",
-   "arrests": "321 arrested",
+   "headline": "Sri Lanka — 463 kilos of crystal meth found in two containers at Colombo Port",
+   "summary": "Sri Lanka's Police Narcotics Bureau and Central Crime Investigation Bureau, working with Customs, opened two suspicious containers at Colombo Port around September 1 and found…",
+   "location": "Colombo Port, Sri Lanka",
+   "quantity": "463 kg methamphetamine",
+   "arrests": "4 arrested",
+   "source": "Lanka Newspapers",
+   "url": "https://www.lankanewspapers.com/2026/09/01/massive-crystal-meth-haul-of-463kg-seized-at-colombo-port-in-major-drug-bust"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Pakistan — 23 kilos of heroin found in a roadside vehicle search in Charsadda",
+   "summary": "Acting on a tip, Khyber Pakhtunkhwa's Excise Intelligence Squad and Excise Police Station Charsadda searched a vehicle on Pashtun Ghari Road on September 1 and recovered about…",
+   "location": "Charsadda, Khyber Pakhtunkhwa, Pakistan",
+   "quantity": "23.46 kg heroin",
+   "arrests": "1 arrested",
+   "source": "The Nation (Pakistan)",
+   "url": "https://www.nation.com.pk/01-Sep-2026/drug-smuggling-bid-foiled-23-46kg-heroin-ice-recovered"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Malaysia and Thailand — tea-bag meth ring rolled up after cross-border police tip-off",
+   "summary": "Thai police seized about 166 kilograms of methamphetamine from a Malaysian courier in Hua Hin on August 8 and passed the lead to Malaysian counterparts.",
+   "location": "Penang, Malaysia and Hua Hin, Thailand",
+   "quantity": "86.2 kg methamphetamine (Malaysia) · 166 kg (Thailand)",
+   "arrests": "4 arrested",
    "source": "South China Morning Post",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3365766/13-year-old-among-321-arrested-hong-kong-police-seize-drugs-worth-hk130m"
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365958/malaysian-police-smash-cross-border-drug-ring-seize-us1-million-meth-disguised-tea"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Nigeria — captagon hidden in soap and 3.9 million opioid pills intercepted at Lagos airport",
-   "summary": "Nigeria's drug agency arrested Akinbile Kazeem Aikins, 49, at Lagos's international airport after finding 47,200 captagon tablets — the so-called \"jihadi drug\" — hidden inside…",
-   "location": "Lagos and Ondo State, Nigeria",
-   "quantity": "2,787 kg opioid pills · 1,069 kg cannabis",
-   "arrests": "6 arrested",
-   "source": "ThisDay",
-   "url": "https://www.thisdaylive.com/2026/08/31/ndlea-busts-n6-2bn-international-drug-pipeline-seizes-jihadi-drug-hidden-in-ghana-soap-3-9m-opioid-pills/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "South Africa — three arrested as police seize R1.5 million in mixed drugs in Gqeberha",
-   "summary": "South African police raided a Parliament Street address in central Gqeberha on August 27 under Operation UKUBUZA, arresting three men — two of them foreign nationals — and…",
-   "location": "Gqeberha, South Africa",
-   "quantity": "R1.5M mixed drugs",
-   "arrests": "3 arrested",
-   "source": "Joburg ETC",
-   "url": "https://www.joburgetc.com/news/r15m-drug-seizure-gqeberha-operation-ukubuza/"
+   "headline": "Mexico — meth lab and a highway load of marijuana disguised as coconut candy both broken up in one day",
+   "summary": "Mexico's security cabinet reported that federal and state forces dismantled a clandestine methamphetamine lab in Santa María del Río, San Luis Potosí, on August 31, seizing about…",
+   "location": "San Luis Potosí and Tabasco/Veracruz highway corridor, Mexico",
+   "quantity": "284 kg methamphetamine · 1,822 kg cannabis",
+   "arrests": "1 arrested",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/mexico/2026/08/31/en-vivo-seguridad-narcotrafico-y-crimen-en-mexico-hoy-31-de-agosto-gabinete-de-seguridad-despliega-acciones-tras-ataque-con-explosivo-contra-comandancia-de-ojocaliente-zacatecas/"
   }
  ]
 }
