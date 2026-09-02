@@ -1,87 +1,124 @@
 {
- "date": "2026-09-01",
- "dateLabel": "Tuesday, September 1, 2026",
- "window": "Covering reporting published in the past 24-48 hours (Aug 31-Sep 1). Search indexes lag, so several items describe seizures or operations carried out a few days to a few weeks earlier; each story states its own incident date. Coverage of DEA, CBP, DOJ and USCG press releases and US local police blotters was unusually thin today — most candidates found were duplicates of stories already logged in prior editions or too stale to include, so both US sections render as \"Nothing significant.\"",
+ "date": "2026-09-02",
+ "dateLabel": "Wednesday, September 2, 2026",
+ "window": "Covering reporting published in the past 24-48 hours (Sept 1-2). No new SOUTHCOM/Joint Task Force Western Hemisphere vessel strike was found in this window beyond the Aug. 25 Caribbean strike and Aug. 28 refueling-vessel interdiction already logged in prior editions, so the military counter-narcotics beat sits out today. DEA, CBP and DOJ press releases were thin nationally; the one federal item found is a regional DEA field-office stash-house bust.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 6,
+ "storyCount": 8,
  "sectionCounts": [
+  {
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 1
+  },
+  {
+   "id": "local",
+   "name": "Local US Arrests",
+   "count": 1
+  },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 2
+   "count": 3
   },
   {
    "id": "world",
    "name": "Rest of World",
-   "count": 4
+   "count": 2
+  },
+  {
+   "id": "ongoing",
+   "name": "Ongoing Stories with New Developments",
+   "count": 1
   }
  ],
  "stories": [
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — smugglers ditch 63 kilos of marijuana mid-handoff on the Paraná River at Foz do Iguaçu",
-   "summary": "Federal Police and Military Police observed a boat cross from Paraguay to the Brazilian bank of the Paraná River near Avenida Beira Rio in Foz do Iguaçu just after midnight on…",
-   "location": "Foz do Iguaçu, Paraná, Brazil",
-   "quantity": "63.1 kg cannabis",
-   "arrests": "",
-   "source": "O Paraná",
-   "url": "https://oparana.com.br/cotidiano/policia-apreende-376-kg-de-maconha-apos-barco-cruzar-rio-do-paraguai-para-foz-do-iguacu/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Bolivia — anti-drug police intercept cocaine capsules and marijuana hidden in a boxing bag on the Bioceanic route",
-   "summary": "Bolivia's anti-narcotics force FELCN ran three checks in Santa Cruz department on August 30-31 as part of the \"Frontera Segura\" border plan.",
-   "location": "Roboré and Puerto Suárez, Santa Cruz, Bolivia",
-   "quantity": "5 packages cocaine · 16 packages cannabis",
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Texas — DEA and state troopers pull 82 kilos of cocaine and $700,000 from a Mission stash house",
+   "summary": "DEA's McAllen office and Texas Department of Public Safety agents raided a house in Mission around 8:50 p.m.",
+   "location": "Mission, Texas",
+   "quantity": "82 kg cocaine",
    "arrests": "2 arrested",
-   "source": "El Diario (Bolivia)",
-   "url": "https://www.eldiario.net/portal/2026/08/31/felcn-incauta-droga-camuflada-en-encomiendas-en-la-ruta-bioceanica/"
+   "source": "KVEO",
+   "url": "https://www.valleycentral.com/news/local-news/couple-arrested-at-mission-stash-house-had-more-than-700000-in-cash-180-pounds-of-cocaine-dea-says/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Sri Lanka — 463 kilos of crystal meth found in two containers at Colombo Port",
-   "summary": "Sri Lanka's Police Narcotics Bureau and Central Crime Investigation Bureau, working with Customs, opened two suspicious containers at Colombo Port around September 1 and found…",
-   "location": "Colombo Port, Sri Lanka",
-   "quantity": "463 kg methamphetamine",
-   "arrests": "4 arrested",
-   "source": "Lanka Newspapers",
-   "url": "https://www.lankanewspapers.com/2026/09/01/massive-crystal-meth-haul-of-463kg-seized-at-colombo-port-in-major-drug-bust"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Pennsylvania — wiretaps unravel a Montgomery County cocaine and marijuana ring, ten charged",
+   "summary": "Montgomery County prosecutors said a months-long wiretap investigation traced a drug-trafficking operation running from Norristown into Chester and Delaware counties, including a…",
+   "location": "Montgomery County, Pennsylvania",
+   "quantity": "113.4 kg cannabis (250 lb)",
+   "arrests": "7 arrested, 3 sought",
+   "source": "6ABC Philadelphia",
+   "url": "https://6abc.com/post/10-facing-charges-months-long-montgomery-county-drug-trafficking-investigation/19774350/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Pakistan — 23 kilos of heroin found in a roadside vehicle search in Charsadda",
-   "summary": "Acting on a tip, Khyber Pakhtunkhwa's Excise Intelligence Squad and Excise Police Station Charsadda searched a vehicle on Pashtun Ghari Road on September 1 and recovered about…",
-   "location": "Charsadda, Khyber Pakhtunkhwa, Pakistan",
-   "quantity": "23.46 kg heroin",
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — driver held after 4 tonnes of high-THC \"skunk\" cannabis found in a truck's hidden compartment",
+   "summary": "Federal Highway Police stopped a truck at a checkpoint on BR-040 in Cristalina, Goiás, on August 29 and found a concealed compartment packed with 3,420 blocks of plant material…",
+   "location": "Cristalina, Goiás, Brazil",
+   "quantity": "4,086.9 kg cannabis",
    "arrests": "1 arrested",
-   "source": "The Nation (Pakistan)",
-   "url": "https://www.nation.com.pk/01-Sep-2026/drug-smuggling-bid-foiled-23-46kg-heroin-ice-recovered"
+   "source": "Jornal de Brasília",
+   "url": "https://jornaldebrasilia.com.br/brasilia/mpdft-obtem-prisao-preventiva-de-motorista-com-4-toneladas-de-skunk/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Malaysia and Thailand — tea-bag meth ring rolled up after cross-border police tip-off",
-   "summary": "Thai police seized about 166 kilograms of methamphetamine from a Malaysian courier in Hua Hin on August 8 and passed the lead to Malaysian counterparts.",
-   "location": "Penang, Malaysia and Hua Hin, Thailand",
-   "quantity": "86.2 kg methamphetamine (Malaysia) · 166 kg (Thailand)",
-   "arrests": "4 arrested",
-   "source": "South China Morning Post",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365958/malaysian-police-smash-cross-border-drug-ring-seize-us1-million-meth-disguised-tea"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Mexico — meth lab and a highway load of marijuana disguised as coconut candy both broken up in one day",
-   "summary": "Mexico's security cabinet reported that federal and state forces dismantled a clandestine methamphetamine lab in Santa María del Río, San Luis Potosí, on August 31, seizing about…",
-   "location": "San Luis Potosí and Tabasco/Veracruz highway corridor, Mexico",
-   "quantity": "284 kg methamphetamine · 1,822 kg cannabis",
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — bus passenger caught with 26 kilos of marijuana and a rifle magazine on a Bahia highway",
+   "summary": "Federal Highway Police stopped an interstate bus at kilometer 429 of BR-116 in Feira de Santana, Bahia, on the morning of September 1 and found a woman traveling from Rio de…",
+   "location": "Feira de Santana, Bahia, Brazil",
+   "quantity": "26 kg cannabis",
    "arrests": "1 arrested",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/mexico/2026/08/31/en-vivo-seguridad-narcotrafico-y-crimen-en-mexico-hoy-31-de-agosto-gabinete-de-seguridad-despliega-acciones-tras-ataque-con-explosivo-contra-comandancia-de-ojocaliente-zacatecas/"
+   "source": "Interior da Bahia",
+   "url": "https://interiordabahia.com.br/2026/09/01/mulher-que-seguia-para-capela-do-alto-alegre-e-presa-com-26-kg-de-drogas-municoes-e-carregador-de-fuzil-na-br-116/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina — Mendoza police seize 34 kilos of cocaine and $18,200 in a Guaymallén raid",
+   "summary": "Anti-narcotics police in Guaymallén, Mendoza province, intercepted nearly 34 kilograms of high-purity cocaine wrapped in green-and-yellow tape on September 2, along with $18,200…",
+   "location": "Guaymallén, Mendoza, Argentina",
+   "quantity": "34 kg cocaine",
+   "arrests": "3 arrested",
+   "source": "KCH FM",
+   "url": "https://kchcomunicacion.com/2026/09/02/golpe-al-narcotrafico-en-mendoza-incautan-34-kilos-de-cocaina-y-detienen-a-tres-personas/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Australia — Canberra commits $600 million to choke Pacific drug-smuggling routes",
+   "summary": "Prime Minister Anthony Albanese announced an AU$600 million \"Waqa Moana\" initiative at the Pacific Islands Forum in Palau on September 2, funding ocean surveillance, interception…",
+   "location": "Australia / Pacific Islands",
+   "quantity": "",
+   "arrests": "",
+   "source": "ABC News (Australia)",
+   "url": "https://www.abc.net.au/news/2026-09-02/australia-to-fund-scheme-to-tackle-pacific-drug-smuggling/107104900"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Nigeria — Kaduna anti-drug command reports 140 arrests and 816 kilos seized in a month of raids",
+   "summary": "The NDLEA's Kaduna State Command said operations across the state in August led to 140 arrests and the seizure of roughly 816.5 kilograms of drugs, most of it cannabis, with…",
+   "location": "Kaduna State, Nigeria",
+   "quantity": "",
+   "arrests": "140 arrested",
+   "source": "BusinessDay Nigeria",
+   "url": "https://businessday.ng/news/article/ndlea-arrest-140-suspects-seizes-816-506kg-of-illicit-drugs-in-kaduna/"
+  },
+  {
+   "section": "ongoing",
+   "sectionName": "Ongoing Stories with New Developments",
+   "headline": "Sri Lanka meth bust — DEA reveals it was a joint operation with a bigger haul than first reported",
+   "summary": "A day after Colombo Port authorities announced a 463-kilogram methamphetamine seizure, the US DEA and Sri Lanka's Police Narcotics Bureau disclosed on September 2 that the bust…",
+   "location": "Colombo, Sri Lanka",
+   "quantity": "",
+   "arrests": "5 arrested",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/09/02/us-and-sri-lankan-agents-bust-pakistan-drug-network-and-seize-18m-of-meth-police-say"
   }
  ]
 }
