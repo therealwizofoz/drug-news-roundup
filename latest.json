@@ -1,9 +1,9 @@
 {
- "date": "2026-09-02",
- "dateLabel": "Wednesday, September 2, 2026",
- "window": "Covering reporting published in the past 24-48 hours (Sept 1-2). No new SOUTHCOM/Joint Task Force Western Hemisphere vessel strike was found in this window beyond the Aug. 25 Caribbean strike and Aug. 28 refueling-vessel interdiction already logged in prior editions, so the military counter-narcotics beat sits out today. DEA, CBP and DOJ press releases were thin nationally; the one federal item found is a regional DEA field-office stash-house bust.",
+ "date": "2026-09-03",
+ "dateLabel": "Thursday, September 3, 2026",
+ "window": "Covering reporting published in the past 24-48 hours (Sept 2-3). South America got dedicated coverage as instructed, turning up three fresh busts (Colombia, Chile, Brazil) after most other Andean candidates proved to be stale year-to-date tallies or duplicates of the Aug 31 multinational operation already logged. No new SOUTHCOM/Joint Task Force Western Hemisphere vessel strike occurred in this window, but September 2 marked the campaign's one-year anniversary, prompting new reporting and congressional criticism that is logged as an ongoing-story update rather than a new strike.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 8,
+ "storyCount": 9,
  "sectionCounts": [
   {
    "id": "federal",
@@ -13,7 +13,7 @@
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 1
+   "count": 2
   },
   {
    "id": "south-america",
@@ -35,90 +35,101 @@
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Texas — DEA and state troopers pull 82 kilos of cocaine and $700,000 from a Mission stash house",
-   "summary": "DEA's McAllen office and Texas Department of Public Safety agents raided a house in Mission around 8:50 p.m.",
-   "location": "Mission, Texas",
-   "quantity": "82 kg cocaine",
-   "arrests": "2 arrested",
-   "source": "KVEO",
-   "url": "https://www.valleycentral.com/news/local-news/couple-arrested-at-mission-stash-house-had-more-than-700000-in-cash-180-pounds-of-cocaine-dea-says/"
+   "headline": "Kansas City — federal indictment unseals a year-long fentanyl, carfentanil and cocaine ring, six charged",
+   "summary": "A federal indictment unsealed September 1 charges six people, ages 40 to 70, with running a drug-distribution operation out of the Kansas City area between November 2025 and…",
+   "location": "Kansas City, Missouri",
+   "quantity": "3.5 kg cocaine, 2.5 kg fentanyl",
+   "arrests": "6 charged",
+   "source": "Hoodline",
+   "url": "https://hoodline.com/2026/09/six-indicted-in-kansas-city-fentanyl-ring-feds-seize-carfentanil-and-machine-gun-switch/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Pennsylvania — wiretaps unravel a Montgomery County cocaine and marijuana ring, ten charged",
-   "summary": "Montgomery County prosecutors said a months-long wiretap investigation traced a drug-trafficking operation running from Norristown into Chester and Delaware counties, including a…",
-   "location": "Montgomery County, Pennsylvania",
-   "quantity": "113.4 kg cannabis (250 lb)",
-   "arrests": "7 arrested, 3 sought",
-   "source": "6ABC Philadelphia",
-   "url": "https://6abc.com/post/10-facing-charges-months-long-montgomery-county-drug-trafficking-investigation/19774350/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — driver held after 4 tonnes of high-THC \"skunk\" cannabis found in a truck's hidden compartment",
-   "summary": "Federal Highway Police stopped a truck at a checkpoint on BR-040 in Cristalina, Goiás, on August 29 and found a concealed compartment packed with 3,420 blocks of plant material…",
-   "location": "Cristalina, Goiás, Brazil",
-   "quantity": "4,086.9 kg cannabis",
+   "headline": "North Dakota — McKenzie County traffic stop on a suspected drug run yields nearly 12 pounds of meth",
+   "summary": "The Northwest Narcotics Task Force flagged a vehicle believed to be running drugs into western North Dakota, and McKenzie County deputies stopped it on August 16; a K-9 alert led…",
+   "location": "McKenzie County, North Dakota",
+   "quantity": "5.4 kg meth",
    "arrests": "1 arrested",
-   "source": "Jornal de Brasília",
-   "url": "https://jornaldebrasilia.com.br/brasilia/mpdft-obtem-prisao-preventiva-de-motorista-com-4-toneladas-de-skunk/"
+   "source": "The Roundup (Williston, ND)",
+   "url": "https://www.roundupweb.com/story/2026/09/02/news/joint-effort-results-in-narcotics-seizure/24663.html"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Tennessee — Shelby County detectives trace a suspicious package to 2.6 pounds of fentanyl, two arrested",
+   "summary": "A tip from a US Postal Inspection Service inspector about a suspicious package led Shelby County Sheriff's detectives to a delivery on Curry Avenue in Memphis around August…",
+   "location": "Memphis, Tennessee",
+   "quantity": "1.2 kg fentanyl",
+   "arrests": "2 arrested",
+   "source": "Action News 5 (WMC)",
+   "url": "https://www.actionnews5.com/2026/09/02/detectives-seize-26-pounds-fentanyl-after-uspis-finds-suspicious-package/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazil — bus passenger caught with 26 kilos of marijuana and a rifle magazine on a Bahia highway",
-   "summary": "Federal Highway Police stopped an interstate bus at kilometer 429 of BR-116 in Feira de Santana, Bahia, on the morning of September 1 and found a woman traveling from Rio de…",
-   "location": "Feira de Santana, Bahia, Brazil",
-   "quantity": "26 kg cannabis",
-   "arrests": "1 arrested",
-   "source": "Interior da Bahia",
-   "url": "https://interiordabahia.com.br/2026/09/01/mulher-que-seguia-para-capela-do-alto-alegre-e-presa-com-26-kg-de-drogas-municoes-e-carregador-de-fuzil-na-br-116/"
+   "headline": "Colombia — Navy intercepts a go-fast boat off Cartagena carrying 736 kilos of cocaine, two Dominicans captured",
+   "summary": "Colombia's Caribbean Naval Force intercepted a speedboat off Cartagena, Bolívar, on September 2 carrying 741 packages of cocaine hydrochloride weighing about 736 kilograms, with…",
+   "location": "Cartagena, Bolívar, Colombia",
+   "quantity": "736 kg cocaine",
+   "arrests": "2 captured",
+   "source": "Infobae Colombia",
+   "url": "https://www.infobae.com/colombia/2026/09/03/armada-de-colombia-incauto-cargamento-de-cocaina-avaluado-en-34-millones-de-dolares-dos-dominicanos-fueron-capturados/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentina — Mendoza police seize 34 kilos of cocaine and $18,200 in a Guaymallén raid",
-   "summary": "Anti-narcotics police in Guaymallén, Mendoza province, intercepted nearly 34 kilograms of high-purity cocaine wrapped in green-and-yellow tape on September 2, along with $18,200…",
-   "location": "Guaymallén, Mendoza, Argentina",
-   "quantity": "34 kg cocaine",
-   "arrests": "3 arrested",
-   "source": "KCH FM",
-   "url": "https://kchcomunicacion.com/2026/09/02/golpe-al-narcotrafico-en-mendoza-incautan-34-kilos-de-cocaina-y-detienen-a-tres-personas/"
+   "headline": "Chile — Antofagasta prosecutors dismantle a multinational trafficking ring, 13 detained",
+   "summary": "Chile's public prosecutor's office and Carabineros broke up an international criminal network operating across three Antofagasta-region municipalities starting August 31, seizing…",
+   "location": "Antofagasta, Chile",
+   "quantity": "302 kg cannabis, 7.2 kg cocaine",
+   "arrests": "13 detained",
+   "source": "La Tercera",
+   "url": "https://www.latercera.com/nacional/noticia/fiscalia-y-carabineros-desmantelan-grupo-criminal-multinacional-e-incautan-mas-de-300-kilos-de-droga-en-antofagasta/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — four caught trying to fly cocaine out of Guarulhos, Laotian trafficking victims sheltered separately",
+   "summary": "Federal Police at São Paulo's Guarulhos airport arrested four people between August 28 and September 1 attempting to smuggle cocaine concealed under clothing or swallowed…",
+   "location": "Guarulhos, São Paulo, Brazil",
+   "quantity": "3.8 kg cocaine",
+   "arrests": "4 arrested",
+   "source": "Guarulhos Hoje",
+   "url": "https://www.guarulhoshoje.com.br/2026/09/01/pf-prende-quatro-suspeitos-e-resgata-vitimas-de-trafico-humano-em-guarulhos/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Australia — Canberra commits $600 million to choke Pacific drug-smuggling routes",
-   "summary": "Prime Minister Anthony Albanese announced an AU$600 million \"Waqa Moana\" initiative at the Pacific Islands Forum in Palau on September 2, funding ocean surveillance, interception…",
-   "location": "Australia / Pacific Islands",
-   "quantity": "",
-   "arrests": "",
-   "source": "ABC News (Australia)",
-   "url": "https://www.abc.net.au/news/2026-09-02/australia-to-fund-scheme-to-tackle-pacific-drug-smuggling/107104900"
+   "headline": "Canada — Calgary raid nets a five-drug haul and a record cash seizure for a provincial anti-gang unit",
+   "summary": "Alberta's ALERT organized-crime unit searched a home in Calgary's Skyview neighborhood on July 30 and, with results announced September 2, reported seizing 3.09 kilograms of…",
+   "location": "Calgary, Alberta, Canada",
+   "quantity": "3.1 kg fentanyl, 6.9 kg MDMA",
+   "arrests": "2 charged",
+   "source": "ALERT (Alberta Law Enforcement Response Teams)",
+   "url": "https://alert-ab.ca/over-2-million-in-drugs-and-cash-seized-in-calgary/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Nigeria — Kaduna anti-drug command reports 140 arrests and 816 kilos seized in a month of raids",
-   "summary": "The NDLEA's Kaduna State Command said operations across the state in August led to 140 arrests and the seizure of roughly 816.5 kilograms of drugs, most of it cannabis, with…",
-   "location": "Kaduna State, Nigeria",
-   "quantity": "",
-   "arrests": "140 arrested",
-   "source": "BusinessDay Nigeria",
-   "url": "https://businessday.ng/news/article/ndlea-arrest-140-suspects-seizes-816-506kg-of-illicit-drugs-in-kaduna/"
+   "headline": "Philippines — Manila buy-bust nets 2.1 kilos of shabu worth ₱14.28 million",
+   "summary": "Manila police arrested a 33-year-old suspect known by the alias \"Kapatid\" in a buy-bust operation in Ermita on August 31, seizing about 2.1 kilograms of methamphetamine, locally…",
+   "location": "Manila, Philippines",
+   "quantity": "2.1 kg methamphetamine",
+   "arrests": "1 arrested",
+   "source": "Tempo (Manila Bulletin)",
+   "url": "https://tempo.mb.com.ph/2026/09/02/kapatid-yields-p14-28-m-shabu-in-manila/"
   },
   {
    "section": "ongoing",
    "sectionName": "Ongoing Stories with New Developments",
-   "headline": "Sri Lanka meth bust — DEA reveals it was a joint operation with a bigger haul than first reported",
-   "summary": "A day after Colombo Port authorities announced a 463-kilogram methamphetamine seizure, the US DEA and Sri Lanka's Police Narcotics Bureau disclosed on September 2 that the bust…",
-   "location": "Colombo, Sri Lanka",
+   "headline": "One year of SOUTHCOM boat strikes — new reporting and a congressional statement detail 227 dead and mounting legal criticism",
+   "summary": "September 2 marked one year since the first US strike on an alleged drug boat in the Caribbean, and new reporting used the anniversary to tally the campaign: 65-plus strikes…",
+   "location": "Caribbean / Eastern Pacific",
    "quantity": "",
-   "arrests": "5 arrested",
-   "source": "Euronews",
-   "url": "https://www.euronews.com/2026/09/02/us-and-sri-lankan-agents-bust-pakistan-drug-network-and-seize-18m-of-meth-police-say"
+   "arrests": "",
+   "source": "The Intercept",
+   "url": "https://theintercept.com/2026/09/02/military-boat-strikes-killings-year/"
   }
  ]
 }

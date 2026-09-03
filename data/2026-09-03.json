@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-03",
+  "window": "Covering reporting published in the past 24-48 hours (Sept 2-3). South America got dedicated coverage as instructed, turning up three fresh busts (Colombia, Chile, Brazil) after most other Andean candidates proved to be stale year-to-date tallies or duplicates of the Aug 31 multinational operation already logged. No new SOUTHCOM/Joint Task Force Western Hemisphere vessel strike occurred in this window, but September 2 marked the campaign's one-year anniversary, prompting new reporting and congressional criticism that is logged as an ongoing-story update rather than a new strike.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Kansas City — federal indictment unseals a year-long fentanyl, carfentanil and cocaine ring, six charged",
+          "body": "A federal indictment unsealed September 1 charges six people, ages 40 to 70, with running a drug-distribution operation out of the Kansas City area between November 2025 and August 2026. The investigation — led by a Homeland Security Task Force including the DEA, ATF, IRS Criminal Investigation and Missouri Highway Patrol — tied the ring to more than 3.5 kilograms of cocaine, about 1.5 kilograms of fentanyl and a further kilogram of a carfentanil-fentanyl mixture, plus nine firearms including one with an illegal machine-gun conversion switch. Carfentanil, an elephant tranquilizer with no approved human use, is roughly 10,000 times more potent than morphine.",
+          "quantity": "3.5 kg cocaine, 2.5 kg fentanyl",
+          "location": "Kansas City, Missouri",
+          "arrests": "6 charged",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/six-indicted-in-kansas-city-fentanyl-ring-feds-seize-carfentanil-and-machine-gun-switch/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 3.5, "place": "Missouri" },
+            { "drug": "fentanyl", "kg": 2.5, "place": "Missouri" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "North Dakota — McKenzie County traffic stop on a suspected drug run yields nearly 12 pounds of meth",
+          "body": "The Northwest Narcotics Task Force flagged a vehicle believed to be running drugs into western North Dakota, and McKenzie County deputies stopped it on August 16; a K-9 alert led to roughly 11.94 pounds of methamphetamine, 155 grams of cocaine, 350 grams of psilocybin mushrooms and two firearms. The driver was arrested at the scene and charged with multiple felony counts of possession with intent to deliver.",
+          "quantity": "5.4 kg meth",
+          "location": "McKenzie County, North Dakota",
+          "arrests": "1 arrested",
+          "source": "The Roundup (Williston, ND)",
+          "url": "https://www.roundupweb.com/story/2026/09/02/news/joint-effort-results-in-narcotics-seizure/24663.html",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 5.42, "place": "North Dakota" },
+            { "drug": "cocaine", "kg": 0.155, "place": "North Dakota" }
+          ]
+        },
+        {
+          "headline": "Tennessee — Shelby County detectives trace a suspicious package to 2.6 pounds of fentanyl, two arrested",
+          "body": "A tip from a US Postal Inspection Service inspector about a suspicious package led Shelby County Sheriff's detectives to a delivery on Curry Avenue in Memphis around August 31-September 1; a K-9 alert and search warrant turned up roughly 2.6 pounds of fentanyl. Romi Butler, 47, and Herbert Harvey, 55, were arrested, with Harvey facing additional charges over a stolen revolver and two other firearms found in the search.",
+          "quantity": "1.2 kg fentanyl",
+          "location": "Memphis, Tennessee",
+          "arrests": "2 arrested",
+          "source": "Action News 5 (WMC)",
+          "url": "https://www.actionnews5.com/2026/09/02/detectives-seize-26-pounds-fentanyl-after-uspis-finds-suspicious-package/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 1.18, "place": "Tennessee" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombia — Navy intercepts a go-fast boat off Cartagena carrying 736 kilos of cocaine, two Dominicans captured",
+          "body": "Colombia's Caribbean Naval Force intercepted a speedboat off Cartagena, Bolívar, on September 2 carrying 741 packages of cocaine hydrochloride weighing about 736 kilograms, with the US Joint Interagency Task Force South providing aerial surveillance support. The Navy put the load's value to trafficking networks at roughly $34 million; two Dominican nationals were captured, and the boat sank during towing in rough seas.",
+          "quantity": "736 kg cocaine",
+          "location": "Cartagena, Bolívar, Colombia",
+          "arrests": "2 captured",
+          "source": "Infobae Colombia",
+          "url": "https://www.infobae.com/colombia/2026/09/03/armada-de-colombia-incauto-cargamento-de-cocaina-avaluado-en-34-millones-de-dolares-dos-dominicanos-fueron-capturados/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 736, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Chile — Antofagasta prosecutors dismantle a multinational trafficking ring, 13 detained",
+          "body": "Chile's public prosecutor's office and Carabineros broke up an international criminal network operating across three Antofagasta-region municipalities starting August 31, seizing about 302 kilograms of marijuana and just over 7 kilograms of cocaine hydrochloride and crack base, plus 14 million pesos in cash and four vehicles. Thirteen foreign nationals were detained — ten Colombians, including two minors, plus a Bolivian, a Venezuelan and a Dominican — in what the regional prosecutor described as a shift toward dismantling networks rather than just seizing shipments.",
+          "quantity": "302 kg cannabis, 7.2 kg cocaine",
+          "location": "Antofagasta, Chile",
+          "arrests": "13 detained",
+          "source": "La Tercera",
+          "url": "https://www.latercera.com/nacional/noticia/fiscalia-y-carabineros-desmantelan-grupo-criminal-multinacional-e-incautan-mas-de-300-kilos-de-droga-en-antofagasta/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 302.415, "place": "Chile" },
+            { "drug": "cocaine", "kg": 7.191, "place": "Chile" }
+          ]
+        },
+        {
+          "headline": "Brazil — four caught trying to fly cocaine out of Guarulhos, Laotian trafficking victims sheltered separately",
+          "body": "Federal Police at São Paulo's Guarulhos airport arrested four people between August 28 and September 1 attempting to smuggle cocaine concealed under clothing or swallowed, including about 3 kilograms bound for Doha and 800 grams bound for France; two of the travelers needed hospital evaluation before being processed. In an unrelated case at the same airport, police gave humanitarian shelter to five Brazilians arriving from Laos who showed what officers called \"signs of vulnerability and exploitation,\" and are investigating whether they were trafficking victims.",
+          "quantity": "3.8 kg cocaine",
+          "location": "Guarulhos, São Paulo, Brazil",
+          "arrests": "4 arrested",
+          "source": "Guarulhos Hoje",
+          "url": "https://www.guarulhoshoje.com.br/2026/09/01/pf-prende-quatro-suspeitos-e-resgata-vitimas-de-trafico-humano-em-guarulhos/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 3.8, "place": "Brazil" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Canada — Calgary raid nets a five-drug haul and a record cash seizure for a provincial anti-gang unit",
+          "body": "Alberta's ALERT organized-crime unit searched a home in Calgary's Skyview neighborhood on July 30 and, with results announced September 2, reported seizing 3.09 kilograms of fentanyl, 6.88 kilograms of MDMA, 2.18 kilograms of methamphetamine, 481 grams of cocaine and 479 grams of cannabis, along with more than $1 million in cash — the largest single cash seizure in the unit's history — and two prohibited weapons from three homes. Kerry Lu, 36, and Donald Ng, 51, were charged with trafficking and weapons offenses; investigators linked the case to a cocaine seizure from a Calgary-based supplier in May.",
+          "quantity": "3.1 kg fentanyl, 6.9 kg MDMA",
+          "location": "Calgary, Alberta, Canada",
+          "arrests": "2 charged",
+          "source": "ALERT (Alberta Law Enforcement Response Teams)",
+          "url": "https://alert-ab.ca/over-2-million-in-drugs-and-cash-seized-in-calgary/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 3.091, "place": "Canada" },
+            { "drug": "MDMA", "kg": 6.881, "place": "Canada" },
+            { "drug": "methamphetamine", "kg": 2.175, "place": "Canada" },
+            { "drug": "cocaine", "kg": 0.481, "place": "Canada" },
+            { "drug": "cannabis", "kg": 0.479, "place": "Canada" }
+          ]
+        },
+        {
+          "headline": "Philippines — Manila buy-bust nets 2.1 kilos of shabu worth ₱14.28 million",
+          "body": "Manila police arrested a 33-year-old suspect known by the alias \"Kapatid\" in a buy-bust operation in Ermita on August 31, seizing about 2.1 kilograms of methamphetamine, locally called shabu, with an estimated street value of ₱14.28 million (roughly $250,000).",
+          "quantity": "2.1 kg methamphetamine",
+          "location": "Manila, Philippines",
+          "arrests": "1 arrested",
+          "source": "Tempo (Manila Bulletin)",
+          "url": "https://tempo.mb.com.ph/2026/09/02/kapatid-yields-p14-28-m-shabu-in-manila/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 2.1, "place": "Philippines" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "One year of SOUTHCOM boat strikes — new reporting and a congressional statement detail 227 dead and mounting legal criticism",
+          "body": "September 2 marked one year since the first US strike on an alleged drug boat in the Caribbean, and new reporting used the anniversary to tally the campaign: 65-plus strikes across the Caribbean and eastern Pacific have killed 227 people, only 26 of whom have been identified by name, including bus drivers, taxi drivers and fishing workers. The Intercept reported that a classified Justice Department memo asserts drugs are lawful military targets because proceeds fund cartels in what it calls a \"non-international armed conflict,\" while House Armed Services Committee ranking member Rep. Adam Smith said Congress has \"yet to see any evidence\" supporting the administration's targeting decisions and noted that cocaine, not fentanyl, is what typically moves by small boat. Sen. Tim Kaine has said a review of classified material found evidence the US killed people not involved in trafficking, and Amnesty International has called the strikes extrajudicial killings; running total per this reporting: 65-68 strikes, 227 killed since September 2, 2025.",
+          "location": "Caribbean / Eastern Pacific",
+          "source": "The Intercept",
+          "url": "https://theintercept.com/2026/09/02/military-boat-strikes-killings-year/"
+        }
+      ]
+    }
+  ]
+}
