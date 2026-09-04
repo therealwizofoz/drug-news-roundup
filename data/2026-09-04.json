@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-04",
+  "window": "Covering reporting published in the past 24-48 hours (Sept 3-4). South America got dedicated effort, turning up fresh Brazil and Venezuela busts after most Colombian, Peruvian and Bolivian leads proved to be stale year-to-date tallies or the same Cabo de la Vela/Cartagena cocaine interception already logged yesterday. No new SOUTHCOM/Joint Task Force Western Hemisphere strike or materially new development in the one-year-anniversary story occurred in this window, so the ongoing section is empty today.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Laredo bridges — CBP dogs sniff out nearly $3 million in cocaine in two tractor-trailers",
+          "body": "CBP officers at the Colombia Solidarity Bridge stopped a tractor-trailer on August 21 and found about 80.7 pounds of cocaine after a canine alert; three days later at the World Trade Bridge, officers opened a trailer manifested as \"car parts\" and found roughly 141.5 pounds more. Combined, the two loads came to about 222 pounds of cocaine worth nearly $2.97 million, and Homeland Security Investigations is now working both cases.",
+          "quantity": "101 kg cocaine",
+          "location": "Laredo, Texas",
+          "arrests": "0 reported",
+          "source": "CBP / KGNS",
+          "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-officers-seize-over-29-million-cocaine-laredo-port-entry",
+          "seizures": [
+            { "drug": "cocaine", "kg": 100.79, "place": "Texas" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Florida — Polk County's \"Operation End of Worlds\" nets 39 arrests and a four-drug haul",
+          "body": "Polk County Sheriff's detectives, working with the HIDTA task force, FDLE and Auburndale police, spent months building a wiretap and surveillance case against an alleged trafficking network led by a 44-year-old recently released from state prison. Four search warrants executed around Lakeland and Auburndale turned up about 4.4 pounds of fentanyl, 2.2 pounds of methamphetamine, 1.5 pounds of cocaine and 7.8 pounds of marijuana, plus two firearms — including a Glock reported stolen from the Tampa Police Department — and roughly $4,650 in cash; 39 people face a combined 249 felony and 42 misdemeanor charges, with 18 facing 25-year mandatory-minimum trafficking counts.",
+          "quantity": "2 kg fentanyl, 1 kg meth",
+          "location": "Polk County, Florida",
+          "arrests": "39 arrested",
+          "source": "Polk County Sheriff's Office / Hoodline",
+          "url": "https://hoodline.com/2026/09/polk-sheriff-s-operation-end-of-worlds-nets-39-arrests-4-4-pounds-of-fentanyl/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 1.996, "place": "Florida" },
+            { "drug": "methamphetamine", "kg": 0.998, "place": "Florida" },
+            { "drug": "cocaine", "kg": 0.680, "place": "Florida" },
+            { "drug": "cannabis", "kg": 3.538, "place": "Florida" }
+          ]
+        },
+        {
+          "headline": "Florida — Fort Pierce felon caught with 33 pounds of marijuana and $150,000 in cash",
+          "body": "St. Lucie County Sheriff's detectives, backed by SWAT and the U.S. Marshals Service, searched a Cedar Place home on September 3 and found about 33 pounds of marijuana — just over the state's 25-pound trafficking threshold — along with more than $150,000 in cash, several firearms, a currency counter and packaging material. Stacy Tyrner, 59, a convicted felon, was arrested and charged with marijuana trafficking, felon in possession of a firearm and related counts.",
+          "quantity": "15 kg cannabis",
+          "location": "Fort Pierce, Florida",
+          "arrests": "1 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/fort-pierce-felon-busted-with-33-pounds-of-weed-guns-and-150k-cash/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 14.97, "place": "Florida" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazil — highway task force pulls 255 kilos of cocaine, marijuana and hashish from a truck in Bahia",
+          "body": "A joint operation by the Federal Highway Police, Bahia's military police and the Federal Police stopped an Iveco truck on the BR-116 in Vitória da Conquista before dawn on September 3, finding about 197.5 kilos of marijuana, 54.1 kilos of cocaine hydrochloride and 3.6 kilos of hashish hidden aboard, along with two dozen e-cigarettes barred from sale in Brazil. The driver, who had his teenage son riding along, was arrested on trafficking and smuggling charges as part of the state's permanent organized-crime task force, FICCO.",
+          "quantity": "54 kg cocaine, 198 kg cannabis",
+          "location": "Vitória da Conquista, Bahia, Brazil",
+          "arrests": "1 arrested",
+          "source": "Portal Jaguarari",
+          "url": "https://www.portaljaguarari.com.br/2026/09/prf-pm-e-policia-federal-apreendem-mais.html",
+          "seizures": [
+            { "drug": "cocaine", "kg": 54.1, "place": "Brazil" },
+            { "drug": "cannabis", "kg": 197.55, "place": "Brazil" },
+            { "drug": "hashish", "kg": 3.6, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Venezuela — national police seize 105 kilos of genetically modified marijuana on an Apure highway",
+          "body": "Officers from the Bolivarian National Police's anti-drug division stopped a shipment on the national highway through Elorza parish in Apure state on September 2, finding roughly 104.6 kilos of what authorities described as genetically modified marijuana packed in 100 bundles, along with a motorcycle and phone used to coordinate the run. Three people were arrested and turned over to the Public Ministry on drug-trafficking charges.",
+          "quantity": "105 kg cannabis",
+          "location": "Apure, Venezuela",
+          "arrests": "3 arrested",
+          "source": "Cactus24",
+          "url": "https://cactus24.com.ve/2026/09/02/incautan-104-kilos-de-marihuana-y-detienen-a-tres-personas-en-apure/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 104.6, "place": "Venezuela" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Spain — Guardia Civil chases down a narco-boat off Gran Canaria carrying 3.4 tonnes of cocaine",
+          "body": "The Guardia Civil's maritime service spotted a fast boat with several powerful outboard engines about 70 miles south of Gran Canaria on September 4 and ordered it to stop; when it tried to flee, agents pursued and caught it after evasive maneuvers failed. Officers found 139 packages of cocaine weighing roughly 3,360 kilos aboard, along with two firearms carried by the five crew members, who were detained.",
+          "quantity": "3.4 t cocaine",
+          "location": "Gran Canaria, Spain",
+          "arrests": "5 detained",
+          "source": "Canarias7",
+          "url": "https://www.canarias7.es/canarias/gran-canaria/narcolancha-arsenal-bordo-cae-tres-toneladas-cocaina-20260904100509-nt.html",
+          "seizures": [
+            { "drug": "cocaine", "kg": 3360, "place": "Spain" }
+          ]
+        },
+        {
+          "headline": "South Africa — lost goats lead police to a suspected \"Cat\" drug lab on a North West farm",
+          "body": "Police responding to a report of missing goats found a suspected methcathinone (\"Cat\") manufacturing operation on a farm near Jericho, North West province, on September 3, seizing raw materials, chemicals, lab equipment and a finished product believed to be the drug. A 62-year-old man was arrested and is due in the Brits Magistrate's Court, while three others fled the scene; the case has been handed to the Hawks organized-crime unit.",
+          "location": "North West province, South Africa",
+          "arrests": "1 arrested",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-09-04-police-bust-meth-lab-after-tip-off-on-strong-smell/"
+        },
+        {
+          "headline": "Panama — customs finds 290 packages of suspected drugs in a container bound from Ecuador to Spain",
+          "body": "Panama's Drug Prosecution Section, working with the national anti-drug directorate, profiled and searched a shipping container aboard a vessel anchored in Panama Bay on September 2, finding 290 rectangular packages of a suspected illicit substance. Investigators say the cargo originated in Ecuador and was declared bound for Barcelona; the packages have been sent for lab testing to confirm the substance and weight, and no arrests have been announced yet.",
+          "quantity": "290 packages",
+          "location": "Panama Bay, Panama",
+          "arrests": "0 reported",
+          "source": "TVN Panamá",
+          "url": "https://www.tvn-2.com/nacionales/incautan-290-paquetes-presunta-droga-contenedor-destino-espana_1_2258904.html"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}

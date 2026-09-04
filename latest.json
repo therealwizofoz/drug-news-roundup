@@ -1,9 +1,9 @@
 {
- "date": "2026-09-03",
- "dateLabel": "Thursday, September 3, 2026",
- "window": "Covering reporting published in the past 24-48 hours (Sept 2-3). South America got dedicated coverage as instructed, turning up three fresh busts (Colombia, Chile, Brazil) after most other Andean candidates proved to be stale year-to-date tallies or duplicates of the Aug 31 multinational operation already logged. No new SOUTHCOM/Joint Task Force Western Hemisphere vessel strike occurred in this window, but September 2 marked the campaign's one-year anniversary, prompting new reporting and congressional criticism that is logged as an ongoing-story update rather than a new strike.",
+ "date": "2026-09-04",
+ "dateLabel": "Friday, September 4, 2026",
+ "window": "Covering reporting published in the past 24-48 hours (Sept 3-4). South America got dedicated effort, turning up fresh Brazil and Venezuela busts after most Colombian, Peruvian and Bolivian leads proved to be stale year-to-date tallies or the same Cabo de la Vela/Cartagena cocaine interception already logged yesterday. No new SOUTHCOM/Joint Task Force Western Hemisphere strike or materially new development in the one-year-anniversary story occurred in this window, so the ongoing section is empty today.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 9,
+ "storyCount": 8,
  "sectionCounts": [
   {
    "id": "federal",
@@ -18,118 +18,102 @@
   {
    "id": "south-america",
    "name": "South America",
-   "count": 3
+   "count": 2
   },
   {
    "id": "world",
    "name": "Rest of World",
-   "count": 2
-  },
-  {
-   "id": "ongoing",
-   "name": "Ongoing Stories with New Developments",
-   "count": 1
+   "count": 3
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Kansas City — federal indictment unseals a year-long fentanyl, carfentanil and cocaine ring, six charged",
-   "summary": "A federal indictment unsealed September 1 charges six people, ages 40 to 70, with running a drug-distribution operation out of the Kansas City area between November 2025 and…",
-   "location": "Kansas City, Missouri",
-   "quantity": "3.5 kg cocaine, 2.5 kg fentanyl",
-   "arrests": "6 charged",
+   "headline": "Laredo bridges — CBP dogs sniff out nearly $3 million in cocaine in two tractor-trailers",
+   "summary": "CBP officers at the Colombia Solidarity Bridge stopped a tractor-trailer on August 21 and found about 80.7 pounds of cocaine after a canine alert; three days later at the World…",
+   "location": "Laredo, Texas",
+   "quantity": "101 kg cocaine",
+   "arrests": "0 reported",
+   "source": "CBP / KGNS",
+   "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-officers-seize-over-29-million-cocaine-laredo-port-entry"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Florida — Polk County's \"Operation End of Worlds\" nets 39 arrests and a four-drug haul",
+   "summary": "Polk County Sheriff's detectives, working with the HIDTA task force, FDLE and Auburndale police, spent months building a wiretap and surveillance case against an alleged…",
+   "location": "Polk County, Florida",
+   "quantity": "2 kg fentanyl, 1 kg meth",
+   "arrests": "39 arrested",
+   "source": "Polk County Sheriff's Office / Hoodline",
+   "url": "https://hoodline.com/2026/09/polk-sheriff-s-operation-end-of-worlds-nets-39-arrests-4-4-pounds-of-fentanyl/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Florida — Fort Pierce felon caught with 33 pounds of marijuana and $150,000 in cash",
+   "summary": "St. Lucie County Sheriff's detectives, backed by SWAT and the U.S. Marshals Service, searched a Cedar Place home on September 3 and found about 33 pounds of marijuana — just over…",
+   "location": "Fort Pierce, Florida",
+   "quantity": "15 kg cannabis",
+   "arrests": "1 arrested",
    "source": "Hoodline",
-   "url": "https://hoodline.com/2026/09/six-indicted-in-kansas-city-fentanyl-ring-feds-seize-carfentanil-and-machine-gun-switch/"
+   "url": "https://hoodline.com/2026/09/fort-pierce-felon-busted-with-33-pounds-of-weed-guns-and-150k-cash/"
   },
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "North Dakota — McKenzie County traffic stop on a suspected drug run yields nearly 12 pounds of meth",
-   "summary": "The Northwest Narcotics Task Force flagged a vehicle believed to be running drugs into western North Dakota, and McKenzie County deputies stopped it on August 16; a K-9 alert led…",
-   "location": "McKenzie County, North Dakota",
-   "quantity": "5.4 kg meth",
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — highway task force pulls 255 kilos of cocaine, marijuana and hashish from a truck in Bahia",
+   "summary": "A joint operation by the Federal Highway Police, Bahia's military police and the Federal Police stopped an Iveco truck on the BR-116 in Vitória da Conquista before dawn on…",
+   "location": "Vitória da Conquista, Bahia, Brazil",
+   "quantity": "54 kg cocaine, 198 kg cannabis",
    "arrests": "1 arrested",
-   "source": "The Roundup (Williston, ND)",
-   "url": "https://www.roundupweb.com/story/2026/09/02/news/joint-effort-results-in-narcotics-seizure/24663.html"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Tennessee — Shelby County detectives trace a suspicious package to 2.6 pounds of fentanyl, two arrested",
-   "summary": "A tip from a US Postal Inspection Service inspector about a suspicious package led Shelby County Sheriff's detectives to a delivery on Curry Avenue in Memphis around August…",
-   "location": "Memphis, Tennessee",
-   "quantity": "1.2 kg fentanyl",
-   "arrests": "2 arrested",
-   "source": "Action News 5 (WMC)",
-   "url": "https://www.actionnews5.com/2026/09/02/detectives-seize-26-pounds-fentanyl-after-uspis-finds-suspicious-package/"
+   "source": "Portal Jaguarari",
+   "url": "https://www.portaljaguarari.com.br/2026/09/prf-pm-e-policia-federal-apreendem-mais.html"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombia — Navy intercepts a go-fast boat off Cartagena carrying 736 kilos of cocaine, two Dominicans captured",
-   "summary": "Colombia's Caribbean Naval Force intercepted a speedboat off Cartagena, Bolívar, on September 2 carrying 741 packages of cocaine hydrochloride weighing about 736 kilograms, with…",
-   "location": "Cartagena, Bolívar, Colombia",
-   "quantity": "736 kg cocaine",
-   "arrests": "2 captured",
-   "source": "Infobae Colombia",
-   "url": "https://www.infobae.com/colombia/2026/09/03/armada-de-colombia-incauto-cargamento-de-cocaina-avaluado-en-34-millones-de-dolares-dos-dominicanos-fueron-capturados/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Chile — Antofagasta prosecutors dismantle a multinational trafficking ring, 13 detained",
-   "summary": "Chile's public prosecutor's office and Carabineros broke up an international criminal network operating across three Antofagasta-region municipalities starting August 31, seizing…",
-   "location": "Antofagasta, Chile",
-   "quantity": "302 kg cannabis, 7.2 kg cocaine",
-   "arrests": "13 detained",
-   "source": "La Tercera",
-   "url": "https://www.latercera.com/nacional/noticia/fiscalia-y-carabineros-desmantelan-grupo-criminal-multinacional-e-incautan-mas-de-300-kilos-de-droga-en-antofagasta/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — four caught trying to fly cocaine out of Guarulhos, Laotian trafficking victims sheltered separately",
-   "summary": "Federal Police at São Paulo's Guarulhos airport arrested four people between August 28 and September 1 attempting to smuggle cocaine concealed under clothing or swallowed…",
-   "location": "Guarulhos, São Paulo, Brazil",
-   "quantity": "3.8 kg cocaine",
-   "arrests": "4 arrested",
-   "source": "Guarulhos Hoje",
-   "url": "https://www.guarulhoshoje.com.br/2026/09/01/pf-prende-quatro-suspeitos-e-resgata-vitimas-de-trafico-humano-em-guarulhos/"
+   "headline": "Venezuela — national police seize 105 kilos of genetically modified marijuana on an Apure highway",
+   "summary": "Officers from the Bolivarian National Police's anti-drug division stopped a shipment on the national highway through Elorza parish in Apure state on September 2, finding roughly…",
+   "location": "Apure, Venezuela",
+   "quantity": "105 kg cannabis",
+   "arrests": "3 arrested",
+   "source": "Cactus24",
+   "url": "https://cactus24.com.ve/2026/09/02/incautan-104-kilos-de-marihuana-y-detienen-a-tres-personas-en-apure/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Canada — Calgary raid nets a five-drug haul and a record cash seizure for a provincial anti-gang unit",
-   "summary": "Alberta's ALERT organized-crime unit searched a home in Calgary's Skyview neighborhood on July 30 and, with results announced September 2, reported seizing 3.09 kilograms of…",
-   "location": "Calgary, Alberta, Canada",
-   "quantity": "3.1 kg fentanyl, 6.9 kg MDMA",
-   "arrests": "2 charged",
-   "source": "ALERT (Alberta Law Enforcement Response Teams)",
-   "url": "https://alert-ab.ca/over-2-million-in-drugs-and-cash-seized-in-calgary/"
+   "headline": "Spain — Guardia Civil chases down a narco-boat off Gran Canaria carrying 3.4 tonnes of cocaine",
+   "summary": "The Guardia Civil's maritime service spotted a fast boat with several powerful outboard engines about 70 miles south of Gran Canaria on September 4 and ordered it to stop; when it…",
+   "location": "Gran Canaria, Spain",
+   "quantity": "3.4 t cocaine",
+   "arrests": "5 detained",
+   "source": "Canarias7",
+   "url": "https://www.canarias7.es/canarias/gran-canaria/narcolancha-arsenal-bordo-cae-tres-toneladas-cocaina-20260904100509-nt.html"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Philippines — Manila buy-bust nets 2.1 kilos of shabu worth ₱14.28 million",
-   "summary": "Manila police arrested a 33-year-old suspect known by the alias \"Kapatid\" in a buy-bust operation in Ermita on August 31, seizing about 2.1 kilograms of methamphetamine, locally…",
-   "location": "Manila, Philippines",
-   "quantity": "2.1 kg methamphetamine",
-   "arrests": "1 arrested",
-   "source": "Tempo (Manila Bulletin)",
-   "url": "https://tempo.mb.com.ph/2026/09/02/kapatid-yields-p14-28-m-shabu-in-manila/"
-  },
-  {
-   "section": "ongoing",
-   "sectionName": "Ongoing Stories with New Developments",
-   "headline": "One year of SOUTHCOM boat strikes — new reporting and a congressional statement detail 227 dead and mounting legal criticism",
-   "summary": "September 2 marked one year since the first US strike on an alleged drug boat in the Caribbean, and new reporting used the anniversary to tally the campaign: 65-plus strikes…",
-   "location": "Caribbean / Eastern Pacific",
+   "headline": "South Africa — lost goats lead police to a suspected \"Cat\" drug lab on a North West farm",
+   "summary": "Police responding to a report of missing goats found a suspected methcathinone (\"Cat\") manufacturing operation on a farm near Jericho, North West province, on September 3, seizing…",
+   "location": "North West province, South Africa",
    "quantity": "",
-   "arrests": "",
-   "source": "The Intercept",
-   "url": "https://theintercept.com/2026/09/02/military-boat-strikes-killings-year/"
+   "arrests": "1 arrested",
+   "source": "TimesLIVE",
+   "url": "https://www.timeslive.co.za/news/south-africa/2026-09-04-police-bust-meth-lab-after-tip-off-on-strong-smell/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Panama — customs finds 290 packages of suspected drugs in a container bound from Ecuador to Spain",
+   "summary": "Panama's Drug Prosecution Section, working with the national anti-drug directorate, profiled and searched a shipping container aboard a vessel anchored in Panama Bay on September…",
+   "location": "Panama Bay, Panama",
+   "quantity": "290 packages",
+   "arrests": "0 reported",
+   "source": "TVN Panamá",
+   "url": "https://www.tvn-2.com/nacionales/incautan-290-paquetes-presunta-droga-contenedor-destino-espana_1_2258904.html"
   }
  ]
 }
