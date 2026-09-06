@@ -1,9 +1,9 @@
 {
- "date": "2026-09-04",
- "dateLabel": "Friday, September 4, 2026",
- "window": "Covering reporting published in the past 24-48 hours (Sept 3-4). South America got dedicated effort, turning up fresh Brazil and Venezuela busts after most Colombian, Peruvian and Bolivian leads proved to be stale year-to-date tallies or the same Cabo de la Vela/Cartagena cocaine interception already logged yesterday. No new SOUTHCOM/Joint Task Force Western Hemisphere strike or materially new development in the one-year-anniversary story occurred in this window, so the ongoing section is empty today.",
+ "date": "2026-09-06",
+ "dateLabel": "Sunday, September 6, 2026",
+ "window": "Covering reporting published since the last edition (Sept 4-6), since no edition ran Sept 5. South America got dedicated effort in Spanish and Portuguese, turning up fresh Colombia, Brazil, Uruguay and Argentina cases. The federal section leads with a SOUTHCOM pattern rather than a single press release: Joint Task Force Western Hemisphere has now boarded and sunk four Los Choneros refueling vessels since Aug 28 without firing a shot, a contrast worth noting against the lethal strike campaign covered in prior editions. No new lethal kinetic strike occurred in this window. Excluded as duplicates: Colombia's Sept 3 Cabo de la Vela/Cartagena interception and the ZEUS Strategy multinational operation, both already logged; a thin 4-kilo Ayacucho, Peru seizure; and a stale Aug 25 Laredo meth seizure that only surfaced in coverage this week.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 8,
+ "storyCount": 11,
  "sectionCounts": [
   {
    "id": "federal",
@@ -13,12 +13,12 @@
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 2
+   "count": 3
   },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 2
+   "count": 4
   },
   {
    "id": "world",
@@ -30,90 +30,123 @@
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Laredo bridges — CBP dogs sniff out nearly $3 million in cocaine in two tractor-trailers",
-   "summary": "CBP officers at the Colombia Solidarity Bridge stopped a tractor-trailer on August 21 and found about 80.7 pounds of cocaine after a canine alert; three days later at the World…",
-   "location": "Laredo, Texas",
-   "quantity": "101 kg cocaine",
-   "arrests": "0 reported",
-   "source": "CBP / KGNS",
-   "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-officers-seize-over-29-million-cocaine-laredo-port-entry"
+   "headline": "SOUTHCOM boards and sinks a fourth Los Choneros refueling vessel in nine days — no strike, no deaths",
+   "summary": "On September 5, Marines and sailors launched from the USS San Antonio boarded a \"multi-vessel\" floating refueling station — a mother boat towing smaller fuel craft — used to…",
+   "location": "Eastern Pacific",
+   "quantity": "",
+   "arrests": "",
+   "source": "SOUTHCOM / USNI News",
+   "url": "https://www.southcom.mil/News/PressReleases/Article/4591750/interdiction-of-narco-terrorist-refueling-vessel-sept-5-2026/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Florida — Polk County's \"Operation End of Worlds\" nets 39 arrests and a four-drug haul",
-   "summary": "Polk County Sheriff's detectives, working with the HIDTA task force, FDLE and Auburndale police, spent months building a wiretap and surveillance case against an alleged…",
-   "location": "Polk County, Florida",
-   "quantity": "2 kg fentanyl, 1 kg meth",
-   "arrests": "39 arrested",
-   "source": "Polk County Sheriff's Office / Hoodline",
-   "url": "https://hoodline.com/2026/09/polk-sheriff-s-operation-end-of-worlds-nets-39-arrests-4-4-pounds-of-fentanyl/"
+   "headline": "Florida — Escambia County traffic stop for a tag violation turns up 4.7 pounds of fentanyl",
+   "summary": "A deputy stopped a car in the Wedgewood area of Escambia County on September 2 for an expired tag, and a K-9 alert led to a search that turned up about 2.1 kilograms of fentanyl…",
+   "location": "Escambia County, Florida",
+   "quantity": "2.1 kg fentanyl",
+   "arrests": "2 arrested",
+   "source": "WKRG",
+   "url": "https://www.wkrg.com/northwest-florida/escambia-county/two-arrested-fentanyl-escambia-county/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Florida — Fort Pierce felon caught with 33 pounds of marijuana and $150,000 in cash",
-   "summary": "St. Lucie County Sheriff's detectives, backed by SWAT and the U.S. Marshals Service, searched a Cedar Place home on September 3 and found about 33 pounds of marijuana — just over…",
-   "location": "Fort Pierce, Florida",
-   "quantity": "15 kg cannabis",
-   "arrests": "1 arrested",
-   "source": "Hoodline",
-   "url": "https://hoodline.com/2026/09/fort-pierce-felon-busted-with-33-pounds-of-weed-guns-and-150k-cash/"
+   "headline": "Massachusetts — Southbridge apartment raid nets a five-drug haul and five arrests",
+   "summary": "Southbridge police, backed by a Webster K-9 unit, searched a Dean Street apartment on September 2 and found about 53 grams of fentanyl, 63 grams of crack cocaine, additional…",
+   "location": "Southbridge, Massachusetts",
+   "quantity": "53 g fentanyl, 63 g cocaine",
+   "arrests": "5 arrested",
+   "source": "NewsLink Live",
+   "url": "https://newslinklive.com/2026/09/05/six-charged-after-drug-bust-in-southbridge-yields-fentanyl-crack-and-cash/"
   },
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil — highway task force pulls 255 kilos of cocaine, marijuana and hashish from a truck in Bahia",
-   "summary": "A joint operation by the Federal Highway Police, Bahia's military police and the Federal Police stopped an Iveco truck on the BR-116 in Vitória da Conquista before dawn on…",
-   "location": "Vitória da Conquista, Bahia, Brazil",
-   "quantity": "54 kg cocaine, 198 kg cannabis",
-   "arrests": "1 arrested",
-   "source": "Portal Jaguarari",
-   "url": "https://www.portaljaguarari.com.br/2026/09/prf-pm-e-policia-federal-apreendem-mais.html"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Venezuela — national police seize 105 kilos of genetically modified marijuana on an Apure highway",
-   "summary": "Officers from the Bolivarian National Police's anti-drug division stopped a shipment on the national highway through Elorza parish in Apure state on September 2, finding roughly…",
-   "location": "Apure, Venezuela",
-   "quantity": "105 kg cannabis",
-   "arrests": "3 arrested",
-   "source": "Cactus24",
-   "url": "https://cactus24.com.ve/2026/09/02/incautan-104-kilos-de-marihuana-y-detienen-a-tres-personas-en-apure/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Spain — Guardia Civil chases down a narco-boat off Gran Canaria carrying 3.4 tonnes of cocaine",
-   "summary": "The Guardia Civil's maritime service spotted a fast boat with several powerful outboard engines about 70 miles south of Gran Canaria on September 4 and ordered it to stop; when it…",
-   "location": "Gran Canaria, Spain",
-   "quantity": "3.4 t cocaine",
-   "arrests": "5 detained",
-   "source": "Canarias7",
-   "url": "https://www.canarias7.es/canarias/gran-canaria/narcolancha-arsenal-bordo-cae-tres-toneladas-cocaina-20260904100509-nt.html"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "South Africa — lost goats lead police to a suspected \"Cat\" drug lab on a North West farm",
-   "summary": "Police responding to a report of missing goats found a suspected methcathinone (\"Cat\") manufacturing operation on a farm near Jericho, North West province, on September 3, seizing…",
-   "location": "North West province, South Africa",
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Ohio — Cincinnati detectives' Westwood raid nets $230,000 and a Major Drug Offender charge",
+   "summary": "An investigation into trafficking along Cincinnati's Court Street corridor led detectives to a Westwood home on September 1, where they found more than $230,000 in cash, two…",
+   "location": "Cincinnati, Ohio",
    "quantity": "",
    "arrests": "1 arrested",
-   "source": "TimesLIVE",
-   "url": "https://www.timeslive.co.za/news/south-africa/2026-09-04-police-bust-meth-lab-after-tip-off-on-strong-smell/"
+   "source": "Hoodline",
+   "url": "https://hoodline.com/2026/09/westwood-raid-nets-230k-guns-kilos-of-drugs-tied-to-downtown-trafficking/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombia — army and police dismantle a cocaine lab outside Cúcuta, seize 790 kilos of cocaine and its base",
+   "summary": "Colombia's National Army and National Police raided a cocaine-processing site in rural Cúcuta, Norte de Santander, on September 5, seizing about 490 kilograms of finished cocaine…",
+   "location": "Cúcuta, Colombia",
+   "quantity": "490 kg cocaine, 300 kg coca base",
+   "arrests": "0 reported",
+   "source": "Chicanoticias",
+   "url": "https://www.chicanoticias.com/2026/09/05/narcotrafico-cucuta-cocaina/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazil — a family's cocaine run ends when their truck bogs down in a São Paulo cane field",
+   "summary": "Federal Highway Police spotted a truck and pickup pulled over on the SP-563 in Tupi Paulista on September 3; when the driver saw them he drove the loaded truck into a sugarcane…",
+   "location": "Tupi Paulista, São Paulo, Brazil",
+   "quantity": "548 kg cocaine",
+   "arrests": "4 arrested",
+   "source": "Perfil News",
+   "url": "https://www.perfilnews.com.br/2026/09/04/prf-de-tres-lagoas-apreende-mais-de-meia-tonelada-de-cocaina-em-acao-conjunta-na-sp-563-em-tupi-paulista/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Uruguay — a small plane drops 400 kilos of cocaine and paste over Artigas, seven caught waiting for it",
+   "summary": "Investigators who had tracked the smuggling ring since February were waiting near Baltasar Brum, Artigas, when a small aircraft with Bolivian registration dropped roughly 305…",
+   "location": "Artigas, Uruguay",
+   "quantity": "305 kg cocaine, 103 kg coca base",
+   "arrests": "7 arrested",
+   "source": "Subrayado",
+   "url": "https://www.subrayado.com.uy/droga-incautada-artigas-305-kilos-cocaina-y-103-pasta-base-unos-usd-3000000-no-descartan-vinculo-marset-n1017319"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina — Gendarmerie finds cocaine and marijuana stuffed inside capybara plush toys on a shopping-tour bus",
+   "summary": "National Gendarmerie officers stopped a bus running a cross-border \"shopping tour\" from Orán to Mendoza on Route 38 in Catamarca on September 3 and noticed that several capybara…",
+   "location": "Catamarca, Argentina",
+   "quantity": "50 kg cannabis, 4 kg cocaine",
+   "arrests": "1 detained",
+   "source": "Argentina.gob.ar",
+   "url": "https://www.argentina.gob.ar/noticias/catamarca-esconden-49-kilos-de-marihuana-y-4-kilos-de-cocaina-en-capibaras-de-peluches"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Panama — customs finds 290 packages of suspected drugs in a container bound from Ecuador to Spain",
-   "summary": "Panama's Drug Prosecution Section, working with the national anti-drug directorate, profiled and searched a shipping container aboard a vessel anchored in Panama Bay on September…",
-   "location": "Panama Bay, Panama",
-   "quantity": "290 packages",
+   "headline": "Mexico — Navy destroys three Sinaloa meth labs and nearly 17 tonnes of methamphetamine",
+   "summary": "Mexico's Navy, working with federal prosecutors, raided three clandestine labs around Corralejo and Corral Viejo, Sinaloa, on September 2 and 3, disabling a 15,000-square-meter…",
+   "location": "Sinaloa, Mexico",
+   "quantity": "16.8 t methamphetamine",
    "arrests": "0 reported",
-   "source": "TVN Panamá",
-   "url": "https://www.tvn-2.com/nacionales/incautan-290-paquetes-presunta-droga-contenedor-destino-espana_1_2258904.html"
+   "source": "Infobae",
+   "url": "https://www.infobae.com/america/agencias/2026/09/04/mexico-inhabilita-tres-narcolaboratorios-y-asegura-casi-17-toneladas-de-droga-en-sinaloa/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Europe — Eurojust dismantles a Romanian \"crime as a service\" trucking ring that moved drugs for other gangs",
+   "summary": "A Eurojust-coordinated raid across 16 properties in Romania on August 24 broke up a criminal group that had rented out truck-based smuggling since 2023, hiding shipments in false…",
+   "location": "Romania",
+   "quantity": "114 kg cocaine, 1.3 t hashish",
+   "arrests": "7 arrested",
+   "source": "Eurojust",
+   "url": "https://www.eurojust.europa.eu/news/international-drug-trafficking-network-halted-seven-arrests"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "India — NCB intercepts two methamphetamine shipments on the Myanmar border in one night",
+   "summary": "The Narcotics Control Bureau's Aizawl and Agartala units, working with local police, stopped a Myanmar national near the Zokhawthar-Champhai border crossing overnight on September…",
+   "location": "Mizoram / Tripura, India",
+   "quantity": "22 kg methamphetamine",
+   "arrests": "4 arrested",
+   "source": "Northeast Today",
+   "url": "https://northeasttoday.in/northeast/ncb-seizes-22-299-kg-methamphetamine-worth-%E2%82%B917-84-crore-in-tripura-mizoram/"
   }
  ]
 }
