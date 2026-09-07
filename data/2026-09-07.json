@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-07",
+  "window": "Covering reporting published since the Sept 6 edition, roughly Sept 4-7, with a few items surfacing late through indexing lag (a Golden Valley, MN meth bust dates to Aug 25; a Tipton County, TN lab raid dates to Aug 28). South America got dedicated effort in Spanish and Portuguese. Excluded: a Colombian National Police 'Operación Nexus' claim of 46.8 tonnes of cocaine and 26 captures, reported only by NTN24 and its syndication partners with no corroboration from El Tiempo, Semana, RCN or Infobae despite the scale it would represent — the same search turned up an unrelated outlet whose headline wrongly inflated the already-logged 4.7-tonne Zeus Arcano III operation to '46 toneladas,' which raises real doubt about the NTN24 figure too. Also excluded: a 280-lb/127 kg Laredo, TX CBP methamphetamine seizure (actually Aug 25) already considered and excluded as stale in the Sept 6 edition; a Zárate, Argentina cocaine-on-a-ship story that turned out to date to May; a CBP El Paso roundup that turned out to date to 2023; and a Pakistan ANF/DEA Colombo Port meth claim (671 kg) that appears to be a fuller accounting of the Sri Lanka seizure already logged Sept 1-2. No new SOUTHCOM strike or vessel interdiction was reported past the fourth Los Choneros refueling-vessel boarding already logged Sept 6.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Washington state fentanyl courier gets nine years for supplying a family-run trafficking ring",
+          "body": "A federal judge in Seattle sentenced Sir Terrique Milam, 22, to nine years in prison on September 3 for distributing fentanyl on behalf of the Jackson family drug trafficking organization based in Federal Way. Milam was recorded arranging a 150,000-pill fentanyl pickup in Arizona, and a 2024 search of his home found 323.8 grams of fentanyl under his bed; the wider investigation into the organization recovered more than 846,000 fentanyl pills, about seven kilograms combined of fentanyl powder and cocaine, and 29 firearms.",
+          "location": "Federal Way / Seattle, Washington",
+          "arrests": "1 sentenced",
+          "source": "Federal Way Mirror",
+          "url": "https://www.federalwaymirror.com/2026/09/04/federal-way-man-receives-nine-years-in-drug-trafficking-case/"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Minnesota — Golden Valley apartment search turns up 27 kilos of meth and $17,000 cash",
+          "body": "Hennepin County's West Metro Drug Task Force searched an apartment on the 6500 block of Golden Valley Road on August 25 and found about 27 kilograms of methamphetamine and roughly 883 grams of cocaine, along with digital scales, cell phones and $16,976 in cash. Eric Prince Holton Jr., 44, was arrested and held on $500,000 bail after admitting the drugs and money were his.",
+          "quantity": "27 kg methamphetamine",
+          "location": "Golden Valley, Minnesota",
+          "arrests": "1 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/golden-valley-man-held-on-500k-bail-after-59-pounds-of-meth-found-in-apartment/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 27.034, "place": "Minnesota" },
+            { "drug": "cocaine", "kg": 0.883, "place": "Minnesota" }
+          ]
+        },
+        {
+          "headline": "Tennessee — an 8-year-old is pulled from a Munford steroid lab, three arrested",
+          "body": "A search warrant executed August 28 at a home in Munford, Tennessee found an active anabolic-steroid manufacturing operation with an 8-year-old child present. Deputies recovered about 11 kilograms of steroid compounds, a pound of psilocybin mushrooms, more than 500 counterfeit Xanax pills and over 500 pre-loaded vials, plus marijuana and firearms. David Adam McNeil, 39, faces the most serious charges, including aggravated child abuse, and is held on $500,000 bond; Amanda Carol McNeil and David Lee McNeil were also charged and released on bond.",
+          "location": "Munford, Tennessee",
+          "arrests": "3 arrested",
+          "source": "Action News 5",
+          "url": "https://www.actionnews5.com/2026/09/05/8-year-old-rescued-tipton-drug-lab-3-arrested-say-sheriffs-office/"
+        },
+        {
+          "headline": "Massachusetts — Worcester man caught with a four-drug haul after kicking a police cruiser",
+          "body": "Worcester's Neighborhood Response Team stopped Salvatore Venuti, 46, on Madison Street on September 4 after seeing him holding what appeared to be a chunk of crack cocaine; he tried to flee and kicked an officer's cruiser during the arrest. Officers recovered about 12 grams of fentanyl, 35 grams of crack cocaine, 43 grams of oxycodone pills and a bag of crystal methamphetamine, along with a digital scale, cash and a replica firearm.",
+          "location": "Worcester, Massachusetts",
+          "arrests": "1 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/worcester-man-46-nabbed-with-fentanyl-crack-meth-after-kicking-police-cruiser/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 0.012, "place": "Massachusetts" },
+            { "drug": "cocaine", "kg": 0.035, "place": "Massachusetts" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Ecuador — 2 tonnes of cocaine found in a fruit container bound for Sweden",
+          "body": "Ecuadorian National Police inspecting a shipping container at Machala's maritime port on September 6 found 2,040 blocks of cocaine weighing about 2,040 kilograms, hidden among a fruit exporter's cargo destined for Sweden. Interior Minister John Reimberg announced the seizure; no arrests were reported and the exporting company was not named.",
+          "quantity": "2,040 kg cocaine",
+          "location": "Machala, Ecuador",
+          "arrests": "0 reported",
+          "source": "Primicias",
+          "url": "https://www.primicias.ec/sucesos/ecuador-decomisa-toneladas-cocaina-machala-suecia-131973/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 2040, "place": "Ecuador" }
+          ]
+        },
+        {
+          "headline": "Brazil — twin cocaine busts net 521 kilos in São Paulo and Santa Catarina in one day",
+          "body": "Brazil's Federal Police stopped a vehicle in Barra do Turvo, São Paulo, on September 6 and found about 290 kilograms of cocaine, and separately searched a home in Itajaí, Santa Catarina, the same day, discovering roughly 231 kilograms hidden in an underground storage bunker. Two people were arrested, including the Itajaí property's caretaker; investigators linked the finds to a case connected to a 3.5-tonne cocaine seizure from July.",
+          "quantity": "521 kg cocaine",
+          "location": "Barra do Turvo, São Paulo / Itajaí, Santa Catarina, Brazil",
+          "arrests": "2 arrested",
+          "source": "ND Mais",
+          "url": "https://ndmais.com.br/seguranca/pf-encontra-deposito-subterraneo-com-cocaina-em-sc/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 521, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Venezuela — 800 kilos of marijuana seized in more than 1,500 packages on Cubagua island",
+          "body": "Venezuela's Interior Ministry said National Bolivarian Police seized 1,529 packages of marijuana weighing about 800 kilograms on Cubagua island, Nueva Esparta state, the result of continued follow-up on an earlier investigation. The seizure was announced September 6.",
+          "quantity": "800 kg cannabis",
+          "location": "Cubagua, Nueva Esparta, Venezuela",
+          "source": "Últimas Noticias",
+          "url": "https://ultimasnoticias.com.ve/sucesos/incautadas-en-cubagua-1-529panelas-de-droga/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 800, "place": "Venezuela" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Mexico — Navy dismantles three more meth labs in Guerrero, days after the Sinaloa haul",
+          "body": "Mexico's Navy disabled three clandestine methamphetamine labs on September 6 — two in Zirándaro de los Chávez and one in Coahuayutla de José María Izazaga, Guerrero — seizing roughly 2,400 kilograms of chemical product and about 1,000 kilograms of precursor chemicals, along with more than 260 industrial drums, reactors and distillers. The operation, run with the federal prosecutor's office and aided by U.S. intelligence sharing, followed the Navy's dismantling of three larger labs in Sinaloa earlier in the week.",
+          "location": "Guerrero, Mexico",
+          "source": "La Razón",
+          "url": "https://www.razon.com.mx/mexico/2026/09/06/autoridades-federales-desmantelan-tres-narco-laboratorios-en-guerrero-colabora-eu-con-inteligencia/"
+        },
+        {
+          "headline": "Nigeria — cannabis hidden in a hollowed-out fuel tanker seized in Ondo State",
+          "body": "Nigeria's National Drug Law Enforcement Agency intercepted a 20,000-litre fuel tanker on the Akoko/Lokoja Expressway on September 4 after its driver refused to stop, then found a false compartment holding 165 bags of cannabis weighing about 2,145 kilograms alongside the tanker's legitimate fuel cargo. The driver abandoned the truck at a church in Ugbe Akoko and fled on foot; the seizure was part of a wider weeklong crackdown across nine Nigerian states.",
+          "quantity": "2.1 t cannabis",
+          "location": "Ondo State, Nigeria",
+          "source": "Channels Television",
+          "url": "https://www.channelstv.com/2026/09/06/ndlea-intercepts-drug-laden-fuel-tanker-with-2-1-tonnes-of-cannabis/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 2145, "place": "Nigeria" }
+          ]
+        },
+        {
+          "headline": "Thailand — courier caught asleep at a car wash with 42,000 methamphetamine pills",
+          "body": "Police in Kalasin municipality were called to a car wash after a bystander noticed a man asleep inside his car in the early hours of September 7; officers found Ekaphon Changprasert, 39, unresponsive at the wheel with 12,000 methamphetamine pills in the vehicle and a further 30,000 pills in his rented hotel room, plus a modified handgun. He told investigators he had gone seven days without sleep ferrying the drugs for a Laotian trafficking network in exchange for a 70,000-baht fee.",
+          "location": "Kalasin, Thailand",
+          "arrests": "1 arrested",
+          "source": "Khaosod English",
+          "url": "https://www.khaosodenglish.com/news/2026/09/07/sleepy-drug-courier-caught-after-dozing-off-at-car-wash/"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
