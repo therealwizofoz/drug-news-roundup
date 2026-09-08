@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-08",
+  "window": "Covering reporting published since the Sept 7 edition, roughly Sept 5-8, with a few items surfacing late through indexing lag (a Jacksonville, FL fentanyl raid dates to Aug 25; a Peru cocaine cache to Sept 5; an Ecuador marijuana seizure to Sept 7). South America got dedicated effort in Spanish and Portuguese. Excluded as stale or mismatched: a Martin County, FL 'Operation Beneath the Surface' cocaine bust that search kept resurfacing but which was actually announced August 14; a CBP El Paso multi-incident narcotics roundup that traces to a 2023 CBP release republished under a misleading date; an Indonesia 2.6-tonne liquid-meth seizure off Sumatra dated August 19; and a Chinese-pharmaceutical-company fentanyl-precursor indictment that is a September 2025 case, not 2026. Also excluded again: NTN24's claim of a 46,808-kilo Colombian 'Operación Nexus' cocaine seizure, still uncorroborated by El Tiempo, Semana, RCN or Infobae and looking like a garbled restatement of the already-logged 4.6-tonne Zeus Arcano III operation. A Mexican Navy account of dismantled Guerrero meth labs and seized precursor chemicals was the same operation already logged Sept 7, just with fuller chemical-seizure figures added by García Harfuch's office, so it was not logged twice. No new lethal SOUTHCOM strike was reported since Sept 6; the only fresh vessel action was a boarding with no casualties.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "SOUTHCOM boards and sinks a fifth Los Choneros refueling vessel in a week, as the boat-strike campaign marks a contested first year",
+          "body": "Joint Task Force Western Hemisphere forces boarded and sank a floating fuel depot in the eastern Pacific on September 7 that intelligence tied to Ecuador's Los Choneros gang — the fifth such refueling-vessel interdiction in under a week — and transferred the crew to Ecuadorian authorities rather than killing them. The boarding came as the wider campaign of lethal strikes on suspected smuggling boats reached its one-year mark, with independent tracking putting the toll at more than 75 vessels destroyed and at least 227 people killed. House Armed Services Committee Ranking Member Adam Smith marked the anniversary by calling the strikes unauthorized and unsupported by any evidence Congress has been shown, and four Democratic lawmakers introduced a War Powers Resolution on September 2 seeking to end them.",
+          "location": "Eastern Pacific",
+          "source": "BNO News",
+          "url": "https://bnonews.com/index.php/2026/09/u-s-task-force-sinks-5th-los-choneros-floating-fuel-station-in-less-than-a-week/"
+        },
+        {
+          "headline": "San Diego fentanyl ring dismantled after a 10-month sting, 17 charged",
+          "body": "A Homeland Security Task Force investigation led by HSI San Diego's Fentanyl Abatement and Suppression Team culminated on September 3 in a coordinated takedown by more than 200 federal, state and local officers, who arrested 13 of 17 charged members of a San Diego-based fentanyl distribution ring; two more members were arrested September 1 and two remain fugitives. Over the ten-month investigation, agents seized more than 27 kilograms of fentanyl — enough for over 13 million potentially lethal doses — plus roughly 14.5 kilograms of cocaine, 0.8 kilograms of methamphetamine, 0.6 kilograms of heroin and $49,000 in cash.",
+          "location": "San Diego, California",
+          "arrests": "13 arrested, 2 fugitives",
+          "source": "U.S. Attorney's Office, Southern District of California",
+          "url": "https://www.justice.gov/usao-sdca/pr/seventeen-charged-homeland-security-task-force-investigation-fentanyl-trafficking"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Indiana — I-70 truck inspection in Putnam County turns up 126 kilos of cocaine",
+          "body": "An Indiana State Police Criminal Interdiction trooper conducting a routine commercial-vehicle inspection on I-70 in Putnam County on September 6 found duffel bags holding about 277 pounds (126 kilograms) of cocaine, worth an estimated $3.8 million. The driver, 32-year-old Harpreet Singh of Greenwood, told troopers he was hauling an empty trailer from Memphis to Indianapolis; he was booked into the Putnam County Jail on dealing and possession charges.",
+          "quantity": "126 kg cocaine",
+          "location": "Putnam County, Indiana",
+          "arrests": "1 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/putnam-county-traffic-stop-nets-277-pounds-of-cocaine-worth-3-8-million/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 125.65, "place": "Indiana" }
+          ]
+        },
+        {
+          "headline": "Florida — Jacksonville raid finds fentanyl, meth and cocaine, and a \"can't be stopped\" note",
+          "body": "Jacksonville's Sheriff's Office overdose investigation unit searched a Potomac Avenue home on August 27 and found about 849 grams of fentanyl, 1.33 kilograms of methamphetamine, and roughly 1.3 kilograms combined of powder and crack cocaine, along with nearly $12,000 in cash and three vehicles. Christopher Herndon, 41, was charged with ten counts including trafficking and maintaining a drug house; investigators said they also found a notebook in which he had written \"No police will come to me.\" He pleaded not guilty and was released on $300,000 bond.",
+          "quantity": "849 g fentanyl",
+          "location": "Jacksonville, Florida",
+          "arrests": "1 arrested",
+          "source": "News4JAX",
+          "url": "https://www.news4jax.com/news/local/2026/09/04/man-faces-charges-after-jso-finds-over-400k-potentially-deadly-doses-of-fentanyl-other-drugs/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 0.8492, "place": "Florida" },
+            { "drug": "methamphetamine", "kg": 1.33, "place": "Florida" },
+            { "drug": "cocaine", "kg": 1.3073, "place": "Florida" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Ecuador — army seizes half a tonne of Los Lobos-linked marijuana bound for Guayaquil",
+          "body": "Ecuador's Army stopped a truck in the Ascázubi sector of Pichincha province on September 7 and found about 500 kilograms of marijuana, valued near $1.5 million, that investigators say entered from Colombia's Cauca and Nariño departments and was headed for Guayaquil via the E35 highway. The driver fled on foot and abandoned the vehicle; authorities linked the shipment to the Los Lobos gang.",
+          "quantity": "500 kg cannabis",
+          "location": "Pichincha, Ecuador",
+          "arrests": "0 reported",
+          "source": "Expreso",
+          "url": "https://www.expreso.ec/quito/ejercito-decomisa-500-kilos-de-marihuana-en-pichincha-droga-esta-valorada-en-15-millones-294935.html",
+          "seizures": [
+            { "drug": "cannabis", "kg": 500, "place": "Ecuador" }
+          ]
+        },
+        {
+          "headline": "Brazil — driver flips car fleeing highway police, leaves 232 kilos of marijuana behind",
+          "body": "Federal Highway Police tried to stop a car on the Dutra highway (BR-116) in Barra Mansa, Rio de Janeiro state, on September 5; the driver fled at high speed for about ten kilometers before losing control and crashing into a drainage ditch. Officers found 232 kilograms of marijuana inside, and the driver — who had run into the brush — was later found and arrested at a nearby restaurant.",
+          "quantity": "232 kg cannabis",
+          "location": "Barra Mansa, Rio de Janeiro, Brazil",
+          "arrests": "1 arrested",
+          "source": "Folha do Aço",
+          "url": "https://folhadoaco.com.br/2026/09/05/prf-apreende-232-quilos-de-maconha-apos-perseguicao-na-dutra-em-bm-motorista-fugiu/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 232, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Peru — 250 kilos of cocaine base found in an Andahuaylas hideout, staged for Bolivia",
+          "body": "Peru's anti-drug police searched a rural property near Pampachiri, Andahuaylas province, before dawn on September 5 and found 236 brick-shaped packages of cocaine base — about 250 kilograms — hidden under blankets inside plastic baskets, staged for transfer to Desaguadero on the Bolivian border. No arrests were reported at the scene, and samples were sent to Lima for confirmatory testing.",
+          "quantity": "250 kg coca base",
+          "location": "Andahuaylas, Peru",
+          "arrests": "0 reported",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/peru/2026/09/07/cargamento-de-casi-250-kilos-de-alcaloide-de-cocaina-fue-escondido-en-andahuaylas-antes-de-su-presunto-traslado-a-desaguadero/",
+          "seizures": [
+            { "drug": "coca base", "kg": 249.84, "place": "Peru" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Pakistan — ANF seizes 365 kilos of heroin, hashish and opium in eight operations nationwide",
+          "body": "Pakistan's Anti-Narcotics Force reported eight operations across the country recovering about 365 kilograms of narcotics worth more than 2.12 billion rupees, led by a 150-kilogram heroin find near Quetta's Western Bypass and a 144-kilogram hashish seizure from a vehicle in Jamrud, Khyber district. A separate inter-provincial stop at Islamabad's Sangjani Toll Plaza turned up nearly 53 kilograms of hashish and opium hidden in a rickshaw, leading to two arrests; eight suspects were arrested in total across the eight operations.",
+          "quantity": "365 kg narcotics",
+          "location": "Pakistan (nationwide)",
+          "arrests": "8 arrested",
+          "source": "Associated Press of Pakistan",
+          "url": "https://www.dailyindependent.com.pk/2026/09/07/anf-seizes-364-6kg-of-narcotics-worth-over-rs2-12bn-in-eight-operations/",
+          "seizures": [
+            { "drug": "heroin", "kg": 150, "place": "Pakistan" },
+            { "drug": "hashish", "kg": 196.8, "place": "Pakistan" }
+          ]
+        },
+        {
+          "headline": "Nigeria — Lagos warehouse raid nets 2.4 tonnes of cannabis, and a repeat cocaine trafficker is re-arrested",
+          "body": "Nigeria's National Drug Law Enforcement Agency, in a nine-state crackdown reported this week, raided a warehouse in Lagos's Gbaji area and recovered about 2,387 kilograms of cannabis along with 350 grams of cocaine, tramadol pills and codeine syrup. Separately on September 4, agents arrested Dunu Bethel Ebubechukwu, 34, at a Lagos market where he was posing as a herbal-tea trader; he had served five years after a 2011 conviction for swallowing cocaine and heroin pellets to smuggle them through the same airport, and had resumed trafficking under an assumed identity.",
+          "quantity": "2.4 t cannabis",
+          "location": "Lagos, Nigeria",
+          "arrests": "1 arrested",
+          "source": "Nairametrics",
+          "url": "https://nairametrics.com/2026/09/06/ndlea-busts-hidden-drug-compartment-in-fuel-tanker-arrests-cocaine-convict/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 2386.9, "place": "Nigeria" },
+            { "drug": "cocaine", "kg": 0.35, "place": "Nigeria" }
+          ]
+        },
+        {
+          "headline": "South Africa — second cocaine bust in four days at Johannesburg's main airport",
+          "body": "Police at OR Tambo International Airport arrested a 45-year-old passenger on September 7 with about 2 kilograms of cocaine, worth an estimated R800,000, hidden in luggage bound for Hong Kong — the second such bust there in four days after a 54-year-old South African was caught with cocaine on the same route on September 3. The pair followed two other cocaine consignments worth a combined R200 million intercepted at the airport the week before.",
+          "quantity": "2 kg cocaine",
+          "location": "OR Tambo Airport, South Africa",
+          "arrests": "2 arrested",
+          "source": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/south-africa/2026-09-08-police-make-second-cocaine-bust-at-or-tambo-in-four-days/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 2, "place": "South Africa" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "Uruguay — gang leader captured and six sent to prison over the Artigas cocaine airdrop",
+          "body": "New developments in the September 3 case of a plane that dropped 408 kilograms of cocaine and paste over a field in Artigas: Uruguayan police made further arrests in neighboring Salto department, including the organization's leader, bringing the total to eight detained. By September 7, six had been formally charged with drug trafficking and criminal association and sent to prison, while two were released; eleven additional raids in Salto turned up more drugs, vehicles and communications gear.",
+          "location": "Artigas / Salto, Uruguay",
+          "arrests": "6 sent to prison",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/america-latina/2026/09/07/una-avioneta-arrojo-mas-de-400-kilos-de-droga-sobre-un-campo-de-uruguay-y-desato-operativo-contra-una-banda-narco/"
+        }
+      ]
+    }
+  ]
+}

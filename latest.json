@@ -1,19 +1,19 @@
 {
- "date": "2026-09-07",
- "dateLabel": "Monday, September 7, 2026",
- "window": "Covering reporting published since the Sept 6 edition, roughly Sept 4-7, with a few items surfacing late through indexing lag (a Golden Valley, MN meth bust dates to Aug 25; a Tipton County, TN lab raid dates to Aug 28). South America got dedicated effort in Spanish and Portuguese. Excluded: a Colombian National Police 'Operación Nexus' claim of 46.8 tonnes of cocaine and 26 captures, reported only by NTN24 and its syndication partners with no corroboration from El Tiempo, Semana, RCN or Infobae despite the scale it would represent — the same search turned up an unrelated outlet whose headline wrongly inflated the already-logged 4.7-tonne Zeus Arcano III operation to '46 toneladas,' which raises real doubt about the NTN24 figure too. Also excluded: a 280-lb/127 kg Laredo, TX CBP methamphetamine seizure (actually Aug 25) already considered and excluded as stale in the Sept 6 edition; a Zárate, Argentina cocaine-on-a-ship story that turned out to date to May; a CBP El Paso roundup that turned out to date to 2023; and a Pakistan ANF/DEA Colombo Port meth claim (671 kg) that appears to be a fuller accounting of the Sri Lanka seizure already logged Sept 1-2. No new SOUTHCOM strike or vessel interdiction was reported past the fourth Los Choneros refueling-vessel boarding already logged Sept 6.",
+ "date": "2026-09-08",
+ "dateLabel": "Tuesday, September 8, 2026",
+ "window": "Covering reporting published since the Sept 7 edition, roughly Sept 5-8, with a few items surfacing late through indexing lag (a Jacksonville, FL fentanyl raid dates to Aug 25; a Peru cocaine cache to Sept 5; an Ecuador marijuana seizure to Sept 7). South America got dedicated effort in Spanish and Portuguese. Excluded as stale or mismatched: a Martin County, FL 'Operation Beneath the Surface' cocaine bust that search kept resurfacing but which was actually announced August 14; a CBP El Paso multi-incident narcotics roundup that traces to a 2023 CBP release republished under a misleading date; an Indonesia 2.6-tonne liquid-meth seizure off Sumatra dated August 19; and a Chinese-pharmaceutical-company fentanyl-precursor indictment that is a September 2025 case, not 2026. Also excluded again: NTN24's claim of a 46,808-kilo Colombian 'Operación Nexus' cocaine seizure, still uncorroborated by El Tiempo, Semana, RCN or Infobae and looking like a garbled restatement of the already-logged 4.6-tonne Zeus Arcano III operation. A Mexican Navy account of dismantled Guerrero meth labs and seized precursor chemicals was the same operation already logged Sept 7, just with fuller chemical-seizure figures added by García Harfuch's office, so it was not logged twice. No new lethal SOUTHCOM strike was reported since Sept 6; the only fresh vessel action was a boarding with no casualties.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 10,
+ "storyCount": 11,
  "sectionCounts": [
   {
    "id": "federal",
    "name": "National / Federal (US)",
-   "count": 1
+   "count": 2
   },
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 3
+   "count": 2
   },
   {
    "id": "south-america",
@@ -24,118 +24,134 @@
    "id": "world",
    "name": "Rest of World",
    "count": 3
+  },
+  {
+   "id": "ongoing",
+   "name": "Ongoing Stories with New Developments",
+   "count": 1
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Washington state fentanyl courier gets nine years for supplying a family-run trafficking ring",
-   "summary": "A federal judge in Seattle sentenced Sir Terrique Milam, 22, to nine years in prison on September 3 for distributing fentanyl on behalf of the Jackson family drug trafficking…",
-   "location": "Federal Way / Seattle, Washington",
+   "headline": "SOUTHCOM boards and sinks a fifth Los Choneros refueling vessel in a week, as the boat-strike campaign marks a contested first year",
+   "summary": "Joint Task Force Western Hemisphere forces boarded and sank a floating fuel depot in the eastern Pacific on September 7 that intelligence tied to Ecuador's Los Choneros gang — the…",
+   "location": "Eastern Pacific",
    "quantity": "",
-   "arrests": "1 sentenced",
-   "source": "Federal Way Mirror",
-   "url": "https://www.federalwaymirror.com/2026/09/04/federal-way-man-receives-nine-years-in-drug-trafficking-case/"
+   "arrests": "",
+   "source": "BNO News",
+   "url": "https://bnonews.com/index.php/2026/09/u-s-task-force-sinks-5th-los-choneros-floating-fuel-station-in-less-than-a-week/"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "San Diego fentanyl ring dismantled after a 10-month sting, 17 charged",
+   "summary": "A Homeland Security Task Force investigation led by HSI San Diego's Fentanyl Abatement and Suppression Team culminated on September 3 in a coordinated takedown by more than 200…",
+   "location": "San Diego, California",
+   "quantity": "",
+   "arrests": "13 arrested, 2 fugitives",
+   "source": "U.S. Attorney's Office, Southern District of California",
+   "url": "https://www.justice.gov/usao-sdca/pr/seventeen-charged-homeland-security-task-force-investigation-fentanyl-trafficking"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Minnesota — Golden Valley apartment search turns up 27 kilos of meth and $17,000 cash",
-   "summary": "Hennepin County's West Metro Drug Task Force searched an apartment on the 6500 block of Golden Valley Road on August 25 and found about 27 kilograms of methamphetamine and roughly…",
-   "location": "Golden Valley, Minnesota",
-   "quantity": "27 kg methamphetamine",
+   "headline": "Indiana — I-70 truck inspection in Putnam County turns up 126 kilos of cocaine",
+   "summary": "An Indiana State Police Criminal Interdiction trooper conducting a routine commercial-vehicle inspection on I-70 in Putnam County on September 6 found duffel bags holding about…",
+   "location": "Putnam County, Indiana",
+   "quantity": "126 kg cocaine",
    "arrests": "1 arrested",
    "source": "Hoodline",
-   "url": "https://hoodline.com/2026/09/golden-valley-man-held-on-500k-bail-after-59-pounds-of-meth-found-in-apartment/"
+   "url": "https://hoodline.com/2026/09/putnam-county-traffic-stop-nets-277-pounds-of-cocaine-worth-3-8-million/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Tennessee — an 8-year-old is pulled from a Munford steroid lab, three arrested",
-   "summary": "A search warrant executed August 28 at a home in Munford, Tennessee found an active anabolic-steroid manufacturing operation with an 8-year-old child present.",
-   "location": "Munford, Tennessee",
-   "quantity": "",
-   "arrests": "3 arrested",
-   "source": "Action News 5",
-   "url": "https://www.actionnews5.com/2026/09/05/8-year-old-rescued-tipton-drug-lab-3-arrested-say-sheriffs-office/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Massachusetts — Worcester man caught with a four-drug haul after kicking a police cruiser",
-   "summary": "Worcester's Neighborhood Response Team stopped Salvatore Venuti, 46, on Madison Street on September 4 after seeing him holding what appeared to be a chunk of crack cocaine; he…",
-   "location": "Worcester, Massachusetts",
-   "quantity": "",
+   "headline": "Florida — Jacksonville raid finds fentanyl, meth and cocaine, and a \"can't be stopped\" note",
+   "summary": "Jacksonville's Sheriff's Office overdose investigation unit searched a Potomac Avenue home on August 27 and found about 849 grams of fentanyl, 1.33 kilograms of methamphetamine…",
+   "location": "Jacksonville, Florida",
+   "quantity": "849 g fentanyl",
    "arrests": "1 arrested",
-   "source": "Hoodline",
-   "url": "https://hoodline.com/2026/09/worcester-man-46-nabbed-with-fentanyl-crack-meth-after-kicking-police-cruiser/"
+   "source": "News4JAX",
+   "url": "https://www.news4jax.com/news/local/2026/09/04/man-faces-charges-after-jso-finds-over-400k-potentially-deadly-doses-of-fentanyl-other-drugs/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Ecuador — 2 tonnes of cocaine found in a fruit container bound for Sweden",
-   "summary": "Ecuadorian National Police inspecting a shipping container at Machala's maritime port on September 6 found 2,040 blocks of cocaine weighing about 2,040 kilograms, hidden among a…",
-   "location": "Machala, Ecuador",
-   "quantity": "2,040 kg cocaine",
+   "headline": "Ecuador — army seizes half a tonne of Los Lobos-linked marijuana bound for Guayaquil",
+   "summary": "Ecuador's Army stopped a truck in the Ascázubi sector of Pichincha province on September 7 and found about 500 kilograms of marijuana, valued near $1.5 million, that investigators…",
+   "location": "Pichincha, Ecuador",
+   "quantity": "500 kg cannabis",
    "arrests": "0 reported",
-   "source": "Primicias",
-   "url": "https://www.primicias.ec/sucesos/ecuador-decomisa-toneladas-cocaina-machala-suecia-131973/"
+   "source": "Expreso",
+   "url": "https://www.expreso.ec/quito/ejercito-decomisa-500-kilos-de-marihuana-en-pichincha-droga-esta-valorada-en-15-millones-294935.html"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazil — twin cocaine busts net 521 kilos in São Paulo and Santa Catarina in one day",
-   "summary": "Brazil's Federal Police stopped a vehicle in Barra do Turvo, São Paulo, on September 6 and found about 290 kilograms of cocaine, and separately searched a home in Itajaí, Santa…",
-   "location": "Barra do Turvo, São Paulo / Itajaí, Santa Catarina, Brazil",
-   "quantity": "521 kg cocaine",
-   "arrests": "2 arrested",
-   "source": "ND Mais",
-   "url": "https://ndmais.com.br/seguranca/pf-encontra-deposito-subterraneo-com-cocaina-em-sc/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Venezuela — 800 kilos of marijuana seized in more than 1,500 packages on Cubagua island",
-   "summary": "Venezuela's Interior Ministry said National Bolivarian Police seized 1,529 packages of marijuana weighing about 800 kilograms on Cubagua island, Nueva Esparta state, the result of…",
-   "location": "Cubagua, Nueva Esparta, Venezuela",
-   "quantity": "800 kg cannabis",
-   "arrests": "",
-   "source": "Últimas Noticias",
-   "url": "https://ultimasnoticias.com.ve/sucesos/incautadas-en-cubagua-1-529panelas-de-droga/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Mexico — Navy dismantles three more meth labs in Guerrero, days after the Sinaloa haul",
-   "summary": "Mexico's Navy disabled three clandestine methamphetamine labs on September 6 — two in Zirándaro de los Chávez and one in Coahuayutla de José María Izazaga, Guerrero — seizing…",
-   "location": "Guerrero, Mexico",
-   "quantity": "",
-   "arrests": "",
-   "source": "La Razón",
-   "url": "https://www.razon.com.mx/mexico/2026/09/06/autoridades-federales-desmantelan-tres-narco-laboratorios-en-guerrero-colabora-eu-con-inteligencia/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Nigeria — cannabis hidden in a hollowed-out fuel tanker seized in Ondo State",
-   "summary": "Nigeria's National Drug Law Enforcement Agency intercepted a 20,000-litre fuel tanker on the Akoko/Lokoja Expressway on September 4 after its driver refused to stop, then found a…",
-   "location": "Ondo State, Nigeria",
-   "quantity": "2.1 t cannabis",
-   "arrests": "",
-   "source": "Channels Television",
-   "url": "https://www.channelstv.com/2026/09/06/ndlea-intercepts-drug-laden-fuel-tanker-with-2-1-tonnes-of-cannabis/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Thailand — courier caught asleep at a car wash with 42,000 methamphetamine pills",
-   "summary": "Police in Kalasin municipality were called to a car wash after a bystander noticed a man asleep inside his car in the early hours of September 7; officers found Ekaphon…",
-   "location": "Kalasin, Thailand",
-   "quantity": "",
+   "headline": "Brazil — driver flips car fleeing highway police, leaves 232 kilos of marijuana behind",
+   "summary": "Federal Highway Police tried to stop a car on the Dutra highway (BR-116) in Barra Mansa, Rio de Janeiro state, on September 5; the driver fled at high speed for about ten…",
+   "location": "Barra Mansa, Rio de Janeiro, Brazil",
+   "quantity": "232 kg cannabis",
    "arrests": "1 arrested",
-   "source": "Khaosod English",
-   "url": "https://www.khaosodenglish.com/news/2026/09/07/sleepy-drug-courier-caught-after-dozing-off-at-car-wash/"
+   "source": "Folha do Aço",
+   "url": "https://folhadoaco.com.br/2026/09/05/prf-apreende-232-quilos-de-maconha-apos-perseguicao-na-dutra-em-bm-motorista-fugiu/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Peru — 250 kilos of cocaine base found in an Andahuaylas hideout, staged for Bolivia",
+   "summary": "Peru's anti-drug police searched a rural property near Pampachiri, Andahuaylas province, before dawn on September 5 and found 236 brick-shaped packages of cocaine base — about 250…",
+   "location": "Andahuaylas, Peru",
+   "quantity": "250 kg coca base",
+   "arrests": "0 reported",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/peru/2026/09/07/cargamento-de-casi-250-kilos-de-alcaloide-de-cocaina-fue-escondido-en-andahuaylas-antes-de-su-presunto-traslado-a-desaguadero/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Pakistan — ANF seizes 365 kilos of heroin, hashish and opium in eight operations nationwide",
+   "summary": "Pakistan's Anti-Narcotics Force reported eight operations across the country recovering about 365 kilograms of narcotics worth more than 2.12 billion rupees, led by a 150-kilogram…",
+   "location": "Pakistan (nationwide)",
+   "quantity": "365 kg narcotics",
+   "arrests": "8 arrested",
+   "source": "Associated Press of Pakistan",
+   "url": "https://www.dailyindependent.com.pk/2026/09/07/anf-seizes-364-6kg-of-narcotics-worth-over-rs2-12bn-in-eight-operations/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Nigeria — Lagos warehouse raid nets 2.4 tonnes of cannabis, and a repeat cocaine trafficker is re-arrested",
+   "summary": "Nigeria's National Drug Law Enforcement Agency, in a nine-state crackdown reported this week, raided a warehouse in Lagos's Gbaji area and recovered about 2,387 kilograms of…",
+   "location": "Lagos, Nigeria",
+   "quantity": "2.4 t cannabis",
+   "arrests": "1 arrested",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/09/06/ndlea-busts-hidden-drug-compartment-in-fuel-tanker-arrests-cocaine-convict/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "South Africa — second cocaine bust in four days at Johannesburg's main airport",
+   "summary": "Police at OR Tambo International Airport arrested a 45-year-old passenger on September 7 with about 2 kilograms of cocaine, worth an estimated R800,000, hidden in luggage bound…",
+   "location": "OR Tambo Airport, South Africa",
+   "quantity": "2 kg cocaine",
+   "arrests": "2 arrested",
+   "source": "TimesLIVE",
+   "url": "https://www.timeslive.co.za/news/south-africa/2026-09-08-police-make-second-cocaine-bust-at-or-tambo-in-four-days/"
+  },
+  {
+   "section": "ongoing",
+   "sectionName": "Ongoing Stories with New Developments",
+   "headline": "Uruguay — gang leader captured and six sent to prison over the Artigas cocaine airdrop",
+   "summary": "New developments in the September 3 case of a plane that dropped 408 kilograms of cocaine and paste over a field in Artigas: Uruguayan police made further arrests in neighboring…",
+   "location": "Artigas / Salto, Uruguay",
+   "quantity": "",
+   "arrests": "6 sent to prison",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/america/america-latina/2026/09/07/una-avioneta-arrojo-mas-de-400-kilos-de-droga-sobre-un-campo-de-uruguay-y-desato-operativo-contra-una-banda-narco/"
   }
  ]
 }
