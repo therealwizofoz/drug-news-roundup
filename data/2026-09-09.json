@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-09",
+  "window": "Covering reporting published since the Sept 8 edition, roughly Sept 7-9, with a few items surfacing late through indexing lag (an Evansville, Indiana sentencing describes a 2023 investigation; a Nigeria multi-state sweep spans raids from earlier in the week). South America got dedicated effort in Spanish and Portuguese. Excluded as stale, duplicate or too thin: a CBP El Paso figure citing a Sept 14 seizure that cannot have happened yet and looks like a garbled date; a Colombian Navy 91.3 kg cocaine bust in Galapa, Atlántico that duplicates the same government's broader single-day offensive already covered here; Nigeria's Ondo fuel-tanker cannabis seizure, already logged Sept 7; Mexican Navy lab busts in Sinaloa and Guerrero, both already logged Sept 6-7; Albany, New York's 'Operation Tidal Wave 2.0,' a violent-crime sweep whose drug-trafficking charges came with no reported quantities; a West Virginia 19-defendant indictment and a Bahamas police-corruption scandal that both trace to stories from earlier in the year, not this week; and a Yuma, Arizona liquid-meth stop and a Cherokee County meth bust that were each about a month old despite appearing in current search results. No further development emerged in Uruguay's Artigas cocaine-airdrop case since Sept 8.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "SOUTHCOM boards and sinks a sixth Los Choneros refueling vessel in eleven days, as Ecuadorian judges free dozens of crew from earlier boardings",
+          "body": "On September 8, Joint Task Force Western Hemisphere boarded and sank the fishing vessel Don Rufo in the eastern Pacific — the sixth floating fuel depot tied to Ecuador's Los Choneros gang that U.S. forces have destroyed since the campaign began August 28 — and turned its captured crew over to Ecuadorian authorities rather than killing them. The interdiction came as Secretary of State Marco Rubio arrived in Quito on a September 8-10 tour of Ecuador, Colombia and Peru to discuss counter-cartel cooperation, and as Ecuadorian judges separately freed 28 crew members from earlier-seized vessels on Saturday and another 32 on Tuesday, both times citing insufficient evidence tying them to Los Choneros — releases their lawyers say show prosecutors have no case against them.",
+          "location": "Eastern Pacific / Ecuador",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/09/09/eeuu-hunde-sexto-barco-ecuatoriano-por-supuesto-apoyo-a-operaciones-de-los-choneros/"
+        },
+        {
+          "headline": "Indiana — Evansville methamphetamine, fentanyl and cocaine ring dismantled as six are sentenced to federal prison",
+          "body": "Six Evansville residents — organization leader Lovechild McGuire and mid-level distributors Christopher Flax, Amiee Ranes, Trent Marion, Unique Carter and Camri Outlaw — were sentenced to federal prison after a DEA and Evansville-Vanderburgh County Drug Task Force investigation traced the group's methamphetamine, fentanyl and cocaine sales to a South Green River Road barber shop and a storage unit at Eastside Park that served as its stash site. Search warrants in the case recovered about 34.8 pounds of crystal meth, 13,000 fentanyl pills and a kilogram of cocaine, and prosecutors said the ring moved more than 4.5 kilograms of pure methamphetamine into the Evansville area in the second half of 2023.",
+          "location": "Evansville, Indiana",
+          "arrests": "6 sentenced",
+          "source": "DEA / U.S. Attorney's Office, Southern District of Indiana",
+          "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Massachusetts — chase through Lawrence and Haverhill ends with 1.2 kilos of fentanyl and two arrests",
+          "body": "Lawrence Police's Street Narcotics Enforcement Unit and the DEA moved on a suspect from an undercover trafficking investigation on September 3; he fled toward Haverhill and tossed roughly a kilogram of fentanyl from his car before officers caught him and booked him at the Methuen Police Department. A second man arrested the same day on West Dalton Street in Lawrence was carrying another 225 grams, bringing the combined haul to about 1.225 kilograms — well over the 200-gram threshold that triggers a mandatory 12-year minimum under Massachusetts trafficking law.",
+          "quantity": "1.225 kg fentanyl",
+          "location": "Lawrence / Haverhill, Massachusetts",
+          "arrests": "2 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/lawrence-fentanyl-chase-ends-in-haverhill-nets-1-225-grams-and-two-arrests/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 1.225, "place": "Massachusetts" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Ecuador — Operación Manglar seizes 4 tonnes of cocaine and an armed mangrove hideout in Posorja",
+          "body": "Ecuador's National Police, working with U.S. counterparts, raided a logistics network in the Posorja fishing port outside Guayaquil on September 8, seizing about four tonnes of cocaine — worth an estimated $100 million — along with five boats disguised for fishing, 16 rifles, roughly 6,000 rounds of ammunition and GPS-tagged buoys used to mark drug drops at sea. Four suspects, described by police as members of the Los Preñados gang, were caught guarding the arsenal in the mangroves; officials said the shipment was bound for North America.",
+          "quantity": "4 t cocaine",
+          "location": "Posorja, Guayas, Ecuador",
+          "arrests": "4 arrested",
+          "source": "Infobae / Ecuadorian National Police",
+          "url": "https://www.infobae.com/america/agencias/2026/09/08/decomisan-cuatro-toneladas-de-droga-en-ecuador-que-iban-a-ser-cargadas-en-lanchas/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 4000, "place": "Ecuador" }
+          ]
+        },
+        {
+          "headline": "Colombia — single day of raids across four provinces nets 800 kilos of cocaine and 21 arrests",
+          "body": "Colombia's security forces reported seizing about 800 kilograms of cocaine, 60 kg of coca paste, 24 kg of coca base and 1.55 tonnes of marijuana, plus more than 1,700 gallons of liquid and solid precursor chemicals, in raids carried out September 7-8 across Guaviare, Valle del Cauca, Nariño and Antioquia departments. Twenty-one people were captured and one more turned himself in; officers also seized eight firearms and nearly 700 rounds of ammunition during the operations.",
+          "quantity": "800 kg cocaine",
+          "location": "Guaviare / Valle del Cauca / Nariño / Antioquia, Colombia",
+          "arrests": "21 arrested",
+          "source": "Semana",
+          "url": "https://www.semana.com/politica/articulo/ofensiva-contra-el-narcotrafico-en-el-gobierno-de-abelardo-de-la-espriella-deja-21-capturas-y-mas-de-800-kilos-de-cocaina-incautados-en-un-dia/202621/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 800, "place": "Colombia" },
+            { "drug": "cannabis", "kg": 1550, "place": "Colombia" },
+            { "drug": "coca base", "kg": 84, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Argentina — trafficker bolts for the brush at the Bolivian border, leaving 36 kilos of cocaine hidden in bedsheets",
+          "body": "Gendarmería Nacional troops checking a border crossing point near Puerto Chalanas, opposite Bermejo, Bolivia, in Aguas Blancas, Salta province, saw a man run for nearby scrubland on September 8 and abandon the load he had been carrying. Inside sets of folded bedsheets, officers found 35 brick-shaped packages that field-tested positive for cocaine and weighed a combined 36.425 kilograms; the courier was not caught.",
+          "quantity": "36.4 kg cocaine",
+          "location": "Aguas Blancas, Salta, Argentina",
+          "arrests": "0 reported",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/gendarmeria-incauto-mas-de-36-kilos-de-cocaina-en-salta",
+          "seizures": [
+            { "drug": "cocaine", "kg": 36.425, "place": "Argentina" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Nigeria — NDLEA's nine-state sweep finds cannabis hidden in a cement truck and a razed forest farm",
+          "body": "Nigeria's National Drug Law Enforcement Agency reported a coordinated crackdown across nine states this week, including a truck loaded with bagged cement stopped along the Zaria-Kano expressway in Kaduna State that concealed 1,179 kilograms of skunk cannabis, and a four-hectare cannabis farm razed in Ekiti State's Efon-Alaaye forest that yielded another 117 kilograms of harvested skunk. In Adamawa, agents arrested a supplier moving methamphetamine from Lagos toward the Mubi-Michika area with 2 kilograms of the drug, and at Lagos's main airport, operatives intercepted 966,200 Tramadol tablets concealed in a clothing shipment from Pakistan.",
+          "quantity": "1,179 kg cannabis",
+          "location": "Kaduna / Ekiti / Adamawa, Nigeria",
+          "arrests": "multiple arrested",
+          "source": "Sahara Reporters",
+          "url": "https://saharareporters.com/2026/09/06/ndlea-seizes-over-2-million-opioid-pills-2000kg-cannabis-nine-state-crackdown",
+          "seizures": [
+            { "drug": "cannabis", "kg": 1296, "place": "Nigeria" },
+            { "drug": "methamphetamine", "kg": 2, "place": "Nigeria" }
+          ]
+        },
+        {
+          "headline": "Pakistan — ANF's nationwide sweep nets hashish, opium and a stash of counterfeit Xanax at two airports",
+          "body": "Pakistan's Anti-Narcotics Force ran five operations across the country on September 9, arresting four suspects and recovering a combined 42.282 kilograms of narcotics. The largest hauls were 28.8 kilograms of hashish and 2.4 kilograms of opium recovered in Faisalabad and 3.6 kilograms of hashish intercepted in Islamabad's I-9 sector, while officers at Peshawar airport pulled 320 grams of hashish from a Dubai-bound passenger and, at Islamabad airport, found nearly 6.8 kilograms of counterfeit Xanax tablets in the luggage of a traveler bound for Riyadh.",
+          "quantity": "42.3 kg narcotics",
+          "location": "Pakistan (nationwide)",
+          "arrests": "4 arrested",
+          "source": "Daily Independent (Pakistan)",
+          "url": "https://www.dailyindependent.com.pk/2026/09/09/anf-seizes-42-282kg-drugs-in-nationwide-crackdown-arrests-four/",
+          "seizures": [
+            { "drug": "hashish", "kg": 32.72, "place": "Pakistan" },
+            { "drug": "opium", "kg": 2.4, "place": "Pakistan" }
+          ]
+        },
+        {
+          "headline": "India — Assam Rifles and police break up two truckloads of methamphetamine tablets on the Myanmar-facing border",
+          "body": "In Cachar district, southern Assam, the Assam Rifles working with Customs and state police intercepted a truck near Lalpani on September 8 carrying about 150,000 methamphetamine tablets worth an estimated 45 million rupees. Hours later, Assam Police stopped a second truck at Shivpur, Lakhipur, and found 230,000 more tablets weighing roughly 25 kilograms hidden in a concealed compartment; the driver, identified as Sahir Hussain Choudhary, was arrested.",
+          "quantity": "25 kg methamphetamine",
+          "location": "Cachar district, Assam, India",
+          "arrests": "2 arrested",
+          "source": "Punjab Kesari",
+          "url": "https://english.punjabkesari.com/india/assam-banned-meth-tablets-worth-over-rs-68-crore-seized-in-two-operations-two-held",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 25, "place": "India" }
+          ]
+        },
+        {
+          "headline": "Philippines — Clark customs officers find shabu built into the cardboard walls of a wedding-dress box",
+          "body": "Bureau of Customs officers at Clark, working with the Philippine Drug Enforcement Agency, X-rayed a parcel declared as a wedding dress and shipped from Mexico City to Mandaluyong City on September 9 after the scan showed suspicious shadows in the packaging. A search of the dress itself turned up nothing, but dismantling the box found four pouches of crystalline shabu concealed inside its cardboard sidewalls, weighing about 1.573 kilograms and valued near 10.7 million pesos.",
+          "quantity": "1.6 kg methamphetamine",
+          "location": "Clark, Pampanga, Philippines",
+          "arrests": "0 reported",
+          "source": "Bureau of Customs (Philippines)",
+          "url": "https://customs.gov.ph/boc-clark-pdea-uncover-%E2%82%B110-696m-shabu-hidden-in-cardboard-walls-of-wedding-dress-box/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 1.573, "place": "Philippines" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
