@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-10",
+  "window": "Covering reporting published since the Sept 9 edition, roughly Sept 8-10. A prolonged outage of the search tool cut this run's research time roughly in half, which especially thinned the Rest of World sweep (Africa, Asia and Europe searches mostly returned nothing new after the outage began) — treat today's world coverage as partial rather than a sign little happened elsewhere. South America still got dedicated effort in Spanish and Portuguese. Excluded as stale, duplicate or too thin: a Colombian Navy 736 kg Cartagena cocaine bust already logged Sept 3; a 413 kg Riohacha interdiction and a Spanish 11-ton salt-shipment cocaine bust that both turned out to be from earlier in the year; an Arizona 233 lb cocaine stop and a Pharr, Texas 908 lb meth seizure that were several months old despite appearing in current search results; a Rhode Island 41 kg fentanyl bust that dates to 2021; a Martin County, Florida cocaine sting and an Australian Operation Minjiang arrest that both traced back to mid-August; a vague, unsourced hoodline.com item citing a DEA Seattle Ecuador seizure with no confirmable date or agency detail; and an Orlando fentanyl-and-cocaine sentencing already several days old. No further development emerged in Uruguay's Artigas cocaine-airdrop case.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "SOUTHCOM kills three in 69th Caribbean strike as the campaign's death toll passes 230 amid mounting legal criticism",
+          "body": "On September 9, Joint Task Force Western Hemisphere carried out a lethal strike on a go-fast vessel that U.S. Southern Command said was moving drugs along an established Caribbean trafficking route, killing all three people aboard. It was the 69th publicly acknowledged strike in the year-old campaign — which independent tracking now puts at more than 230 people killed — and the third since the pace resumed in August following a roughly two-month pause that began in late June. Human Rights Watch, Amnesty International and independent United Nations experts have called the strikes unlawful extrajudicial killings, and four House Democrats — Reps. Gregory Meeks, Adam Smith, Jim Himes and Bennie Thompson — introduced a War Powers Resolution on September 2 seeking a vote to end them, an effort the Republican-controlled chambers have not brought to the floor.",
+          "location": "Caribbean Sea",
+          "source": "Washington Examiner / SOUTHCOM",
+          "url": "https://www.washingtonexaminer.com/news/4720561/three-narco-terrorists-killed-in-the-caribbean-by-us-military-forces/"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Massachusetts — twin Hyde Park searches net fentanyl, crack cocaine and a high-capacity magazine, two arrested",
+          "body": "Boston police searched two homes on Georgetowne Drive in the Hyde Park neighborhood on September 8 and arrested 26-year-old Joshua Lewis and 41-year-old Brian Lender. Investigators reported recovering crack cocaine, marijuana, bagged fentanyl, an unidentified bag of white powder, rifle and shotgun ammunition, an illegal high-capacity magazine and more than $1,200 in cash between the two addresses; Lewis was charged with trafficking and intent to distribute, while Lender faces weapons and multiple drug-possession counts.",
+          "location": "Hyde Park, Boston, Massachusetts",
+          "arrests": "2 arrested",
+          "source": "Dorchester Post",
+          "url": "https://dorchesterpost.com/2026/09/09/hyde-park-drug-bust-leads-to-two-arrests-seizure-of-fentanyl-cocaine-and-ammunition/"
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Bolivia — highway stop nets 26.6 kilos of cocaine as a wider crackdown grounds more than 80 trafficking aircraft",
+          "body": "Bolivia's anti-narcotics police (FELCN) stopped a vehicle on the Challapata-Uyuni highway on September 8 and found 35 packages of cocaine weighing about 26.6 kilograms. Officials said the stop came amid a broader campaign that has impounded more than 80 small aircraft tied to drug flights after forensic testing confirmed their use, dismantled several cocaine-hydrochloride labs, and led to the arrest of foreign nationals from Colombia, Brazil and Paraguay.",
+          "quantity": "26.6 kg cocaine",
+          "location": "Challapata-Uyuni highway, Bolivia",
+          "source": "eju.tv",
+          "url": "https://eju.tv/2026/09/incautan-en-bolivia-mas-de-80-aeronaves-vinculadas-al-trafico-ilicito-de-drogas/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 26.6, "place": "Bolivia" }
+          ]
+        },
+        {
+          "headline": "Argentina — two Peruvian women caught with cocaine hidden in hair-conditioner bottles and shoe insoles",
+          "body": "Gendarmería Nacional stopped two Peruvian women on Route 9 near the El Jume wind farm in Santiago del Estero province on September 7 and found 42 packages of cocaine — some concealed inside bottles of hair conditioner, others hidden beneath the insoles of their sneakers — weighing a combined 9.66 kilograms. Both women were arrested.",
+          "quantity": "9.66 kg cocaine",
+          "location": "Santiago del Estero, Argentina",
+          "arrests": "2 arrested",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/gendarmeria-incauto-mas-de-9-kilos-de-cocaina-ocultos-en-potes-de-acondicionador-capilar",
+          "seizures": [
+            { "drug": "cocaine", "kg": 9.66, "place": "Argentina" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": []
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "Brazil — Itajaí cocaine case grows to nearly 1.25 tonnes as Polícia Federal returns to the same investigation",
+          "body": "Two days after logging a 521-kilogram cocaine haul from Barra do Turvo and Itajaí, Polícia Federal went back to the same Santa Catarina investigation on September 8 and found another 725 kilograms hidden beneath the floor of a house in Itajaí's Cordeiros neighborhood, arresting one more suspect. The new find brings the case's running total to nearly 1.25 tonnes of cocaine tied to the same trafficking network.",
+          "quantity": "725 kg cocaine",
+          "location": "Itajaí, Santa Catarina, Brazil",
+          "arrests": "1 arrested",
+          "source": "Isso É Notícia",
+          "url": "https://www.issoenoticia.com.br/policia/policia-federal-apreende-mais-de-725-kg-de-cocaina-em-itajai/929840",
+          "seizures": [
+            { "drug": "cocaine", "kg": 725, "place": "Brazil" }
+          ]
+        }
+      ]
+    }
+  ]
+}
