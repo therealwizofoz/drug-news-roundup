@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-11",
+  "window": "Covering reporting published since the Sept 10 edition, roughly Sept 10-11, with a few incident dates running back to Sept 7-9 where indexing lagged. South America again got dedicated effort in Spanish and Portuguese, turning up four distinct operations. Excluded as stale, duplicate, wrong-year or unconfirmed: a Nassau County, New York 312 kg cocaine bust that traces to February 2026; a US Coast Guard Cutter Diligence 8,700-lb cocaine offload and a San Antonio 500-lb methamphetamine railcar seizure that both turned out to be from September 2025; a widely recirculated '480 kg fentanyl, 2,209 kg meth' DEA-Sinaloa Cartel New England sweep that also dates to 2025; a Dayton, Ohio 11 kg fentanyl-and-cocaine safe seizure tied to a March 2026 search warrant; and an AFP 2.7-tonne Sydney cocaine bust (Operation Minjiang) already flagged in a prior edition as several weeks stale. No further development emerged in Uruguay's Artigas cocaine-airdrop case or the SOUTHCOM refueling-vessel campaign since the last edition.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Rubio's Latin America tour ends with Peru joining a new US-backed anti-trafficking coalition and Ecuador gaining a Coast Guard cutter",
+          "body": "Secretary of State Marco Rubio closed a week-long tour of Colombia, Ecuador and Peru on September 10 by announcing, alongside newly elected President Keiko Fujimori, that Peru has joined the 'Shield of the Americas' — a Trump administration-backed coalition of more than a dozen countries organized against drug trafficking and organized crime. In Ecuador, Rubio's visit produced a pledge to transfer a US Coast Guard Island-class cutter and five interceptor boats to the Ecuadorian Navy, adding to earlier US drone donations meant to help Quito track trafficking routes through the Pacific, and both countries said they had begun joint maritime operations against boats supplying traffickers. The trip's earlier stops in Bogotá and Quito focused on the same theme with Presidents Abelardo de la Espriella and Daniel Noboa.",
+          "location": "Colombia, Ecuador, Peru",
+          "source": "Infobae (New York Times) / Moncloa",
+          "url": "https://www.infobae.com/america/the-new-york-times/2026/09/11/peru-se-une-al-escudo-de-las-americas-la-coalicion-de-seguridad-impulsada-por-trump/"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Texas — Nacogdoches County traffic stop turns up 100 pounds of cocaine, three arrested",
+          "body": "Nacogdoches County sheriff's deputies, aided by a newly certified K-9, stopped a vehicle on September 10 and found roughly 100 pounds of cocaine, about 45 kilograms, inside. Andre Nelson, 65, of Georgia; Antonio Colon, 46, of Illinois; and Latrisha Crims, 32, of Humble, Texas, were each charged with first-degree delivery of a controlled substance.",
+          "quantity": "45 kg cocaine",
+          "location": "Nacogdoches County, Texas",
+          "arrests": "3 arrested",
+          "source": "KLTV",
+          "url": "https://www.kltv.com/2026/09/10/nacogdoches-county-traffic-stop-leads-seizure-100-pounds-cocaine/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 45.36, "place": "Texas" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombia and the Netherlands intercept 297 kg of cocaine off La Guajira, four Venezuelans captured",
+          "body": "Colombia's Navy, working with a Dutch military patrol aircraft and the National Police, intercepted a go-fast boat in Caribbean waters off La Guajira department on September 10 and seized 297 kilograms of cocaine hydrochloride valued at more than $13 million. Four Venezuelan nationals aboard the vessel were captured.",
+          "quantity": "297 kg cocaine",
+          "location": "La Guajira, Colombia",
+          "arrests": "4 arrested",
+          "source": "724 Noticias",
+          "url": "https://724noticias.com.co/2026/09/10/incautan-297-kilos-cocaina-caribe-norte-13-millones-dolares/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 297, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Ecuador seizes 200 kg of cocaine hidden in a banana shipment bound for Morocco",
+          "body": "Ecuadorian police inspecting a truck on the road between Guayaquil and the port of Posorja on September 10 found 200 packages of cocaine hydrochloride, weighing about 200 kilograms, hidden in eight suitcases stashed among an export banana shipment. The cocaine, valued at roughly $6 million, was headed for the port of Tangier, Morocco.",
+          "quantity": "200 kg cocaine",
+          "location": "Posorja, Ecuador",
+          "source": "Extra.ec",
+          "url": "https://www.extra.ec/noticia/guayaquil/policia-incauta-200-kilos-cocaina-via-posorja-droga-iba-marruecos-camion-banano-162410.html",
+          "seizures": [
+            { "drug": "cocaine", "kg": 200, "place": "Ecuador" }
+          ]
+        },
+        {
+          "headline": "Colombia's Navy and Brazil's Federal Police seize 4.5 tonnes of marijuana and machine guns on the Amazon River",
+          "body": "Acting on a Colombian intelligence tip, Colombia's Navy and Air Force worked with Brazil's Federal Police to intercept a speedboat fitted with six outboard motors near Codajás, on the Amazon River in Brazilian territory, on September 10. Investigators believe the boat originated in the tri-border area shared by Colombia, Brazil and Peru; it was carrying 4.5 tonnes of high-potency marijuana along with two M60 machine guns, three AK-47 rifles and ammunition. Authorities valued the haul at more than $47 million and reported no arrests.",
+          "quantity": "4.5 t marijuana",
+          "location": "Codajás, Amazonas, Brazil",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/colombia/2026/09/11/brasil-incauto-45-toneladas-de-marihuana-y-armas-en-una-lancha-interceptada-en-el-amazonas-tras-una-alerta-de-colombia/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 4500, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Argentina's Gendarmería seizes cocaine, cannabis and coca leaf in four Salta and Jujuy operations in a single day",
+          "body": "Gendarmería Nacional ran four stops on September 10. On Route 34 in Jujuy province, agents found about 66 kilograms of cocaine during a vehicle stop near La Chaqueta and another 117 kilograms of cannabis in a package check near Chalicán, arresting two people. On Route 50 near Orán, Salta, gendarmes seized roughly 84 kilograms of coca leaf from a vehicle whose occupants were detained after the driver injured an officer, and separately found 62 kilograms of cocaine abandoned by three men who fled on foot near Río Pescado.",
+          "quantity": "128 kg cocaine, 117 kg cannabis",
+          "location": "Salta and Jujuy, Argentina",
+          "arrests": "4 arrested",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/jujuy-gendarmes-decomisaron-66-kilos-de-cocaina-y-mas-de-117-kilos-de-marihuana-que-eran",
+          "seizures": [
+            { "drug": "cocaine", "kg": 128.42, "place": "Argentina" },
+            { "drug": "cannabis", "kg": 117.4, "place": "Argentina" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "French customs seize nearly 3.9 tonnes of cocaine hidden in plastic waste at the port of Dunkirk",
+          "body": "French customs officers opened a shipping container that had arrived from Ghana at the port of Dunkirk on September 7 and found 167 bales of cocaine, weighing close to 3.9 tonnes, concealed inside plastic waste; the container was booked to continue on to Antwerp. Officials valued the seizure, one of the largest ever made at a French port, at about €225 million and destroyed the cocaine. France's national anti-organized-crime prosecutor's office opened an investigation, but no arrests were reported.",
+          "quantity": "3.9 t cocaine",
+          "location": "Dunkirk, France",
+          "source": "CNews / French Customs",
+          "url": "https://actuforcesdelordre.fr/2026/09/10/pres-de-3-9-tonnes-de-cocaine-saisies-par-les-douaniers-de-dunkerque-dans-des-dechets-de-plastique/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 3900, "place": "France" }
+          ]
+        },
+        {
+          "headline": "India — Mizoram police seize meth and heroin in four operations near the Myanmar border, six held",
+          "body": "Police and excise-and-narcotics officers ran four operations around the Saitual, Champhai and Kolasib districts of Mizoram on September 10, seizing a combined 17.6 kilograms of methamphetamine tablets and 141 grams of heroin worth more than 14 crore rupees (roughly $1.7 million). Six people were arrested, including five Myanmar nationals.",
+          "quantity": "17.6 kg methamphetamine",
+          "location": "Mizoram, India",
+          "arrests": "6 arrested",
+          "source": "Punjab Kesari",
+          "url": "https://english.punjabkesari.com/india/mizoram-police-seize-drugs-contraband-worth-rs-1477-crore-5-myanmar-nationals-among-6-held",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 17.65, "place": "India" },
+            { "drug": "heroin", "kg": 0.141, "place": "India" }
+          ]
+        },
+        {
+          "headline": "Europol dismantles the 'Dubai Bank' hawala network that laundered European drug profits",
+          "body": "Spain's National Police, backed by Europol, announced on September 8 the results of a long-running investigation into 'Dubai Bank,' an underground hawala-style money-transfer network that moved criminal cash — much of it drug-trafficking proceeds — across borders without the funds ever touching the formal banking system. The operation has produced 21 arrests, including four in the United Arab Emirates, one in Egypt and one in the Netherlands, and authorities have seized or frozen about €20 million in assets, among them 48 properties and 121 bank accounts.",
+          "location": "Spain / United Arab Emirates",
+          "arrests": "21 arrested",
+          "source": "Europol",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/drug-trafficking-investigation-leads-to-some-of-world-biggest-underground-bankers"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "Mexico's Guerrero meth-lab campaign reaches Atoyac with another 166 kg seized",
+          "body": "Days after the Mexican Navy dismantled three clandestine labs in Zirándaro and Coahuayutla, the Army destroyed another methamphetamine lab on September 9 in the El Refugio community of Atoyac de Álvarez, in Guerrero's Costa Grande region, seizing about 166 kilograms of methamphetamine, 200 liters of precursor chemicals and nine synthesis reactors. Authorities estimated the hit to trafficking organizations at more than 3.1 billion pesos.",
+          "quantity": "166 kg methamphetamine",
+          "location": "Atoyac de Álvarez, Guerrero, Mexico",
+          "source": "Quadratín Guerrero",
+          "url": "https://guerrero.quadratin.com.mx/desmantelan-narcolaboratorio-en-atoyac-golpe-al-narco-de-3-mil-mdp/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 166, "place": "Mexico" }
+          ]
+        }
+      ]
+    }
+  ]
+}

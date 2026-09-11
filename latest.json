@@ -1,9 +1,9 @@
 {
- "date": "2026-09-10",
- "dateLabel": "Thursday, September 10, 2026",
- "window": "Covering reporting published since the Sept 9 edition, roughly Sept 8-10. A prolonged outage of the search tool cut this run's research time roughly in half, which especially thinned the Rest of World sweep (Africa, Asia and Europe searches mostly returned nothing new after the outage began) — treat today's world coverage as partial rather than a sign little happened elsewhere. South America still got dedicated effort in Spanish and Portuguese. Excluded as stale, duplicate or too thin: a Colombian Navy 736 kg Cartagena cocaine bust already logged Sept 3; a 413 kg Riohacha interdiction and a Spanish 11-ton salt-shipment cocaine bust that both turned out to be from earlier in the year; an Arizona 233 lb cocaine stop and a Pharr, Texas 908 lb meth seizure that were several months old despite appearing in current search results; a Rhode Island 41 kg fentanyl bust that dates to 2021; a Martin County, Florida cocaine sting and an Australian Operation Minjiang arrest that both traced back to mid-August; a vague, unsourced hoodline.com item citing a DEA Seattle Ecuador seizure with no confirmable date or agency detail; and an Orlando fentanyl-and-cocaine sentencing already several days old. No further development emerged in Uruguay's Artigas cocaine-airdrop case.",
+ "date": "2026-09-11",
+ "dateLabel": "Friday, September 11, 2026",
+ "window": "Covering reporting published since the Sept 10 edition, roughly Sept 10-11, with a few incident dates running back to Sept 7-9 where indexing lagged. South America again got dedicated effort in Spanish and Portuguese, turning up four distinct operations. Excluded as stale, duplicate, wrong-year or unconfirmed: a Nassau County, New York 312 kg cocaine bust that traces to February 2026; a US Coast Guard Cutter Diligence 8,700-lb cocaine offload and a San Antonio 500-lb methamphetamine railcar seizure that both turned out to be from September 2025; a widely recirculated '480 kg fentanyl, 2,209 kg meth' DEA-Sinaloa Cartel New England sweep that also dates to 2025; a Dayton, Ohio 11 kg fentanyl-and-cocaine safe seizure tied to a March 2026 search warrant; and an AFP 2.7-tonne Sydney cocaine bust (Operation Minjiang) already flagged in a prior edition as several weeks stale. No further development emerged in Uruguay's Artigas cocaine-airdrop case or the SOUTHCOM refueling-vessel campaign since the last edition.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 5,
+ "storyCount": 10,
  "sectionCounts": [
   {
    "id": "federal",
@@ -18,7 +18,12 @@
   {
    "id": "south-america",
    "name": "South America",
-   "count": 2
+   "count": 4
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
+   "count": 3
   },
   {
    "id": "ongoing",
@@ -30,57 +35,112 @@
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "SOUTHCOM kills three in 69th Caribbean strike as the campaign's death toll passes 230 amid mounting legal criticism",
-   "summary": "On September 9, Joint Task Force Western Hemisphere carried out a lethal strike on a go-fast vessel that U.S.",
-   "location": "Caribbean Sea",
+   "headline": "Rubio's Latin America tour ends with Peru joining a new US-backed anti-trafficking coalition and Ecuador gaining a Coast Guard cutter",
+   "summary": "Secretary of State Marco Rubio closed a week-long tour of Colombia, Ecuador and Peru on September 10 by announcing, alongside newly elected President Keiko Fujimori, that Peru has…",
+   "location": "Colombia, Ecuador, Peru",
    "quantity": "",
    "arrests": "",
-   "source": "Washington Examiner / SOUTHCOM",
-   "url": "https://www.washingtonexaminer.com/news/4720561/three-narco-terrorists-killed-in-the-caribbean-by-us-military-forces/"
+   "source": "Infobae (New York Times) / Moncloa",
+   "url": "https://www.infobae.com/america/the-new-york-times/2026/09/11/peru-se-une-al-escudo-de-las-americas-la-coalicion-de-seguridad-impulsada-por-trump/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Massachusetts — twin Hyde Park searches net fentanyl, crack cocaine and a high-capacity magazine, two arrested",
-   "summary": "Boston police searched two homes on Georgetowne Drive in the Hyde Park neighborhood on September 8 and arrested 26-year-old Joshua Lewis and 41-year-old Brian Lender.",
-   "location": "Hyde Park, Boston, Massachusetts",
-   "quantity": "",
-   "arrests": "2 arrested",
-   "source": "Dorchester Post",
-   "url": "https://dorchesterpost.com/2026/09/09/hyde-park-drug-bust-leads-to-two-arrests-seizure-of-fentanyl-cocaine-and-ammunition/"
+   "headline": "Texas — Nacogdoches County traffic stop turns up 100 pounds of cocaine, three arrested",
+   "summary": "Nacogdoches County sheriff's deputies, aided by a newly certified K-9, stopped a vehicle on September 10 and found roughly 100 pounds of cocaine, about 45 kilograms, inside.",
+   "location": "Nacogdoches County, Texas",
+   "quantity": "45 kg cocaine",
+   "arrests": "3 arrested",
+   "source": "KLTV",
+   "url": "https://www.kltv.com/2026/09/10/nacogdoches-county-traffic-stop-leads-seizure-100-pounds-cocaine/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Bolivia — highway stop nets 26.6 kilos of cocaine as a wider crackdown grounds more than 80 trafficking aircraft",
-   "summary": "Bolivia's anti-narcotics police (FELCN) stopped a vehicle on the Challapata-Uyuni highway on September 8 and found 35 packages of cocaine weighing about 26.6 kilograms.",
-   "location": "Challapata-Uyuni highway, Bolivia",
-   "quantity": "26.6 kg cocaine",
+   "headline": "Colombia and the Netherlands intercept 297 kg of cocaine off La Guajira, four Venezuelans captured",
+   "summary": "Colombia's Navy, working with a Dutch military patrol aircraft and the National Police, intercepted a go-fast boat in Caribbean waters off La Guajira department on September 10…",
+   "location": "La Guajira, Colombia",
+   "quantity": "297 kg cocaine",
+   "arrests": "4 arrested",
+   "source": "724 Noticias",
+   "url": "https://724noticias.com.co/2026/09/10/incautan-297-kilos-cocaina-caribe-norte-13-millones-dolares/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Ecuador seizes 200 kg of cocaine hidden in a banana shipment bound for Morocco",
+   "summary": "Ecuadorian police inspecting a truck on the road between Guayaquil and the port of Posorja on September 10 found 200 packages of cocaine hydrochloride, weighing about 200…",
+   "location": "Posorja, Ecuador",
+   "quantity": "200 kg cocaine",
    "arrests": "",
-   "source": "eju.tv",
-   "url": "https://eju.tv/2026/09/incautan-en-bolivia-mas-de-80-aeronaves-vinculadas-al-trafico-ilicito-de-drogas/"
+   "source": "Extra.ec",
+   "url": "https://www.extra.ec/noticia/guayaquil/policia-incauta-200-kilos-cocaina-via-posorja-droga-iba-marruecos-camion-banano-162410.html"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentina — two Peruvian women caught with cocaine hidden in hair-conditioner bottles and shoe insoles",
-   "summary": "Gendarmería Nacional stopped two Peruvian women on Route 9 near the El Jume wind farm in Santiago del Estero province on September 7 and found 42 packages of cocaine — some…",
-   "location": "Santiago del Estero, Argentina",
-   "quantity": "9.66 kg cocaine",
-   "arrests": "2 arrested",
+   "headline": "Colombia's Navy and Brazil's Federal Police seize 4.5 tonnes of marijuana and machine guns on the Amazon River",
+   "summary": "Acting on a Colombian intelligence tip, Colombia's Navy and Air Force worked with Brazil's Federal Police to intercept a speedboat fitted with six outboard motors near Codajás, on…",
+   "location": "Codajás, Amazonas, Brazil",
+   "quantity": "4.5 t marijuana",
+   "arrests": "",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/09/11/brasil-incauto-45-toneladas-de-marihuana-y-armas-en-una-lancha-interceptada-en-el-amazonas-tras-una-alerta-de-colombia/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina's Gendarmería seizes cocaine, cannabis and coca leaf in four Salta and Jujuy operations in a single day",
+   "summary": "Gendarmería Nacional ran four stops on September 10. On Route 34 in Jujuy province, agents found about 66 kilograms of cocaine during a vehicle stop near La Chaqueta and another…",
+   "location": "Salta and Jujuy, Argentina",
+   "quantity": "128 kg cocaine, 117 kg cannabis",
+   "arrests": "4 arrested",
    "source": "Argentina.gob.ar",
-   "url": "https://www.argentina.gob.ar/noticias/gendarmeria-incauto-mas-de-9-kilos-de-cocaina-ocultos-en-potes-de-acondicionador-capilar"
+   "url": "https://www.argentina.gob.ar/noticias/jujuy-gendarmes-decomisaron-66-kilos-de-cocaina-y-mas-de-117-kilos-de-marihuana-que-eran"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "French customs seize nearly 3.9 tonnes of cocaine hidden in plastic waste at the port of Dunkirk",
+   "summary": "French customs officers opened a shipping container that had arrived from Ghana at the port of Dunkirk on September 7 and found 167 bales of cocaine, weighing close to 3.9 tonnes…",
+   "location": "Dunkirk, France",
+   "quantity": "3.9 t cocaine",
+   "arrests": "",
+   "source": "CNews / French Customs",
+   "url": "https://actuforcesdelordre.fr/2026/09/10/pres-de-3-9-tonnes-de-cocaine-saisies-par-les-douaniers-de-dunkerque-dans-des-dechets-de-plastique/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "India — Mizoram police seize meth and heroin in four operations near the Myanmar border, six held",
+   "summary": "Police and excise-and-narcotics officers ran four operations around the Saitual, Champhai and Kolasib districts of Mizoram on September 10, seizing a combined 17.6 kilograms of…",
+   "location": "Mizoram, India",
+   "quantity": "17.6 kg methamphetamine",
+   "arrests": "6 arrested",
+   "source": "Punjab Kesari",
+   "url": "https://english.punjabkesari.com/india/mizoram-police-seize-drugs-contraband-worth-rs-1477-crore-5-myanmar-nationals-among-6-held"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Europol dismantles the 'Dubai Bank' hawala network that laundered European drug profits",
+   "summary": "Spain's National Police, backed by Europol, announced on September 8 the results of a long-running investigation into 'Dubai Bank,' an underground hawala-style money-transfer…",
+   "location": "Spain / United Arab Emirates",
+   "quantity": "",
+   "arrests": "21 arrested",
+   "source": "Europol",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/drug-trafficking-investigation-leads-to-some-of-world-biggest-underground-bankers"
   },
   {
    "section": "ongoing",
    "sectionName": "Ongoing Stories with New Developments",
-   "headline": "Brazil — Itajaí cocaine case grows to nearly 1.25 tonnes as Polícia Federal returns to the same investigation",
-   "summary": "Two days after logging a 521-kilogram cocaine haul from Barra do Turvo and Itajaí, Polícia Federal went back to the same Santa Catarina investigation on September 8 and found…",
-   "location": "Itajaí, Santa Catarina, Brazil",
-   "quantity": "725 kg cocaine",
-   "arrests": "1 arrested",
-   "source": "Isso É Notícia",
-   "url": "https://www.issoenoticia.com.br/policia/policia-federal-apreende-mais-de-725-kg-de-cocaina-em-itajai/929840"
+   "headline": "Mexico's Guerrero meth-lab campaign reaches Atoyac with another 166 kg seized",
+   "summary": "Days after the Mexican Navy dismantled three clandestine labs in Zirándaro and Coahuayutla, the Army destroyed another methamphetamine lab on September 9 in the El Refugio…",
+   "location": "Atoyac de Álvarez, Guerrero, Mexico",
+   "quantity": "166 kg methamphetamine",
+   "arrests": "",
+   "source": "Quadratín Guerrero",
+   "url": "https://guerrero.quadratin.com.mx/desmantelan-narcolaboratorio-en-atoyac-golpe-al-narco-de-3-mil-mdp/"
   }
  ]
 }
