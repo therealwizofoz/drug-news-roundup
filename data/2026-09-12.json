@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-12",
+  "window": "Covering reporting published since the Sept 11 edition, roughly Sept 11-12, with several incident dates running back to Sept 6-10 where indexing lagged. South America again got dedicated effort in Spanish and Portuguese, turning up three distinct operations plus a related capture. Excluded after review: a widely recirculated 'DEA-led raid off Ecuador nets 3,284 kilos of cocaine' story whose only source is an undated social-media post with no incident date or location, making it unverifiable; an Aurora, Colorado stash-house indictment tied to the Jalisco cartel that was unsealed August 24 and is now over two weeks stale; a Yuma, Arizona liquid-meth stop, a Jacksonville fentanyl raid, an Otay Mesa liquid-meth seizure and a McAllen cash-and-cocaine bust that all trace to incidents in the first half of August or early September; and a Polk County, Florida 'Operation End of Worlds' fentanyl takedown already about a week stale. No further development emerged in the SOUTHCOM refueling-vessel or vessel-strike campaigns, or in Uruguay's Artigas cocaine-airdrop case, since the last edition.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Homeland Security-led 'Operation Gulf-Line' sweep nets 30-plus arrests along Mississippi's I-10 corridor",
+          "body": "Homeland Security Investigations led a three-day interdiction operation ending September 11 with Harrison County's narcotics task force, sheriff's office and police departments in Biloxi, Gulfport and Madison, Mississippi, arresting more than 30 people on aggravated-trafficking and other felony charges along the I-10 corridor. The sweep recovered about 10.5 pounds of methamphetamine, 6.5 pounds of cocaine, 21 pounds of marijuana, 25 grams of fentanyl and 140 grams of MDMA, plus $82,000 in cash, for a combined street value authorities put above $500,000.",
+          "quantity": "4.8 kg meth, 2.9 kg cocaine",
+          "location": "Harrison County, Mississippi",
+          "arrests": "30+ arrested",
+          "source": "WDAM",
+          "url": "https://www.wdam.com/2026/09/11/over-30-arrested-500k-drugs-seized-during-operation-gulf-line-harrison-co-sheriff-says/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 4.76, "place": "Mississippi" },
+            { "drug": "cocaine", "kg": 2.95, "place": "Mississippi" },
+            { "drug": "cannabis", "kg": 9.53, "place": "Mississippi" },
+            { "drug": "fentanyl", "kg": 0.025, "place": "Mississippi" },
+            { "drug": "MDMA", "kg": 0.14, "place": "Mississippi" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Massachusetts State Police fentanyl-and-cocaine bust in Chicopee turns up $150,000 and two guns",
+          "body": "Massachusetts State Police gang-unit detectives, working with DEA's Springfield office and local police, searched addresses in Chicopee and Springfield on September 10 and arrested Chicopee residents Jan Mejia and Michael Angee. Investigators seized 443 grams of fentanyl, 218 grams of cocaine, two firearms, two vehicles and $150,000 in cash; Mejia faces additional firearms charges.",
+          "quantity": "443 g fentanyl, 218 g cocaine",
+          "location": "Chicopee, Massachusetts",
+          "arrests": "2 arrested",
+          "source": "Shrewsbury Post",
+          "url": "https://shrewsburypost.com/2026/09/10/fentanyl-cocaine-firearms-and-150000-seized-in-chicopee-drug-bust/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 0.443, "place": "Massachusetts" },
+            { "drug": "cocaine", "kg": 0.218, "place": "Massachusetts" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Argentina's Gendarmería finds 49.5 kg of cocaine hidden in bus passengers' backpacks near Salta",
+          "body": "Gendarmería Nacional's Cabeza de Buey road-safety unit stopped a passenger bus at the junction of national routes 9 and 34 in Salta province on September 11 and found 47 packages of cocaine, weighing about 49.5 kilograms, hidden inside four backpacks belonging to three passengers. The two men and one woman, all Argentine nationals, were detained.",
+          "quantity": "49.5 kg cocaine",
+          "location": "Salta, Argentina",
+          "arrests": "3 arrested",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/gna-incauto-casi-50-kilos-de-cocaina-en-salta",
+          "seizures": [
+            { "drug": "cocaine", "kg": 49.55, "place": "Argentina" }
+          ]
+        },
+        {
+          "headline": "Brazil's Rondônia police seize 363 kg of marijuana hidden in two cars on border highway BR-429",
+          "body": "Military Police stopped two vehicles on BR-429 in Seringueiras, Rondônia, near the Bolivian border, on September 10 and found roughly 363.6 kilograms of marijuana. Two drivers were arrested; a third occupant fled on foot. The men told police they had been offered 15,000 to 20,000 reais to drive the load to Rolim de Moura.",
+          "quantity": "364 kg cannabis",
+          "location": "Seringueiras, Rondônia, Brazil",
+          "arrests": "2 arrested",
+          "source": "Diário RO",
+          "url": "https://www.diarioro.com.br/2026/09/11/pm-apreende-363-kg-de-droga-em-carros-na-br-429-carga-iria-para-rolim-de-moura/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 363.6, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Colombian police and DEA dismantle a Clan del Golfo money-laundering ring, seize $12 million in assets",
+          "body": "Colombia's National Police, working with the DEA, arrested 10 alleged members of the Clan del Golfo crime syndicate in coordinated raids across Antioquia and Valle del Cauca on September 10, accusing the group of laundering proceeds from cocaine trafficked to the United States. Prosecutors applied asset-forfeiture orders to 39 properties, companies and vehicles worth more than $12 million.",
+          "location": "Antioquia and Valle del Cauca, Colombia",
+          "arrests": "10 arrested",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/09/10/policia-colombiana-detiene-10-miembros-del-clan-del-golfo-e-incauta-12-millones-de-dolares/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Mexican troops rescue eight forced laborers from a CJNG 'recovery clinic' in Jalisco",
+          "body": "Mexican security forces raided a clandestine clinic on a ranch in Tecalitlán, Jalisco, on September 6 that the Jalisco New Generation Cartel allegedly used to treat wounded operatives, freeing eight people whom prosecutors said had been forcibly recruited and held against their will — two of them needing crutches to walk. Six suspected guards, aged 21 to 48, were arrested, and authorities seized drugs, weapons and ammunition at the site. The raid grew out of a missing-persons investigation into a 20-year-old man who disappeared in late July after answering a fraudulent job posting.",
+          "location": "Tecalitlán, Jalisco, Mexico",
+          "arrests": "6 arrested",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/mexican-authorities-rescue-eight-from-violent-cartels-secret-site"
+        },
+        {
+          "headline": "Pakistan's Hyderabad police arrest 45 drug dealers in a 10-day sweep, seize hashish and crystal meth",
+          "body": "District police in Hyderabad, Sindh province, wrapped up a 10-day crackdown announced September 12 that arrested 45 alleged drug dealers and smugglers along with 19 other wanted criminals. Officers recovered about 71.9 kilograms of charas hashish and 2.05 kilograms of crystal methamphetamine, plus liquor, whisky and gutka tobacco, and confiscated eight pistols.",
+          "quantity": "71.9 kg hashish, 2 kg meth",
+          "location": "Hyderabad, Pakistan",
+          "arrests": "45 arrested",
+          "source": "The Nation (Pakistan)",
+          "url": "https://www.nation.com.pk/12-Sep-2026/sba-police-arrest-45-drug-dealers-seize-large-quantity-narcotics",
+          "seizures": [
+            { "drug": "hashish", "kg": 71.85, "place": "Pakistan" },
+            { "drug": "methamphetamine", "kg": 2.05, "place": "Pakistan" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "Colombia captures a second Los Tiguerones leader days after the US designates the gang a terrorist organization",
+          "body": "Colombian police captured Ecuadorian national Guido Fernando Rodríguez Vargas, alias 'Comandante 7,' in Soacha, near Bogotá, on September 10 — a second high-level Los Tiguerones capture in Colombia after a different boss was arrested in late August. Authorities describe Rodríguez Vargas as the gang's logistics coordinator and border liaison to FARC dissident factions led by alias 'Iván Mordisco,' and say he is wanted on homicide, narco-trafficking and money-laundering charges. The capture comes days after the State Department designated Los Tiguerones a foreign terrorist organization on September 9.",
+          "location": "Soacha, Colombia",
+          "arrests": "1 arrested",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/colombia/2026/09/11/capturado-en-colombia-alias-comandante-7-cabecilla-de-la-banda-ecuatoriana-los-tiguerones-declarada-organizacion-terrorista-por-marco-rubio/"
+        }
+      ]
+    }
+  ]
+}
