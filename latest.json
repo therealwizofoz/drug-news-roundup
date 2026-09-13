@@ -1,9 +1,9 @@
 {
- "date": "2026-09-12",
- "dateLabel": "Saturday, September 12, 2026",
- "window": "Covering reporting published since the Sept 11 edition, roughly Sept 11-12, with several incident dates running back to Sept 6-10 where indexing lagged. South America again got dedicated effort in Spanish and Portuguese, turning up three distinct operations plus a related capture. Excluded after review: a widely recirculated 'DEA-led raid off Ecuador nets 3,284 kilos of cocaine' story whose only source is an undated social-media post with no incident date or location, making it unverifiable; an Aurora, Colorado stash-house indictment tied to the Jalisco cartel that was unsealed August 24 and is now over two weeks stale; a Yuma, Arizona liquid-meth stop, a Jacksonville fentanyl raid, an Otay Mesa liquid-meth seizure and a McAllen cash-and-cocaine bust that all trace to incidents in the first half of August or early September; and a Polk County, Florida 'Operation End of Worlds' fentanyl takedown already about a week stale. No further development emerged in the SOUTHCOM refueling-vessel or vessel-strike campaigns, or in Uruguay's Artigas cocaine-airdrop case, since the last edition.",
+ "date": "2026-09-13",
+ "dateLabel": "Sunday, September 13, 2026",
+ "window": "Covering reporting published since the Sept 12 edition, roughly Sept 12-13, with a few incident dates running back to Sept 8-9 where South American and Nigerian reporting lagged. South America again got dedicated Spanish-language effort, turning up two distinct Colombian operations. Excluded after review: a recirculating 'DEA-led raid off Ecuador nets 3,284 kilos of cocaine' story that remains sourced only to an undated DEA social-media post with no named agencies, date or location; a widely-reported 'HMS Trent narco-submarine' cocaine seizure off the Dominican Republic that turned out to be a 2024 operation being recirculated, not new; Colombia's 'Operation Nexus' (46.8 tonnes, announced Sept 2) and 'Zeus Arcano III' (4.6 tonnes, announced Aug 31), both now too stale for this window; a Massachusetts fentanyl bust and an Indiana meth lab story that duplicate incidents already logged; and a Pakistani ANF university-area sweep and a Nigerian heroin-kingpin arrest, both about five days stale with nothing new to add. No genuinely new development surfaced on the SOUTHCOM boat-strike or refueling-vessel campaigns, the Los Tiguerones case, or Uruguay's Artigas airdrop case since the last edition, so the ongoing section is empty today.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 8,
+ "storyCount": 7,
  "sectionCounts": [
   {
    "id": "federal",
@@ -13,112 +13,96 @@
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 1
+   "count": 2
   },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 3
+   "count": 2
   },
   {
    "id": "world",
    "name": "Rest of World",
    "count": 2
-  },
-  {
-   "id": "ongoing",
-   "name": "Ongoing Stories with New Developments",
-   "count": 1
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Homeland Security-led 'Operation Gulf-Line' sweep nets 30-plus arrests along Mississippi's I-10 corridor",
-   "summary": "Homeland Security Investigations led a three-day interdiction operation ending September 11 with Harrison County's narcotics task force, sheriff's office and police departments in…",
-   "location": "Harrison County, Mississippi",
-   "quantity": "4.8 kg meth, 2.9 kg cocaine",
-   "arrests": "30+ arrested",
-   "source": "WDAM",
-   "url": "https://www.wdam.com/2026/09/11/over-30-arrested-500k-drugs-seized-during-operation-gulf-line-harrison-co-sheriff-says/"
+   "headline": "Rockland, Massachusetts man indicted after a snack-bag mail-order opioid business is tied to a fatal overdose",
+   "summary": "A federal grand jury indicted 23-year-old Jaden Zion Andre of Rockland, Massachusetts, accusing him of running an online drug-trafficking operation that advertised synthetic…",
+   "location": "Rockland, Massachusetts",
+   "quantity": "",
+   "arrests": "1 charged",
+   "source": "DEA",
+   "url": "https://www.dea.gov/press-releases/2026/09/09/massachusetts-man-charged-distributing-synthetic-opioids-resulting-death"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Massachusetts State Police fentanyl-and-cocaine bust in Chicopee turns up $150,000 and two guns",
-   "summary": "Massachusetts State Police gang-unit detectives, working with DEA's Springfield office and local police, searched addresses in Chicopee and Springfield on September 10 and…",
-   "location": "Chicopee, Massachusetts",
-   "quantity": "443 g fentanyl, 218 g cocaine",
-   "arrests": "2 arrested",
-   "source": "Shrewsbury Post",
-   "url": "https://shrewsburypost.com/2026/09/10/fentanyl-cocaine-firearms-and-150000-seized-in-chicopee-drug-bust/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Argentina's Gendarmería finds 49.5 kg of cocaine hidden in bus passengers' backpacks near Salta",
-   "summary": "Gendarmería Nacional's Cabeza de Buey road-safety unit stopped a passenger bus at the junction of national routes 9 and 34 in Salta province on September 11 and found 47 packages…",
-   "location": "Salta, Argentina",
-   "quantity": "49.5 kg cocaine",
-   "arrests": "3 arrested",
-   "source": "Argentina.gob.ar",
-   "url": "https://www.argentina.gob.ar/noticias/gna-incauto-casi-50-kilos-de-cocaina-en-salta"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil's Rondônia police seize 363 kg of marijuana hidden in two cars on border highway BR-429",
-   "summary": "Military Police stopped two vehicles on BR-429 in Seringueiras, Rondônia, near the Bolivian border, on September 10 and found roughly 363.6 kilograms of marijuana.",
-   "location": "Seringueiras, Rondônia, Brazil",
-   "quantity": "364 kg cannabis",
-   "arrests": "2 arrested",
-   "source": "Diário RO",
-   "url": "https://www.diarioro.com.br/2026/09/11/pm-apreende-363-kg-de-droga-em-carros-na-br-429-carga-iria-para-rolim-de-moura/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombian police and DEA dismantle a Clan del Golfo money-laundering ring, seize $12 million in assets",
-   "summary": "Colombia's National Police, working with the DEA, arrested 10 alleged members of the Clan del Golfo crime syndicate in coordinated raids across Antioquia and Valle del Cauca on…",
-   "location": "Antioquia and Valle del Cauca, Colombia",
-   "quantity": "",
+   "headline": "San Luis Obispo County raid ties a restaurant and a barbershop to Nipomo 13 gang cocaine sales, 10 arrested",
+   "summary": "Sheriff's detectives, working with a regional gang task force and SWAT teams from Santa Maria and Santa Barbara County, served search warrants on September 10 and 11 at a…",
+   "location": "Nipomo, California",
+   "quantity": "2.2 kg cocaine",
    "arrests": "10 arrested",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/09/10/policia-colombiana-detiene-10-miembros-del-clan-del-golfo-e-incauta-12-millones-de-dolares/"
+   "source": "Hoodline",
+   "url": "https://hoodline.com/2026/09/nipomo-13-gang-bust-nets-10-arrests-25-guns-alleged-cocaine-sales-at-local-shops/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Mexican troops rescue eight forced laborers from a CJNG 'recovery clinic' in Jalisco",
-   "summary": "Mexican security forces raided a clandestine clinic on a ranch in Tecalitlán, Jalisco, on September 6 that the Jalisco New Generation Cartel allegedly used to treat wounded…",
-   "location": "Tecalitlán, Jalisco, Mexico",
-   "quantity": "",
-   "arrests": "6 arrested",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/9/12/mexican-authorities-rescue-eight-from-violent-cartels-secret-site"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Miami SWAT raid finds two elderly men, 73 and 89, running an armed cocaine den in Allapattah",
+   "summary": "Miami police SWAT officers and detectives raided a house on NW 19th Street in Allapattah on September 9, after an undercover officer had bought cocaine there in August, and…",
+   "location": "Miami, Florida",
+   "quantity": "141 g cocaine",
+   "arrests": "2 arrested",
+   "source": "Hoodline",
+   "url": "https://hoodline.com/2026/09/miami-grandfathers-73-and-89-busted-running-armed-cocaine-den-in-allapattah/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Pakistan's Hyderabad police arrest 45 drug dealers in a 10-day sweep, seize hashish and crystal meth",
-   "summary": "District police in Hyderabad, Sindh province, wrapped up a 10-day crackdown announced September 12 that arrested 45 alleged drug dealers and smugglers along with 19 other wanted…",
-   "location": "Hyderabad, Pakistan",
-   "quantity": "71.9 kg hashish, 2 kg meth",
-   "arrests": "45 arrested",
-   "source": "The Nation (Pakistan)",
-   "url": "https://www.nation.com.pk/12-Sep-2026/sba-police-arrest-45-drug-dealers-seize-large-quantity-narcotics"
-  },
-  {
-   "section": "ongoing",
-   "sectionName": "Ongoing Stories with New Developments",
-   "headline": "Colombia captures a second Los Tiguerones leader days after the US designates the gang a terrorist organization",
-   "summary": "Colombian police captured Ecuadorian national Guido Fernando Rodríguez Vargas, alias 'Comandante 7,' in Soacha, near Bogotá, on September 10 — a second high-level Los Tiguerones…",
-   "location": "Soacha, Colombia",
-   "quantity": "",
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian army stops a tanker truck in Quindío hauling 653 kilos of cocaine disguised as a legitimate cargo run",
+   "summary": "Troops from the Army's Combat Engineers Battalion No. 8, working with National Police, stopped a tanker truck at a checkpoint in the La Herradura sector of La Tebaida, Quindío, on…",
+   "location": "La Tebaida, Quindío, Colombia",
+   "quantity": "653 kg cocaine",
    "arrests": "1 arrested",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/09/11/capturado-en-colombia-alias-comandante-7-cabecilla-de-la-banda-ecuatoriana-los-tiguerones-declarada-organizacion-terrorista-por-marco-rubio/"
+   "source": "El Nuevo Siglo",
+   "url": "https://www.elnuevosiglo.com.co/nacion/ejercito-y-policia-incautan-mas-de-650-kilogramos-de-clorhidrato-de-cocaina-en-la-tebaida"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian police dismantle a Nariño cocaine 'megalab' capable of three tonnes a month, seize 859 kilos of finished product",
+   "summary": "Colombia's anti-narcotics police, working with the Navy, raided a clandestine cocaine-production complex in La Tola, Nariño, around September 8, seizing about 859 kilograms of…",
+   "location": "La Tola, Nariño, Colombia",
+   "quantity": "859 kg cocaine",
+   "arrests": "",
+   "source": "Diario La Libertad",
+   "url": "https://diariolalibertad.com/2026/09/09/incautan-859-kilos-de-cocaina-en-narino-y-descubren-millonaria-estructura-de-produccion/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Nigerian Navy intercepts 71 kilos of cannabis smuggled by boat on the River Niger, three held",
+   "summary": "Naval personnel aboard NNS Lugard, acting on intelligence about drugs moving through Kogi State's inland waterways, intercepted a wooden commercial boat near Chintako Community…",
+   "location": "Kogi State, Nigeria",
+   "quantity": "71 kg cannabis",
+   "arrests": "3 arrested",
+   "source": "Channels Television",
+   "url": "https://www.channelstv.com/2026/09/11/nigerian-navy-intercepts-71kg-of-cannabis-on-river-niger/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Manila-area buy-bust snares a shabu dealer who used a 13-year-old boy as a drug courier",
+   "summary": "Philippine police ran an undercover buy-bust in Pasay City on September 11 and arrested a suspect known as \"Munti,\" 42, after he sold about 250 grams of suspected shabu worth…",
+   "location": "Pasay City, Philippines",
+   "quantity": "250 g methamphetamine",
+   "arrests": "1 arrested",
+   "source": "Manila Bulletin",
+   "url": "https://mb.com.ph/2026/09/13/p17m-shabu-seized-in-pasay-buy-bust-13-year-old-boy-rescued"
   }
  ]
 }

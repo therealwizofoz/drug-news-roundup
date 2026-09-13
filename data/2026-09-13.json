@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-13",
+  "window": "Covering reporting published since the Sept 12 edition, roughly Sept 12-13, with a few incident dates running back to Sept 8-9 where South American and Nigerian reporting lagged. South America again got dedicated Spanish-language effort, turning up two distinct Colombian operations. Excluded after review: a recirculating 'DEA-led raid off Ecuador nets 3,284 kilos of cocaine' story that remains sourced only to an undated DEA social-media post with no named agencies, date or location; a widely-reported 'HMS Trent narco-submarine' cocaine seizure off the Dominican Republic that turned out to be a 2024 operation being recirculated, not new; Colombia's 'Operation Nexus' (46.8 tonnes, announced Sept 2) and 'Zeus Arcano III' (4.6 tonnes, announced Aug 31), both now too stale for this window; a Massachusetts fentanyl bust and an Indiana meth lab story that duplicate incidents already logged; and a Pakistani ANF university-area sweep and a Nigerian heroin-kingpin arrest, both about five days stale with nothing new to add. No genuinely new development surfaced on the SOUTHCOM boat-strike or refueling-vessel campaigns, the Los Tiguerones case, or Uruguay's Artigas airdrop case since the last edition, so the ongoing section is empty today.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Rockland, Massachusetts man indicted after a snack-bag mail-order opioid business is tied to a fatal overdose",
+          "body": "A federal grand jury indicted 23-year-old Jaden Zion Andre of Rockland, Massachusetts, accusing him of running an online drug-trafficking operation that advertised synthetic opioids and controlled-substance analogues under names including \"MontanaSnacksLLC\" and \"SnackSeason\" on Telegram, Reddit and Proton Mail, then mailed the drugs hidden inside ordinary snack packaging from Massachusetts post offices to buyers nationwide. Prosecutors say one shipment caused the fatal overdose of a woman in Las Vegas in April 2025, and investigators are examining whether packages from the same operation are linked to additional overdose deaths in Florida, Pennsylvania and Georgia. Andre faces a mandatory minimum of 20 years and up to life in prison if convicted on the count tied to the Las Vegas death.",
+          "location": "Rockland, Massachusetts",
+          "arrests": "1 charged",
+          "source": "DEA",
+          "url": "https://www.dea.gov/press-releases/2026/09/09/massachusetts-man-charged-distributing-synthetic-opioids-resulting-death"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "San Luis Obispo County raid ties a restaurant and a barbershop to Nipomo 13 gang cocaine sales, 10 arrested",
+          "body": "Sheriff's detectives, working with a regional gang task force and SWAT teams from Santa Maria and Santa Barbara County, served search warrants on September 10 and 11 at a restaurant in Arroyo Grande and a barbershop in Nipomo, California, accusing the businesses of fronting cocaine sales for the Nipomo 13 gang. The raids netted about 2.2 kilograms of cocaine, 25 firearms and more than $60,000 in cash; ten people were arrested, including one located as far away as Portland, Oregon, on charges spanning drug conspiracy, gang participation and selling drugs near a school.",
+          "quantity": "2.2 kg cocaine",
+          "location": "Nipomo, California",
+          "arrests": "10 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/nipomo-13-gang-bust-nets-10-arrests-25-guns-alleged-cocaine-sales-at-local-shops/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 2.2, "place": "California" }
+          ]
+        },
+        {
+          "headline": "Miami SWAT raid finds two elderly men, 73 and 89, running an armed cocaine den in Allapattah",
+          "body": "Miami police SWAT officers and detectives raided a house on NW 19th Street in Allapattah on September 9, after an undercover officer had bought cocaine there in August, and arrested 73-year-old Magdaleno Medina and 89-year-old Cesar Valdes, both Cuban nationals. Officers seized about 141 grams of cocaine, nearly 1,300 grams of marijuana and a loaded .38-caliber revolver; both men face armed cocaine-trafficking and felon-in-possession charges and have been placed on immigration holds.",
+          "quantity": "141 g cocaine",
+          "location": "Miami, Florida",
+          "arrests": "2 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/miami-grandfathers-73-and-89-busted-running-armed-cocaine-den-in-allapattah/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 0.141, "place": "Florida" },
+            { "drug": "cannabis", "kg": 1.278, "place": "Florida" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombian army stops a tanker truck in Quindío hauling 653 kilos of cocaine disguised as a legitimate cargo run",
+          "body": "Troops from the Army's Combat Engineers Battalion No. 8, working with National Police, stopped a tanker truck at a checkpoint in the La Herradura sector of La Tebaida, Quindío, on September 12 and found roughly 653 kilograms of cocaine hydrochloride hidden inside. The truck's manifest claimed a legitimate haul traveling from Palmira, Valle del Cauca, to Tocancipá near Bogotá; the driver was arrested and authorities valued the seized drugs at more than 2.5 billion pesos.",
+          "quantity": "653 kg cocaine",
+          "location": "La Tebaida, Quindío, Colombia",
+          "arrests": "1 arrested",
+          "source": "El Nuevo Siglo",
+          "url": "https://www.elnuevosiglo.com.co/nacion/ejercito-y-policia-incautan-mas-de-650-kilogramos-de-clorhidrato-de-cocaina-en-la-tebaida",
+          "seizures": [
+            { "drug": "cocaine", "kg": 653, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Colombian police dismantle a Nariño cocaine 'megalab' capable of three tonnes a month, seize 859 kilos of finished product",
+          "body": "Colombia's anti-narcotics police, working with the Navy, raided a clandestine cocaine-production complex in La Tola, Nariño, around September 8, seizing about 859 kilograms of finished cocaine along with more than 2,800 gallons of liquid precursor chemicals and 570 kilograms of solid processing inputs. Officials said the site had the capacity to produce up to three tonnes of cocaine a month for smuggling toward the Ecuadorian border and described the find as one of the year's biggest blows to production infrastructure in the region.",
+          "quantity": "859 kg cocaine",
+          "location": "La Tola, Nariño, Colombia",
+          "source": "Diario La Libertad",
+          "url": "https://diariolalibertad.com/2026/09/09/incautan-859-kilos-de-cocaina-en-narino-y-descubren-millonaria-estructura-de-produccion/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 859, "place": "Colombia" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Nigerian Navy intercepts 71 kilos of cannabis smuggled by boat on the River Niger, three held",
+          "body": "Naval personnel aboard NNS Lugard, acting on intelligence about drugs moving through Kogi State's inland waterways, intercepted a wooden commercial boat near Chintako Community Jetty in Bassa on September 8 and found about 71 kilograms of suspected cannabis hidden in a rear compartment. Three suspects were arrested and handed over, along with the drugs, to the National Drug Law Enforcement Agency's Kogi State command on September 9 for further investigation into the consignment's source.",
+          "quantity": "71 kg cannabis",
+          "location": "Kogi State, Nigeria",
+          "arrests": "3 arrested",
+          "source": "Channels Television",
+          "url": "https://www.channelstv.com/2026/09/11/nigerian-navy-intercepts-71kg-of-cannabis-on-river-niger/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 71, "place": "Nigeria" }
+          ]
+        },
+        {
+          "headline": "Manila-area buy-bust snares a shabu dealer who used a 13-year-old boy as a drug courier",
+          "body": "Philippine police ran an undercover buy-bust in Pasay City on September 11 and arrested a suspect known as \"Munti,\" 42, after he sold about 250 grams of suspected shabu worth roughly 1.7 million pesos to an undercover officer. Police said the operation also freed a 13-year-old boy the suspect had been using to ferry drugs; the boy was turned over to social welfare authorities.",
+          "quantity": "250 g methamphetamine",
+          "location": "Pasay City, Philippines",
+          "arrests": "1 arrested",
+          "source": "Manila Bulletin",
+          "url": "https://mb.com.ph/2026/09/13/p17m-shabu-seized-in-pasay-buy-bust-13-year-old-boy-rescued",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 0.25, "place": "Philippines" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
