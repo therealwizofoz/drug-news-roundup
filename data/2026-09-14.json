@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-14",
+  "window": "Covering reporting published since the Sept 13 edition, roughly Sept 12-14, with South American incident dates running back to Sept 10 where Spanish-language reporting lagged. No federal-level US story surfaced that wasn't already logged: DEA's press-release feed has posted nothing new since Sept 9 (the Rockland, Massachusetts opioid case already in the last edition), and a search across CBP, Coast Guard, DOJ/USAO and Treasury/OFAC turned up nothing from this window that was both new and substantial — the federal section is empty today rather than padded with stale filler. Excluded after verification: a recirculating 'DEA-led raid off Ecuador nets 3,284 kilos of cocaine' story, still sourced only to an undated DEA social-media post with no named agencies, date or location, excluded from the last two editions for the same reason; a California DOJ 'Santa Ana trafficker' release that read as breaking news but is a 2023 case being recirculated; a Kansas City fentanyl/carfentanil indictment already logged Sept 3; an India Mizoram seizure already logged Sept 11 (same article, re-surfaced in search); and several Pakistani ANF and Argentine Gendarmeria seizures that were day-to-day repeats of a pattern already represented in the log this month. No new development emerged on the SOUTHCOM boat-strike or refueling-vessel campaigns (SOUTHCOM's press page has posted nothing since the Sept 9 strike already logged), the Los Tiguerones case, Uruguay's Artigas airdrop case or Bolivia's aircraft-grounding crackdown, so the ongoing section is empty again.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": []
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Florida's Washington County calls a 16-month investigation its largest meth case ever, charges 15",
+          "body": "Sheriff Kevin Crews said \"Operation King of the Hill\" — a joint investigation by his office, the Florida Department of Law Enforcement, the DEA and the Georgia Bureau of Investigation that ran from March 2025 to June 2026 — has produced felony charges against 15 people accused of moving methamphetamine from North Georgia into the rural Florida Panhandle county, which he called the largest meth investigation in the county's history. Investigators traced local distribution to Wendy Holloway and Issac Noss, who were stopped by Florida Highway Patrol on June 8, 2026 with about 3 pounds of methamphetamine after a supply run to Georgia, and from there to alleged North Georgia suppliers Tekoa Ross and Edgar Soto; the sheriff's office estimated the ring moved 50 to 70 pounds of methamphetamine into the county over the life of the case.",
+          "quantity": "1.4 kg methamphetamine",
+          "location": "Washington County, Florida",
+          "arrests": "15 charged",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/washington-county-meth-bust-nets-15-felony-arrests-sheriff-calls-it-largest-ever/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 1.4, "place": "Florida" }
+          ]
+        },
+        {
+          "headline": "Three Ohio sheriffs close a three-week sweep with six arrests and five guns off the street",
+          "body": "The Franklin, Union and Licking County sheriff's offices announced September 13 that a joint three-week operation targeting narcotics dealers based in Franklin County, who investigators said were supplying surrounding counties, ended with six arrests and five firearms seized. Searches also recovered roughly 10 grams of fentanyl and 3 grams of heroin, which the Franklin County Sheriff's Office framed as part of an ongoing effort to disrupt drug distribution networks across central Ohio.",
+          "location": "Franklin County, Ohio",
+          "arrests": "6 arrested",
+          "source": "Hoodline",
+          "url": "https://hoodline.com/2026/09/meth-bust-near-columbus-leads-to-six-arrests/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 0.01, "place": "Ohio" },
+            { "drug": "heroin", "kg": 0.003, "place": "Ohio" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombian Navy runs down a cocaine go-fast boat in the central Caribbean, seizes 865 kilos rigged with a Starlink terminal",
+          "body": "Colombia's Navy intercepted a speeding \"go-fast\" boat in the central Caribbean on September 13 after its crew spotted the patrol and tried to outrun it toward the coast. Boarding teams found 29 sacks holding 861 packages of cocaine hydrochloride, along with a Starlink satellite antenna, a satellite phone and GPS units the smugglers had been using to navigate undetected; one man was captured aboard and taken to Cartagena, and the Navy valued the seized cocaine at more than $40 million.",
+          "quantity": "865 kg cocaine",
+          "location": "Caribbean Sea, Colombia",
+          "arrests": "1 arrested",
+          "source": "724 Noticias",
+          "url": "https://724noticias.com.co/2026/09/13/armada-incauta-865-kilos-de-cocaina-y-captura-a-un-hombre-tras-persecucion-en-el-caribe/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 865, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Colombian traffic police pry open a false floor and find 420 kilos of cocaine bound for the Antioquia border",
+          "body": "National Police traffic officers stopped a pickup truck on September 13 at kilometer 21 of the Barro Blanco sector in Quinchia, Risaralda, on the highway linking Caldas, Risaralda and Antioquia, and found 420 kilograms of cocaine hydrochloride hidden inside a false floor built into the truck bed. The driver abandoned the vehicle and escaped into nearby woods before officers could make an arrest; authorities valued the drugs at more than 1.6 billion pesos and referred the case to narcotics prosecutors in Bogota.",
+          "quantity": "420 kg cocaine",
+          "location": "Risaralda, Colombia",
+          "source": "724 Noticias",
+          "url": "https://724noticias.com.co/2026/09/13/golpe-narcotrafico-420-kilos-cocaina-caldas-antioquia/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 420, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Chilean prosecutors use a controlled delivery to unravel a 1.6-tonne cannabis run from Antofagasta toward Santiago",
+          "body": "Chile's OS7 narcotics unit and the Supra-Regional Prosecutor's Office spent months building a case before making arrests around September 10, when they moved on a shipment of more than 1,600 kilograms of cannabis that had entered the country through the Antofagasta region for delivery to the Santiago metropolitan area. Rather than a roadside stop, investigators relied on surveillance and a controlled-delivery technique to map the network before detaining four people described by officials as two Venezuelan and two Colombian nationals, who allegedly served as transporters, armed security and a financier.",
+          "quantity": "1,600 kg cannabis",
+          "location": "Antofagasta, Chile",
+          "arrests": "4 arrested",
+          "source": "La Hora",
+          "url": "https://lahora.cl/cronica/2026/09/10/cayeron-con-mas-de-1600-kilos-os7-y-fiscalia-supraterritorial-incautaron-cargamento-gigante-de-droga",
+          "seizures": [
+            { "drug": "cannabis", "kg": 1600, "place": "Chile" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Nigeria's drug agency intercepts UK-mailed synthetic-cannabis parcels in an eight-state, 2.3-tonne sweep",
+          "body": "Nigeria's National Drug Law Enforcement Agency reported operations across Lagos, Ondo, Edo, Delta, Kaduna, Plateau, Bayelsa and Kano states between September 9 and 13 that recovered more than 2.3 tonnes of assorted drugs, including cannabis, the synthetic cannabinoid known locally as \"Colos,\" and quantities of pregabalin, tramadol, diazepam and MDMA. Among the hauls were two parcels of synthetic cannabis mailed from the United Kingdom to Lagos's Murtala Muhammed International Airport, weighing about 32 kilograms and 12 kilograms; agency operatives arrested several suspects across the affected states, including a real estate agent and a tour agent accused of receiving the UK shipments.",
+          "quantity": "2.3 tonnes assorted drugs",
+          "location": "multiple states, Nigeria",
+          "arrests": "several arrested",
+          "source": "PRNigeria",
+          "url": "https://prnigeria.com/2026/09/13/ndlea-seizes-tonnes-illicit/"
+        },
+        {
+          "headline": "Philippine agents raid a Taytay safehouse, seize a small arsenal and shabu worth ₱40.8 million",
+          "body": "PDEA and police agents raided a house in Sitio Dulong Bangiad, Barangay San Juan, in Taytay, Rizal, at 5:30 a.m. on September 14 during a buy-bust operation, arresting three men known by the aliases \"Diogen,\" \"Muhammad\" and \"Eddienel\" and seizing shabu authorities valued at about 40.8 million pesos. Officers also recovered an M1 carbine, an M16 rifle, four .45-caliber pistols and ammunition; a fourth suspect, alias \"Abdila,\" fled before agents arrived and is now the subject of a manhunt.",
+          "location": "Taytay, Rizal, Philippines",
+          "arrests": "3 arrested",
+          "source": "Manila Bulletin",
+          "url": "https://mb.com.ph/2026/09/14/p408-m-shabu-seized-3-heavily-armed-drug-dealers-nabbed-in-taytay-ops"
+        },
+        {
+          "headline": "Costa Rican police raid a house near the Panama border and find 312 kilos of cocaine",
+          "body": "Acting on an anonymous tip about a suspicious vehicle, Costa Rica's Drug Control Police and the Public Force searched a home in the Mariposa area of Canoas, near the border with Panama, around September 10 and found 312 kilograms of cocaine. Drug Control Police director Stephen Madden confirmed the seizure; no arrests were reported in connection with the find.",
+          "quantity": "312 kg cocaine",
+          "location": "Canoas, Costa Rica",
+          "source": "Infobae Costa Rica",
+          "url": "https://www.infobae.com/costa-rica/2026/09/11/autoridades-costarricenses-decomisaron-312-kilos-de-cocaina-en-una-vivienda-cerca-de-la-frontera-con-panama/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 312, "place": "Costa Rica" }
+          ]
+        },
+        {
+          "headline": "Assam Rifles breaks up two Myanmar-border smuggling runs in Mizoram, seizing meth tablets and heroin",
+          "body": "Assam Rifles troops, working with Mizoram's Excise and Narcotics Department and the Narcotics Control Bureau, intercepted two vehicles in the Seling area of Aizawl district overnight on September 11-12 and recovered 6.991 kilograms of methamphetamine tablets, arresting two suspected couriers. In a separate operation the same night at Lungvar in Khawzawl district, troops acting on intelligence about a narcotics transshipment recovered 382 grams of heroin; officials valued the two hauls together at more than 6 crore rupees.",
+          "quantity": "6.99 kg methamphetamine",
+          "location": "Mizoram, India",
+          "arrests": "2 arrested",
+          "source": "Northeast Today",
+          "url": "https://northeasttoday.in/northeast/assam-rifles-seized-meth-tablets-worth-%E2%82%B95-59-crore-in-mizoram-two-arrested/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 6.991, "place": "India" },
+            { "drug": "heroin", "kg": 0.382, "place": "India" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
