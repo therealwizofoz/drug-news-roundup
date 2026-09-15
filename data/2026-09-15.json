@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-15",
+  "window": "Covering reporting published since the Sept 14 edition, roughly Sept 13-15, with several South American and Mexican incident dates running back to Sept 10-12 where reporting lagged. DEA's own press-release feed has posted nothing new since Sept 9 (already logged), so the federal section instead draws on DOJ U.S. Attorney's Office releases out of Arizona and New Jersey. A search for a possible new annual U.S. drug-certification 'majors list' turned out to be recirculated coverage of the September 2025 decision to decertify Colombia, not a new 2026 determination, so it was excluded. No new development surfaced on the SOUTHCOM boat-strike or refueling-vessel campaigns (nothing posted since the Sept 9 strike already logged), the Los Tiguerones case, Uruguay's Artigas airdrop case or Bolivia's aircraft-grounding crackdown, so the ongoing section is empty again.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Tucson grand jury indicts pill-press manufacturer accused of supplying clandestine labs nationwide",
+          "body": "A federal grand jury in Tucson returned a six-count indictment on August 21 against LFA Machines DFW and three men tied to the Fort Worth company, and DEA agents made the arrests on September 9: principal managers Alastair Sanderson, 39, and William Norris, 43, and former employee Michael Packard, 36. A multi-year Homeland Security Task Force investigation traced LFA's tableting machines to clandestine drug labs across the country and built evidence that the men knowingly sold the equipment to buyers they had reason to believe would use it to manufacture illicit pills.",
+          "location": "Tucson, Arizona",
+          "arrests": "3 charged",
+          "source": "DOJ / District of Arizona",
+          "url": "https://www.justice.gov/usao-az/pr/hstf-investigation-leads-criminal-indictment-prominent-pill-press-company-and-arrest"
+        },
+        {
+          "headline": "Newark grand jury indicts Jalisco cartel-linked broker moving cocaine from a Kansas City network",
+          "body": "A federal grand jury in Newark charged Oscar Salvador Pelayo-Guzman, 55, a Mexican national prosecutors say is tied to the Jalisco New Generation Cartel and a principal figure in a Kansas City-based trafficking organization, along with Michael Brandon Araiza, 27, of California, with conspiring since January 2025 to move cocaine into New Jersey. Both men were arraigned September 10 before U.S. District Judge Jamel K. Semper.",
+          "location": "Newark, New Jersey",
+          "arrests": "2 charged",
+          "source": "DOJ / District of New Jersey",
+          "url": "https://www.justice.gov/usao-nj/pr/two-men-including-mexican-national-indicted-drug-trafficking-conspiracy"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Savannah gang indictment surfaces 20 pounds of carfentanil shipped from Phoenix",
+          "body": "Georgia's Attorney General unsealed a 63-count racketeering indictment on September 14 against six alleged members of the Waters Avenue Crew, a Savannah street gang with ties to the Piru Bloods, accusing them of shipping carfentanil — an animal tranquilizer roughly 10,000 times more potent than morphine — from Phoenix via UPS and laundering proceeds through Cash App over more than two years. Investigators working with DEA offices in Savannah and Phoenix seized 20 pounds of the drug along with marijuana shipped in from California; Attorney General Chris Carr said the substance has \"absolutely no uses for human beings.\"",
+          "quantity": "9.1 kg carfentanil",
+          "location": "Savannah, Georgia",
+          "arrests": "6 charged",
+          "source": "WTOC",
+          "url": "https://www.wtoc.com/2026/09/14/savannah-gang-members-among-6-indicted-multistate-drug-trafficking-bust/",
+          "seizures": [
+            { "drug": "carfentanil", "kg": 9.07, "place": "Georgia" }
+          ]
+        },
+        {
+          "headline": "Tazewell County sweep nets a three-drug haul, cash and 13 guns",
+          "body": "A two-month, multi-agency investigation by the Tazewell County Sheriff's Office and police in Tazewell, Bluefield and Richlands ended September 14 with five arrests and the seizure of 11.6 pounds of methamphetamine, 6.67 ounces of cocaine and nearly 6 ounces of fentanyl, along with oxycodone, suboxone and gabapentin. Deputies also recovered 13 firearms, $35,376 in cash and two vehicles; Sheriff Brian Hieatt said the operation targeted people \"bringing in large amounts of drugs\" and distributing them locally.",
+          "quantity": "5.3 kg methamphetamine",
+          "location": "Tazewell County, Virginia",
+          "arrests": "5 arrested",
+          "source": "WVVA",
+          "url": "https://www.wvva.com/2026/09/14/five-arrested-tazewell-county-drug-bust/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 5.26, "place": "Virginia" },
+            { "drug": "cocaine", "kg": 0.19, "place": "Virginia" },
+            { "drug": "fentanyl", "kg": 0.17, "place": "Virginia" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Cartagena's port yields two cocaine seizures in a single day, one bound for Germany",
+          "body": "Colombia's anti-narcotics police reported two separate finds at Cartagena's maritime terminal on September 14: 102 kilograms of cocaine hydrochloride hidden inside 280 bags of construction mortar, and a further 41.8 kilograms concealed in the refrigeration unit of a container bound for Germany. Authorities said the combined seizures kept more than 360,000 doses off the market and cost trafficking networks close to 800 million pesos.",
+          "quantity": "144 kg cocaine",
+          "location": "Cartagena, Colombia",
+          "source": "El Universal (Cartagena)",
+          "url": "https://www.eluniversal.com.co/sucesos/2026/09/14/video-asi-hallaron-102-kilos-de-droga-entre-materiales-de-construccion-en-cartagena/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 143.8, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Colombian police intercept more than three tonnes of marijuana in back-to-back highway stops",
+          "body": "A mechanical breakdown led Cundinamarca police to a truck parked in Sibate on September 12 carrying about 1.4 tonnes of marijuana wrapped in plastic to evade detection, after a passing driver reported it; separately, police in Pereira seized another 1.79 tonnes. President Abelardo de la Espriella cited both hauls among the drug seizures and 19 arrests his government announced from a 24-hour sweep across several departments.",
+          "quantity": "3.2 t cannabis",
+          "location": "Sibate and Pereira, Colombia",
+          "source": "El Espectador / Pulzo",
+          "url": "https://www.elespectador.com/bogota/incautan-14-toneladas-de-marihuana-en-sibate-iban-rumbo-a-bogota/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 3186, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Record 3.6-tonne drug haul uncovered on a Rondônia rural property",
+          "body": "Brazil's Federal Highway Police and Federal Police, backed by border and military police units from Rondônia and Acre, raided a rural property in Monte Negro on September 13 and found 3,375 kilograms of high-potency \"skunk\" marijuana, 185 kilograms of cocaine hydrochloride and 84 kilograms of cocaine paste — described as the largest single haul federal police have logged in the state. Three people were detained at the scene, along with a shotgun, ammunition, vehicles and more than R$40,000 in cash.",
+          "quantity": "3.6 t assorted drugs",
+          "location": "Monte Negro, Rondônia, Brazil",
+          "arrests": "3 arrested",
+          "source": "Folha de Vilhena",
+          "url": "https://folhadevilhena.com.br/13/09/2026/acao-conjunta-entre-prf-e-forcas-de-seguranca-resulta-em-apreensao-recorde-de-mais-de-36-toneladas-de-drogas-em-rondonia/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 3375.4, "place": "Brazil" },
+            { "drug": "cocaine", "kg": 185.3, "place": "Brazil" },
+            { "drug": "coca base", "kg": 84, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Argentina's Prefecture intercepts a rowboat carrying marijuana over the Paraná from Paraguay",
+          "body": "Acting on intelligence about a cross-border run, Argentina's Naval Prefecture watched a rowboat carry two people and several packages from Paraguay to the Argentine bank of the Parana River near Arroyo Leon, in Misiones province, and moved in as it landed. Officers seized more than 324 kilograms of marijuana valued at roughly 1.24 billion pesos.",
+          "quantity": "324 kg cannabis",
+          "location": "Misiones, Argentina",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/pna-secuestro-324-kilos-de-droga-valuados-en-1242-millones",
+          "seizures": [
+            { "drug": "cannabis", "kg": 324, "place": "Argentina" }
+          ]
+        },
+        {
+          "headline": "Chilean police dismantle a Bolivia-to-Santiago marijuana pipeline in a Metropolitan Region raid",
+          "body": "Chile's PDI raided a storage facility in San Bernardo on September 13 as part of \"Operation Pacto Andino IV,\" seizing 811 kilograms of cannabis that investigators said a criminal organization was smuggling in from Bolivia for distribution in the Santiago metropolitan area. Four people were detained, and police also recovered two vehicles and several cellphones.",
+          "quantity": "811 kg cannabis",
+          "location": "San Bernardo, Chile",
+          "arrests": "4 arrested",
+          "source": "Cooperativa.cl",
+          "url": "https://www.cooperativa.cl/noticias/pais/policial/drogas/pdi-desarticulo-banda-narco-transnacional-e-incauto-mas-de-800-kilos-de/2026-09-13/135126.html",
+          "seizures": [
+            { "drug": "cannabis", "kg": 811, "place": "Chile" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Dominican authorities intercept a go-fast boat off Peravia carrying 595 packages of cocaine",
+          "body": "Acting on a tip about a suspicious vessel approaching the coast, Dominican drug-control, navy and air force units, working with the U.S. DEA and a regional interagency task force, chased down a roughly 32-foot boat off Punta Salinas, in Peravia province, on September 13. Agents arrested its three crew members — two Colombians and a Venezuelan — and recovered 24 bales holding 595 packages of suspected cocaine, with the exact weight still pending lab analysis.",
+          "location": "Peravia, Dominican Republic",
+          "arrests": "3 arrested",
+          "source": "Infobae Republica Dominicana",
+          "url": "https://www.infobae.com/republica-dominicana/2026/09/13/interceptan-en-altamar-a-dos-colombianos-y-un-venezolano-cargados-con-595-paquetes-de-posible-cocaina-en-republica-dominicana/"
+        },
+        {
+          "headline": "Mexican forces seize 555 kg of methamphetamine and an explosives cache in a three-day security sweep",
+          "body": "Mexico's federal security cabinet reported that troops raided an unpaved-road site near Ocuaro, in Huetamo, Michoacan, between September 11 and 13, seizing 545 kilograms of methamphetamine and 16 kilograms of marijuana, while a separate customs interdiction at Toluca's international airport caught another 10 kilograms of methamphetamine that had originated in Morelia. In Colima, a parallel raid on two homes in Villa de Alvarez turned up rifles, handguns, ammunition and three improvised explosive devices, though no drugs or arrests were reported there.",
+          "quantity": "555 kg methamphetamine",
+          "location": "Michoacan and Colima, Mexico",
+          "source": "Eleese Noticias (Gabinete de Seguridad)",
+          "url": "https://eleese.com.mx/2026/09/14/el-gabinete-de-seguridad-del-gobierno-de-mexico-informa-acciones-relevantes-del-11-12-y-13-de-septiembre-de-2026/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 555, "place": "Mexico" },
+            { "drug": "cannabis", "kg": 16, "place": "Mexico" }
+          ]
+        },
+        {
+          "headline": "Pakistan's ANF pulls heroin from a swallowed-capsule courier and a Baluchistan vehicle stash",
+          "body": "Pakistan's Anti-Narcotics Force arrested a passenger bound for Sharjah at Lahore airport after recovering 70 capsules of heroin, weighing 286 grams, from his abdomen, the agency reported September 15. In a separate operation near Dalbandin, in Chagai district, ANF personnel recovered 28 kilograms of crystal heroin hidden in an unattended vehicle; the two hauls were valued together at more than 367 million rupees.",
+          "quantity": "28.3 kg heroin",
+          "location": "Lahore and Dalbandin, Pakistan",
+          "arrests": "1 arrested",
+          "source": "Daily Independent (Pakistan)",
+          "url": "https://www.dailyindependent.com.pk/2026/09/15/anf-seizes-drugs-worth-over-rs367-million-in-two-operations/",
+          "seizures": [
+            { "drug": "heroin", "kg": 28.286, "place": "Pakistan" }
+          ]
+        },
+        {
+          "headline": "South Africa logs a weighed N1 cocaine bust and a mystery R300 million Johannesburg haul",
+          "body": "Western Cape police stopped a driver on the N1 near Beaufort West on September 11 and found 57,000 Mandrax tablets and 5 kilograms of cocaine worth an estimated R5.8 million, arresting the 46-year-old driver on dealing charges. Days later, a tip-off sent Honeydew police to a plot in Northriding, Johannesburg, where they seized cocaine valued at roughly R300 million and a Land Cruiser with false plates and an altered VIN number; no arrests have been made and the source of the haul remains under investigation.",
+          "quantity": "5 kg cocaine",
+          "location": "Western Cape and Gauteng, South Africa",
+          "arrests": "1 arrested",
+          "source": "The Citizen / The Bulrushes",
+          "url": "https://www.citizen.co.za/news/western-cape-polices-r5-8-million-n1-drug-bust/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 5, "place": "South Africa" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}

@@ -1,10 +1,15 @@
 {
- "date": "2026-09-14",
- "dateLabel": "Monday, September 14, 2026",
- "window": "Covering reporting published since the Sept 13 edition, roughly Sept 12-14, with South American incident dates running back to Sept 10 where Spanish-language reporting lagged. No federal-level US story surfaced that wasn't already logged: DEA's press-release feed has posted nothing new since Sept 9 (the Rockland, Massachusetts opioid case already in the last edition), and a search across CBP, Coast Guard, DOJ/USAO and Treasury/OFAC turned up nothing from this window that was both new and substantial — the federal section is empty today rather than padded with stale filler. Excluded after verification: a recirculating 'DEA-led raid off Ecuador nets 3,284 kilos of cocaine' story, still sourced only to an undated DEA social-media post with no named agencies, date or location, excluded from the last two editions for the same reason; a California DOJ 'Santa Ana trafficker' release that read as breaking news but is a 2023 case being recirculated; a Kansas City fentanyl/carfentanil indictment already logged Sept 3; an India Mizoram seizure already logged Sept 11 (same article, re-surfaced in search); and several Pakistani ANF and Argentine Gendarmeria seizures that were day-to-day repeats of a pattern already represented in the log this month. No new development emerged on the SOUTHCOM boat-strike or refueling-vessel campaigns (SOUTHCOM's press page has posted nothing since the Sept 9 strike already logged), the Los Tiguerones case, Uruguay's Artigas airdrop case or Bolivia's aircraft-grounding crackdown, so the ongoing section is empty again.",
+ "date": "2026-09-15",
+ "dateLabel": "Tuesday, September 15, 2026",
+ "window": "Covering reporting published since the Sept 14 edition, roughly Sept 13-15, with several South American and Mexican incident dates running back to Sept 10-12 where reporting lagged. DEA's own press-release feed has posted nothing new since Sept 9 (already logged), so the federal section instead draws on DOJ U.S. Attorney's Office releases out of Arizona and New Jersey. A search for a possible new annual U.S. drug-certification 'majors list' turned out to be recirculated coverage of the September 2025 decision to decertify Colombia, not a new 2026 determination, so it was excluded. No new development surfaced on the SOUTHCOM boat-strike or refueling-vessel campaigns (nothing posted since the Sept 9 strike already logged), the Los Tiguerones case, Uruguay's Artigas airdrop case or Bolivia's aircraft-grounding crackdown, so the ongoing section is empty again.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 9,
+ "storyCount": 13,
  "sectionCounts": [
+  {
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 2
+  },
   {
    "id": "local",
    "name": "Local US Arrests",
@@ -13,7 +18,7 @@
   {
    "id": "south-america",
    "name": "South America",
-   "count": 3
+   "count": 5
   },
   {
    "id": "world",
@@ -23,103 +28,136 @@
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Florida's Washington County calls a 16-month investigation its largest meth case ever, charges 15",
-   "summary": "Sheriff Kevin Crews said \"Operation King of the Hill\" — a joint investigation by his office, the Florida Department of Law Enforcement, the DEA and the Georgia Bureau of…",
-   "location": "Washington County, Florida",
-   "quantity": "1.4 kg methamphetamine",
-   "arrests": "15 charged",
-   "source": "Hoodline",
-   "url": "https://hoodline.com/2026/09/washington-county-meth-bust-nets-15-felony-arrests-sheriff-calls-it-largest-ever/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Three Ohio sheriffs close a three-week sweep with six arrests and five guns off the street",
-   "summary": "The Franklin, Union and Licking County sheriff's offices announced September 13 that a joint three-week operation targeting narcotics dealers based in Franklin County, who…",
-   "location": "Franklin County, Ohio",
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Tucson grand jury indicts pill-press manufacturer accused of supplying clandestine labs nationwide",
+   "summary": "A federal grand jury in Tucson returned a six-count indictment on August 21 against LFA Machines DFW and three men tied to the Fort Worth company, and DEA agents made the arrests…",
+   "location": "Tucson, Arizona",
    "quantity": "",
-   "arrests": "6 arrested",
-   "source": "Hoodline",
-   "url": "https://hoodline.com/2026/09/meth-bust-near-columbus-leads-to-six-arrests/"
+   "arrests": "3 charged",
+   "source": "DOJ / District of Arizona",
+   "url": "https://www.justice.gov/usao-az/pr/hstf-investigation-leads-criminal-indictment-prominent-pill-press-company-and-arrest"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Newark grand jury indicts Jalisco cartel-linked broker moving cocaine from a Kansas City network",
+   "summary": "A federal grand jury in Newark charged Oscar Salvador Pelayo-Guzman, 55, a Mexican national prosecutors say is tied to the Jalisco New Generation Cartel and a principal figure in…",
+   "location": "Newark, New Jersey",
+   "quantity": "",
+   "arrests": "2 charged",
+   "source": "DOJ / District of New Jersey",
+   "url": "https://www.justice.gov/usao-nj/pr/two-men-including-mexican-national-indicted-drug-trafficking-conspiracy"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Savannah gang indictment surfaces 20 pounds of carfentanil shipped from Phoenix",
+   "summary": "Georgia's Attorney General unsealed a 63-count racketeering indictment on September 14 against six alleged members of the Waters Avenue Crew, a Savannah street gang with ties to…",
+   "location": "Savannah, Georgia",
+   "quantity": "9.1 kg carfentanil",
+   "arrests": "6 charged",
+   "source": "WTOC",
+   "url": "https://www.wtoc.com/2026/09/14/savannah-gang-members-among-6-indicted-multistate-drug-trafficking-bust/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Tazewell County sweep nets a three-drug haul, cash and 13 guns",
+   "summary": "A two-month, multi-agency investigation by the Tazewell County Sheriff's Office and police in Tazewell, Bluefield and Richlands ended September 14 with five arrests and the…",
+   "location": "Tazewell County, Virginia",
+   "quantity": "5.3 kg methamphetamine",
+   "arrests": "5 arrested",
+   "source": "WVVA",
+   "url": "https://www.wvva.com/2026/09/14/five-arrested-tazewell-county-drug-bust/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombian Navy runs down a cocaine go-fast boat in the central Caribbean, seizes 865 kilos rigged with a Starlink terminal",
-   "summary": "Colombia's Navy intercepted a speeding \"go-fast\" boat in the central Caribbean on September 13 after its crew spotted the patrol and tried to outrun it toward the coast.",
-   "location": "Caribbean Sea, Colombia",
-   "quantity": "865 kg cocaine",
-   "arrests": "1 arrested",
-   "source": "724 Noticias",
-   "url": "https://724noticias.com.co/2026/09/13/armada-incauta-865-kilos-de-cocaina-y-captura-a-un-hombre-tras-persecucion-en-el-caribe/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombian traffic police pry open a false floor and find 420 kilos of cocaine bound for the Antioquia border",
-   "summary": "National Police traffic officers stopped a pickup truck on September 13 at kilometer 21 of the Barro Blanco sector in Quinchia, Risaralda, on the highway linking Caldas, Risaralda…",
-   "location": "Risaralda, Colombia",
-   "quantity": "420 kg cocaine",
+   "headline": "Cartagena's port yields two cocaine seizures in a single day, one bound for Germany",
+   "summary": "Colombia's anti-narcotics police reported two separate finds at Cartagena's maritime terminal on September 14: 102 kilograms of cocaine hydrochloride hidden inside 280 bags of…",
+   "location": "Cartagena, Colombia",
+   "quantity": "144 kg cocaine",
    "arrests": "",
-   "source": "724 Noticias",
-   "url": "https://724noticias.com.co/2026/09/13/golpe-narcotrafico-420-kilos-cocaina-caldas-antioquia/"
+   "source": "El Universal (Cartagena)",
+   "url": "https://www.eluniversal.com.co/sucesos/2026/09/14/video-asi-hallaron-102-kilos-de-droga-entre-materiales-de-construccion-en-cartagena/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Chilean prosecutors use a controlled delivery to unravel a 1.6-tonne cannabis run from Antofagasta toward Santiago",
-   "summary": "Chile's OS7 narcotics unit and the Supra-Regional Prosecutor's Office spent months building a case before making arrests around September 10, when they moved on a shipment of more…",
-   "location": "Antofagasta, Chile",
-   "quantity": "1,600 kg cannabis",
+   "headline": "Colombian police intercept more than three tonnes of marijuana in back-to-back highway stops",
+   "summary": "A mechanical breakdown led Cundinamarca police to a truck parked in Sibate on September 12 carrying about 1.4 tonnes of marijuana wrapped in plastic to evade detection, after a…",
+   "location": "Sibate and Pereira, Colombia",
+   "quantity": "3.2 t cannabis",
+   "arrests": "",
+   "source": "El Espectador / Pulzo",
+   "url": "https://www.elespectador.com/bogota/incautan-14-toneladas-de-marihuana-en-sibate-iban-rumbo-a-bogota/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Record 3.6-tonne drug haul uncovered on a Rondônia rural property",
+   "summary": "Brazil's Federal Highway Police and Federal Police, backed by border and military police units from Rondônia and Acre, raided a rural property in Monte Negro on September 13 and…",
+   "location": "Monte Negro, Rondônia, Brazil",
+   "quantity": "3.6 t assorted drugs",
+   "arrests": "3 arrested",
+   "source": "Folha de Vilhena",
+   "url": "https://folhadevilhena.com.br/13/09/2026/acao-conjunta-entre-prf-e-forcas-de-seguranca-resulta-em-apreensao-recorde-de-mais-de-36-toneladas-de-drogas-em-rondonia/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentina's Prefecture intercepts a rowboat carrying marijuana over the Paraná from Paraguay",
+   "summary": "Acting on intelligence about a cross-border run, Argentina's Naval Prefecture watched a rowboat carry two people and several packages from Paraguay to the Argentine bank of the…",
+   "location": "Misiones, Argentina",
+   "quantity": "324 kg cannabis",
+   "arrests": "",
+   "source": "Argentina.gob.ar",
+   "url": "https://www.argentina.gob.ar/noticias/pna-secuestro-324-kilos-de-droga-valuados-en-1242-millones"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Chilean police dismantle a Bolivia-to-Santiago marijuana pipeline in a Metropolitan Region raid",
+   "summary": "Chile's PDI raided a storage facility in San Bernardo on September 13 as part of \"Operation Pacto Andino IV,\" seizing 811 kilograms of cannabis that investigators said a criminal…",
+   "location": "San Bernardo, Chile",
+   "quantity": "811 kg cannabis",
    "arrests": "4 arrested",
-   "source": "La Hora",
-   "url": "https://lahora.cl/cronica/2026/09/10/cayeron-con-mas-de-1600-kilos-os7-y-fiscalia-supraterritorial-incautaron-cargamento-gigante-de-droga"
+   "source": "Cooperativa.cl",
+   "url": "https://www.cooperativa.cl/noticias/pais/policial/drogas/pdi-desarticulo-banda-narco-transnacional-e-incauto-mas-de-800-kilos-de/2026-09-13/135126.html"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Nigeria's drug agency intercepts UK-mailed synthetic-cannabis parcels in an eight-state, 2.3-tonne sweep",
-   "summary": "Nigeria's National Drug Law Enforcement Agency reported operations across Lagos, Ondo, Edo, Delta, Kaduna, Plateau, Bayelsa and Kano states between September 9 and 13 that…",
-   "location": "multiple states, Nigeria",
-   "quantity": "2.3 tonnes assorted drugs",
-   "arrests": "several arrested",
-   "source": "PRNigeria",
-   "url": "https://prnigeria.com/2026/09/13/ndlea-seizes-tonnes-illicit/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Philippine agents raid a Taytay safehouse, seize a small arsenal and shabu worth ₱40.8 million",
-   "summary": "PDEA and police agents raided a house in Sitio Dulong Bangiad, Barangay San Juan, in Taytay, Rizal, at 5:30 a.m.",
-   "location": "Taytay, Rizal, Philippines",
+   "headline": "Dominican authorities intercept a go-fast boat off Peravia carrying 595 packages of cocaine",
+   "summary": "Acting on a tip about a suspicious vessel approaching the coast, Dominican drug-control, navy and air force units, working with the U.S.",
+   "location": "Peravia, Dominican Republic",
    "quantity": "",
    "arrests": "3 arrested",
-   "source": "Manila Bulletin",
-   "url": "https://mb.com.ph/2026/09/14/p408-m-shabu-seized-3-heavily-armed-drug-dealers-nabbed-in-taytay-ops"
+   "source": "Infobae Republica Dominicana",
+   "url": "https://www.infobae.com/republica-dominicana/2026/09/13/interceptan-en-altamar-a-dos-colombianos-y-un-venezolano-cargados-con-595-paquetes-de-posible-cocaina-en-republica-dominicana/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Costa Rican police raid a house near the Panama border and find 312 kilos of cocaine",
-   "summary": "Acting on an anonymous tip about a suspicious vehicle, Costa Rica's Drug Control Police and the Public Force searched a home in the Mariposa area of Canoas, near the border with…",
-   "location": "Canoas, Costa Rica",
-   "quantity": "312 kg cocaine",
+   "headline": "Mexican forces seize 555 kg of methamphetamine and an explosives cache in a three-day security sweep",
+   "summary": "Mexico's federal security cabinet reported that troops raided an unpaved-road site near Ocuaro, in Huetamo, Michoacan, between September 11 and 13, seizing 545 kilograms of…",
+   "location": "Michoacan and Colima, Mexico",
+   "quantity": "555 kg methamphetamine",
    "arrests": "",
-   "source": "Infobae Costa Rica",
-   "url": "https://www.infobae.com/costa-rica/2026/09/11/autoridades-costarricenses-decomisaron-312-kilos-de-cocaina-en-una-vivienda-cerca-de-la-frontera-con-panama/"
+   "source": "Eleese Noticias (Gabinete de Seguridad)",
+   "url": "https://eleese.com.mx/2026/09/14/el-gabinete-de-seguridad-del-gobierno-de-mexico-informa-acciones-relevantes-del-11-12-y-13-de-septiembre-de-2026/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Assam Rifles breaks up two Myanmar-border smuggling runs in Mizoram, seizing meth tablets and heroin",
-   "summary": "Assam Rifles troops, working with Mizoram's Excise and Narcotics Department and the Narcotics Control Bureau, intercepted two vehicles in the Seling area of Aizawl district…",
-   "location": "Mizoram, India",
-   "quantity": "6.99 kg methamphetamine",
-   "arrests": "2 arrested",
-   "source": "Northeast Today",
-   "url": "https://northeasttoday.in/northeast/assam-rifles-seized-meth-tablets-worth-%E2%82%B95-59-crore-in-mizoram-two-arrested/"
+   "headline": "Pakistan's ANF pulls heroin from a swallowed-capsule courier and a Baluchistan vehicle stash",
+   "summary": "Pakistan's Anti-Narcotics Force arrested a passenger bound for Sharjah at Lahore airport after recovering 70 capsules of heroin, weighing 286 grams, from his abdomen, the agency…",
+   "location": "Lahore and Dalbandin, Pakistan",
+   "quantity": "28.3 kg heroin",
+   "arrests": "1 arrested",
+   "source": "Daily Independent (Pakistan)",
+   "url": "https://www.dailyindependent.com.pk/2026/09/15/anf-seizes-drugs-worth-over-rs367-million-in-two-operations/"
   }
  ]
 }
