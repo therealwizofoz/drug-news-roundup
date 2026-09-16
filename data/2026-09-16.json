@@ -1,0 +1,156 @@
+{
+  "date": "2026-09-16",
+  "window": "Covering reporting published since the Sept 15 edition, roughly Sept 14-16, with a few South American and Nigerian incident dates running back to mid-August where reporting lagged. No new DEA or DOJ federal press release surfaced beyond what was already logged Sept 15, so the federal section instead draws on a SOUTHCOM/JTF-WHEM refueling-vessel interdiction and a CBP El Paso roundup of four separate seizures. A Mexican nationwide weekend security sweep reported Sept 15 (Sinaloa, Michoacan, Jalisco and other states) overlapped heavily with the Michoacan/Colima methamphetamine seizure already logged Sept 15, so it was excluded to avoid double-counting the same underlying operation; only its distinct Jalisco lab component was considered and ultimately dropped for the same reason. Ongoing developments surfaced on two previously logged stories: Ghana's anti-narcotics agency arresting suspects tied to the Sept 11-logged Dunkirk cocaine seizure, and Bolivia's aircraft-grounding crackdown (logged Sept 10) reaching a nine-month tally.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "SOUTHCOM destroys a second Los Choneros fuel vessel in the Eastern Pacific within a week",
+          "body": "Joint Task Force Western Hemisphere personnel operating under U.S. Southern Command boarded and destroyed a fishing vessel in the Eastern Pacific on September 15 that intelligence tied to Los Choneros, the Ecuadorian gang the U.S. has designated a foreign terrorist organization; the boat was functioning as a floating fuel depot for smugglers' go-fast boats rather than carrying drugs itself. The crew was taken off before the vessel was sunk and handed over to Ecuadorian authorities rather than killed, marking the second such refueling-vessel takedown SOUTHCOM has announced in a week and continuing a fuel-network campaign distinct from the lethal go-fast-boat strikes that, as of this roundup's Sept 10 edition, had reached 69 strikes and a death toll passing 230.",
+          "location": "Eastern Pacific",
+          "source": "Maritime Executive",
+          "url": "https://maritime-executive.com/article/southcom-destroys-drug-gang-s-refueling-vessel-in-eastern-pacific"
+        },
+        {
+          "headline": "El Paso-area CBP officers log four seizures of meth, heroin and cocaine over two weeks",
+          "body": "Customs and Border Protection officers working the Paso Del Norte and Bridge of the Americas crossings in El Paso intercepted four separate vehicle loads between September 3 and 14: about 85 pounds of methamphetamine hidden in a gas tank and rear quarter panels on two dates, nearly 35 pounds of heroin flagged by a canine alert, and roughly 50 pounds of cocaine found after officers noticed anomalies in a vehicle's structure. CBP did not report a combined dollar value or arrest count for the four incidents.",
+          "quantity": "77 kg combined",
+          "location": "El Paso, Texas",
+          "source": "U.S. Customs and Border Protection",
+          "url": "https://www.cbp.gov/newsroom/local-media-release/el-paso-cbp-officers-seize-large-amount-drugs-september",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 38.62, "place": "Texas" },
+            { "drug": "heroin", "kg": 15.7, "place": "Texas" },
+            { "drug": "cocaine", "kg": 22.86, "place": "Texas" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "San Francisco dealers tied to a teen's fatal overdose from an opioid stronger than fentanyl",
+          "body": "San Francisco police searched three residences on September 8 and 9, arresting four alleged dealers — Nicholas Wallace, Sharonee Hyson, Leander Pitts and Starr Lamare — closing out a five-month investigation that began when a 16-year-old resident died in April from a drug combination that included cychlorphine, a synthetic opioid up to ten times more potent than fentanyl and invisible to standard fentanyl test strips. Officers seized more than 20,000 counterfeit pills stamped as Xanax, oxycodone, hydrocodone and cyclobenzaprine, along with MDMA, black tar heroin, two guns and $2,267 in cash.",
+          "quantity": "20,000+ counterfeit pills",
+          "location": "San Francisco, California",
+          "arrests": "4 arrested",
+          "source": "Hoodline / SFPD",
+          "url": "https://hoodline.com/2026/09/sfpd-busts-4-dealers-seizes-20-000-fake-pills-tied-to-teen-s-overdose-death/",
+          "seizures": [
+            { "drug": "MDMA", "kg": 0.0685, "place": "California" },
+            { "drug": "heroin", "kg": 0.0065, "place": "California" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombian 24-hour sweep captures a 'Cordillera' cell leader and nets 730 kilos of marijuana, 15 of heroin",
+          "body": "Colombia's Public Force reported 23 arrests in a single 24-hour period spanning Risaralda, Cauca, Huila, Antioquia and Buenaventura on September 15, led by the capture of alias \"Muelas,\" identified as the Dosquebradas-sector leader of the \"Cordillera\" trafficking organization, along with six associates in an operation called \"Marte.\" The same sweep detained a wanted member of the \"Carolina Ramírez\" dissident structure and six alleged Clan del Golfo members, seized 730 kilograms of marijuana and 15 kilograms of heroin, and destroyed four illegal gold-mining sites; President Abelardo De la Espriella said the broader offensive has produced 19,686 arrests and nearly 84 tonnes of drugs seized since August 7.",
+          "quantity": "730 kg cannabis, 15 kg heroin",
+          "location": "Risaralda and multiple departments, Colombia",
+          "arrests": "23 arrested",
+          "source": "El Heraldo (Colombia)",
+          "url": "https://www.elheraldo.co/colombia/2026/09/15/de-la-espriella-reporta-nuevas-capturas-e-incautaciones-en-varias-zonas-del-pais-no-vamos-a-aflojar-los-vamos-a-perseguir/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 730, "place": "Colombia" },
+            { "drug": "heroin", "kg": 15, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Peruvian police seize dolphin-branded cocaine staged for a Europe run through Bolivia",
+          "body": "DINANDRO agents raided a rural property in the César Mújica settlement of Huamanga province, Ayacucho, on September 15 and found 74 brick-shaped packages of cocaine hydrochloride stamped with a dolphin logo that investigators linked to a trafficking group known as \"Los Camaleones\"; the load, grown from VRAEM coca, was headed for Puno and then Bolivia en route to European markets. Police impounded three pickup trucks used to move and monitor the shipment, one fitted with a hidden compartment.",
+          "quantity": "84 kg cocaine",
+          "location": "Ayacucho, Peru",
+          "source": "Infobae Perú",
+          "url": "https://www.infobae.com/peru/2026/09/15/con-destino-a-europa-via-bolivia-dinandro-incauta-84-kilos-de-cocaina-con-marca-de-delfin-durante-operativo-en-ayacucho/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 84, "place": "Peru" }
+          ]
+        },
+        {
+          "headline": "Brazilian and German police break up a cocaine-in-cosmetics pipeline to Berlin",
+          "body": "Brazil's Federal Police and German authorities announced \"Operação Anticaspa\" on September 15, arresting seven people — four in Brazil and three in Germany, with an eighth suspect traced to Turkey — accused of buying cosmetics-industry raw materials in Diadema, São Paulo, to embed cocaine inside hair-product packaging and formulas shipped from Guarulhos International Airport through Lisbon to a Berlin warehouse. The exact quantity intercepted awaits German forensic lab results, so no weight has been confirmed yet.",
+          "location": "Guarulhos, Brazil / Berlin, Germany",
+          "arrests": "7 arrested",
+          "source": "O Tempo",
+          "url": "https://www.otempo.com.br/brasil/2026/9/15/pf-e-policia-alema-prendem-7-por-cocaina-escondida-em-cosmeticos-no-aeroporto-de-guarulhos"
+        },
+        {
+          "headline": "Brazilian federal police intercept 200 kilos of marijuana headed for Rio state gangs",
+          "body": "A joint Federal Police, Federal Highway Police and FICCO/PR operation stopped a vehicle on the Presidente Dutra Highway (BR-116) in Volta Redonda, Rio de Janeiro, on September 14 and arrested three unlicensed drivers hauling roughly 200 kilograms of marijuana that investigators said had originated in Paraná state and was headed to supply criminal organizations.",
+          "quantity": "200 kg cannabis",
+          "location": "Volta Redonda, Rio de Janeiro, Brazil",
+          "arrests": "3 arrested",
+          "source": "Polícia Federal (gov.br/pf)",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-atua-na-prisao-de-tres-pessoas-e-na-apreensao-de-200-kg-de-maconha",
+          "seizures": [
+            { "drug": "cannabis", "kg": 200, "place": "Brazil" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "A Mexican meth-lab boss posing as a restaurateur is captured running clandestine labs in Nigeria",
+          "body": "Nigerian authorities arrested Mexican national Arturo Carrera Loaiza at Lagos airport on August 19 as he tried to flee the country, accusing him of leading an international methamphetamine operation that ran clandestine labs across Ogun, Oyo and Ebonyi states under cover of a restaurant-investment story. A raid on a linked property recovered precursor chemicals — including 442.8 kilograms of acetone, 37.1 kilograms of toluene, 31.5 kilograms of hydrochloric acid and 200 kilograms of the meth precursor P2B — along with lab equipment bearing methamphetamine residue and security footage showing Carrera working in a lab coat.",
+          "location": "Lagos and Ogun, Oyo and Ebonyi states, Nigeria",
+          "arrests": "1 arrested",
+          "source": "Infobae México",
+          "url": "https://www.infobae.com/mexico/2026/09/15/capturan-a-un-mexicano-ligado-a-una-red-de-narcolaboratorios-en-nigeria-entro-a-africa-como-empresario-restaurantero/"
+        },
+        {
+          "headline": "Calgary police trace overdose deaths to a dealer's multi-drug, cash and gun stash",
+          "body": "A three-month Calgary police investigation that began with two overdose-death probes led to the August 31 arrest of Ryan Allan Sinclair, 34, and searches of two southeast Calgary homes reported September 16; officers seized about 1,980 grams of cocaine along with psilocybin, methamphetamine, morphine, codeine, Adderall pills and LSD, plus more than $46,000 combined in Canadian and U.S. cash, a rifle, two shotguns and 148 rounds of ammunition. Sinclair faces ten counts of possession for the purpose of trafficking along with fraud and firearms-storage charges.",
+          "quantity": "1.98 kg cocaine",
+          "location": "Calgary, Alberta, Canada",
+          "arrests": "1 arrested",
+          "source": "Medicine Hat News",
+          "url": "https://medicinehatnews.com/news/local-news/2026/09/16/two-charged-after-guns-and-more-than-88000-in-drugs-cash-seized-in-calgary-bust/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 1.98, "place": "Canada" }
+          ]
+        },
+        {
+          "headline": "Cagayan de Oro buy-bust nets two suspects and a shabu haul",
+          "body": "Philippine anti-narcotics operatives ran a buy-bust operation in Barangay Gusa, Cagayan de Oro, overnight into September 16, arresting two suspects and seizing crystal methamphetamine valued at an estimated 1.08 million pesos. No weight for the seized drugs was disclosed in the initial report.",
+          "location": "Cagayan de Oro, Philippines",
+          "arrests": "2 arrested",
+          "source": "Philippine Daily Inquirer",
+          "url": "https://newsinfo.inquirer.net/2306067/p1-m-shabu-seized-2-nabbed-in-cagayan-de-oro-buy-bust"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "Ghana's anti-narcotics agency arrests three people tied to the Dunkirk cocaine shipment",
+          "body": "Ghana's Narcotics Control Commission said September 14 it has taken three suspects into custody in Accra for allegedly representing the operations of Dutch fugitive Jos \"Bolle Jos\" Leijdekkers inside Ghana, tracing the network believed to have loaded the roughly 3.9-tonne cocaine shipment French customs intercepted at the port of Dunkirk on September 7 — a seizure logged in this roundup's September 11 edition. NACOC said it is now working with French authorities to establish how the container left Ghana's ports undetected.",
+          "location": "Accra, Ghana",
+          "arrests": "3 arrested",
+          "source": "Citi Newsroom",
+          "url": "https://www.citinewsroom.com/2026/09/french-cocaine-seizure-three-suspects-linked-to-bolle-jos-network-arrested-nacoc/"
+        },
+        {
+          "headline": "Bolivia's anti-narcotics campaign reaches 399 tonnes seized and 80-plus aircraft grounded after nine months",
+          "body": "Bolivia's government reported September 13 that its anti-drug forces have carried out more than 8,000 operations so far in 2026, seizing 399 tonnes of drugs — including 16.5 tonnes of cocaine base and hydrochloride and 377 tonnes of marijuana — plus 672 vehicles and 420 properties, for an estimated $100 million hit to trafficking organizations. The tally folds in the fleet of light aircraft grounded on suspicion of trafficking ties first reported in this roundup's September 10 edition; officials say that count has now passed 80 planes after forensic microaspiration testing confirmed several more aircraft's involvement.",
+          "location": "Bolivia",
+          "source": "Urgente.bo",
+          "url": "https://www.urgente.bo/noticia/en-9-meses-el-gobierno-confisco-399-ton-de-droga-y-afecto-en-mas-de-us-100-millones-al-narco"
+        }
+      ]
+    }
+  ]
+}
