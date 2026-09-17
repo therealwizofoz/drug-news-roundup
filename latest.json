@@ -1,9 +1,9 @@
 {
- "date": "2026-09-16",
- "dateLabel": "Wednesday, September 16, 2026",
- "window": "Covering reporting published since the Sept 15 edition, roughly Sept 14-16, with a few South American and Nigerian incident dates running back to mid-August where reporting lagged. No new DEA or DOJ federal press release surfaced beyond what was already logged Sept 15, so the federal section instead draws on a SOUTHCOM/JTF-WHEM refueling-vessel interdiction and a CBP El Paso roundup of four separate seizures. A Mexican nationwide weekend security sweep reported Sept 15 (Sinaloa, Michoacan, Jalisco and other states) overlapped heavily with the Michoacan/Colima methamphetamine seizure already logged Sept 15, so it was excluded to avoid double-counting the same underlying operation; only its distinct Jalisco lab component was considered and ultimately dropped for the same reason. Ongoing developments surfaced on two previously logged stories: Ghana's anti-narcotics agency arresting suspects tied to the Sept 11-logged Dunkirk cocaine seizure, and Bolivia's aircraft-grounding crackdown (logged Sept 10) reaching a nine-month tally.",
+ "date": "2026-09-17",
+ "dateLabel": "Thursday, September 17, 2026",
+ "window": "Covering reporting published since the Sept 16 edition, roughly Sept 15-17, with a few incident dates running back to Sept 10-11 where reporting lagged. The dominant federal story today is not a seizure but a policy document: the White House's annual presidential drug-certification determination for fiscal year 2027, announced Sept 16, which removed Venezuela from the list of countries judged to have 'failed demonstrably' on counternarcotics while keeping Colombia and Bolivia on it. No new SOUTHCOM/JTF-WHEM lethal strike or vessel interdiction was confirmed since the refueling-vessel takedown already logged in the Sept 16 edition; a Sept 17 aggregator item citing '68 strikes' and an August death toll appears to recycle stale figures inconsistent with the 69-strikes/230-deaths count already logged Sept 10, so it was excluded. A Pinellas County, Florida cocaine-ring press conference and a Colombia 1,918 kg marijuana highway seizure both surfaced in searches but were dropped as stale, dating to July 14 and Sept 13 respectively and, in the Colombia case, overlapping with hauls already logged Sept 13. A Wilmington, Delaware fentanyl case was dropped after search results returned contradictory dates and quantities for what appears to be the same underlying arrest, and a Timmins, Ontario raid was excluded for lacking any reportable drug-quantity detail. A DEA-announced Ecuador cocaine interdiction (3,284 kg) was also dropped because the agency's own post did not specify a date or location, making it too underdetermined to write confidently.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 12,
+ "storyCount": 10,
  "sectionCounts": [
   {
    "id": "federal",
@@ -13,12 +13,12 @@
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 1
+   "count": 2
   },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 4
+   "count": 2
   },
   {
    "id": "world",
@@ -28,141 +28,119 @@
   {
    "id": "ongoing",
    "name": "Ongoing Stories with New Developments",
-   "count": 2
+   "count": 1
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "SOUTHCOM destroys a second Los Choneros fuel vessel in the Eastern Pacific within a week",
-   "summary": "Joint Task Force Western Hemisphere personnel operating under U.S. Southern Command boarded and destroyed a fishing vessel in the Eastern Pacific on September 15 that intelligence…",
-   "location": "Eastern Pacific",
+   "headline": "US drug-certification report delists Venezuela while keeping Colombia and Bolivia on the 'failed' list",
+   "summary": "President Trump sent Congress the annual presidential determination on major drug-transit and drug-producing countries for fiscal year 2027 on Sept 16, naming 23 countries overall…",
+   "location": "Washington, D.C.",
    "quantity": "",
    "arrests": "",
-   "source": "Maritime Executive",
-   "url": "https://maritime-executive.com/article/southcom-destroys-drug-gang-s-refueling-vessel-in-eastern-pacific"
+   "source": "Infobae Colombia / U.S. Department of State",
+   "url": "https://www.infobae.com/colombia/2026/09/16/gobierno-de-abelardo-de-la-espriella-reacciono-a-decision-de-estados-unidos-de-descertificar-a-colombia-en-su-lucha-antidrogas-es-el-reflejo-del-desgobierno-de-los-ultimos-cuatro-anos/"
   },
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "El Paso-area CBP officers log four seizures of meth, heroin and cocaine over two weeks",
-   "summary": "Customs and Border Protection officers working the Paso Del Norte and Bridge of the Americas crossings in El Paso intercepted four separate vehicle loads between September 3 and…",
-   "location": "El Paso, Texas",
-   "quantity": "77 kg combined",
-   "arrests": "",
-   "source": "U.S. Customs and Border Protection",
-   "url": "https://www.cbp.gov/newsroom/local-media-release/el-paso-cbp-officers-seize-large-amount-drugs-september"
+   "headline": "Federal raid in Terra Bella, California dismantles a methamphetamine conversion lab run by three Mexican nationals",
+   "summary": "Homeland Security Task Force agents and the U.S. Attorney's Office for the Eastern District of California announced Sept 16 that a Sept 11 raid on a property in Terra Bella…",
+   "location": "Terra Bella, California",
+   "quantity": "100 lbs meth (45 kg)",
+   "arrests": "3 arrested",
+   "source": "GV Wire",
+   "url": "https://gvwire.com/2026/09/16/tulare-county-meth-lab-takedown-nets-100-pounds-of-meth-600k-doj-says/"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "San Francisco dealers tied to a teen's fatal overdose from an opioid stronger than fentanyl",
-   "summary": "San Francisco police searched three residences on September 8 and 9, arresting four alleged dealers — Nicholas Wallace, Sharonee Hyson, Leander Pitts and Starr Lamare — closing…",
-   "location": "San Francisco, California",
-   "quantity": "20,000+ counterfeit pills",
-   "arrests": "4 arrested",
-   "source": "Hoodline / SFPD",
-   "url": "https://hoodline.com/2026/09/sfpd-busts-4-dealers-seizes-20-000-fake-pills-tied-to-teen-s-overdose-death/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombian 24-hour sweep captures a 'Cordillera' cell leader and nets 730 kilos of marijuana, 15 of heroin",
-   "summary": "Colombia's Public Force reported 23 arrests in a single 24-hour period spanning Risaralda, Cauca, Huila, Antioquia and Buenaventura on September 15, led by the capture of alias…",
-   "location": "Risaralda and multiple departments, Colombia",
-   "quantity": "730 kg cannabis, 15 kg heroin",
-   "arrests": "23 arrested",
-   "source": "El Heraldo (Colombia)",
-   "url": "https://www.elheraldo.co/colombia/2026/09/15/de-la-espriella-reporta-nuevas-capturas-e-incautaciones-en-varias-zonas-del-pais-no-vamos-a-aflojar-los-vamos-a-perseguir/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Peruvian police seize dolphin-branded cocaine staged for a Europe run through Bolivia",
-   "summary": "DINANDRO agents raided a rural property in the César Mújica settlement of Huamanga province, Ayacucho, on September 15 and found 74 brick-shaped packages of cocaine hydrochloride…",
-   "location": "Ayacucho, Peru",
-   "quantity": "84 kg cocaine",
-   "arrests": "",
-   "source": "Infobae Perú",
-   "url": "https://www.infobae.com/peru/2026/09/15/con-destino-a-europa-via-bolivia-dinandro-incauta-84-kilos-de-cocaina-con-marca-de-delfin-durante-operativo-en-ayacucho/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazilian and German police break up a cocaine-in-cosmetics pipeline to Berlin",
-   "summary": "Brazil's Federal Police and German authorities announced \"Operação Anticaspa\" on September 15, arresting seven people — four in Brazil and three in Germany, with an eighth suspect…",
-   "location": "Guarulhos, Brazil / Berlin, Germany",
-   "quantity": "",
-   "arrests": "7 arrested",
-   "source": "O Tempo",
-   "url": "https://www.otempo.com.br/brasil/2026/9/15/pf-e-policia-alema-prendem-7-por-cocaina-escondida-em-cosmeticos-no-aeroporto-de-guarulhos"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazilian federal police intercept 200 kilos of marijuana headed for Rio state gangs",
-   "summary": "A joint Federal Police, Federal Highway Police and FICCO/PR operation stopped a vehicle on the Presidente Dutra Highway (BR-116) in Volta Redonda, Rio de Janeiro, on September 14…",
-   "location": "Volta Redonda, Rio de Janeiro, Brazil",
-   "quantity": "200 kg cannabis",
-   "arrests": "3 arrested",
-   "source": "Polícia Federal (gov.br/pf)",
-   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-atua-na-prisao-de-tres-pessoas-e-na-apreensao-de-200-kg-de-maconha"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "A Mexican meth-lab boss posing as a restaurateur is captured running clandestine labs in Nigeria",
-   "summary": "Nigerian authorities arrested Mexican national Arturo Carrera Loaiza at Lagos airport on August 19 as he tried to flee the country, accusing him of leading an international…",
-   "location": "Lagos and Ogun, Oyo and Ebonyi states, Nigeria",
-   "quantity": "",
-   "arrests": "1 arrested",
-   "source": "Infobae México",
-   "url": "https://www.infobae.com/mexico/2026/09/15/capturan-a-un-mexicano-ligado-a-una-red-de-narcolaboratorios-en-nigeria-entro-a-africa-como-empresario-restaurantero/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Calgary police trace overdose deaths to a dealer's multi-drug, cash and gun stash",
-   "summary": "A three-month Calgary police investigation that began with two overdose-death probes led to the August 31 arrest of Ryan Allan Sinclair, 34, and searches of two southeast Calgary…",
-   "location": "Calgary, Alberta, Canada",
-   "quantity": "1.98 kg cocaine",
-   "arrests": "1 arrested",
-   "source": "Medicine Hat News",
-   "url": "https://medicinehatnews.com/news/local-news/2026/09/16/two-charged-after-guns-and-more-than-88000-in-drugs-cash-seized-in-calgary-bust/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Cagayan de Oro buy-bust nets two suspects and a shabu haul",
-   "summary": "Philippine anti-narcotics operatives ran a buy-bust operation in Barangay Gusa, Cagayan de Oro, overnight into September 16, arresting two suspects and seizing crystal…",
-   "location": "Cagayan de Oro, Philippines",
-   "quantity": "",
+   "headline": "Downtown Los Angeles 'stash house' bust nets nearly 100 pounds of fentanyl and a pet alligator",
+   "summary": "Federal agents searching a luxury downtown Los Angeles apartment on Sept 10 found what officials called a drug-manufacturing setup, seizing about 93.9 pounds of fentanyl pills and…",
+   "location": "Los Angeles, California",
+   "quantity": "93.9 lbs fentanyl",
    "arrests": "2 arrested",
-   "source": "Philippine Daily Inquirer",
-   "url": "https://newsinfo.inquirer.net/2306067/p1-m-shabu-seized-2-nabbed-in-cagayan-de-oro-buy-bust"
+   "source": "NBC Los Angeles",
+   "url": "https://www.nbclosangeles.com/news/local/fentanyl-firearms-and-alligator-seized-from-luxury-downtown-la-apartment/3942512/"
   },
   {
-   "section": "ongoing",
-   "sectionName": "Ongoing Stories with New Developments",
-   "headline": "Ghana's anti-narcotics agency arrests three people tied to the Dunkirk cocaine shipment",
-   "summary": "Ghana's Narcotics Control Commission said September 14 it has taken three suspects into custody in Accra for allegedly representing the operations of Dutch fugitive Jos \"Bolle…",
-   "location": "Accra, Ghana",
-   "quantity": "",
-   "arrests": "3 arrested",
-   "source": "Citi Newsroom",
-   "url": "https://www.citinewsroom.com/2026/09/french-cocaine-seizure-three-suspects-linked-to-bolle-jos-network-arrested-nacoc/"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Sheboygan, Wisconsin police call a monthlong probe the end of a 'prolific' trafficker's run",
+   "summary": "Sheboygan Police executed search warrants at four properties on Sept 15 following a monthslong investigation, arresting a 34-year-old man described by police as a 'prolific' drug…",
+   "location": "Sheboygan, Wisconsin",
+   "quantity": "4 lbs cocaine, 10 lbs cannabis",
+   "arrests": "1 arrested",
+   "source": "Fox 6 Milwaukee / Sheboygan Police",
+   "url": "https://www.fox969.com/2026/09/16/prolific-drug-trafficker-arrested-on-multiple-charges-after-100000-drug-seizure-sheboygan-police/"
   },
   {
-   "section": "ongoing",
-   "sectionName": "Ongoing Stories with New Developments",
-   "headline": "Bolivia's anti-narcotics campaign reaches 399 tonnes seized and 80-plus aircraft grounded after nine months",
-   "summary": "Bolivia's government reported September 13 that its anti-drug forces have carried out more than 8,000 operations so far in 2026, seizing 399 tonnes of drugs — including 16.5…",
-   "location": "Bolivia",
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazilian police coordinate raids across 19 states, arresting 101 people and freezing roughly $94 million in assets",
+   "summary": "Brazil's Federal Police, Federal Highway Police and state forces carried out 'Operação Força Integrada IV' on Sept 16, executing 173 search warrants in 19 states against groups…",
+   "location": "19 states, Brazil",
+   "quantity": "11 kg cocaine, 90 kg cannabis",
+   "arrests": "101 arrested",
+   "source": "O Tempo / Polícia Federal",
+   "url": "https://www.otempo.com.br/brasil/2026/9/16/operacao-coordenada-pela-pf-em-19-estados-tem-101-pessoas-presas-e-r-508-3-milhoes-bloqueados"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Argentine Prefectura tracks a nighttime river crossing to seize 115 kilos of marijuana on the Paraná",
+   "summary": "Using thermal cameras, Argentina's Naval Prefecture spotted a motorboat crossing the Paraná River from Paraguay into Corpus, Misiones province, on Sept 16 and intercepted more…",
+   "location": "Corpus, Misiones, Argentina",
+   "quantity": "115 kg cannabis",
+   "arrests": "",
+   "source": "Argentina.gob.ar",
+   "url": "https://www.argentina.gob.ar/noticias/pna-incauto-115-kilos-de-droga-en-misiones"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Thai police raid a Roi Et safe house, seizing nearly 58,000 methamphetamine pills tied to a Laos-supplied network",
+   "summary": "Provincial Police Region 4 officers raided a house in Kaset Wisai district, Roi Et province, on Sept 15, arresting a 24-year-old man and a 22-year-old woman and seizing 57,934…",
+   "location": "Roi Et, Thailand",
+   "quantity": "57,934 meth pills",
+   "arrests": "2+ arrested",
+   "source": "Khaosod English",
+   "url": "https://www.khaosodenglish.com/news/2026/09/15/police-seize-58000-meth-pills-guns-at-roi-et-drug-dealers-safe-house/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Mexico's Navy says 2026 cocaine seizures at sea are already 47% above all of last year",
+   "summary": "Mexico's Secretariat of the Navy (Semar) reported this week that its patrols intercepted roughly 37.8 tonnes of cocaine between January 1 and Sept 10, 2026 — about 12 tonnes more…",
+   "location": "Mexico (Pacific coast)",
    "quantity": "",
    "arrests": "",
-   "source": "Urgente.bo",
-   "url": "https://www.urgente.bo/noticia/en-9-meses-el-gobierno-confisco-399-ton-de-droga-y-afecto-en-mas-de-us-100-millones-al-narco"
+   "source": "Infobae México",
+   "url": "https://www.infobae.com/mexico/2026/09/15/marina-blinda-las-costas-del-trafico-de-cocaina-aumento-47-los-decomisos-en-2026-y-suma-mas-de-37-toneladas-arrebatadas-al-narco/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Cebu City buy-bust nets a 19-year-old shabu seller and seven packs of methamphetamine",
+   "summary": "Philippine police arrested a 19-year-old unemployed resident of Barangay Calamba in a buy-bust operation on Tres de Abril Street, Barangay Labangon, Cebu City on the night of Sept…",
+   "location": "Cebu City, Philippines",
+   "quantity": "",
+   "arrests": "1 arrested",
+   "source": "Manila Bulletin",
+   "url": "https://mb.com.ph/2026/09/16/more-than-p1-m-shabu-seized-from-teenager-in-cebu-city"
+  },
+  {
+   "section": "ongoing",
+   "sectionName": "Ongoing Stories with New Developments",
+   "headline": "Los Tiguerones' alleged Colombia-based leader is extradited to a maximum-security prison in Ecuador",
+   "summary": "Ecuador's Interior Ministry confirmed Sept 16 that Guido Fernando Rodríguez Vargas — known as 'Comandante 7' or alias '07,' the alleged top leader of the Ecuadorian gang Los…",
+   "location": "Guayaquil, Ecuador",
+   "quantity": "",
+   "arrests": "",
+   "source": "El Diario (Ecuador)",
+   "url": "https://www.eldiario.ec/seguridad/alias-07-presunto-cabecilla-de-los-tiguerones-arribo-a-ecuador-tras-ser-capturado-en-colombia-16092026/"
   }
  ]
 }

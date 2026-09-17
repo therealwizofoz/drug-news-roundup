@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-17",
+  "window": "Covering reporting published since the Sept 16 edition, roughly Sept 15-17, with a few incident dates running back to Sept 10-11 where reporting lagged. The dominant federal story today is not a seizure but a policy document: the White House's annual presidential drug-certification determination for fiscal year 2027, announced Sept 16, which removed Venezuela from the list of countries judged to have 'failed demonstrably' on counternarcotics while keeping Colombia and Bolivia on it. No new SOUTHCOM/JTF-WHEM lethal strike or vessel interdiction was confirmed since the refueling-vessel takedown already logged in the Sept 16 edition; a Sept 17 aggregator item citing '68 strikes' and an August death toll appears to recycle stale figures inconsistent with the 69-strikes/230-deaths count already logged Sept 10, so it was excluded. A Pinellas County, Florida cocaine-ring press conference and a Colombia 1,918 kg marijuana highway seizure both surfaced in searches but were dropped as stale, dating to July 14 and Sept 13 respectively and, in the Colombia case, overlapping with hauls already logged Sept 13. A Wilmington, Delaware fentanyl case was dropped after search results returned contradictory dates and quantities for what appears to be the same underlying arrest, and a Timmins, Ontario raid was excluded for lacking any reportable drug-quantity detail. A DEA-announced Ecuador cocaine interdiction (3,284 kg) was also dropped because the agency's own post did not specify a date or location, making it too underdetermined to write confidently.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "US drug-certification report delists Venezuela while keeping Colombia and Bolivia on the 'failed' list",
+          "body": "President Trump sent Congress the annual presidential determination on major drug-transit and drug-producing countries for fiscal year 2027 on Sept 16, naming 23 countries overall but removing Venezuela from the subset judged to have 'failed demonstrably' to meet counternarcotics commitments — citing the January capture of Nicolás Maduro, cooperation from interim president Delcy Rodríguez's government, and the killing of Tren de Aragua leader 'Niño Guerrero.' Colombia and Bolivia remained on the failed list despite each government touting recent gains — Bogotá cited more than 17,000 arrests and 75,000+ kg of seized drugs since taking office, La Paz cited the March extradition of trafficker Sebastián Marset — with Trump saying he would reconsider both within a year if eradication and cooperation improve.",
+          "location": "Washington, D.C.",
+          "source": "Infobae Colombia / U.S. Department of State",
+          "url": "https://www.infobae.com/colombia/2026/09/16/gobierno-de-abelardo-de-la-espriella-reacciono-a-decision-de-estados-unidos-de-descertificar-a-colombia-en-su-lucha-antidrogas-es-el-reflejo-del-desgobierno-de-los-ultimos-cuatro-anos/"
+        },
+        {
+          "headline": "Federal raid in Terra Bella, California dismantles a methamphetamine conversion lab run by three Mexican nationals",
+          "body": "Homeland Security Task Force agents and the U.S. Attorney's Office for the Eastern District of California announced Sept 16 that a Sept 11 raid on a property in Terra Bella, Tulare County, broke up a methamphetamine conversion operation, seizing about 100 pounds of crystal methamphetamine, hundreds of gallons of meth in liquid solution, six firearms and roughly $600,000 in cash. Jose Diarte-Perez, 46, and Carlos Beltran-Ochoa, 27, face conspiracy to manufacture and traffic methamphetamine and firearms charges, while a third man, Lamberto Elorza-Chavez, 39, was charged as an illegal alien in possession of a firearm.",
+          "quantity": "100 lbs meth (45 kg)",
+          "location": "Terra Bella, California",
+          "arrests": "3 arrested",
+          "source": "GV Wire",
+          "url": "https://gvwire.com/2026/09/16/tulare-county-meth-lab-takedown-nets-100-pounds-of-meth-600k-doj-says/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 45.36, "place": "California" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Downtown Los Angeles 'stash house' bust nets nearly 100 pounds of fentanyl and a pet alligator",
+          "body": "Federal agents searching a luxury downtown Los Angeles apartment on Sept 10 found what officials called a drug-manufacturing setup, seizing about 93.9 pounds of fentanyl pills and powder, nearly 16 pounds of cocaine and 2.2 pounds of heroin alongside lab equipment, a hydraulic pill press, an AR-15 rifle and a gold-plated .50-caliber pistol; U.S. Fish and Wildlife Service agents separately removed a small alligator kept in the apartment. Marvin Angelito, 27, was detained and Susan Gonzalez, 26, was released on $15,000 bond; both face federal fentanyl-distribution charges carrying up to life in prison.",
+          "quantity": "93.9 lbs fentanyl",
+          "location": "Los Angeles, California",
+          "arrests": "2 arrested",
+          "source": "NBC Los Angeles",
+          "url": "https://www.nbclosangeles.com/news/local/fentanyl-firearms-and-alligator-seized-from-luxury-downtown-la-apartment/3942512/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 42.58, "place": "California" },
+            { "drug": "cocaine", "kg": 7.26, "place": "California" },
+            { "drug": "heroin", "kg": 1.0, "place": "California" }
+          ]
+        },
+        {
+          "headline": "Sheboygan, Wisconsin police call a monthlong probe the end of a 'prolific' trafficker's run",
+          "body": "Sheboygan Police executed search warrants at four properties on Sept 15 following a monthslong investigation, arresting a 34-year-old man described by police as a 'prolific' drug trafficker. Officers seized more than four pounds of cocaine, ten pounds of marijuana and nearly thirteen ounces of methamphetamine along with multiple firearms and a vehicle, putting the combined haul's value above $100,000.",
+          "quantity": "4 lbs cocaine, 10 lbs cannabis",
+          "location": "Sheboygan, Wisconsin",
+          "arrests": "1 arrested",
+          "source": "Fox 6 Milwaukee / Sheboygan Police",
+          "url": "https://www.fox969.com/2026/09/16/prolific-drug-trafficker-arrested-on-multiple-charges-after-100000-drug-seizure-sheboygan-police/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 1.81, "place": "Wisconsin" },
+            { "drug": "cannabis", "kg": 4.54, "place": "Wisconsin" },
+            { "drug": "methamphetamine", "kg": 0.37, "place": "Wisconsin" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazilian police coordinate raids across 19 states, arresting 101 people and freezing roughly $94 million in assets",
+          "body": "Brazil's Federal Police, Federal Highway Police and state forces carried out 'Operação Força Integrada IV' on Sept 16, executing 173 search warrants in 19 states against groups accused of drug and arms trafficking, money laundering, extortion and homicide. The sweep produced 101 arrests, seized 11 kilograms of cocaine and 90 kilograms of marijuana along with seven firearms, and froze more than R$508 million (about $94 million) in assets — including R$412.5 million tied to a transnational trafficking and money-laundering ring targeted in Tocantins state; two deaths were reported during the operations.",
+          "quantity": "11 kg cocaine, 90 kg cannabis",
+          "location": "19 states, Brazil",
+          "arrests": "101 arrested",
+          "source": "O Tempo / Polícia Federal",
+          "url": "https://www.otempo.com.br/brasil/2026/9/16/operacao-coordenada-pela-pf-em-19-estados-tem-101-pessoas-presas-e-r-508-3-milhoes-bloqueados",
+          "seizures": [
+            { "drug": "cocaine", "kg": 11, "place": "Brazil" },
+            { "drug": "cannabis", "kg": 90, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Argentine Prefectura tracks a nighttime river crossing to seize 115 kilos of marijuana on the Paraná",
+          "body": "Using thermal cameras, Argentina's Naval Prefecture spotted a motorboat crossing the Paraná River from Paraguay into Corpus, Misiones province, on Sept 16 and intercepted more than 115 kilograms of marijuana as part of the 'Plan Paraná' anti-trafficking effort run with the National Security Ministry.",
+          "quantity": "115 kg cannabis",
+          "location": "Corpus, Misiones, Argentina",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/pna-incauto-115-kilos-de-droga-en-misiones",
+          "seizures": [
+            { "drug": "cannabis", "kg": 115, "place": "Argentina" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Thai police raid a Roi Et safe house, seizing nearly 58,000 methamphetamine pills tied to a Laos-supplied network",
+          "body": "Provincial Police Region 4 officers raided a house in Kaset Wisai district, Roi Et province, on Sept 15, arresting a 24-year-old man and a 22-year-old woman and seizing 57,934 methamphetamine pills, a small quantity of crystal meth, three handguns and assets worth more than 1 million baht. Police said the male suspect sourced pills several hundred thousand at a time from a supplier in Laos and distributed them two to three times a month; more than ten other network members were also taken into custody.",
+          "quantity": "57,934 meth pills",
+          "location": "Roi Et, Thailand",
+          "arrests": "2+ arrested",
+          "source": "Khaosod English",
+          "url": "https://www.khaosodenglish.com/news/2026/09/15/police-seize-58000-meth-pills-guns-at-roi-et-drug-dealers-safe-house/"
+        },
+        {
+          "headline": "Mexico's Navy says 2026 cocaine seizures at sea are already 47% above all of last year",
+          "body": "Mexico's Secretariat of the Navy (Semar) reported this week that its patrols intercepted roughly 37.8 tonnes of cocaine between January 1 and Sept 10, 2026 — about 12 tonnes more than all of 2025 — mostly in Pacific waters tied to shipments linked to the Jalisco New Generation and Sinaloa cartels. The Navy said the year's operations also seized 26 vessels, one low-profile boat and 54 outboard motors, and detained 86 people.",
+          "location": "Mexico (Pacific coast)",
+          "source": "Infobae México",
+          "url": "https://www.infobae.com/mexico/2026/09/15/marina-blinda-las-costas-del-trafico-de-cocaina-aumento-47-los-decomisos-en-2026-y-suma-mas-de-37-toneladas-arrebatadas-al-narco/"
+        },
+        {
+          "headline": "Cebu City buy-bust nets a 19-year-old shabu seller and seven packs of methamphetamine",
+          "body": "Philippine police arrested a 19-year-old unemployed resident of Barangay Calamba in a buy-bust operation on Tres de Abril Street, Barangay Labangon, Cebu City on the night of Sept 15, seizing seven packs of suspected shabu (crystal methamphetamine) with an estimated market value of more than 1.19 million pesos.",
+          "location": "Cebu City, Philippines",
+          "arrests": "1 arrested",
+          "source": "Manila Bulletin",
+          "url": "https://mb.com.ph/2026/09/16/more-than-p1-m-shabu-seized-from-teenager-in-cebu-city"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "Los Tiguerones' alleged Colombia-based leader is extradited to a maximum-security prison in Ecuador",
+          "body": "Ecuador's Interior Ministry confirmed Sept 16 that Guido Fernando Rodríguez Vargas — known as 'Comandante 7' or alias '07,' the alleged top leader of the Ecuadorian gang Los Tiguerones — arrived in Guayaquil after being expelled from Colombia, where he was captured Sept 11 in Armenia on an Interpol red notice, a capture logged in this roundup's Sept 12 edition. He was immediately transferred to the maximum-security 'Cárcel del Encuentro' in Santa Elena province.",
+          "location": "Guayaquil, Ecuador",
+          "source": "El Diario (Ecuador)",
+          "url": "https://www.eldiario.ec/seguridad/alias-07-presunto-cabecilla-de-los-tiguerones-arribo-a-ecuador-tras-ser-capturado-en-colombia-16092026/"
+        }
+      ]
+    }
+  ]
+}
