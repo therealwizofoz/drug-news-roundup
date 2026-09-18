@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-18",
+  "window": "Covering reporting published since the Sept 17 edition, roughly Sept 16-18, with a couple of incident dates running back to Sept 11-13 where reporting lagged. No new lethal SOUTHCOM/JTF-WHEM strike was found; the standing cumulative tally remains 69 strikes and at least 230 deaths as of the Sept 10 count already logged, but a second non-lethal Los Choneros refueling-vessel interdiction (Sept 16, following the Sept 15 one logged yesterday) is new and included in federal. A Pharr, Texas $25 million meth-in-produce seizure, a Puerto Rico Coast Guard cocaine offload and a Pakistan/Sri Lanka meth network case all surfaced in searches but were dropped as stale (Sept 3-8 incident dates, already well outside the window). An NDLEA story about a Mexican cartel figure arrested at Lagos airport appears to be the same case already logged Sept 16 as 'A Mexican meth-lab boss posing as a restaurateur is captured running clandestine labs in Nigeria,' so it was excluded as a likely duplicate. A Peru 'dolphin-branded' cocaine story and a Ghana arrest tied to the Dunkirk cocaine shipment were both already logged Sept 16. A Mexican army lab bust in Atoyac, Guerrero matches a case already logged Sept 11. South Africa's Operation Shanela and a Pretoria mandrax-factory story were dropped for lacking a clear new-in-window seizure distinct from South Africa items already logged Sept 15.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "California task force dismantles a Fresno County meth conversion lab, seizing 2,500 pounds and arresting 15",
+          "body": "California's Attorney General announced Sept 17 that a joint operation combining the state Department of Justice, FBI, DEA, Homeland Security Investigations and several Central Valley sheriff's offices raided multiple sites tied to a methamphetamine conversion operation in Fresno County, seizing more than 2,500 pounds of crystal methamphetamine and over 500 gallons of meth in liquid solution — enough, officials said, to have yielded roughly 2,000 more finished pounds. Fifteen people were arrested and agents recovered 21 firearms and about $20,000 in cash; the U.S. Attorney's Office for the Eastern District of California is prosecuting, with nine alleged conspirators already charged and indictments secured against three more.",
+          "quantity": "2,500 lbs meth (1,134 kg)",
+          "location": "Fresno County, California",
+          "arrests": "15 arrested",
+          "source": "California Department of Justice",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-shuts-down-major-fresno-meth-lab-operation-over-2500",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 1133.98, "place": "California" }
+          ]
+        },
+        {
+          "headline": "SOUTHCOM sinks a second Los Choneros fuel vessel in as many days in the Eastern Pacific",
+          "body": "Joint Task Force Western Hemisphere, acting under U.S. Southern Command, intercepted and sank a floating refueling station in the Eastern Pacific on Sept 16 that intelligence tied to Ecuador's Los Choneros gang — the second such refueling-vessel boarding in two days, after a Sept 15 interdiction reported in yesterday's edition. Crews from both vessels were transferred to Ecuadorian authorities; these boardings are non-lethal, unlike the kinetic strikes that have killed at least 230 people in 69 attacks on suspected smuggling boats over the past year, and Ecuadorian judges have previously ordered the release of crew detained in earlier boardings, underscoring the campaign's contested legal footing.",
+          "location": "Eastern Pacific, off Ecuador",
+          "source": "U.S. Southern Command",
+          "url": "https://www.southcom.mil/News/PressReleases/Article/4603500/interdiction-of-narco-terrorist-refueling-vessel-sept-16-2026/"
+        },
+        {
+          "headline": "Global Entry traveler caught trying to smuggle 63 pounds of meth across the San Ysidro border",
+          "body": "U.S. Customs and Border Protection officers at the San Ysidro Port of Entry stopped a traveler enrolled in the trusted-traveler Global Entry program on Sept 17 and found roughly 63.27 pounds of crystal methamphetamine concealed inside the vehicle, according to CBP's San Diego field operations director.",
+          "quantity": "63.27 lbs meth (28.7 kg)",
+          "location": "San Ysidro, California",
+          "source": "U.S. Customs and Border Protection",
+          "url": "https://hoodline.com/2026/09/san-ysidro-border-officers-bust-global-entry-traveler-with-63-pounds-of-meth/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 28.7, "place": "California" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Three-month probe ends with a Gardiner, Maine trafficking arrest and $50,000 in seized drugs",
+          "body": "Maine Drug Enforcement Agency investigators closed out a three-month investigation in Gardiner on Sept 17, seizing methamphetamine, fentanyl, cocaine and a firearm together worth about $50,000 and arresting 36-year-old Dameon Loucks on trafficking charges; agents said additional arrests are expected as the case continues.",
+          "location": "Gardiner, Maine",
+          "arrests": "1 arrested",
+          "source": "WGME",
+          "url": "https://wgme.com/news/local/police-seize-50000-worth-of-drugs-in-gardiner-drug-bust-maine"
+        },
+        {
+          "headline": "Rusk County, Texas traffic stop near Mt. Enterprise turns up a five-drug haul and two arrests",
+          "body": "A Rusk County Sheriff's Office patrol stopped a vehicle near Mt. Enterprise on Sept 11 and found about 1.4 pounds of MDMA along with promethazine, marijuana, Adderall, oxycodone and alprazolam. Houston residents Frank Edwards Jr., 38, and Takeasha Peoples, 37, were charged with manufacture or delivery of a controlled substance and held on $220,000 bond each.",
+          "quantity": "1.4 lbs MDMA (0.64 kg)",
+          "location": "Mt. Enterprise, Texas",
+          "arrests": "2 arrested",
+          "source": "Kilgore News Herald",
+          "url": "https://kilgorenewsherald.com/2026/09/17/traffic-stop-near-mt-enterprise-leads-to-drug-seizure-two-arrests/",
+          "seizures": [
+            { "drug": "MDMA", "kg": 0.64, "place": "Texas" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Brazilian federal police find 140 kilos of cocaine hidden in a ship's hull bound for Italy",
+          "body": "Divers with Brazil's Federal Police inspected the hull of a vessel anchored off Espírito Santo on Sept 17 and, noticing signs of tampering on a seawater intake grate, recovered five waterproof bags containing 140 kilograms of cocaine from a compartment normally used to cool the ship's engines. The vessel had sailed from the port of Santos and was headed for Italy; police are still working to identify who loaded the drugs and where they were meant to be unloaded.",
+          "quantity": "140 kg cocaine",
+          "location": "Espírito Santo, Brazil",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-apreende-140-kg-de-cocaina-escondidos-no-casco-de-navio-no-espirito-santo",
+          "seizures": [
+            { "drug": "cocaine", "kg": 140, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Argentina seizes a record 52 kilos of MDMA smuggled from Europe through a Buenos Aires free-trade terminal",
+          "body": "Argentine federal police, customs agents and DEA-assisted investigators intercepted 52 kilograms of high-purity MDMA — enough for roughly a million ecstasy pills — hidden in a vehicle shipped from Europe through the Zárate free-trade zone, authorities announced Sept 16, calling it the largest synthetic-drug seizure in the country's history. Eight follow-up raids across Buenos Aires and Salta led to the detention of a Mexican, a Venezuelan and an Argentine man, while an international arrest warrant was issued for a second Mexican suspect.",
+          "quantity": "52 kg MDMA",
+          "location": "Zárate, Buenos Aires Province, Argentina",
+          "arrests": "3 arrested",
+          "source": "Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/la-mayor-incautacion-de-mdma-de-la-historia-argentina-52-kilos-y-tres-detenidos",
+          "seizures": [
+            { "drug": "MDMA", "kg": 52, "place": "Argentina" }
+          ]
+        },
+        {
+          "headline": "Chilean police trace a Fiestas Patrias marijuana run from Bolivia to Santiago, seize 1.26 tonnes",
+          "body": "Carabineros' OS-7 narcotics unit tracked a shipment of Bolivian marijuana from Chile's northern border to a storage site in Puente Alto, Santiago, timed to meet Fiestas Patrias demand, prosecutors said Sept 17. A controlled-delivery operation that began around Sept 12 ended with more than 1,258 kilograms seized and eight people arrested — one Chilean national and seven Colombians.",
+          "quantity": "1.26 t cannabis",
+          "location": "Santiago, Chile",
+          "arrests": "8 arrested",
+          "source": "Cooperativa.cl",
+          "url": "https://www.cooperativa.cl/noticias/pais/policial/drogas/os-7-incauto-mas-de-1-200-kilos-de-marihuana-boliviana-destinada-a/2026-09-17/102452.html",
+          "seizures": [
+            { "drug": "cannabis", "kg": 1258, "place": "Chile" }
+          ]
+        },
+        {
+          "headline": "Two Venezuelan women caught body-packing cocaine and marijuana at Bogotá's El Dorado airport",
+          "body": "Colombian police stopped two Venezuelan women during a routine check at El Dorado International Airport on Sept 16 and found roughly 11 kilograms of cocaine and marijuana taped beneath their clothing in seventeen packages, bound for Cali; both were charged with manufacturing and trafficking narcotics. It was the second such body-packing case at the airport in under a month, after a similar 10-kilogram seizure there in late August.",
+          "quantity": "4 kg cocaine, 7 kg cannabis",
+          "location": "Bogotá, Colombia",
+          "arrests": "2 arrested",
+          "source": "Infobae Colombia",
+          "url": "https://www.infobae.com/colombia/2026/09/16/dos-venezolanas-cayeron-en-el-aeropuerto-el-dorado-en-bogota-pretendian-viajar-con-11-kilos-de-coca-y-marihuana-ocultas-en-su-cuerpo/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 4, "place": "Colombia" },
+            { "drug": "cannabis", "kg": 7, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Brazilian and Italian prosecutors dismantle an 'Ndrangheta-linked cocaine pipeline run through Paranaguá",
+          "body": "Brazil's Federal Police and Italy's national antimafia prosecutors carried out Operation Eredità on Sept 17, executing seven arrest warrants and five search warrants against a network accused of shipping cocaine from Brazil's Paranaguá port to Europe on behalf of the Italian 'Ndrangheta mafia, alongside orders freezing property and bank accounts. Investigators tied the group to at least eleven cocaine seizures totaling more than 4.6 tonnes between 2019 and 2020, saying the pipeline kept running even after earlier 'Ndrangheta arrests in the case.",
+          "location": "Paranaguá, Brazil",
+          "arrests": "7 arrest warrants",
+          "source": "Ministério Público Federal",
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/operacao-eredita-mpf-e-policia-federal-desarticulam-grupo-ligado-a-mafia-italiana-que-traficava-cocaina-para-europa"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Thai police recover 2.6 million meth pills after a multi-province car chase ends in a crash",
+          "body": "A high-speed pursuit that began in Chiang Rai and crossed four provinces ended near Uthai Thani on Sept 13 when the suspects' sedan crashed into a roadside ditch; officers found 2.6 million methamphetamine pills packed into eleven sacks in the wreckage and arrested two men, aged 35 and 40, who police said were en route to deliver the shipment toward Ayutthaya.",
+          "location": "Uthai Thani, Thailand",
+          "arrests": "2 arrested",
+          "source": "Chiang Rai Times",
+          "url": "https://www.chiangraitimes.com/crime/police-seize-2-6-million-meth-pills/"
+        },
+        {
+          "headline": "Valenzuela City buy-bust nets a shabu dealer with half a million pesos in product",
+          "body": "Philippine police arrested a 43-year-old woman in a buy-bust operation in Barangay Malinta, Valenzuela City on Sept 18, seizing methamphetamine, known locally as shabu, with an estimated street value of about 510,000 pesos.",
+          "location": "Valenzuela City, Philippines",
+          "arrests": "1 arrested",
+          "source": "Manila Bulletin",
+          "url": "https://mb.com.ph/2026/09/18/woman-yields-p510k-shabu-in-valenzuela-buy-bust"
+        },
+        {
+          "headline": "South African woman gets 25 years in Nigeria for smuggling 5.75 kilos of heroin with her toddler son",
+          "body": "A Federal High Court in Abuja sentenced 38-year-old South African national Jessica Ann Will to prison on Sept 17 after she pleaded guilty to importing 5.75 kilograms of heroin concealed in two suitcases, having arrived at Abuja's airport from Doha with her 3-year-old son, who remains in Nigerian drug-agency custody pending transfer to South Africa's High Commission. Will told the court she did not know the bags contained drugs and asked for leniency; the judge imposed concurrent terms of 15 years for conspiracy and 25 years for unlawful importation.",
+          "location": "Abuja, Nigeria",
+          "source": "Pulse Nigeria",
+          "url": "https://www.pulse.ng/story/south-african-woman-5-75kg-heroin-abuja-airport-2026091718400208948"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
