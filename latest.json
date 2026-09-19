@@ -1,9 +1,9 @@
 {
- "date": "2026-09-18",
- "dateLabel": "Friday, September 18, 2026",
- "window": "Covering reporting published since the Sept 17 edition, roughly Sept 16-18, with a couple of incident dates running back to Sept 11-13 where reporting lagged. No new lethal SOUTHCOM/JTF-WHEM strike was found; the standing cumulative tally remains 69 strikes and at least 230 deaths as of the Sept 10 count already logged, but a second non-lethal Los Choneros refueling-vessel interdiction (Sept 16, following the Sept 15 one logged yesterday) is new and included in federal. A Pharr, Texas $25 million meth-in-produce seizure, a Puerto Rico Coast Guard cocaine offload and a Pakistan/Sri Lanka meth network case all surfaced in searches but were dropped as stale (Sept 3-8 incident dates, already well outside the window). An NDLEA story about a Mexican cartel figure arrested at Lagos airport appears to be the same case already logged Sept 16 as 'A Mexican meth-lab boss posing as a restaurateur is captured running clandestine labs in Nigeria,' so it was excluded as a likely duplicate. A Peru 'dolphin-branded' cocaine story and a Ghana arrest tied to the Dunkirk cocaine shipment were both already logged Sept 16. A Mexican army lab bust in Atoyac, Guerrero matches a case already logged Sept 11. South Africa's Operation Shanela and a Pretoria mandrax-factory story were dropped for lacking a clear new-in-window seizure distinct from South Africa items already logged Sept 15.",
+ "date": "2026-09-19",
+ "dateLabel": "Saturday, September 19, 2026",
+ "window": "Covering reporting published since the Sept 18 edition, roughly Sept 17-19, with a couple of incident dates running back to Sept 14-15 where reporting lagged. No new SOUTHCOM/JTF-WHEM lethal strike or refueling-vessel interdiction was found in this window, so the standing cumulative tally stays at 69 strikes and at least 230 deaths, and the second Los Choneros refueling-vessel interdiction already logged Sept 18 remains the most recent military action. A widely-surfacing 'Marinha e PF fazem maior apreensao de cocaina no mar brasileiro' story about a 3.6-tonne Pernambuco cocaine bust and the vessel 'Palmares 1' looked like fresh Sept 19 news in search results but checked out, on the publishing outlet's own byline, as a September 2023 case being re-surfaced — it was dropped. Two other apparent Sept 17-18 stories collapsed the same way on verification: an Argentina Gendarmeria Brazo Largo cocaine seizure recirculating with a Sept 18 dateline was actually from Sept 3, and a Colombian de la Espriella daily security tally recirculating with a Sept 18 dateline was actually from Sept 2; both were dropped as stale. A Spanish Costa del Sol cocaine case with the same headline numbers as the Sept 17 Albanian-network story that is included below appears to be the same investigation surfacing under an inconsistent April dateline on one aggregator; it was published independently on Sept 17 by three Colombian outlets, so it is included, sourced to the more consistent reporting. A Katie Williams/Kenneth Smith DC fentanyl case that a search summary initially dated to Sept 18 turned out, on the original blog's own reporting, to be a Aug 18 arrest and was dropped as stale.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 13,
+ "storyCount": 15,
  "sectionCounts": [
   {
    "id": "federal",
@@ -23,141 +23,146 @@
   {
    "id": "world",
    "name": "Rest of World",
-   "count": 3
+   "count": 4
+  },
+  {
+   "id": "ongoing",
+   "name": "Ongoing Stories with New Developments",
+   "count": 1
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "California task force dismantles a Fresno County meth conversion lab, seizing 2,500 pounds and arresting 15",
-   "summary": "California's Attorney General announced Sept 17 that a joint operation combining the state Department of Justice, FBI, DEA, Homeland Security Investigations and several Central…",
-   "location": "Fresno County, California",
-   "quantity": "2,500 lbs meth (1,134 kg)",
-   "arrests": "15 arrested",
-   "source": "California Department of Justice",
-   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-shuts-down-major-fresno-meth-lab-operation-over-2500"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "SOUTHCOM sinks a second Los Choneros fuel vessel in as many days in the Eastern Pacific",
-   "summary": "Joint Task Force Western Hemisphere, acting under U.S. Southern Command, intercepted and sank a floating refueling station in the Eastern Pacific on Sept 16 that intelligence tied…",
-   "location": "Eastern Pacific, off Ecuador",
-   "quantity": "",
-   "arrests": "",
-   "source": "U.S. Southern Command",
-   "url": "https://www.southcom.mil/News/PressReleases/Article/4603500/interdiction-of-narco-terrorist-refueling-vessel-sept-16-2026/"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Global Entry traveler caught trying to smuggle 63 pounds of meth across the San Ysidro border",
-   "summary": "U.S. Customs and Border Protection officers at the San Ysidro Port of Entry stopped a traveler enrolled in the trusted-traveler Global Entry program on Sept 17 and found roughly…",
-   "location": "San Ysidro, California",
-   "quantity": "63.27 lbs meth (28.7 kg)",
-   "arrests": "",
-   "source": "U.S. Customs and Border Protection",
-   "url": "https://hoodline.com/2026/09/san-ysidro-border-officers-bust-global-entry-traveler-with-63-pounds-of-meth/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Three-month probe ends with a Gardiner, Maine trafficking arrest and $50,000 in seized drugs",
-   "summary": "Maine Drug Enforcement Agency investigators closed out a three-month investigation in Gardiner on Sept 17, seizing methamphetamine, fentanyl, cocaine and a firearm together worth…",
-   "location": "Gardiner, Maine",
-   "quantity": "",
-   "arrests": "1 arrested",
-   "source": "WGME",
-   "url": "https://wgme.com/news/local/police-seize-50000-worth-of-drugs-in-gardiner-drug-bust-maine"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Rusk County, Texas traffic stop near Mt. Enterprise turns up a five-drug haul and two arrests",
-   "summary": "A Rusk County Sheriff's Office patrol stopped a vehicle near Mt. Enterprise on Sept 11 and found about 1.4 pounds of MDMA along with promethazine, marijuana, Adderall, oxycodone…",
-   "location": "Mt. Enterprise, Texas",
-   "quantity": "1.4 lbs MDMA (0.64 kg)",
+   "headline": "DEA-led investigation in Chicago suburbs nets 339 pounds of cocaine and $700,000 in cash",
+   "summary": "DEA's Chicago Field Division, working with CBP and several suburban police departments, searched a Franklin Park warehouse and a River Grove stash house on Sept 14-15, seizing…",
+   "location": "Chicago suburbs, Illinois",
+   "quantity": "339.5 lbs cocaine (154 kg)",
    "arrests": "2 arrested",
-   "source": "Kilgore News Herald",
-   "url": "https://kilgorenewsherald.com/2026/09/17/traffic-stop-near-mt-enterprise-leads-to-drug-seizure-two-arrests/"
+   "source": "DEA / CWB Chicago",
+   "url": "https://cwbchicago.com/2026/09/339-pounds-of-cocaine-700k-seized-in-suburban-drug-trafficking-investigation-dea.html"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Pensacola man indicted on meth and fentanyl trafficking charges, facing a possible life sentence",
+   "summary": "A federal grand jury in the Northern District of Florida indicted 45-year-old Jeffrey Benjamin Banks this week on two counts of possession with intent to distribute — one…",
+   "location": "Pensacola, Florida",
+   "quantity": "50+ g meth, 40+ g fentanyl",
+   "arrests": "1 charged",
+   "source": "U.S. Attorney's Office, N.D. Florida",
+   "url": "https://www.justice.gov/usao-ndfl/pr/homeland-security-task-force-investigation-leads-drug-trafficking-indictment-pensacola"
+  },
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Buffalo man charged after controlled fentanyl buys total 62 grams",
+   "summary": "Federal prosecutors in the Western District of New York charged 42-year-old James McClain, known as \"Jungle,\" after undercover investigators bought about 12 grams of fentanyl from…",
+   "location": "Buffalo, New York",
+   "quantity": "62 g fentanyl (0.062 kg)",
+   "arrests": "1 arrested",
+   "source": "U.S. Attorney's Office, W.D.N.Y.",
+   "url": "https://www.fingerlakes1.com/2026/09/17/buffalo-man-faces-federal-fentanyl-charge-after-two-controlled-purchases/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Iron Station, North Carolina traffic stop and home search uncover 18 pounds of cocaine worth $580,000",
+   "summary": "Lincoln County Sheriff's Office narcotics officers, working with Gastonia police, stopped a vehicle driven by 56-year-old Robbie McCall during a Sept 15 surveillance operation in…",
+   "location": "Iron Station, North Carolina",
+   "quantity": "18 lbs cocaine (8.2 kg)",
+   "arrests": "1 arrested",
+   "source": "WBTV",
+   "url": "https://www.wbtv.com/2026/09/18/man-arrested-after-deputies-seize-580k-cocaine-lincoln-county-sheriff-says/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Nine-month Macon, Georgia gang and drug probe ends with seven arrests and 11 guns seized",
+   "summary": "Georgia Bureau of Investigation's Middle Georgia Task Force closed out a nine-month joint drug-and-gang investigation on Sept 18 with raids at two Macon-area locations, recovering…",
+   "location": "Macon, Georgia",
+   "quantity": "16 oz meth (0.45 kg)",
+   "arrests": "7 arrested",
+   "source": "WGXA",
+   "url": "https://wgxa.tv/newsletter-daily/macon-raids-end-nine-month-gbi-probe-with-seven-arrests-drugs-guns-and-cash-seized-joseph-eugene-robinson-martaviyus-tremoses-collins-terrell-shemar-moore-egypt-elizabeth-lumpkin-chrisshayla-denise-miller-quinton-lamar-johnson-and-jessica-king-meth-marij"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazilian federal police find 140 kilos of cocaine hidden in a ship's hull bound for Italy",
-   "summary": "Divers with Brazil's Federal Police inspected the hull of a vessel anchored off Espírito Santo on Sept 17 and, noticing signs of tampering on a seawater intake grate, recovered…",
-   "location": "Espírito Santo, Brazil",
-   "quantity": "140 kg cocaine",
-   "arrests": "",
-   "source": "Polícia Federal",
-   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-apreende-140-kg-de-cocaina-escondidos-no-casco-de-navio-no-espirito-santo"
+   "headline": "Ecuador's new nightly curfew nets 157 arrests and dismantles a 'Lobos Box' cell in its first two nights",
+   "summary": "A curfew imposed Sept 17 from midnight to 5 a.m. across Guayas, Manabí, Los Ríos and El Oro provinces — running through Sept 30 — produced 157 arrests and the seizure of 39…",
+   "location": "Guayas, Manabí, Los Ríos & El Oro, Ecuador",
+   "quantity": "39 kg drugs",
+   "arrests": "157 arrested",
+   "source": "El Diario / Primicias",
+   "url": "https://www.eldiario.ec/seguridad/toque-de-queda-en-ecuador-157-aprehendidos-18092026/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentina seizes a record 52 kilos of MDMA smuggled from Europe through a Buenos Aires free-trade terminal",
-   "summary": "Argentine federal police, customs agents and DEA-assisted investigators intercepted 52 kilograms of high-purity MDMA — enough for roughly a million ecstasy pills — hidden in a…",
-   "location": "Zárate, Buenos Aires Province, Argentina",
-   "quantity": "52 kg MDMA",
-   "arrests": "3 arrested",
-   "source": "Argentina.gob.ar",
-   "url": "https://www.argentina.gob.ar/noticias/la-mayor-incautacion-de-mdma-de-la-historia-argentina-52-kilos-y-tres-detenidos"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Chilean police trace a Fiestas Patrias marijuana run from Bolivia to Santiago, seize 1.26 tonnes",
-   "summary": "Carabineros' OS-7 narcotics unit tracked a shipment of Bolivian marijuana from Chile's northern border to a storage site in Puente Alto, Santiago, timed to meet Fiestas Patrias…",
-   "location": "Santiago, Chile",
-   "quantity": "1.26 t cannabis",
+   "headline": "Colombia's Interpol bureau captures 8 international fugitives wanted in seven countries",
+   "summary": "Colombia's national police, through its Interpol bureau, carried out Operation Alba II on Sept 17, simultaneously detaining eight fugitives in Cali, Yotoco, Medellín, Bogotá and…",
+   "location": "Cali, Medellín, Bogotá & Cartagena, Colombia",
+   "quantity": "",
    "arrests": "8 arrested",
-   "source": "Cooperativa.cl",
-   "url": "https://www.cooperativa.cl/noticias/pais/policial/drogas/os-7-incauto-mas-de-1-200-kilos-de-marihuana-boliviana-destinada-a/2026-09-17/102452.html"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Two Venezuelan women caught body-packing cocaine and marijuana at Bogotá's El Dorado airport",
-   "summary": "Colombian police stopped two Venezuelan women during a routine check at El Dorado International Airport on Sept 16 and found roughly 11 kilograms of cocaine and marijuana taped…",
-   "location": "Bogotá, Colombia",
-   "quantity": "4 kg cocaine, 7 kg cannabis",
-   "arrests": "2 arrested",
    "source": "Infobae Colombia",
-   "url": "https://www.infobae.com/colombia/2026/09/16/dos-venezolanas-cayeron-en-el-aeropuerto-el-dorado-en-bogota-pretendian-viajar-con-11-kilos-de-coca-y-marihuana-ocultas-en-su-cuerpo/"
+   "url": "https://www.infobae.com/colombia/2026/09/18/interpol-colombia-capturo-a-ocho-profugos-internacionales-requeridos-por-siete-paises/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazilian and Italian prosecutors dismantle an 'Ndrangheta-linked cocaine pipeline run through Paranaguá",
-   "summary": "Brazil's Federal Police and Italy's national antimafia prosecutors carried out Operation Eredità on Sept 17, executing seven arrest warrants and five search warrants against a…",
-   "location": "Paranaguá, Brazil",
-   "quantity": "",
-   "arrests": "7 arrest warrants",
-   "source": "Ministério Público Federal",
-   "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/operacao-eredita-mpf-e-policia-federal-desarticulam-grupo-ligado-a-mafia-italiana-que-traficava-cocaina-para-europa"
+   "headline": "Chilean prosecutors seize 1.1 tonnes of Bolivian marijuana smuggled through Colchane border crossings",
+   "summary": "Prosecutors in Chile's Tarapacá and Tamarugal regions announced Sept 17-18 that Carabineros' OS-7 unit traced roughly 1,124 kilograms of marijuana smuggled from Bolivia through…",
+   "location": "Colchane / Santiago, Chile",
+   "quantity": "1.12 t cannabis",
+   "arrests": "3 arrested",
+   "source": "Radio Paulina",
+   "url": "https://radiopaulina.cl/2026/09/18/incautan-mas-de-una-tonelada-de-droga-ingresada-desde-la-frontera-de-colchane"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazilian police raid Guarulhos airport cocaine-to-Europe ring flagged by a 150-kilo Dutch seizure",
+   "summary": "Brazil's Federal Police launched Operation \"Snelle Verzending\" on Sept 14, executing two arrest warrants and two search warrants in Guarulhos after Dutch authorities, acting…",
+   "location": "Guarulhos, Brazil",
+   "quantity": "150 kg cocaine (seized earlier, in Netherlands)",
+   "arrests": "2 arrest warrants",
+   "source": "Polícia Federal",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-deflagra-operacao-201csnelle-verzending201d-contra-organizacao-criminosa-de-trafico-internacional-de-drogas"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Bolivian anti-drug police destroy four mobile cocaine-paste labs in the Chapare",
+   "summary": "Bolivia's UMOPAR anti-narcotics police, under the \"200 Años de Servicio a la Patria – Águila\" plan, raided the Moja Pampa area of Villa Tunari municipality in the Chapare on Sept…",
+   "location": "Chapare, Cochabamba, Bolivia",
+   "quantity": "4 labs, 980 L liquid cocaine destroyed",
+   "arrests": "",
+   "source": "La Patria (Bolivia)",
+   "url": "https://lapatria.bo/actualidad/seguridad/chapare-felcn-destruye-cuatro-fabricas-moviles-droga/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Thai police recover 2.6 million meth pills after a multi-province car chase ends in a crash",
-   "summary": "A high-speed pursuit that began in Chiang Rai and crossed four provinces ended near Uthai Thani on Sept 13 when the suspects' sedan crashed into a roadside ditch; officers found…",
-   "location": "Uthai Thani, Thailand",
-   "quantity": "",
-   "arrests": "2 arrested",
-   "source": "Chiang Rai Times",
-   "url": "https://www.chiangraitimes.com/crime/police-seize-2-6-million-meth-pills/"
+   "headline": "Tijuana customs dog sniffs out 1.36 tonnes of methamphetamine and 10 kilos of fentanyl bound for the US",
+   "summary": "A detection dog named RINI alerted Mexican customs agents at the export lot of the Tijuana border crossing on Sept 18 to boxes labeled for legitimate export that instead held…",
+   "location": "Tijuana, Mexico",
+   "quantity": "1.36 t meth, 10 kg fentanyl",
+   "arrests": "",
+   "source": "Infobae Mexico",
+   "url": "https://www.infobae.com/mexico/2026/09/19/autoridades-mexicanas-frenan-envio-con-mas-de-13-toneladas-de-metanfetamina-y-10-kilos-de-fentanilo-antes-de-cruzar-a-eeuu-por-tijuana/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Valenzuela City buy-bust nets a shabu dealer with half a million pesos in product",
-   "summary": "Philippine police arrested a 43-year-old woman in a buy-bust operation in Barangay Malinta, Valenzuela City on Sept 18, seizing methamphetamine, known locally as shabu, with an…",
-   "location": "Valenzuela City, Philippines",
-   "quantity": "",
-   "arrests": "1 arrested",
-   "source": "Manila Bulletin",
-   "url": "https://mb.com.ph/2026/09/18/woman-yields-p510k-shabu-in-valenzuela-buy-bust"
+   "headline": "Spanish police dismantle Albanian network that moved 2.7 tonnes of Colombian cocaine into Europe",
+   "summary": "Spain's National Police announced Sept 17 the takedown of an Albanian-led network that ran cocaine from Colombia through the Campo de Gibraltar to storage sites in Barcelona and…",
+   "location": "Campo de Gibraltar / Barcelona, Spain",
+   "quantity": "2.7 t cocaine",
+   "arrests": "15 arrested",
+   "source": "El Heraldo (Colombia)",
+   "url": "https://www.elheraldo.co/colombia/2026/09/17/cae-una-banda-que-traslado-2700-kilos-de-cocaina-de-colombia-por-espana/"
   }
  ]
 }
