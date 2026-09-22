@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-22",
+  "window": "Covering reporting published since the Sept 21 edition, roughly Sept 20-22. No new SOUTHCOM vessel strike was found in this window beyond the Sept 19 Caribbean strike already logged Sept 20, so the campaign's running total of 69 strikes and at least 231 deaths carries forward unchanged; instead, the major development was a Sept 21 United Nations report finding reasonable grounds that the strike campaign constitutes crimes against humanity, covered in the ongoing section. Several candidates were checked and dropped: a widely surfaced claim of a 3.2-million-pill Thai methamphetamine seizure in Lampang/Chiang Rai on Sept 21 could not be traced to any real article and appears to be a search-summary fabrication conflating unrelated older Chiang Rai Times seizure stories, so it was excluded entirely; a Brazilian 'largest cocaine seizure in history' Operation Timber Shield story recirculating this week actually dates to June 2026, not September; a Tijuana/Otay Mesa 'trailero' meth-and-fentanyl arrest dated Sept 21 matches the same tonnage and fentanyl weight as the Sept 19 Tijuana customs-dog seizure already logged, so it was treated as the same event rather than new; a Washington County, Florida meth bust ('Operation King of the Hill') was announced Sept 11-12, outside this window; a Martin County, Florida cocaine bust with kilogram figures was from mid-August; and Ecuador's Manta curfew campaign (2.9 t cocaine, already logged Sept 20-21) had only a vague three-day cumulative figure this window with no clearly new, separately countable seizure, so nothing further was added to the tally for it. Colombia's Turbo/Antioquia coast guard capture and the Colombian Navy's two-Caribbean-operation announcement were confirmed via multiple outlets to be the same combined event (4.69 t, 8 people) rather than two separate seizures.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "Coast Guard offloads $57 million in cocaine and marijuana in Port Everglades",
+          "body": "The crews of the medium endurance cutter USCGC Escanaba and the fast response cutter USCGC Richard Dixon offloaded roughly 7,250 pounds of cocaine and 2,082 pounds of marijuana at Port Everglades, Florida on Sept. 21, the result of separate interdictions of go-fast vessels in the Caribbean Sea. The Coast Guard valued the combined haul at about $57 million.",
+          "quantity": "7,250 lbs cocaine, 2,082 lbs marijuana",
+          "location": "Port Everglades, Florida",
+          "source": "U.S. Coast Guard / Baird Maritime",
+          "url": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/us-coast-guard-offloads-over-57m-in-drugs-interdicted-in-caribbean-sea",
+          "seizures": [
+            { "drug": "cocaine", "kg": 3288.5, "place": "Florida" },
+            { "drug": "cannabis", "kg": 944.4, "place": "Florida" }
+          ]
+        },
+        {
+          "headline": "Month-long 'Operation United Resolve' nets over 140 arrests and 300 warrants in Lynchburg, Virginia",
+          "body": "Local, state and federal law enforcement, coordinated by the U.S. Marshals Service, the FBI and federal prosecutors, announced the results of a month-long Lynchburg-area crackdown on Sept. 21: more than 140 arrests, over 300 warrants served, 29 firearms recovered and roughly 25 grams of fentanyl seized, an amount officials said equated to about 13,000 potentially lethal doses. Investigators also recovered more than $80,000 in cash.",
+          "quantity": "25 g fentanyl, 29 firearms",
+          "location": "Lynchburg, Virginia",
+          "arrests": "140+ arrested",
+          "source": "U.S. Marshals Service / WSLS, WDBJ7",
+          "url": "https://www.wsls.com/news/local/2026/09/21/lburg-drug-bust-operation-presser/",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 0.025, "place": "Virginia" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Pennsylvania task force's 'Eastern Alleghenies Initiative' nets 45 arrests, 54 guns and 30 pounds of cocaine",
+          "body": "Pennsylvania Attorney General Dave Sunday, the Allegheny County District Attorney's Narcotics Enforcement Team and police departments from Pittsburgh, Monroeville, Penn Hills and Turtle Creek announced on Sept. 21 the results of a months-long crackdown launched in January after chiefs in the county's eastern suburbs noticed a rise in gun and drug crime. The operation produced 45 arrests, 54 seized firearms including six illegally converted to fully automatic fire, about 1.68 million doses of fentanyl and 198,000 doses of heroin, roughly 30 pounds of cocaine, and nearly $149,000 in cash.",
+          "quantity": "30 lbs cocaine, 54 firearms",
+          "location": "Allegheny County, Pennsylvania",
+          "arrests": "45 arrested",
+          "source": "PA Office of Attorney General / Pittsburgh Post-Gazette",
+          "url": "https://www.wpxi.com/news/local/cocaine-comeback-investigators-seize-30-pounds-during-allegheny-county-sweep/TQV6MLUZUNECPGWEKZP2GJRRGU/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 13.6, "place": "Pennsylvania" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombian Navy and Coast Guard seize 4.69 tonnes of cocaine and capture 8 people, including a Honduran, off Antioquia",
+          "body": "The Colombian Navy intercepted two vessels in the Caribbean on Sept. 21: a boat out of a Turbo, Antioquia coast guard station carrying 3,834 kilograms of cocaine hydrochloride in 126 bundles, whose five-person crew included a Honduran national, and a second go-fast vessel farther north carrying 856 kilograms in 35 bundles, crewed by three Colombians. President Abelardo de la Espriella called the combined 4.69-tonne, eight-person operation a forceful blow against trafficking through the Urabá region.",
+          "quantity": "4.69 t cocaine",
+          "location": "Turbo, Antioquia and Caribbean waters, Colombia",
+          "arrests": "8 captured",
+          "source": "Colombian Navy / El Tiempo, Infobae Colombia",
+          "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/armada-incauto-cerca-de-4-7-toneladas-de-cocaina-en-dos-operaciones-en-el-caribe-3587756",
+          "seizures": [
+            { "drug": "cocaine", "kg": 4690, "place": "Colombia" }
+          ]
+        },
+        {
+          "headline": "Brazilian customs and federal police seize 15 tonnes of cocaine-refining solvent at the Bolivian border",
+          "body": "Brazil's Federal Revenue Service and Federal Police stopped a truck at the Corumbá, Mato Grosso do Sul border crossing with Bolivia on Sept. 20 after its paperwork did not match its cargo, finding roughly 15 tonnes of ethyl acetate, a solvent used to refine coca paste into cocaine hydrochloride. Officials said the seized volume of the chemical, sometimes called the 'noble solvent,' could theoretically have supported the production of up to 30 tonnes of cocaine; the driver was turned over to federal police.",
+          "quantity": "15 t chemical precursor",
+          "location": "Corumbá, Mato Grosso do Sul, Brazil",
+          "source": "Receita Federal / Polícia Federal / Campo Grande News",
+          "url": "https://www.campograndenews.com.br/cidades/interior/receita-federal-retem-15-toneladas-de-solvente-usado-no-refino-de-cocaina"
+        },
+        {
+          "headline": "Argentine Naval Prefecture seizes 254 kilos of marijuana in two Misiones river operations",
+          "body": "Argentina's Prefectura Naval intercepted two separate marijuana shipments moving along the Paraná River in Misiones province on Sept. 21: about 194 kilograms found during an operation in Candelaria, and another roughly 60 kilograms in 23 packages detected near the Capuita stream at kilometer 1,693 of the river. Officials valued the combined seizure at more than 960 million pesos.",
+          "quantity": "254 kg cannabis",
+          "location": "Misiones, Argentina",
+          "source": "Prefectura Naval Argentina",
+          "url": "https://www.argentina.gob.ar/noticias/prefectura-incauto-mas-de-500-dosis-de-estupefacientes-en-el-marco-del-plan-bandera",
+          "seizures": [
+            { "drug": "cannabis", "kg": 254, "place": "Argentina" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Spanish-led 'Operation Doncella' seizes 2.1 tonnes of cocaine from a yacht 400 miles off Galicia",
+          "body": "Spain's Tax Agency customs surveillance service, working with French customs, the U.S. DEA, the UK's National Crime Agency and Portugal's MAOC-N, intercepted a 14-meter Polish-flagged yacht in the Atlantic on Sept. 14 and found 70 bales holding about 2,100 kilograms of cocaine. Four crew members — Argentine, Uruguayan, Colombian and Albanian nationals — were arrested aboard the vessel, and a Chilean national identified as the network's leader was detained in Girona; investigators said the yacht's tracking system had been disabled and the case, disclosed Sept. 21, followed a probe opened in February into Balkan organized-crime links.",
+          "quantity": "2.1 t cocaine",
+          "location": "off Galicia, Spain",
+          "arrests": "5 arrested",
+          "source": "Spanish Tax Agency / Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/21/three-latin-americans-and-an-albanian-held-with-2-tonnes-of-cocaine-on-yacht-off-galicia",
+          "seizures": [
+            { "drug": "cocaine", "kg": 2100, "place": "Spain" }
+          ]
+        },
+        {
+          "headline": "Pakistani excise officers seize 960 kilos of hashish and opium after a gunman flees a Peshawar checkpoint",
+          "body": "Khyber Pakhtunkhwa's Excise Intelligence Bureau stopped a Toyota Revo at a checkpoint near Jahaz Chowk in Peshawar overnight into Sept. 22, and the driver opened fire on officers, collided with roadside vehicles and structures, and fled on foot in the dark. A search of the recovered vehicle turned up 720 kilograms of hashish and 240 kilograms of opium, which the bureau called the largest single seizure in its history; the driver remains at large.",
+          "quantity": "720 kg hashish, 240 kg opium",
+          "location": "Peshawar, Pakistan",
+          "source": "KP Excise, Taxation and Narcotics Control Department / The Nation",
+          "url": "https://www.nation.com.pk/22-Sep-2026/kp-excise-dept-seizes-960kg-narcotics-peshawar-operation",
+          "seizures": [
+            { "drug": "hashish", "kg": 720, "place": "Pakistan" },
+            { "drug": "opium", "kg": 240, "place": "Pakistan" }
+          ]
+        },
+        {
+          "headline": "Dominican, Dutch and US forces seize 587 kilos of cocaine in one of the Dominican Republic's farthest offshore interdictions",
+          "body": "Joint Interagency Task Force South coordinated with Dominican Republic and Netherlands forces to intercept a go-fast vessel far off the Dominican coast on Sept. 19, with more than 21 hours of aerial surveillance guiding the operation. Dominican authorities led the final boarding, recovering 24 bales containing about 587 kilograms of cocaine and detaining three people aboard; SOUTHCOM said the case marked one of the country's farthest offshore drug interdictions in recent years.",
+          "quantity": "587 kg cocaine",
+          "location": "Caribbean Sea, off the Dominican Republic",
+          "arrests": "3 detained",
+          "source": "JIATF-South / The Tribune",
+          "url": "https://www.tribuneindia.com/news/caribbean-operation/us-led-task-force-claims-587-kg-cocaine-seized-3-individuals-detained-in-joint-caribbean-operation",
+          "seizures": [
+            { "drug": "cocaine", "kg": 587, "place": "Dominican Republic" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": [
+        {
+          "headline": "UN investigator finds 'reasonable grounds' that the SOUTHCOM boat-strike campaign amounts to crimes against humanity",
+          "body": "UN Special Rapporteur Ben Saul reported on Sept. 21 that the year-long US military campaign against suspected drug-trafficking vessels — 68 strikes killing at least 223 people through August, per his count — involved unlawful, disproportionate force amounting to 'serial extrajudicial killings' and that there were reasonable grounds to believe the pattern constituted a crime against humanity. Saul argued drug trafficking does not meet the legal threshold of an armed attack that would justify self-defense, and said the strikes have not measurably slowed cocaine's arrival in the US by container ship; no new strike was reported this window, so the campaign's own running total stands at 69 strikes and at least 231 deaths, as previously reported.",
+          "source": "UN Human Rights Council / UPI, Al Jazeera",
+          "url": "https://www.upi.com/Top_News/US/2026/09/21/un-investigator-attacks-on-alleged-drug-boats-may-be-crimes-against-humanity/3541790022151"
+        }
+      ]
+    }
+  ]
+}
