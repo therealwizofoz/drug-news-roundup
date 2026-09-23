@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-23",
+  "window": "Covering reporting published since the Sept 22 edition, roughly Sept 21-23. No new SOUTHCOM vessel strike was found in this window, so the campaign's running total of 69 strikes and at least 231 deaths carries forward unchanged and no ongoing-section item was needed; a Sept 2 congressional statement criticizing the campaign (Rep. Adam Smith) predates this window and was left out as stale. Several other candidates were checked and dropped: a Nigerian NDLEA seizure of 262.6 kg of skunk at the Abuja-Kaduna tollgate, attributed to 'Monday, September 22' in search summaries, checks out by weekday to September 22, 2025, not 2026, and was excluded as a stale story resurfacing in search results; Australia's AFP 'Operation Minjiang' 2.7-tonne cocaine bust actually dates to June 2026; a Chile-Bolivia dispute over a 108-tonne cocaine/ketamine seizure traces back to a June 2026 operation, not a new one; a Mississippi Delta sheriffs' drug-bribery indictment dates to October 2025; a Bolivian scandal over anti-narcotics police allegedly partying in a house seized from trafficker Sebastian Marset was judged a police-conduct story rather than drug-trafficking news and left out; and a widely-cited $2 million El Paso CBP narcotics seizure turned out to be a 2021 press release recirculating in search results. Colombia's Barranquilla 'Plan Cazador' figure (417 arrests, 274 kg of drugs) is a running September total rather than a discrete new event and was left out to avoid double-counting. The Sept 21 Colombian Navy 4.69-tonne Caribbean seizure and Sept 21 Coast Guard Port Everglades offload were already logged in the Sept 22 edition.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "US Attorney's 'Summer Crackdown' nets 60 federal indictments and 160 kilos of drugs in DC",
+          "body": "U.S. Attorney Jeanine Pirro announced results on Sept. 21 of a summer-long, multi-agency enforcement push in Washington, D.C., which produced federal indictments against more than 60 defendants — roughly half on narcotics charges and half on felon-in-possession gun charges — plus 28 gang-member arrests. Working with the Metropolitan Police Department, FBI, DEA, Homeland Security Investigations and ATF, the operation seized 533 illegal firearms along with about 64.1 kilograms of methamphetamine, 50.1 kilograms of cocaine (including crack) and 3 kilograms of fentanyl.",
+          "quantity": "160 kg drugs, 533 firearms",
+          "location": "Washington, D.C.",
+          "arrests": "60+ indicted",
+          "source": "U.S. Attorney's Office for D.C.",
+          "url": "https://wjla.com/news/local/usadc-attorney-jeanine-pirro-touts-results-of-summer-crackdown-in-dc-targeting-violent-crime-narcotics-meth-cocaine-gang-members-september-2026",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 64.1, "place": "District of Columbia" },
+            { "drug": "cocaine", "kg": 50.1, "place": "District of Columbia" },
+            { "drug": "fentanyl", "kg": 3.0, "place": "District of Columbia" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Lima, Ohio SWAT raid turns up 2.5 kilograms of methamphetamine and $18,000 in cash",
+          "body": "The Allen County Sheriff's Office SWAT team and the West Central Ohio Crime Task Force served a search warrant Sept. 21 at a Harding Highway home in Lima, finding about 2.5 kilograms of methamphetamine and more than $18,000 in cash. Dameon Pearson, 49, was arrested and booked into the Allen County Jail on a felony drug-possession charge.",
+          "quantity": "2.5 kg methamphetamine",
+          "location": "Lima, Ohio",
+          "arrests": "1 arrested",
+          "source": "Allen County Sheriff's Office / Hometown Stations",
+          "url": "https://www.hometownstations.com/2026/09/22/one-man-custody-following-multi-agency-drug-raid-harding-highway/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 2.5, "place": "Ohio" }
+          ]
+        },
+        {
+          "headline": "Worcester, Massachusetts vice raid breaks up a Main South crack and fentanyl operation",
+          "body": "Worcester police vice detectives and the gang unit searched a Preston Street apartment on Sept. 21 after a lengthy investigation into crack and fentanyl sales in the Main South neighborhood, seizing about 78 grams of packaged crack cocaine and 33 grams of fentanyl along with scales and cash. Four people, including three 18-year-olds and a 17-year-old, were charged with trafficking.",
+          "quantity": "78 g crack, 33 g fentanyl",
+          "location": "Worcester, Massachusetts",
+          "arrests": "4 charged",
+          "source": "Worcester Police Department / Newport Dispatch",
+          "url": "https://www.newportdispatch.com/2026/09/22/four-arrested-on-drug-trafficking-charges-in-worcester/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 0.078, "place": "Massachusetts" },
+            { "drug": "fentanyl", "kg": 0.033, "place": "Massachusetts" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Ecuador finds a tonne of cocaine hidden in export machinery bound for Guatemala",
+          "body": "Ecuadorian police inspecting a shipping container at the port of Posorja, near Guayaquil, on Sept. 22 found 995 blocks of cocaine — roughly a metric tonne — concealed inside machinery declared for export to Guatemala. Héctor Mendoza, president of the exporting company, was arrested and turned over to judicial authorities.",
+          "quantity": "~1 t cocaine",
+          "location": "Posorja, Ecuador",
+          "arrests": "1 arrested",
+          "source": "Policía Nacional del Ecuador / Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/09/22/ecuador-incauta-una-tonelada-de-cocaina-oculta-en-maquinaria-que-iba-a-guatemala/",
+          "seizures": [
+            { "drug": "cocaine", "kg": 1000, "place": "Ecuador" }
+          ]
+        },
+        {
+          "headline": "Brazilian highway police pull 975 kilos of cocaine, paste and marijuana from a Mato Grosso do Sul truck",
+          "body": "Federal Highway Police stopped a truck hauling iron ore at kilometer 600 of BR-262 in Miranda, Mato Grosso do Sul, before dawn on Sept. 22 and found narcotics hidden in a second trailer atop the ore load: 543 kilograms of compressed marijuana, 218.2 kilograms of coca paste and 213.4 kilograms of cocaine hydrochloride. The driver said he had been paid to haul the load to Campo Grande and was turned over to federal police.",
+          "quantity": "975 kg mixed drugs",
+          "location": "Miranda, Mato Grosso do Sul, Brazil",
+          "arrests": "1 detained",
+          "source": "Polícia Rodoviária Federal / A Gazeta de Dourados",
+          "url": "https://www.agazetadedourados.com.br/noticias/policia/fiscalizacao-apreende-quase-uma-tonelada-de-drogas-em-ms/22/09/2026/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 543, "place": "Brazil" },
+            { "drug": "coca base", "kg": 218.2, "place": "Brazil" },
+            { "drug": "cocaine", "kg": 213.4, "place": "Brazil" }
+          ]
+        },
+        {
+          "headline": "Brazilian federal police freeze $50 million tied to a Paraguay-linked cocaine pipeline",
+          "body": "Federal Police launched 'Operação Suécia XXXV' on Sept. 22, serving 15 search-and-seizure warrants across Mato Grosso do Sul, São Paulo and Paraná and freezing up to 50 million reais in real estate, vehicles, jewelry and bank accounts belonging to a criminal organization accused of moving cocaine into Brazil from Paraguay. Investigators tied the group to at least 1,302 kilograms of cocaine already recovered in four earlier, separately reported seizures.",
+          "quantity": "R$50M in assets frozen",
+          "location": "Mato Grosso do Sul, São Paulo and Paraná, Brazil",
+          "source": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-deflagra-operacao-contra-organizacao-criminosa-suspeita-de-trafico-transnacional-de-cocaina"
+        },
+        {
+          "headline": "Argentine gendarmerie dog sniffs out 53 kilos of marijuana in a Santiago del Estero vehicle",
+          "body": "A Gendarmería Nacional detection dog named Yasi flagged a vehicle on Route 16 in Santiago del Estero province on Sept. 22, leading officers to marijuana hidden in secret compartments. A federal court ordered the seizure of more than 53 kilograms of the drug along with the vehicle.",
+          "quantity": "53 kg cannabis",
+          "location": "Santiago del Estero, Argentina",
+          "source": "Gendarmería Nacional Argentina / Canal26",
+          "url": "https://www.canal26.com/policiales/2026/09/22/en-santiago-del-estero-el-perro-detector-de-narcoticos-yasi-marco-un-vehiculo-y-hallaron-mas-de-53-kilos-de-marihuana/",
+          "seizures": [
+            { "drug": "cannabis", "kg": 53, "place": "Argentina" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Hong Kong national arrested with 350 kilos of crystal meth staged for export from Bangkok",
+          "body": "Thai Crime Suppression Division officers raided a house in Bangkok's Min Buri district on Sept. 22 after a tip about a Hong Kong-run storage operation, finding about 350 kilograms of crystal methamphetamine along with packaging equipment. A 26-year-old Hong Kong man, who told police he had arrived on a tourist visa from Kuala Lumpur just over a week earlier, was arrested; officers valued the haul at roughly 700 million baht.",
+          "quantity": "350 kg methamphetamine",
+          "location": "Bangkok, Thailand",
+          "arrests": "1 arrested",
+          "source": "Royal Thai Police / The Pattaya News, Bangkok Post",
+          "url": "https://thepattayanews.com/2026/09/22/hong-kong-man-26-arrested-in-bangkok-after-police-seize-350kg-of-crystal-meth-worth-700-million-baht/",
+          "seizures": [
+            { "drug": "methamphetamine", "kg": 350, "place": "Thailand" }
+          ]
+        },
+        {
+          "headline": "'Project Ghostwire' dismantles a Canadian dark-web drug marketplace, seizing nine kinds of narcotics",
+          "body": "York Regional Police announced Sept. 22 the results of a months-long probe, launched in January, into a dark-web and encrypted-app marketplace called 'Icy White North' that was run out of a Mississauga penthouse and served customers across Canada. Five suspects from the Greater Toronto Area face 81 charges after investigators seized about $3 million in drugs and luxury goods, including 5.5 kilograms of fentanyl, 5.5 kilograms of methamphetamine, 5.4 kilograms of MDMA, 4.5 kilograms of ketamine, roughly 3.7 kilograms of cocaine and crack combined, 700 grams of heroin, and thousands of pills of LSD, Xanax, oxycodone and hydromorphone.",
+          "quantity": "30+ kg mixed drugs",
+          "location": "Mississauga / York Region, Ontario, Canada",
+          "arrests": "5 arrested",
+          "source": "York Regional Police / CBC News",
+          "url": "https://www.cbc.ca/news/canada/toronto/york-police-arrest-5-dismantle-criminal-drug-network-dark-web-operation-9.7353674",
+          "seizures": [
+            { "drug": "fentanyl", "kg": 5.5, "place": "Canada" },
+            { "drug": "methamphetamine", "kg": 5.5, "place": "Canada" },
+            { "drug": "MDMA", "kg": 5.4, "place": "Canada" },
+            { "drug": "ketamine", "kg": 4.5, "place": "Canada" },
+            { "drug": "cocaine", "kg": 3.705, "place": "Canada" },
+            { "drug": "heroin", "kg": 0.7, "place": "Canada" }
+          ]
+        },
+        {
+          "headline": "Thai highway police seize 7.6 million meth pills hidden inside a generator",
+          "body": "Highway police in Nakhon Sawan province broke up a smuggling network overnight into Sept. 22, finding 7.6 million methamphetamine pills concealed inside a generator. Four suspected gang members were arrested at separate locations, along with two pickup trucks and an SUV used to move the shipment.",
+          "quantity": "7.6M meth pills",
+          "location": "Nakhon Sawan, Thailand",
+          "arrests": "4 arrested",
+          "source": "Royal Thai Police / Bangkok Post",
+          "url": "https://www.bangkokpost.com/thailand/general/3324143/76m-speed-pills-hidden-in-generator-seized-in-nakhon-sawan"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}

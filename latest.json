@@ -1,146 +1,141 @@
 {
- "date": "2026-09-22",
- "dateLabel": "Tuesday, September 22, 2026",
- "window": "Covering reporting published since the Sept 21 edition, roughly Sept 20-22. No new SOUTHCOM vessel strike was found in this window beyond the Sept 19 Caribbean strike already logged Sept 20, so the campaign's running total of 69 strikes and at least 231 deaths carries forward unchanged; instead, the major development was a Sept 21 United Nations report finding reasonable grounds that the strike campaign constitutes crimes against humanity, covered in the ongoing section. Several candidates were checked and dropped: a widely surfaced claim of a 3.2-million-pill Thai methamphetamine seizure in Lampang/Chiang Rai on Sept 21 could not be traced to any real article and appears to be a search-summary fabrication conflating unrelated older Chiang Rai Times seizure stories, so it was excluded entirely; a Brazilian 'largest cocaine seizure in history' Operation Timber Shield story recirculating this week actually dates to June 2026, not September; a Tijuana/Otay Mesa 'trailero' meth-and-fentanyl arrest dated Sept 21 matches the same tonnage and fentanyl weight as the Sept 19 Tijuana customs-dog seizure already logged, so it was treated as the same event rather than new; a Washington County, Florida meth bust ('Operation King of the Hill') was announced Sept 11-12, outside this window; a Martin County, Florida cocaine bust with kilogram figures was from mid-August; and Ecuador's Manta curfew campaign (2.9 t cocaine, already logged Sept 20-21) had only a vague three-day cumulative figure this window with no clearly new, separately countable seizure, so nothing further was added to the tally for it. Colombia's Turbo/Antioquia coast guard capture and the Colombian Navy's two-Caribbean-operation announcement were confirmed via multiple outlets to be the same combined event (4.69 t, 8 people) rather than two separate seizures.",
+ "date": "2026-09-23",
+ "dateLabel": "Wednesday, September 23, 2026",
+ "window": "Covering reporting published since the Sept 22 edition, roughly Sept 21-23. No new SOUTHCOM vessel strike was found in this window, so the campaign's running total of 69 strikes and at least 231 deaths carries forward unchanged and no ongoing-section item was needed; a Sept 2 congressional statement criticizing the campaign (Rep. Adam Smith) predates this window and was left out as stale. Several other candidates were checked and dropped: a Nigerian NDLEA seizure of 262.6 kg of skunk at the Abuja-Kaduna tollgate, attributed to 'Monday, September 22' in search summaries, checks out by weekday to September 22, 2025, not 2026, and was excluded as a stale story resurfacing in search results; Australia's AFP 'Operation Minjiang' 2.7-tonne cocaine bust actually dates to June 2026; a Chile-Bolivia dispute over a 108-tonne cocaine/ketamine seizure traces back to a June 2026 operation, not a new one; a Mississippi Delta sheriffs' drug-bribery indictment dates to October 2025; a Bolivian scandal over anti-narcotics police allegedly partying in a house seized from trafficker Sebastian Marset was judged a police-conduct story rather than drug-trafficking news and left out; and a widely-cited $2 million El Paso CBP narcotics seizure turned out to be a 2021 press release recirculating in search results. Colombia's Barranquilla 'Plan Cazador' figure (417 arrests, 274 kg of drugs) is a running September total rather than a discrete new event and was left out to avoid double-counting. The Sept 21 Colombian Navy 4.69-tonne Caribbean seizure and Sept 21 Coast Guard Port Everglades offload were already logged in the Sept 22 edition.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 10,
  "sectionCounts": [
   {
    "id": "federal",
    "name": "National / Federal (US)",
-   "count": 2
+   "count": 1
   },
   {
    "id": "local",
    "name": "Local US Arrests",
-   "count": 1
+   "count": 2
   },
   {
    "id": "south-america",
    "name": "South America",
-   "count": 3
+   "count": 4
   },
   {
    "id": "world",
    "name": "Rest of World",
    "count": 3
-  },
-  {
-   "id": "ongoing",
-   "name": "Ongoing Stories with New Developments",
-   "count": 1
   }
  ],
  "stories": [
   {
    "section": "federal",
    "sectionName": "National / Federal (US)",
-   "headline": "Coast Guard offloads $57 million in cocaine and marijuana in Port Everglades",
-   "summary": "The crews of the medium endurance cutter USCGC Escanaba and the fast response cutter USCGC Richard Dixon offloaded roughly 7,250 pounds of cocaine and 2,082 pounds of marijuana at…",
-   "location": "Port Everglades, Florida",
-   "quantity": "7,250 lbs cocaine, 2,082 lbs marijuana",
-   "arrests": "",
-   "source": "U.S. Coast Guard / Baird Maritime",
-   "url": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/us-coast-guard-offloads-over-57m-in-drugs-interdicted-in-caribbean-sea"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Month-long 'Operation United Resolve' nets over 140 arrests and 300 warrants in Lynchburg, Virginia",
-   "summary": "Local, state and federal law enforcement, coordinated by the U.S. Marshals Service, the FBI and federal prosecutors, announced the results of a month-long Lynchburg-area crackdown…",
-   "location": "Lynchburg, Virginia",
-   "quantity": "25 g fentanyl, 29 firearms",
-   "arrests": "140+ arrested",
-   "source": "U.S. Marshals Service / WSLS, WDBJ7",
-   "url": "https://www.wsls.com/news/local/2026/09/21/lburg-drug-bust-operation-presser/"
+   "headline": "US Attorney's 'Summer Crackdown' nets 60 federal indictments and 160 kilos of drugs in DC",
+   "summary": "U.S. Attorney Jeanine Pirro announced results on Sept. 21 of a summer-long, multi-agency enforcement push in Washington, D.C., which produced federal indictments against more than…",
+   "location": "Washington, D.C.",
+   "quantity": "160 kg drugs, 533 firearms",
+   "arrests": "60+ indicted",
+   "source": "U.S. Attorney's Office for D.C.",
+   "url": "https://wjla.com/news/local/usadc-attorney-jeanine-pirro-touts-results-of-summer-crackdown-in-dc-targeting-violent-crime-narcotics-meth-cocaine-gang-members-september-2026"
   },
   {
    "section": "local",
    "sectionName": "Local US Arrests",
-   "headline": "Pennsylvania task force's 'Eastern Alleghenies Initiative' nets 45 arrests, 54 guns and 30 pounds of cocaine",
-   "summary": "Pennsylvania Attorney General Dave Sunday, the Allegheny County District Attorney's Narcotics Enforcement Team and police departments from Pittsburgh, Monroeville, Penn Hills and…",
-   "location": "Allegheny County, Pennsylvania",
-   "quantity": "30 lbs cocaine, 54 firearms",
-   "arrests": "45 arrested",
-   "source": "PA Office of Attorney General / Pittsburgh Post-Gazette",
-   "url": "https://www.wpxi.com/news/local/cocaine-comeback-investigators-seize-30-pounds-during-allegheny-county-sweep/TQV6MLUZUNECPGWEKZP2GJRRGU/"
+   "headline": "Lima, Ohio SWAT raid turns up 2.5 kilograms of methamphetamine and $18,000 in cash",
+   "summary": "The Allen County Sheriff's Office SWAT team and the West Central Ohio Crime Task Force served a search warrant Sept.",
+   "location": "Lima, Ohio",
+   "quantity": "2.5 kg methamphetamine",
+   "arrests": "1 arrested",
+   "source": "Allen County Sheriff's Office / Hometown Stations",
+   "url": "https://www.hometownstations.com/2026/09/22/one-man-custody-following-multi-agency-drug-raid-harding-highway/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Worcester, Massachusetts vice raid breaks up a Main South crack and fentanyl operation",
+   "summary": "Worcester police vice detectives and the gang unit searched a Preston Street apartment on Sept.",
+   "location": "Worcester, Massachusetts",
+   "quantity": "78 g crack, 33 g fentanyl",
+   "arrests": "4 charged",
+   "source": "Worcester Police Department / Newport Dispatch",
+   "url": "https://www.newportdispatch.com/2026/09/22/four-arrested-on-drug-trafficking-charges-in-worcester/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombian Navy and Coast Guard seize 4.69 tonnes of cocaine and capture 8 people, including a Honduran, off Antioquia",
-   "summary": "The Colombian Navy intercepted two vessels in the Caribbean on Sept. 21: a boat out of a Turbo, Antioquia coast guard station carrying 3,834 kilograms of cocaine hydrochloride in…",
-   "location": "Turbo, Antioquia and Caribbean waters, Colombia",
-   "quantity": "4.69 t cocaine",
-   "arrests": "8 captured",
-   "source": "Colombian Navy / El Tiempo, Infobae Colombia",
-   "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/armada-incauto-cerca-de-4-7-toneladas-de-cocaina-en-dos-operaciones-en-el-caribe-3587756"
+   "headline": "Ecuador finds a tonne of cocaine hidden in export machinery bound for Guatemala",
+   "summary": "Ecuadorian police inspecting a shipping container at the port of Posorja, near Guayaquil, on Sept.",
+   "location": "Posorja, Ecuador",
+   "quantity": "~1 t cocaine",
+   "arrests": "1 arrested",
+   "source": "Policía Nacional del Ecuador / Infobae",
+   "url": "https://www.infobae.com/america/agencias/2026/09/22/ecuador-incauta-una-tonelada-de-cocaina-oculta-en-maquinaria-que-iba-a-guatemala/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Brazilian customs and federal police seize 15 tonnes of cocaine-refining solvent at the Bolivian border",
-   "summary": "Brazil's Federal Revenue Service and Federal Police stopped a truck at the Corumbá, Mato Grosso do Sul border crossing with Bolivia on Sept.",
-   "location": "Corumbá, Mato Grosso do Sul, Brazil",
-   "quantity": "15 t chemical precursor",
+   "headline": "Brazilian highway police pull 975 kilos of cocaine, paste and marijuana from a Mato Grosso do Sul truck",
+   "summary": "Federal Highway Police stopped a truck hauling iron ore at kilometer 600 of BR-262 in Miranda, Mato Grosso do Sul, before dawn on Sept.",
+   "location": "Miranda, Mato Grosso do Sul, Brazil",
+   "quantity": "975 kg mixed drugs",
+   "arrests": "1 detained",
+   "source": "Polícia Rodoviária Federal / A Gazeta de Dourados",
+   "url": "https://www.agazetadedourados.com.br/noticias/policia/fiscalizacao-apreende-quase-uma-tonelada-de-drogas-em-ms/22/09/2026/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Brazilian federal police freeze $50 million tied to a Paraguay-linked cocaine pipeline",
+   "summary": "Federal Police launched 'Operação Suécia XXXV' on Sept. 22, serving 15 search-and-seizure warrants across Mato Grosso do Sul, São Paulo and Paraná and freezing up to 50 million…",
+   "location": "Mato Grosso do Sul, São Paulo and Paraná, Brazil",
+   "quantity": "R$50M in assets frozen",
    "arrests": "",
-   "source": "Receita Federal / Polícia Federal / Campo Grande News",
-   "url": "https://www.campograndenews.com.br/cidades/interior/receita-federal-retem-15-toneladas-de-solvente-usado-no-refino-de-cocaina"
+   "source": "Polícia Federal",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/09/pf-deflagra-operacao-contra-organizacao-criminosa-suspeita-de-trafico-transnacional-de-cocaina"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Argentine Naval Prefecture seizes 254 kilos of marijuana in two Misiones river operations",
-   "summary": "Argentina's Prefectura Naval intercepted two separate marijuana shipments moving along the Paraná River in Misiones province on Sept.",
-   "location": "Misiones, Argentina",
-   "quantity": "254 kg cannabis",
+   "headline": "Argentine gendarmerie dog sniffs out 53 kilos of marijuana in a Santiago del Estero vehicle",
+   "summary": "A Gendarmería Nacional detection dog named Yasi flagged a vehicle on Route 16 in Santiago del Estero province on Sept.",
+   "location": "Santiago del Estero, Argentina",
+   "quantity": "53 kg cannabis",
    "arrests": "",
-   "source": "Prefectura Naval Argentina",
-   "url": "https://www.argentina.gob.ar/noticias/prefectura-incauto-mas-de-500-dosis-de-estupefacientes-en-el-marco-del-plan-bandera"
+   "source": "Gendarmería Nacional Argentina / Canal26",
+   "url": "https://www.canal26.com/policiales/2026/09/22/en-santiago-del-estero-el-perro-detector-de-narcoticos-yasi-marco-un-vehiculo-y-hallaron-mas-de-53-kilos-de-marihuana/"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Spanish-led 'Operation Doncella' seizes 2.1 tonnes of cocaine from a yacht 400 miles off Galicia",
-   "summary": "Spain's Tax Agency customs surveillance service, working with French customs, the U.S.",
-   "location": "off Galicia, Spain",
-   "quantity": "2.1 t cocaine",
+   "headline": "Hong Kong national arrested with 350 kilos of crystal meth staged for export from Bangkok",
+   "summary": "Thai Crime Suppression Division officers raided a house in Bangkok's Min Buri district on Sept.",
+   "location": "Bangkok, Thailand",
+   "quantity": "350 kg methamphetamine",
+   "arrests": "1 arrested",
+   "source": "Royal Thai Police / The Pattaya News, Bangkok Post",
+   "url": "https://thepattayanews.com/2026/09/22/hong-kong-man-26-arrested-in-bangkok-after-police-seize-350kg-of-crystal-meth-worth-700-million-baht/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "'Project Ghostwire' dismantles a Canadian dark-web drug marketplace, seizing nine kinds of narcotics",
+   "summary": "York Regional Police announced Sept. 22 the results of a months-long probe, launched in January, into a dark-web and encrypted-app marketplace called 'Icy White North' that was…",
+   "location": "Mississauga / York Region, Ontario, Canada",
+   "quantity": "30+ kg mixed drugs",
    "arrests": "5 arrested",
-   "source": "Spanish Tax Agency / Euronews",
-   "url": "https://www.euronews.com/my-europe/2026/09/21/three-latin-americans-and-an-albanian-held-with-2-tonnes-of-cocaine-on-yacht-off-galicia"
+   "source": "York Regional Police / CBC News",
+   "url": "https://www.cbc.ca/news/canada/toronto/york-police-arrest-5-dismantle-criminal-drug-network-dark-web-operation-9.7353674"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Pakistani excise officers seize 960 kilos of hashish and opium after a gunman flees a Peshawar checkpoint",
-   "summary": "Khyber Pakhtunkhwa's Excise Intelligence Bureau stopped a Toyota Revo at a checkpoint near Jahaz Chowk in Peshawar overnight into Sept.",
-   "location": "Peshawar, Pakistan",
-   "quantity": "720 kg hashish, 240 kg opium",
-   "arrests": "",
-   "source": "KP Excise, Taxation and Narcotics Control Department / The Nation",
-   "url": "https://www.nation.com.pk/22-Sep-2026/kp-excise-dept-seizes-960kg-narcotics-peshawar-operation"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Dominican, Dutch and US forces seize 587 kilos of cocaine in one of the Dominican Republic's farthest offshore interdictions",
-   "summary": "Joint Interagency Task Force South coordinated with Dominican Republic and Netherlands forces to intercept a go-fast vessel far off the Dominican coast on Sept.",
-   "location": "Caribbean Sea, off the Dominican Republic",
-   "quantity": "587 kg cocaine",
-   "arrests": "3 detained",
-   "source": "JIATF-South / The Tribune",
-   "url": "https://www.tribuneindia.com/news/caribbean-operation/us-led-task-force-claims-587-kg-cocaine-seized-3-individuals-detained-in-joint-caribbean-operation"
-  },
-  {
-   "section": "ongoing",
-   "sectionName": "Ongoing Stories with New Developments",
-   "headline": "UN investigator finds 'reasonable grounds' that the SOUTHCOM boat-strike campaign amounts to crimes against humanity",
-   "summary": "UN Special Rapporteur Ben Saul reported on Sept. 21 that the year-long US military campaign against suspected drug-trafficking vessels — 68 strikes killing at least 223 people…",
-   "location": "",
-   "quantity": "",
-   "arrests": "",
-   "source": "UN Human Rights Council / UPI, Al Jazeera",
-   "url": "https://www.upi.com/Top_News/US/2026/09/21/un-investigator-attacks-on-alleged-drug-boats-may-be-crimes-against-humanity/3541790022151"
+   "headline": "Thai highway police seize 7.6 million meth pills hidden inside a generator",
+   "summary": "Highway police in Nakhon Sawan province broke up a smuggling network overnight into Sept. 22, finding 7.6 million methamphetamine pills concealed inside a generator.",
+   "location": "Nakhon Sawan, Thailand",
+   "quantity": "7.6M meth pills",
+   "arrests": "4 arrested",
+   "source": "Royal Thai Police / Bangkok Post",
+   "url": "https://www.bangkokpost.com/thailand/general/3324143/76m-speed-pills-hidden-in-generator-seized-in-nakhon-sawan"
   }
  ]
 }
