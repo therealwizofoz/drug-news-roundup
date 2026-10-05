@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-05",
+  "window": "Catch-up edition. The site last published on Sept 23, so this covers significant reporting from Sept 23 through Oct 5, a gap of about 12 days instead of the usual 24 hours; stories already in the dedupe log are excluded. Several search hits were dropped as stale: a Bronx fentanyl bust from April 2026, a European 8-tonne cocaine bust from 2024, a Central New York fentanyl case from 2025, and Asheville seizures from April. Strike totals differ by outlet: CBS counts 70 strikes and 235 dead, UPI 71 and 238.",
+  "sections": [
+    {
+      "id": "federal",
+      "name": "National / Federal (US)",
+      "stories": [
+        {
+          "headline": "US boat strike in the Caribbean kills four, taking the campaign to about 70 strikes and 235 dead",
+          "body": "SOUTHCOM said Joint Task Force Western Hemisphere hit a go-fast boat in the Caribbean on Oct. 4, killing four; no evidence of drugs aboard or the victims' identities was released. It was the first strike since the UN's Ben Saul said on Sept. 20 there were reasonable grounds to see the campaign as extrajudicial killings. CBS counts at least 235 dead in 70 strikes since September 2025, while UPI tallies 71 strikes and 238 dead, and the ACLU is pursuing a case alleging some victims were fishermen and farmers.",
+          "quantity": "4 killed",
+          "location": "Caribbean Sea",
+          "source": "CBS News / UPI / SOUTHCOM",
+          "url": "https://www.cbsnews.com/news/us-strike-alleged-drug-smuggling-boat-caribbean-4-dead-southcom/"
+        },
+        {
+          "headline": "Treasury sanctions 21 people and 25 entities in the Sinaloa Cartel's Los Mayos faction",
+          "body": "OFAC announced the designations on Oct. 1 against the Los Mayos wing of the Sinaloa Cartel, covering alleged fentanyl traffickers, money launderers and facilitators who relied on corrupt local officials. The listings freeze US assets and bar Americans from dealing with those named.",
+          "quantity": "21 people, 25 entities",
+          "location": "Sinaloa, Mexico",
+          "source": "US Treasury / The Yucatan Times",
+          "url": "https://theyucatantimes.com/2026/10/u-s-treasury-targets-sinaloa-cartel-faction-in-sweeping-corruption-and-fentanyl-sanctions/"
+        },
+        {
+          "headline": "Two Dominican drug agents indicted in Miami after a DEA sting that lured them to Florida",
+          "body": "A Southern District of Florida grand jury charged DNCD officers Deny Sepúlveda de León and Oliver Guevara Rodríguez on Oct. 1 with conspiring to distribute and attempting to distribute five kilograms or more of cocaine for import into the US. They were arrested Sept. 28 after Dominican media said they were invited to Miami for a training course.",
+          "quantity": "5 kg+ cocaine charged",
+          "location": "Miami, Florida",
+          "arrests": "2 charged",
+          "source": "Rio Times",
+          "url": "https://riotimesonline.com/dominican-republic-drug-agents-miami-cocaine-2026"
+        },
+        {
+          "headline": "Charlotte-area task force indicts two Mexican nationals over 60 kilos of meth and fentanyl",
+          "body": "Martin Hernandez Nunez, 36, and Juan Carlos Mojarro Sanchez, 38, were indicted in the Western District of North Carolina after a Homeland Security Task Force probe that ended in May. Agents recovered about 60 kg of crystal meth and fentanyl in total, plus over $66,000 in alleged proceeds; the announcement came Sept. 23.",
+          "quantity": "~60 kg meth and fentanyl",
+          "location": "Charlotte, North Carolina",
+          "arrests": "2 indicted",
+          "source": "US Attorney's Office, W.D.N.C.",
+          "url": "https://legacy.sba.gov/article/2026/09/23/two-illegal-aliens-mexico-indicted-after-homeland-security-task-force-investigation-leads-seizure"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "Local US Arrests",
+      "stories": [
+        {
+          "headline": "Alhambra police K-9 finds about 200 kilos of cocaine in boxes inside an SUV",
+          "body": "Alhambra, California officers stopped an SUV on Oct. 4 on Valley Boulevard near the 710 Freeway, and a dog alerted on cardboard boxes holding roughly 440 pounds (about 200 kg) of cocaine. Driver Julio Rangel of Huntington Park was arrested after giving shifting explanations for the cargo.",
+          "quantity": "~200 kg cocaine",
+          "location": "Alhambra, California",
+          "arrests": "1 arrested",
+          "source": "Fox News / Alhambra Police",
+          "url": "https://www.foxnews.com/us/california-k-9-otis-helps-police-seize-440-pounds-cocaine-alhambra-traffic-stop",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 200,
+              "place": "California"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "stories": [
+        {
+          "headline": "Colombian police dismantle an ELN-linked cocaine lab near Cúcuta with 1.1 tonnes of product",
+          "body": "A police-army operation on Oct. 3 in rural Cúcuta, Norte de Santander, hit a lab tied to the ELN's Frente Urbano Reinaldo Ardila, seizing 1,120 kg of cocaine and 125 kg of base paste plus chemicals. Eight suspects were arrested, including an alleged operational leader; the lab could reportedly make two tonnes a month.",
+          "quantity": "1,120 kg cocaine, 125 kg base",
+          "location": "Cúcuta, Colombia",
+          "arrests": "8 arrested",
+          "source": "TDI Colombia",
+          "url": "https://tdicolombia.com.co/2026/10/03/la-policia-incauta-una-tonelada-de-cocaina-en-zona-rural-de-cucuta-y-desarticula-una-red-criminal-tras-meses-de-vigilancia/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 1120,
+              "place": "Colombia"
+            },
+            {
+              "drug": "coca base",
+              "kg": 125,
+              "place": "Colombia"
+            }
+          ]
+        },
+        {
+          "headline": "Colombian Navy stops a river boat carrying 1.5 tonnes of cocaine on the Meta toward Venezuela",
+          "body": "On Sept. 26 the Navy intercepted a boat on the Río Meta near the Venezuelan border carrying 1,498 kg of cocaine in 38 packages; two men aboard fled. Authorities said the load came from the La Primavera corridor and may have been meant for the ELN's eastern front.",
+          "quantity": "1,498 kg cocaine",
+          "location": "Río Meta, Colombia",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/america/agencias/2026/09/26/el-ejercito-colombiano-intercepta-15-toneladas-de-cocaina-en-un-rio-cerca-de-venezuela/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 1498,
+              "place": "Colombia"
+            }
+          ]
+        },
+        {
+          "headline": "Colombia captures the wife and daughter of Ecuador's Choneros boss Fito over a $25 million laundering case",
+          "body": "Colombian and Ecuadorian authorities, with FBI help, arrested Inda Peñarrieta and Michelle Macías in Sabana de Torres, Santander on Sept. 27 under Interpol notices in Ecuador's \"Blanqueo Fito\" case. They were expelled and jailed at La Roca prison in Guayaquil on Sept. 29; neither is convicted.",
+          "quantity": "$25M laundering case",
+          "location": "Santander, Colombia",
+          "arrests": "2 arrested",
+          "source": "Rio Times / InSight Crime",
+          "url": "https://www.riotimesonline.com/colombia-fito-wife-daughter-arrest-2026/"
+        },
+        {
+          "headline": "Ecuador finds 748 kilos of cocaine mixed into cement bound for Turkey at Posorja",
+          "body": "Police Operation Fénix 0546 intercepted the cargo at the Posorja port terminal, announced Oct. 1. A separate Oct. 1 Posorja find turned up 37 packages of cocaine in a container for Germany and led to the detention of the exporter's representative.",
+          "quantity": "748 kg cocaine",
+          "location": "Posorja, Ecuador",
+          "source": "El Diario (Ecuador) / Infobae",
+          "url": "https://www.eldiario.ec/seguridad/policia-nacional-incauta-748-kilos-de-cocaina-ocultos-en-cargamento-de-cemento-con-destino-a-turquia-01102026/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 748,
+              "place": "Ecuador"
+            }
+          ]
+        },
+        {
+          "headline": "Brazilian highway police pull more than a tonne of drugs from trucks in Rondônia and Bahia",
+          "body": "PRF officers on Oct. 4 stopped a truck on BR-364 in Presidente Médici, Rondônia carrying about 625 kg of drugs including 107.7 kg of cocaine and 47.7 kg of base paste. On Oct. 5 another stop on BR-116 in Vitória da Conquista, Bahia yielded about 522 kg, including 78 kg of cocaine and 10.5 kg of paste.",
+          "quantity": "~1.15 t drugs",
+          "location": "Rondônia and Bahia, Brazil",
+          "source": "Blog do Léo Santos / Jornal Info Rondônia",
+          "url": "https://blogdoleosantos.com.br/2026/10/05/prf-apreende-mais-de-520-kg-de-drogas-na-br-116-em-vitoria-da-conquista",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 185.7,
+              "place": "Brazil"
+            },
+            {
+              "drug": "coca base",
+              "kg": 58.2,
+              "place": "Brazil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "Rest of World",
+      "stories": [
+        {
+          "headline": "Spanish customs find 862 kilos of cocaine in an Ecuadorian sugar container at Valencia",
+          "body": "Officers selected the container on Sept. 27 and found 862 one-kilo bricks in 32 net-wrapped bundles stacked on the sugar, which had come from Guayaquil. Investigators suspect the load was hoisted aboard at sea with help from crew; no arrests were reported.",
+          "quantity": "862 kg cocaine",
+          "location": "Valencia, Spain",
+          "source": "The Olive Press",
+          "url": "https://www.theolivepress.es/spain-news/2026/10/05/valencia-port-cocaine-seizure/",
+          "seizures": [
+            {
+              "drug": "cocaine",
+              "kg": 862,
+              "place": "Spain"
+            }
+          ]
+        },
+        {
+          "headline": "Belgium, France and the Netherlands arrest 21 in a ring that moved cocaine on commercial flights",
+          "body": "A Eurojust-coordinated action day on Sept. 30 saw 27 searches and 21 arrests, plus over €57,000 in cash, crypto wallets, eight vehicles and two guns. The case began with 30 kg of cocaine found in bags at Brussels Airport, later joined by a 55 kg cocaine and 30 kg cannabis seizure.",
+          "quantity": "85 kg cocaine, 30 kg cannabis",
+          "location": "Belgium / France / Netherlands",
+          "arrests": "21 arrested",
+          "source": "Eurojust",
+          "url": "https://www.eurojust.europa.eu/news/drug-traffickers-using-commercial-flights-halted-international-coalition"
+        },
+        {
+          "headline": "Dominican forces seize 749 packages from two go-fast boats off Baní, with DEA support",
+          "body": "The DNCD and Navy intercepted two boats off Baní on Oct. 4, one with 281 packages and one with 468, and detained four Dominicans; weights await forensic testing. SOUTHCOM-linked agencies and the DEA assisted, and a monkey was found aboard one boat.",
+          "quantity": "749 packages",
+          "location": "Baní, Dominican Republic",
+          "arrests": "4 detained",
+          "source": "Noticias SIN / Infobae",
+          "url": "https://noticiassin.com/pais/nacional/2026/10/04/interceptan-dos-lanchas-con-749-paquetes-de-cocaina-en-bani-2134879"
+        },
+        {
+          "headline": "Panama's Senan stops a speedboat with 2,852 packages south of Punta Burica",
+          "body": "On Oct. 4 under Operation Protective Shield, the boat rammed a patrol vessel before being stopped and began taking on water. Three crew were arrested; Senan has seized 57,334 packages in 87 operations this year.",
+          "quantity": "2,852 packages",
+          "location": "Chiriquí, Panama",
+          "arrests": "3 arrested",
+          "source": "Newsroom Panama",
+          "url": "https://newsroompanama.com/2026/10/04/2852-packages-of-suspected-drugs-seized-in-chiriqui-and-three-arrests/"
+        }
+      ]
+    },
+    {
+      "id": "ongoing",
+      "name": "Ongoing Stories with New Developments",
+      "stories": []
+    }
+  ]
+}
