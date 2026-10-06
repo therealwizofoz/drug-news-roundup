@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-06",
+  "window": "Past 24 hours. A light day: the Oct. 4 boat strike and most other recent items were already published in the Oct. 5 edition.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"CBP finds 47 pounds of cocaine in 18 packages inside a car at the Laredo bridge","body":"Officers at the Juarez-Lincoln Bridge sent a Nissan Rogue to secondary inspection on Sept. 30, where a dog and a scanner revealed 18 packages of cocaine worth about $628,000. The Mexican woman driving and a US citizen passenger were taken into custody, and Homeland Security Investigations is leading the case.","quantity":"21 kg cocaine","location":"Laredo, Texas","arrests":"2 arrested","source":"Fox 7 Austin / CBP","url":"https://www.fox7austin.com/news/two-arrested-after-628k-cocaine-bust-laredo-port-entry","seizures":[{"drug":"cocaine","kg":21.35,"place":"Texas"}]}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian airport operation nets 4.9 tonnes of cocaine in September, including 3.5 tonnes hidden in beer","body":"Colombia's National Police announced on Oct. 6 the results of Operation Jotam, a month of airport checks that yielded 4,921.5 kg of cocaine and 96.7 kg of marijuana and 32 arrests. The largest finds were 3,500 kg of cocaine concealed in beer bound for Toledo, Spain, and 1,211 kg mixed with coffee headed to Barcelona, with support from US Homeland Security Investigations.","quantity":"4.9 t cocaine","location":"Colombian airports","arrests":"32 arrested","source":"Infobae","url":"https://www.infobae.com/colombia/2026/10/06/cocaina-oculta-en-cafe-y-cervezas-y-marihuana-en-dulces-y-munecos-lo-que-dejo-la-incautacion-de-cerca-de-5-toneladas-de-droga-en-colombia/","seizures":[{"drug":"cocaine","kg":4921.5,"place":"Colombia"},{"drug":"cannabis","kg":96.7,"place":"Colombia"}]},
+      {"headline":"Police seize 1.4 tonnes of cocaine near Palmira and capture an alleged Clan del Golfo lieutenant","body":"Colombia's DIJIN, working with prosecutors and INTERPOL, found 1,412 kg of cocaine hydrochloride at a rural property in Palmira, Valle del Cauca, along with a tractor-trailer, a firearm and 43.5 million pesos. Santiago Rubiano Laverde, alias 'Transportador', was arrested as a suspected member of the group's Valle sub-structure; the load was headed for Central and North America.","quantity":"1.4 t cocaine","location":"Palmira, Colombia","arrests":"1 arrested","source":"El País (Cali)","url":"https://www.elpais.com.co/judicial/incautan-mas-de-14-toneladas-de-cocaina-en-zona-rural-de-palmira-capturan-a-presunto-cabecilla-del-clan-del-golfo-0556.html","seizures":[{"drug":"cocaine","kg":1412,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
