@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-08",
+  "window": "Past 24 hours. A very quiet day: searches returned no new, verifiable items beyond those already published in earlier editions.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
