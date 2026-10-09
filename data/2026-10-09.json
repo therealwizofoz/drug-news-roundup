@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-09",
+  "window": "Past 24 hours. Search indexes were thin again today; only a handful of verifiable items were new.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"Operation Skid Row: 23 of 28 charged defendants arrested in a federal sweep of Los Angeles street-level fentanyl and meth dealing","body":"The FBI, DEA, LAPD and IRS Criminal Investigation served warrants across Los Angeles County after charging 28 people with distributing fentanyl and methamphetamine. Prosecutors say some sellers posed as homeless residents or social workers and sold from tents; no drug weights were reported. First Assistant U.S. Attorney Bill Essayli called it \"just the beginning.\"","url":"https://san.com/cc/skid-row-drug-bust/","location":"Los Angeles, California","arrests":"23 arrested","source":"Straight Arrow News"}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[
+      {"headline":"Suspected cartel stash house in Barboursville, West Virginia yields 15 pounds of cocaine and 12 pounds of fentanyl","body":"A DEA-led task force with state and county partners found the narcotics, valued above $1.5 million, at a house tied to a Mexican cartel. Investigators announced the haul on October 8 and said no arrest information would be released yet.","url":"https://wdtv.com/2026/10/08/local-15-million-drug-bust-tied-mexican-cartel","quantity":"7 kg cocaine, 5.7 kg fentanyl","location":"Barboursville, West Virginia","source":"WDTV","seizures":[{"drug":"cocaine","kg":7.03,"place":"West Virginia"},{"drug":"fentanyl","kg":5.67,"place":"West Virginia"}]},
+      {"headline":"Memphis detectives hit two homes, recovering 7 pounds of fentanyl and more than 6,500 oxycodone pills","body":"Warrants served on the morning of October 8 turned up the fentanyl brick, 6,511 oxycodone pills, marijuana, handguns and a machine-gun conversion device. Gerrell Childress, who allegedly tried to flee through a kitchen window, and Edward Lindsey were detained on intent-to-sell and weapons charges.","url":"https://www.actionnews5.com/2026/10/09/7-pounds-fentanyl-6k-oxycodone-pills-seized-drug-bust/","quantity":"3.2 kg fentanyl, 6,511 pills","location":"Memphis, Tennessee","arrests":"2 detained","source":"Action News 5","seizures":[{"drug":"fentanyl","kg":3.18,"place":"Tennessee"}]}
+    ]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

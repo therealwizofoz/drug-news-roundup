@@ -1,9 +1,54 @@
 {
- "date": "2026-10-08",
- "dateLabel": "Thursday, October 8, 2026",
- "window": "Past 24 hours. A very quiet day: searches returned no new, verifiable items beyond those already published in earlier editions.",
+ "date": "2026-10-09",
+ "dateLabel": "Friday, October 9, 2026",
+ "window": "Past 24 hours. Search indexes were thin again today; only a handful of verifiable items were new.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 0,
- "sectionCounts": [],
- "stories": []
+ "storyCount": 3,
+ "sectionCounts": [
+  {
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 1
+  },
+  {
+   "id": "local",
+   "name": "Local US Arrests",
+   "count": 2
+  }
+ ],
+ "stories": [
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Operation Skid Row: 23 of 28 charged defendants arrested in a federal sweep of Los Angeles street-level fentanyl and meth dealing",
+   "summary": "The FBI, DEA, LAPD and IRS Criminal Investigation served warrants across Los Angeles County after charging 28 people with distributing fentanyl and methamphetamine.",
+   "location": "Los Angeles, California",
+   "quantity": "",
+   "arrests": "23 arrested",
+   "source": "Straight Arrow News",
+   "url": "https://san.com/cc/skid-row-drug-bust/"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Suspected cartel stash house in Barboursville, West Virginia yields 15 pounds of cocaine and 12 pounds of fentanyl",
+   "summary": "A DEA-led task force with state and county partners found the narcotics, valued above $1.5 million, at a house tied to a Mexican cartel.",
+   "location": "Barboursville, West Virginia",
+   "quantity": "7 kg cocaine, 5.7 kg fentanyl",
+   "arrests": "",
+   "source": "WDTV",
+   "url": "https://wdtv.com/2026/10/08/local-15-million-drug-bust-tied-mexican-cartel"
+  },
+  {
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Memphis detectives hit two homes, recovering 7 pounds of fentanyl and more than 6,500 oxycodone pills",
+   "summary": "Warrants served on the morning of October 8 turned up the fentanyl brick, 6,511 oxycodone pills, marijuana, handguns and a machine-gun conversion device.",
+   "location": "Memphis, Tennessee",
+   "quantity": "3.2 kg fentanyl, 6,511 pills",
+   "arrests": "2 detained",
+   "source": "Action News 5",
+   "url": "https://www.actionnews5.com/2026/10/09/7-pounds-fentanyl-6k-oxycodone-pills-seized-drug-bust/"
+  }
+ ]
 }
