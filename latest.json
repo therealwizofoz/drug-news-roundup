@@ -1,54 +1,65 @@
 {
- "date": "2026-10-09",
- "dateLabel": "Friday, October 9, 2026",
- "window": "Past 24 hours. Search indexes were thin again today; only a handful of verifiable items were new.",
+ "date": "2026-10-10",
+ "dateLabel": "Saturday, October 10, 2026",
+ "window": "Past 24 hours. Search indexes were thin for US federal and Brazilian sources; only verifiable items are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 3,
+ "storyCount": 4,
  "sectionCounts": [
   {
-   "id": "federal",
-   "name": "National / Federal (US)",
-   "count": 1
+   "id": "south-america",
+   "name": "South America",
+   "count": 3
   },
   {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 2
+   "id": "world",
+   "name": "Rest of World",
+   "count": 1
   }
  ],
  "stories": [
   {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Operation Skid Row: 23 of 28 charged defendants arrested in a federal sweep of Los Angeles street-level fentanyl and meth dealing",
-   "summary": "The FBI, DEA, LAPD and IRS Criminal Investigation served warrants across Los Angeles County after charging 28 people with distributing fentanyl and methamphetamine.",
-   "location": "Los Angeles, California",
-   "quantity": "",
-   "arrests": "23 arrested",
-   "source": "Straight Arrow News",
-   "url": "https://san.com/cc/skid-row-drug-bust/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Suspected cartel stash house in Barboursville, West Virginia yields 15 pounds of cocaine and 12 pounds of fentanyl",
-   "summary": "A DEA-led task force with state and county partners found the narcotics, valued above $1.5 million, at a house tied to a Mexican cartel.",
-   "location": "Barboursville, West Virginia",
-   "quantity": "7 kg cocaine, 5.7 kg fentanyl",
-   "arrests": "",
-   "source": "WDTV",
-   "url": "https://wdtv.com/2026/10/08/local-15-million-drug-bust-tied-mexican-cartel"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Memphis detectives hit two homes, recovering 7 pounds of fentanyl and more than 6,500 oxycodone pills",
-   "summary": "Warrants served on the morning of October 8 turned up the fentanyl brick, 6,511 oxycodone pills, marijuana, handguns and a machine-gun conversion device.",
-   "location": "Memphis, Tennessee",
-   "quantity": "3.2 kg fentanyl, 6,511 pills",
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Ecuador finds 1.6 tonnes of cocaine inside an industrial metal separator at Guayaquil, bound for Mexico",
+   "summary": "Police at the Port of Guayaquil opened an export container and found 1,684 blocks of cocaine, about 1,676 kg net, concealed in a machine declared as a metal separator.",
+   "location": "Guayaquil, Ecuador",
+   "quantity": "1.68 t cocaine",
    "arrests": "2 detained",
-   "source": "Action News 5",
-   "url": "https://www.actionnews5.com/2026/10/09/7-pounds-fentanyl-6k-oxycodone-pills-seized-drug-bust/"
+   "source": "Vistazo",
+   "url": "https://www.vistazo.com/seguridad/2026-10-09-policia-descubrio-1-6-toneladas-droga-puerto-guayaquil-mexico-AE11268844"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian police pull 295 kilos of cocaine from a cocoa-cake container at Cartagena, headed from Peru to Spain",
+   "summary": "Officers at the port of Cartagena found the cocaine hidden in a shipment of cocoa cake that originated in Peru and was destined for Spain. The report mentions no arrests.",
+   "location": "Cartagena, Colombia",
+   "quantity": "295 kg cocaine",
+   "arrests": "",
+   "source": "El Universal",
+   "url": "https://www.eluniversal.com.co/sucesos/2026/10/09/video-importante-hallazgo-en-una-carga-con-torta-de-cacao-que-llego-al-puerto-de-cartagena/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombia's government reports 611 kilos of cocaine in Ibagué and a tonne of marijuana in Mitú in a single day",
+   "summary": "In a 24-hour tally announced by President Abelardo de la Espriella, police stopped a truck carrying 611.8 kg of cocaine in Ibagué, Tolima, and arrested its driver.",
+   "location": "Tolima and Vaupés, Colombia",
+   "quantity": "611.8 kg cocaine, 1,058 kg marijuana",
+   "arrests": "6 arrested",
+   "source": "El Universal",
+   "url": "https://www.eluniversal.com.co/colombia/2026/10/09/29-capturas-en-24-horas-asi-fueron-los-operativos-contra-el-narcotrafico-en-colombia/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Spain and Ecuador arrest 21, including two serving officers, in Operation Machala cocaine network takedown",
+   "summary": "About 130 officers carried out 23 simultaneous searches in both countries, seizing 630 kg of cocaine and a second stash of roughly 1.5 tonnes in this phase.",
+   "location": "Spain and Ecuador",
+   "quantity": "~2.1 t cocaine",
+   "arrests": "21 arrested",
+   "source": "Moncloa",
+   "url": "https://www.moncloa.com/2026/10/09/policia-nacional-narcotrafico-ecuador-espana-3444925/"
   }
  ]
 }

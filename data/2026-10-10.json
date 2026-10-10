@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "window": "Past 24 hours. Search indexes were thin for US federal and Brazilian sources; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Ecuador finds 1.6 tonnes of cocaine inside an industrial metal separator at Guayaquil, bound for Mexico","body":"Police at the Port of Guayaquil opened an export container and found 1,684 blocks of cocaine, about 1,676 kg net, concealed in a machine declared as a metal separator. Interior Minister John Reimberg announced the find on October 9; the exporter's manager and legal representative were detained.","url":"https://www.vistazo.com/seguridad/2026-10-09-policia-descubrio-1-6-toneladas-droga-puerto-guayaquil-mexico-AE11268844","quantity":"1.68 t cocaine","location":"Guayaquil, Ecuador","arrests":"2 detained","source":"Vistazo","seizures":[{"drug":"cocaine","kg":1675.58,"place":"Ecuador"}]},
+      {"headline":"Colombian police pull 295 kilos of cocaine from a cocoa-cake container at Cartagena, headed from Peru to Spain","body":"Officers at the port of Cartagena found the cocaine hidden in a shipment of cocoa cake that originated in Peru and was destined for Spain. The report mentions no arrests.","url":"https://www.eluniversal.com.co/sucesos/2026/10/09/video-importante-hallazgo-en-una-carga-con-torta-de-cacao-que-llego-al-puerto-de-cartagena/","quantity":"295 kg cocaine","location":"Cartagena, Colombia","source":"El Universal","seizures":[{"drug":"cocaine","kg":295,"place":"Colombia"}]},
+      {"headline":"Colombia's government reports 611 kilos of cocaine in Ibagué and a tonne of marijuana in Mitú in a single day","body":"In a 24-hour tally announced by President Abelardo de la Espriella, police stopped a truck carrying 611.8 kg of cocaine in Ibagué, Tolima, and arrested its driver. In Mitú, Vaupés, five suspected members of the 'Armando Ríos' structure were captured with 1,058 kg of marijuana and two boats. The figures are government-reported.","url":"https://www.eluniversal.com.co/colombia/2026/10/09/29-capturas-en-24-horas-asi-fueron-los-operativos-contra-el-narcotrafico-en-colombia/","quantity":"611.8 kg cocaine, 1,058 kg marijuana","location":"Tolima and Vaupés, Colombia","arrests":"6 arrested","source":"El Universal","seizures":[{"drug":"cocaine","kg":611.8,"place":"Colombia"},{"drug":"cannabis","kg":1058,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Spain and Ecuador arrest 21, including two serving officers, in Operation Machala cocaine network takedown","body":"About 130 officers carried out 23 simultaneous searches in both countries, seizing 630 kg of cocaine and a second stash of roughly 1.5 tonnes in this phase. Prosecutors allege a detained Spanish police inspector hid 20 million euros in cash at his Madrid home; the wider case covers about 42.5 tonnes of cocaine, with branches in Belgium, Portugal, the Netherlands and the UAE.","url":"https://www.moncloa.com/2026/10/09/policia-nacional-narcotrafico-ecuador-espana-3444925/","quantity":"~2.1 t cocaine","location":"Spain and Ecuador","arrests":"21 arrested","source":"Moncloa"}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
