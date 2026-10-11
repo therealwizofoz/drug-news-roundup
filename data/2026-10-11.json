@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11",
+  "window": "Past 24 hours. Search indexes were thin for US federal, military and Brazilian sources; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[
+      {"headline":"Bessemer, Alabama traffic stop turns up nearly 60 pounds of methamphetamine","body":"A stop in the 5400 block of Park Avenue South in western Jefferson County produced 27,098 grams of methamphetamine and a small amount of marijuana. The driver faces trafficking and marijuana possession charges and a $706,000 bond.","url":"https://hoodline.com/2026/10/bessemer-traffic-stop-nets-nearly-60-pounds-of-meth-706k-bond-for-driver/","quantity":"27.1 kg meth","location":"Bessemer, Alabama","arrests":"1 arrested","source":"Hoodline","seizures":[{"drug":"methamphetamine","kg":27.098,"place":"Alabama"}]}
+    ]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Ecuadorian police detain three Colombians guarding a marijuana load in Carchi near the border","body":"Officers in Piartal, Montúfar, on October 10 spotted three Colombian men on two motorcycles escorting a vehicle and detained them. Police reported 300 plastic-wrapped packages of marijuana, equal to about 606,000 doses; the headline figure of 300 kilos is not confirmed in the body of the report.","url":"https://www.elheraldo.co/mundo/2026/10/11/detienen-en-ecuador-a-tres-colombianos-e-incautan-300-kilos-de-marihuana/","quantity":"300 packages marijuana","location":"Carchi, Ecuador","arrests":"3 detained","source":"El Heraldo"}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
