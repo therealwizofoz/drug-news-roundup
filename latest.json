@@ -1,43 +1,76 @@
 {
- "date": "2026-10-11",
- "dateLabel": "Sunday, October 11, 2026",
- "window": "Past 24 hours. Search indexes were thin for US federal, military and Brazilian sources; only verifiable items are included.",
+ "date": "2026-10-12",
+ "dateLabel": "Monday, October 12, 2026",
+ "window": "Past 24 hours. Search indexes were thin for US federal, military and local US sources; only verifiable items are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
+ "storyCount": 5,
  "sectionCounts": [
-  {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 1
-  },
   {
    "id": "south-america",
    "name": "South America",
    "count": 1
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
+   "count": 4
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Bessemer, Alabama traffic stop turns up nearly 60 pounds of methamphetamine",
-   "summary": "A stop in the 5400 block of Park Avenue South in western Jefferson County produced 27,098 grams of methamphetamine and a small amount of marijuana.",
-   "location": "Bessemer, Alabama",
-   "quantity": "27.1 kg meth",
-   "arrests": "1 arrested",
-   "source": "Hoodline",
-   "url": "https://hoodline.com/2026/10/bessemer-traffic-stop-nets-nearly-60-pounds-of-meth-706k-bond-for-driver/"
-  },
-  {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Ecuadorian police detain three Colombians guarding a marijuana load in Carchi near the border",
-   "summary": "Officers in Piartal, Montúfar, on October 10 spotted three Colombian men on two motorcycles escorting a vehicle and detained them.",
-   "location": "Carchi, Ecuador",
-   "quantity": "300 packages marijuana",
-   "arrests": "3 detained",
-   "source": "El Heraldo",
-   "url": "https://www.elheraldo.co/mundo/2026/10/11/detienen-en-ecuador-a-tres-colombianos-e-incautan-300-kilos-de-marihuana/"
+   "headline": "Colombian army seizes 1,198 kilos of cocaine from a truck in Meta and ties two arrests to a FARC dissident unit",
+   "summary": "Soldiers from the Fourth Division and Seventh Brigade stopped a tractor-trailer in Puerto Gaitán, Meta, on October 8 and found 1,198 kilos of cocaine.",
+   "location": "Puerto Gaitán, Meta, Colombia",
+   "quantity": "1,198 kg cocaine",
+   "arrests": "2 arrested",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/10/09/ejercito-incauto-mas-de-una-tonelada-de-cocaina-de-las-disidencias-de-ivan-mordisco-en-puerto-gaitan-meta/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Guardia Civil finds nearly 3 tonnes of suspected cocaine and four Kalashnikovs at a rural house in Guadalajara, Spain",
+   "summary": "A joint Guadalajara and Madrid operation turned up about 2,775 kg of a substance that field-tested positive for cocaine at a rural property, plus smaller loads in a…",
+   "location": "Guadalajara, Spain",
+   "quantity": "~2,900 kg cocaine",
+   "arrests": "8 detained",
+   "source": "El Español",
+   "url": "https://www.elespanol.com/eldigitalcastillalamancha/sociedad/sucesos/20261011/golpe-narcotrafico-guadalajara-detenidos-toneladas-cocaina-fusiles-kalashnikov/1003744416660_0.html"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Mexican Navy and US Coast Guard intercept a boat 366 nautical miles off Oaxaca carrying about 1.2 tonnes of cocaine",
+   "summary": "A patrol and surveillance flight spotted a blue vessel in the Pacific south of Huatulco, and the Navy seized 46 bundles weighing roughly 1,268 kg.",
+   "location": "Pacific off Oaxaca, Mexico",
+   "quantity": "~1,268 kg cocaine",
+   "arrests": "6 detained",
+   "source": "ADN Sureste",
+   "url": "https://adnsureste.info/marina-decomisa-1-2-toneladas-de-cocaina-y-detiene-a-seis-sujetos-en-costas-de-oaxaca-en-coordinacion-con-la-guardia-costera-de-eu-1325-h"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Costa Rican border police intercept a boat with 103 bundles of apparent cocaine in the Térraba-Sierpe wetland",
+   "summary": "Officers chased the vessel on October 11 between Punta Mala and the Coronado estuary; the crew abandoned it and fled.",
+   "location": "Térraba-Sierpe, Costa Rica",
+   "quantity": "103 bundles cocaine",
+   "arrests": "No arrests",
+   "source": "La Nación (Costa Rica)",
+   "url": "https://www.nacion.com/sucesos/policia-de-fronteras-decomisa-103-bultos-con/GG4OZP6WKZDHDDVTUJYIIBJIJQ/story/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Dominican drug agents seize 228 packages of suspected cocaine at a Santo Domingo port and Punta Cana airport",
+   "summary": "At Don Diego port, 203 packages were found in a false floor of a trailer bound for Puerto Rico after a ten-hour search, and one man was detained.",
+   "location": "Dominican Republic",
+   "quantity": "228 packages cocaine",
+   "arrests": "2 arrested",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/republica-dominicana/2026/10/12/republica-dominicana-asesto-un-doble-golpe-al-narcotrafico-con-el-decomiso-de-228-paquetes-de-presunta-cocaina/"
   }
  ]
 }
