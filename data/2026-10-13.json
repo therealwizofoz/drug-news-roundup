@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "window": "Past 24 hours. Search indexes were thin for US federal, military and most South American sources; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[
+      {"headline":"South Florida sheriffs arrest 20-plus people in a ring hiding cocaine in California-to-Florida freight trucks","body":"Palm Beach County deputies, the Office of Statewide Prosecution and Broward and St. Lucie sheriff's offices served warrants over the weekend after a case opened in March, taking at least 45 kg of cocaine plus oxycodone and fentanyl pills. Investigators say the trucking firms were unaware of the loads, and a suspected supplier allegedly claimed to receive 50 to 60 kg every 15 days; more arrests are expected.","url":"https://tampafp.com/freight-truck-smuggling-ring-busted-in-south-florida-over-20-arrested-45-kilos-of-cocaine-seized","quantity":"45+ kg cocaine","location":"Palm Beach, Broward, St. Lucie, Florida","arrests":"20+ arrested","source":"Tampa Free Press","seizures":[{"drug":"cocaine","kg":45,"place":"Florida"}]}
+    ]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian police find 30 kilos of cocaine in checked luggage at Bogotá's El Dorado airport, bound for Punta Cana","body":"Officers pulled a suitcase from an international flight shipment and found 30 rectangular packages of cocaine hydrochloride, which police value at over 259 million pesos. No arrests were reported and investigators are still trying to identify who checked the bag and the wider network.","url":"https://www.infobae.com/colombia/2026/10/11/policia-incauto-30-kilos-de-cocaina-en-el-aeropuerto-el-dorado-de-bogota-tendrian-un-valor-comercial-de-mas-de-259-millones/","quantity":"30 kg cocaine","location":"Bogotá, Colombia","arrests":"No arrests","source":"Infobae","seizures":[{"drug":"cocaine","kg":30,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
