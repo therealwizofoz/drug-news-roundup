@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-14",
+  "window": "Past 24 hours. Search indexes were thin for US federal, military and most local sources; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"About a tonne of cocaine found in eight drums at a rural storage site near Santa Marta, with DEA support","body":"Colombian police, army mountain troops and anti-narcotics officers, backed by the US DEA, located the drums at a hidden site in the Calabazo area of Bonda, close to Tayrona National Park. Authorities valued the cocaine hydrochloride at over 5.5 billion pesos; no arrests were reported.","url":"https://www.elheraldo.co/colombia/2026/10/14/incautan-mas-de-una-tonelada-de-cocaina-que-perteneceria-a-las-acsn-en-zona-rural-de-santa-marta/","quantity":"1+ t cocaine","location":"Santa Marta, Colombia","arrests":"No arrests","source":"El Heraldo","seizures":[{"drug":"cocaine","kg":1000,"place":"Colombia"}]},
+      {"headline":"Joint forces seize 1,042 kilos of cocaine in Vichada as Meta River offensive passes 2.5 tonnes","body":"Colombia's Navy, army, police and prosecutors recovered the cocaine hydrochloride in La Primavera, Vichada, according to the Defense Ministry, which was announced around October 9. The ministry says the river-corridor operations have netted more than 2.5 tonnes in under two weeks; no arrests were reported for this load.","url":"https://www.semana.com/nacion/articulo/cayeron-mas-de-25-toneladas-de-cocaina-en-el-rio-meta-tras-ofensiva-conjunta-de-la-fuerza-publica/202612/","quantity":"1,042 kg cocaine","location":"La Primavera, Vichada, Colombia","arrests":"No arrests","source":"Semana","seizures":[{"drug":"cocaine","kg":1042,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Queensland police tie heroin, meth and cocaine hauls to a courier stop and Gold Coast raids in Operation Yankee Saga","body":"A courier was stopped at Marlborough on 9 October carrying 3.1 kg of cocaine and 3 kg of methamphetamine. A search the following weekend at Tanah Merah and Shailer Park turned up about 10.3 kg of heroin, 7.4 kg of meth, 718 g of cocaine and 600 kg of suspected precursor chemicals; two men face charges, with police estimating A$12 million in street value.","url":"https://mypolice.qld.gov.au/news/2026/10/13/major-and-organised-crime-squad-seize-heroin-cocaine-and-methylamphetamine-under-operation-yankee-saga","quantity":"10.3 kg heroin, 10.4 kg meth, 3.8 kg cocaine","location":"Queensland, Australia","arrests":"2 charged","source":"Queensland Police","seizures":[{"drug":"heroin","kg":10.3,"place":"Australia"},{"drug":"methamphetamine","kg":10.4,"place":"Australia"},{"drug":"cocaine","kg":3.818,"place":"Australia"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
