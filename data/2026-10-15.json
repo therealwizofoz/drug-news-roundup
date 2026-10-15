@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "window": "Past 24 hours. Search indexes were thin for most regions; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"Cutter Tampa lands roughly 13 tonnes of cocaine and 1.5 tonnes of marijuana at Port Everglades from six Pacific interdictions","body":"The Coast Guard cutter unloaded about 29,600 pounds of cocaine and 3,355 pounds of marijuana in Florida on October 14, with a stated value near $226.7 million. The drugs came from six interdictions in the eastern Pacific under Operation Pacific Viper; reporting did not give detainee numbers or interdiction dates.","url":"https://cbs12.com/news/addicted-florida/united-states-coast-guard-offloads-2277-million-cocaine-marijuana-port-everglades-coast-guard-cutter-tampa-drugs-eastern-pacific-ocean-florida-news","quantity":"29,600 lb cocaine, 3,355 lb marijuana","location":"Port Everglades, Florida","source":"CBS12 / US Coast Guard"}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

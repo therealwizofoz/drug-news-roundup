@@ -1,54 +1,27 @@
 {
- "date": "2026-10-14",
- "dateLabel": "Wednesday, October 14, 2026",
- "window": "Past 24 hours. Search indexes were thin for US federal, military and most local sources; only verifiable items are included.",
+ "date": "2026-10-15",
+ "dateLabel": "Thursday, October 15, 2026",
+ "window": "Past 24 hours. Search indexes were thin for most regions; only verifiable items are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 3,
+ "storyCount": 1,
  "sectionCounts": [
   {
-   "id": "south-america",
-   "name": "South America",
-   "count": 2
-  },
-  {
-   "id": "world",
-   "name": "Rest of World",
+   "id": "federal",
+   "name": "National / Federal (US)",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "About a tonne of cocaine found in eight drums at a rural storage site near Santa Marta, with DEA support",
-   "summary": "Colombian police, army mountain troops and anti-narcotics officers, backed by the US DEA, located the drums at a hidden site in the Calabazo area of Bonda, close to Tayrona…",
-   "location": "Santa Marta, Colombia",
-   "quantity": "1+ t cocaine",
-   "arrests": "No arrests",
-   "source": "El Heraldo",
-   "url": "https://www.elheraldo.co/colombia/2026/10/14/incautan-mas-de-una-tonelada-de-cocaina-que-perteneceria-a-las-acsn-en-zona-rural-de-santa-marta/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Joint forces seize 1,042 kilos of cocaine in Vichada as Meta River offensive passes 2.5 tonnes",
-   "summary": "Colombia's Navy, army, police and prosecutors recovered the cocaine hydrochloride in La Primavera, Vichada, according to the Defense Ministry, which was announced around October…",
-   "location": "La Primavera, Vichada, Colombia",
-   "quantity": "1,042 kg cocaine",
-   "arrests": "No arrests",
-   "source": "Semana",
-   "url": "https://www.semana.com/nacion/articulo/cayeron-mas-de-25-toneladas-de-cocaina-en-el-rio-meta-tras-ofensiva-conjunta-de-la-fuerza-publica/202612/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Queensland police tie heroin, meth and cocaine hauls to a courier stop and Gold Coast raids in Operation Yankee Saga",
-   "summary": "A courier was stopped at Marlborough on 9 October carrying 3.1 kg of cocaine and 3 kg of methamphetamine.",
-   "location": "Queensland, Australia",
-   "quantity": "10.3 kg heroin, 10.4 kg meth, 3.8 kg cocaine",
-   "arrests": "2 charged",
-   "source": "Queensland Police",
-   "url": "https://mypolice.qld.gov.au/news/2026/10/13/major-and-organised-crime-squad-seize-heroin-cocaine-and-methylamphetamine-under-operation-yankee-saga"
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Cutter Tampa lands roughly 13 tonnes of cocaine and 1.5 tonnes of marijuana at Port Everglades from six Pacific interdictions",
+   "summary": "The Coast Guard cutter unloaded about 29,600 pounds of cocaine and 3,355 pounds of marijuana in Florida on October 14, with a stated value near $226.7 million.",
+   "location": "Port Everglades, Florida",
+   "quantity": "29,600 lb cocaine, 3,355 lb marijuana",
+   "arrests": "",
+   "source": "CBS12 / US Coast Guard",
+   "url": "https://cbs12.com/news/addicted-florida/united-states-coast-guard-offloads-2277-million-cocaine-marijuana-port-everglades-coast-guard-cutter-tampa-drugs-eastern-pacific-ocean-florida-news"
   }
  ]
 }
