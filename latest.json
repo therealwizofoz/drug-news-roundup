@@ -1,27 +1,27 @@
 {
- "date": "2026-10-15",
- "dateLabel": "Thursday, October 15, 2026",
+ "date": "2026-10-16",
+ "dateLabel": "Friday, October 16, 2026",
  "window": "Past 24 hours. Search indexes were thin for most regions; only verifiable items are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 1,
  "sectionCounts": [
   {
-   "id": "federal",
-   "name": "National / Federal (US)",
+   "id": "local",
+   "name": "Local US Arrests",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Cutter Tampa lands roughly 13 tonnes of cocaine and 1.5 tonnes of marijuana at Port Everglades from six Pacific interdictions",
-   "summary": "The Coast Guard cutter unloaded about 29,600 pounds of cocaine and 3,355 pounds of marijuana in Florida on October 14, with a stated value near $226.7 million.",
-   "location": "Port Everglades, Florida",
-   "quantity": "29,600 lb cocaine, 3,355 lb marijuana",
-   "arrests": "",
-   "source": "CBS12 / US Coast Guard",
-   "url": "https://cbs12.com/news/addicted-florida/united-states-coast-guard-offloads-2277-million-cocaine-marijuana-port-everglades-coast-guard-cutter-tampa-drugs-eastern-pacific-ocean-florida-news"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Speeding stop on a Nevada highway turns up roughly 700 pounds of suspected meth and fentanyl",
+   "summary": "A Lincoln County sheriff's deputy stopped a pickup near Ash Springs on October 13 and found about 307 kg of suspected methamphetamine plus roughly 14 kg of suspected fentanyl.",
+   "location": "Ash Springs, Nevada",
+   "quantity": "307 kg meth, 14 kg fentanyl",
+   "arrests": "1 charged",
+   "source": "FOX5 Vegas",
+   "url": "https://fox5vegas.com/2026/10/15/man-charged-after-traffic-stop-turns-up-700-pounds-suspected-fentanyl-meth"
   }
  ]
 }

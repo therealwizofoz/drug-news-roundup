@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-16",
+  "window": "Past 24 hours. Search indexes were thin for most regions; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[
+      {"headline":"Speeding stop on a Nevada highway turns up roughly 700 pounds of suspected meth and fentanyl","body":"A Lincoln County sheriff's deputy stopped a pickup near Ash Springs on October 13 and found about 307 kg of suspected methamphetamine plus roughly 14 kg of suspected fentanyl. The 26-year-old driver, Francisco Joel Garcia Farias, faces two federal possession-with-intent counts, each carrying a 10-year mandatory minimum; the allegations are unproven and the weights come from field testing.","url":"https://fox5vegas.com/2026/10/15/man-charged-after-traffic-stop-turns-up-700-pounds-suspected-fentanyl-meth","quantity":"307 kg meth, 14 kg fentanyl","location":"Ash Springs, Nevada","arrests":"1 charged","source":"FOX5 Vegas","seizures":[{"drug":"methamphetamine","kg":307,"place":"Nevada"},{"drug":"fentanyl","kg":14,"place":"Nevada"}]}
+    ]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
