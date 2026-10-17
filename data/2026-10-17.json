@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-17",
+  "window": "Past 24 hours. Search indexes were thin for most regions; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian Navy catches a go-fast boat carrying 1.6 tonnes of cocaine in the southern Pacific; the boat sank after hitting a navy vessel","body":"Reported October 12, the Navy intercepted a speedboat in Colombia's southern Pacific waters with 1,620 kg of cocaine and 51 kg of marijuana aboard. The boat collided with a navy unit and sank, and two Colombians and an Ecuadorian were captured; a GPS and two satellite phones were recovered.","url":"https://www.elpais.com.co/judicial/armada-incauto-mas-de-16-toneladas-de-cocaina-en-el-pacifico-sur-colombiano-1258.html","quantity":"1,620 kg cocaine, 51 kg marijuana","location":"Southern Pacific, Colombia","arrests":"3 captured","source":"El País (Cali)","seizures":[{"drug":"cocaine","kg":1620,"place":"Colombia"},{"drug":"cannabis","kg":51,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

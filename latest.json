@@ -1,27 +1,27 @@
 {
- "date": "2026-10-16",
- "dateLabel": "Friday, October 16, 2026",
+ "date": "2026-10-17",
+ "dateLabel": "Saturday, October 17, 2026",
  "window": "Past 24 hours. Search indexes were thin for most regions; only verifiable items are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 1,
  "sectionCounts": [
   {
-   "id": "local",
-   "name": "Local US Arrests",
+   "id": "south-america",
+   "name": "South America",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Speeding stop on a Nevada highway turns up roughly 700 pounds of suspected meth and fentanyl",
-   "summary": "A Lincoln County sheriff's deputy stopped a pickup near Ash Springs on October 13 and found about 307 kg of suspected methamphetamine plus roughly 14 kg of suspected fentanyl.",
-   "location": "Ash Springs, Nevada",
-   "quantity": "307 kg meth, 14 kg fentanyl",
-   "arrests": "1 charged",
-   "source": "FOX5 Vegas",
-   "url": "https://fox5vegas.com/2026/10/15/man-charged-after-traffic-stop-turns-up-700-pounds-suspected-fentanyl-meth"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian Navy catches a go-fast boat carrying 1.6 tonnes of cocaine in the southern Pacific; the boat sank after hitting a navy vessel",
+   "summary": "Reported October 12, the Navy intercepted a speedboat in Colombia's southern Pacific waters with 1,620 kg of cocaine and 51 kg of marijuana aboard.",
+   "location": "Southern Pacific, Colombia",
+   "quantity": "1,620 kg cocaine, 51 kg marijuana",
+   "arrests": "3 captured",
+   "source": "El País (Cali)",
+   "url": "https://www.elpais.com.co/judicial/armada-incauto-mas-de-16-toneladas-de-cocaina-en-el-pacifico-sur-colombiano-1258.html"
   }
  ]
 }
