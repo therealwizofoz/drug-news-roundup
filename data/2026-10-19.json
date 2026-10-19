@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-19",
+  "window": "Past 24 hours. Search indexes were thin for US and world coverage; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombia arrests 13 in an alleged Wayuu-pressuring network shipping cocaine from La Guajira to the Caribbean and Europe","body":"Raids reported around October 15 hit Riohacha, Manaure, Maicao and Uribia in La Guajira and Los Palmitos in Sucre, taking down a group accused of serving the Autodefensas Conquistadoras de la Sierra Nevada. Prosecutors say it moved cocaine by go-fast, low-profile and fishing boats toward the Dominican Republic, Puerto Rico and Central America, and pressured Wayuu community members to take part; alleged leader Manuel Webber, alias \"Isen\", is among those held. No drug weight was reported for these raids.","url":"https://www.infobae.com/colombia/2026/10/16/golpe-a-red-que-usaba-rutas-maritimas-de-la-guajira-para-traficar-cocaina-hasta-ee-uu-y-europa-hay-13-capturados/","location":"La Guajira and Sucre, Colombia","arrests":"13 arrested","source":"Infobae"},
+      {"headline":"Colombian Navy chases down a Pacific go-fast boat carrying 1.46 tonnes of cocaine bound for Costa Rica","body":"The Navy, with US Southern Command support, stopped the boat in the Pacific and took its three Colombian crew members and cargo to the Buenaventura coast guard station. The load was 1,460 kg of cocaine hydrochloride plus 407 g of marijuana; the report did not give the exact date of the interception.","url":"https://www.infobae.com/america/agencias/2026/10/15/la-armada-colombiana-incauta-14-toneladas-de-cocaina-tras-la-persecucion-a-una-lancha/","quantity":"1,460 kg cocaine","location":"Pacific coast, Colombia","arrests":"3 detained","source":"EFE via Infobae","seizures":[{"drug":"cocaine","kg":1460,"place":"Colombia"},{"drug":"cannabis","kg":0.407,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
