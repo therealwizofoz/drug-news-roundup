@@ -1,6 +1,6 @@
 {
- "date": "2026-10-19",
- "dateLabel": "Monday, October 19, 2026",
+ "date": "2026-10-20",
+ "dateLabel": "Tuesday, October 20, 2026",
  "window": "Past 24 hours. Search indexes were thin for US and world coverage; only verifiable items are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 2,
@@ -15,24 +15,24 @@
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombia arrests 13 in an alleged Wayuu-pressuring network shipping cocaine from La Guajira to the Caribbean and Europe",
-   "summary": "Raids reported around October 15 hit Riohacha, Manaure, Maicao and Uribia in La Guajira and Los Palmitos in Sucre, taking down a group accused of serving the Autodefensas…",
-   "location": "La Guajira and Sucre, Colombia",
-   "quantity": "",
-   "arrests": "13 arrested",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/10/16/golpe-a-red-que-usaba-rutas-maritimas-de-la-guajira-para-traficar-cocaina-hasta-ee-uu-y-europa-hay-13-capturados/"
+   "headline": "Brazil's Federal Police find 1.25 tonnes of cocaine in a pickup and a hidden pit at a Maranhão farm",
+   "summary": "On October 19, officers from the Pará and Maranhão regional units raided a rural property in Chapadinha.",
+   "location": "Chapadinha, Maranhão, Brazil",
+   "quantity": "1.25 t cocaine",
+   "arrests": "3 arrested",
+   "source": "Jornal Pequeno",
+   "url": "https://jornalpequeno.com.br/2026/10/20/pf-apreende-125-tonelada-de-cocaina-em-propriedade-rural-de-chapadinha/"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombian Navy chases down a Pacific go-fast boat carrying 1.46 tonnes of cocaine bound for Costa Rica",
-   "summary": "The Navy, with US Southern Command support, stopped the boat in the Pacific and took its three Colombian crew members and cargo to the Buenaventura coast guard station.",
-   "location": "Pacific coast, Colombia",
-   "quantity": "1,460 kg cocaine",
-   "arrests": "3 detained",
+   "headline": "Ecuador stops two vehicles with hidden compartments carrying 382 kilos of cocaine in Quinindé",
+   "summary": "Interior Minister John Reimberg announced on October 17 that police in Quinindé, Esmeraldas province, near the Colombian border, found 234 blocks in one vehicle and 148 packages…",
+   "location": "Quinindé, Esmeraldas, Ecuador",
+   "quantity": "382 kg cocaine",
+   "arrests": "2 detained",
    "source": "EFE via Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/10/15/la-armada-colombiana-incauta-14-toneladas-de-cocaina-tras-la-persecucion-a-una-lancha/"
+   "url": "https://www.infobae.com/america/agencias/2026/10/18/incautan-382-kilos-de-cocaina-ocultos-en-dos-vehiculos-en-el-norte-de-ecuador/"
   }
  ]
 }
