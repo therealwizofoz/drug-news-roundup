@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "window": "Past 24 hours. Search indexes were thin for US and world coverage; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian police report a 7.6-tonne cocaine load blended with powdered panela at Cartagena, the port's biggest haul in a decade","body":"The national police anti-narcotics directorate, working under its Esmeralda strategy, found the shipment at the Cartagena port; the cocaine had been mixed into powdered panela, apparently to slip past inspection. Officials were quoted on October 19 saying it is the largest seizure at that terminal in ten years, but the exact seizure date, destination and any arrests were not reported.","url":"https://www.asuntoslegales.com.co/actualidad/abelardo-de-la-espriella-destaco-la-incautacion-de-7-6-toneladas-de-cocaina-en-cartagena-4506356","quantity":"7.6 t cocaine","location":"Cartagena, Bolívar, Colombia","source":"Asuntos Legales","seizures":[{"drug":"cocaine","kg":7600,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
