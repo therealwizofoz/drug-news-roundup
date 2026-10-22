@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "window": "Past 24 hours. Search indexes were thin for US federal and military coverage; only verifiable items are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[
+      {"headline":"New York State Police recover about 5.5 kg of suspected fentanyl after a night-time chase from East Fishkill to Putnam County","body":"Troopers tried to stop a vehicle on the Taconic State Parkway around 10:48 p.m. on October 19; the chase ran onto Interstate 84 and ended in Southeast, Putnam County. The lone occupant, a 36-year-old Brooklyn man, was charged with first- and third-degree drug possession and unlawful fleeing; the powder is suspected fentanyl pending lab results.","url":"https://uticaphoenix.net/stormville-suspected-fentanyl-seizure-pursuit/","quantity":"5.5 kg suspected fentanyl","location":"Putnam County, New York","arrests":"1 arrested","source":"Utica Phoenix","seizures":[{"drug":"fentanyl","kg":5.455,"place":"New York"}]}
+    ]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian Navy seizes 1.6 tonnes of cocaine on a Chocó beach, tied by the president to the Clan del Golfo","body":"The Pacific naval force, backed by naval intelligence, recovered 1,645 kilos of cocaine at Playa Octavia in Juradó, Chocó. President Abelardo De la Espriella linked the load to a Clan del Golfo substructure; no arrests were reported and the exact seizure date was not given.","url":"https://www.elheraldo.co/colombia/2026/10/21/incautan-1645-kilos-de-cocaina-en-playa-octavia-choco/","quantity":"1.65 t cocaine","location":"Juradó, Chocó, Colombia","source":"El Heraldo","seizures":[{"drug":"cocaine","kg":1645,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Nicaraguan army intercepts about half a tonne of cocaine in sacks just off Managua's coast","body":"Naval forces and national police, under Operation Dignidad Nacional, stopped a boat roughly 100 metres off Playa Salamina in Villa El Carmen, finding 18 sacks holding 450 packages and 49 bulk bricks. One 59-year-old suspect was captured while two crew members jumped overboard and escaped; the operation was reported as taking place on October 20.","url":"https://www.prensa-latina.cu/2026/10/21/incautan-en-nicaragua-media-tonelada-de-cocaina/","quantity":"~0.5 t cocaine","location":"Villa El Carmen, Nicaragua","arrests":"1 arrested","source":"Prensa Latina","seizures":[{"drug":"cocaine","kg":500,"place":"Nicaragua"}]},
+      {"headline":"Gujarat crime branches seize heroin and mephedrone worth about Rs 25 crore on the Ahmedabad-Vadodara Expressway","body":"Joint Surat and Ahmedabad crime-branch teams stopped suspects near the CTM toll plaza, recovering 4.53 kg of heroin and 2.49 kg of mephedrone. Three men from New Delhi and Meerut were arrested; police say they belong to an inter-state network. The raid is believed to have happened on October 21.","url":"https://www.tribuneindia.com/news/india/drugs-worth-rs-25-crore-seized-on-ahmedabad-vadodara-expressway-3-arrested","quantity":"4.5 kg heroin, 2.5 kg mephedrone","location":"Ahmedabad, Gujarat, India","arrests":"3 arrested","source":"The Tribune","seizures":[{"drug":"heroin","kg":4.53,"place":"India"},{"drug":"mephedrone","kg":2.49,"place":"India"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
