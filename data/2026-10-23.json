@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-23",
+  "window": "Past 24 hours. Search indexes returned no new, verifiable, undeduplicated stories meeting the roundup's threshold; nothing is included rather than padding with older items.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

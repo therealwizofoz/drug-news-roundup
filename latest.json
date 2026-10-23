@@ -1,70 +1,9 @@
 {
- "date": "2026-10-22",
- "dateLabel": "Thursday, October 22, 2026",
- "window": "Past 24 hours. Search indexes were thin for US federal and military coverage; only verifiable items are included.",
+ "date": "2026-10-23",
+ "dateLabel": "Friday, October 23, 2026",
+ "window": "Past 24 hours. Search indexes returned no new, verifiable, undeduplicated stories meeting the roundup's threshold; nothing is included rather than padding with older items.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 4,
- "sectionCounts": [
-  {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 1
-  },
-  {
-   "id": "south-america",
-   "name": "South America",
-   "count": 1
-  },
-  {
-   "id": "world",
-   "name": "Rest of World",
-   "count": 2
-  }
- ],
- "stories": [
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "New York State Police recover about 5.5 kg of suspected fentanyl after a night-time chase from East Fishkill to Putnam County",
-   "summary": "Troopers tried to stop a vehicle on the Taconic State Parkway around 10:48 p.m. on October 19; the chase ran onto Interstate 84 and ended in Southeast, Putnam County.",
-   "location": "Putnam County, New York",
-   "quantity": "5.5 kg suspected fentanyl",
-   "arrests": "1 arrested",
-   "source": "Utica Phoenix",
-   "url": "https://uticaphoenix.net/stormville-suspected-fentanyl-seizure-pursuit/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombian Navy seizes 1.6 tonnes of cocaine on a Chocó beach, tied by the president to the Clan del Golfo",
-   "summary": "The Pacific naval force, backed by naval intelligence, recovered 1,645 kilos of cocaine at Playa Octavia in Juradó, Chocó.",
-   "location": "Juradó, Chocó, Colombia",
-   "quantity": "1.65 t cocaine",
-   "arrests": "",
-   "source": "El Heraldo",
-   "url": "https://www.elheraldo.co/colombia/2026/10/21/incautan-1645-kilos-de-cocaina-en-playa-octavia-choco/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Nicaraguan army intercepts about half a tonne of cocaine in sacks just off Managua's coast",
-   "summary": "Naval forces and national police, under Operation Dignidad Nacional, stopped a boat roughly 100 metres off Playa Salamina in Villa El Carmen, finding 18 sacks holding 450 packages…",
-   "location": "Villa El Carmen, Nicaragua",
-   "quantity": "~0.5 t cocaine",
-   "arrests": "1 arrested",
-   "source": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/10/21/incautan-en-nicaragua-media-tonelada-de-cocaina/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Gujarat crime branches seize heroin and mephedrone worth about Rs 25 crore on the Ahmedabad-Vadodara Expressway",
-   "summary": "Joint Surat and Ahmedabad crime-branch teams stopped suspects near the CTM toll plaza, recovering 4.53 kg of heroin and 2.49 kg of mephedrone.",
-   "location": "Ahmedabad, Gujarat, India",
-   "quantity": "4.5 kg heroin, 2.5 kg mephedrone",
-   "arrests": "3 arrested",
-   "source": "The Tribune",
-   "url": "https://www.tribuneindia.com/news/india/drugs-worth-rs-25-crore-seized-on-ahmedabad-vadodara-expressway-3-arrested"
-  }
- ]
+ "storyCount": 0,
+ "sectionCounts": [],
+ "stories": []
 }
