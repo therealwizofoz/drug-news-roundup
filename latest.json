@@ -1,38 +1,43 @@
 {
- "date": "2026-10-24",
- "dateLabel": "Saturday, October 24, 2026",
- "window": "Past 24 hours. Search indexes lagged; only two verifiable new stories surfaced, both local US.",
+ "date": "2026-10-25",
+ "dateLabel": "Sunday, October 25, 2026",
+ "window": "Past 24 hours. Search indexes lagged; only two verifiable new stories surfaced.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 2,
  "sectionCounts": [
   {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 2
+   "id": "south-america",
+   "name": "South America",
+   "count": 1
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
+   "count": 1
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Colorado Springs narcotics unit dismantles trafficking group after five-month probe, seizing 188 pounds of meth and 37,000 fentanyl pills",
-   "summary": "Four search warrants across El Paso County also turned up cash and three firearms.",
-   "location": "Colorado Springs, Colorado",
-   "quantity": "188 lb meth, 37,000 fentanyl pills",
-   "arrests": "2 arrested",
-   "source": "Hoodline",
-   "url": "https://hoodline.com/2026/10/colorado-springs-drug-bust-nets-188-pounds-of-meth-37-000-fentanyl-pills/"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombia's president announces 555 kg cocaine speedboat stop in Operation Zeus Guyana, with Dominican and US help",
+   "summary": "President Abelardo De La Espriella said the Colombian Air Force led the multinational operation, supplying aerial surveillance and intelligence, while the Dominican Navy…",
+   "location": "Caribbean Sea",
+   "quantity": "555 kg cocaine",
+   "arrests": "3 detained",
+   "source": "El País (Cali)",
+   "url": "https://www.elpais.com.co/judicial/incautan-555-kilos-de-cocaina-en-operacion-conjunta-entre-colombia-republica-dominicana-y-estados-unidos-2444.html"
   },
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Fresno man charged after allegedly carrying 4 kilograms of fentanyl into a restaurant to sell it",
-   "summary": "Federal prosecutors say the 39-year-old was arrested at the restaurant on Wednesday, and a further 400 grams of fentanyl plus an AR-style rifle with a 70-plus-round drum magazine…",
-   "location": "Fresno, California",
-   "quantity": "4.4 kg fentanyl",
-   "arrests": "1 charged",
-   "source": "GV Wire",
-   "url": "https://gvwire.com/2026/10/23/fresno-man-charged-after-allegedly-bringing-4-kilograms-of-fentanyl-to-restaurant/"
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Nigeria's NDLEA catches South African courier with 36.65 kg of cocaine at Lagos airport and arrests a local car dealer",
+   "summary": "The woman was stopped on 7 October in the departure hall as she prepared to fly to South Africa via Doha, with the cocaine packed in two bags and masked with dried pepper.",
+   "location": "Lagos, Nigeria",
+   "quantity": "36.65 kg cocaine",
+   "arrests": "2 arrested",
+   "source": "Premium Times",
+   "url": "https://premiumtimesng.com/news/top-news/920082-ndlea-arrests-south-african-woman-with-36-65kg-cocaine-lagos-car-dealer.html"
   }
  ]
 }

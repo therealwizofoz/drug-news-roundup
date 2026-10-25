@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "window": "Past 24 hours. Search indexes lagged; only two verifiable new stories surfaced.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombia's president announces 555 kg cocaine speedboat stop in Operation Zeus Guyana, with Dominican and US help","body":"President Abelardo De La Espriella said the Colombian Air Force led the multinational operation, supplying aerial surveillance and intelligence, while the Dominican Navy intercepted the fast boat at sea. Three people aboard were detained; the exact location, date and destination were not disclosed.","url":"https://www.elpais.com.co/judicial/incautan-555-kilos-de-cocaina-en-operacion-conjunta-entre-colombia-republica-dominicana-y-estados-unidos-2444.html","quantity":"555 kg cocaine","location":"Caribbean Sea","arrests":"3 detained","source":"El País (Cali)"}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Nigeria's NDLEA catches South African courier with 36.65 kg of cocaine at Lagos airport and arrests a local car dealer","body":"The woman was stopped on 7 October in the departure hall as she prepared to fly to South Africa via Doha, with the cocaine packed in two bags and masked with dried pepper. Investigators followed her trail to a Lagos car dealer, arrested on 14 October; a third suspect in the United States was named but not detained. The agency announced the case on 25 October.","url":"https://premiumtimesng.com/news/top-news/920082-ndlea-arrests-south-african-woman-with-36-65kg-cocaine-lagos-car-dealer.html","quantity":"36.65 kg cocaine","location":"Lagos, Nigeria","arrests":"2 arrested","source":"Premium Times","seizures":[{"drug":"cocaine","kg":36.65,"place":"Nigeria"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
