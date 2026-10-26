@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-26",
+  "window": "Past 24 hours. Search indexes lagged; only two verifiable new stories surfaced.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"South African police seize about 250 kg of cocaine in five bags at Johannesburg's OR Tambo airport","body":"Police announced on 25 October that 216 blocks of cocaine were found spread across five bags, with an estimated value above R200 million (about US$12 million). No arrests were reported in this case, and the origin and destination were not disclosed; police separately say 116 suspected drug mules have been arrested at the airport over two years.","url":"https://www.riotimesonline.com/south-africa-seizes-250-kilos-of-cocaine-or-tambo-2026/","quantity":"250 kg cocaine","location":"Johannesburg, South Africa","source":"Rio Times","seizures":[{"drug":"cocaine","kg":250,"place":"South Africa"}]},
+      {"headline":"Lithuanian police dismantle a large drug lab holding over 800 kg of meth and amphetamine after a Polish tip-off","body":"Police found more than 500 kg of methamphetamine and about 300 kg of amphetamine at the lab, reported on 25 October. An unusual chemical order placed in Łódź, Poland, led investigators to the network; no arrests were mentioned in the report.","url":"https://tvpworld.com/96118229/polish-police-tip-off-helps-bust-massive-drug-lab-in-lithuania","quantity":"500+ kg meth, 300 kg amphetamine","location":"Lithuania","source":"TVP World","seizures":[{"drug":"methamphetamine","kg":500,"place":"Lithuania"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
