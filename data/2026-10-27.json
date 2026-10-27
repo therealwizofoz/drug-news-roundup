@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "window": "Past 24 hours. Search indexes lagged; only one verifiable new story surfaced.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Amritsar rural police seize 20 kg of heroin and 14 pistols, arrest seven in a cross-border smuggling network","body":"Punjab police reported the haul on 27 October, with the heroin valued at about Rs 100 crore on the international market. Seven suspects were arrested, with cases registered at the Gharinda and Kathunangal stations, and early findings point to a handler based abroad.","url":"https://www.thedailyjagran.com/india/news/punjab-drug-bust-rs-100-crore-heroine-and-14-new-pistols-seized-7-arrested-in-amritsar-10334152","quantity":"20 kg heroin, 14 pistols","location":"Amritsar, India","arrests":"7 arrested","source":"Daily Jagran","seizures":[{"drug":"heroin","kg":20,"place":"India"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
