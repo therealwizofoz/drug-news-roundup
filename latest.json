@@ -1,27 +1,43 @@
 {
- "date": "2026-10-27",
- "dateLabel": "Tuesday, October 27, 2026",
- "window": "Past 24 hours. Search indexes lagged; only one verifiable new story surfaced.",
+ "date": "2026-10-28",
+ "dateLabel": "Wednesday, October 28, 2026",
+ "window": "Past 24 hours. Search indexes lagged; two verifiable new stories surfaced.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 1,
+ "storyCount": 2,
  "sectionCounts": [
   {
-   "id": "world",
-   "name": "Rest of World",
+   "id": "local",
+   "name": "Local US Arrests",
+   "count": 1
+  },
+  {
+   "id": "south-america",
+   "name": "South America",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Amritsar rural police seize 20 kg of heroin and 14 pistols, arrest seven in a cross-border smuggling network",
-   "summary": "Punjab police reported the haul on 27 October, with the heroin valued at about Rs 100 crore on the international market.",
-   "location": "Amritsar, India",
-   "quantity": "20 kg heroin, 14 pistols",
-   "arrests": "7 arrested",
-   "source": "Daily Jagran",
-   "url": "https://www.thedailyjagran.com/india/news/punjab-drug-bust-rs-100-crore-heroine-and-14-new-pistols-seized-7-arrested-in-amritsar-10334152"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Five-week ATF and DEA push in the Portland area nets 17 arrests and 97 firearms",
+   "summary": "The US Attorney's Office for Oregon announced the results on 26 October. Agents recovered methamphetamine, cocaine, crack cocaine and fentanyl alongside the guns; the announcement…",
+   "location": "Portland area, Oregon",
+   "quantity": "97 firearms",
+   "arrests": "17 arrested",
+   "source": "KATU",
+   "url": "https://katu.com/newsletter-daily/federal-operation-seizes-97-firearms-drugs-in-portland-area-trafficking-investigation-guns-drugs-atf-oregon-law-enforcement-local"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian Navy intercepts a fishing-style boat with 1.25 tonnes of cocaine packed in an ice chest off Chocó",
+   "summary": "The Navy reported the stop on 26 October in the Pacific west of Chocó, with the rectangular packages hidden among fish cargo and the vessel towed to Buenaventura.",
+   "location": "Chocó, Colombia",
+   "quantity": "1.25 t cocaine",
+   "arrests": "3 arrested",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/10/27/en-video-armada-incauto-12-toneladas-de-cocaina-ocultas-entre-cavas-de-pescado-en-el-pacifico-colombiano/"
   }
  ]
 }
