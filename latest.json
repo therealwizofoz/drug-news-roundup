@@ -1,43 +1,54 @@
 {
- "date": "2026-10-28",
- "dateLabel": "Wednesday, October 28, 2026",
- "window": "Past 24 hours. Search indexes lagged; two verifiable new stories surfaced.",
+ "date": "2026-10-29",
+ "dateLabel": "Thursday, October 29, 2026",
+ "window": "Past 24 hours. Search indexes lagged; three verifiable new stories surfaced, and no new US federal, local US or SOUTHCOM strike items could be confirmed.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
+ "storyCount": 3,
  "sectionCounts": [
-  {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 1
-  },
   {
    "id": "south-america",
    "name": "South America",
+   "count": 2
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Five-week ATF and DEA push in the Portland area nets 17 arrests and 97 firearms",
-   "summary": "The US Attorney's Office for Oregon announced the results on 26 October. Agents recovered methamphetamine, cocaine, crack cocaine and fentanyl alongside the guns; the announcement…",
-   "location": "Portland area, Oregon",
-   "quantity": "97 firearms",
-   "arrests": "17 arrested",
-   "source": "KATU",
-   "url": "https://katu.com/newsletter-daily/federal-operation-seizes-97-firearms-drugs-in-portland-area-trafficking-investigation-guns-drugs-atf-oregon-law-enforcement-local"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian marines find 3 tonnes of cocaine in 102 bundles on empty land at Punta Canoas near Cartagena",
+   "summary": "Marines on a night patrol on 27 October noticed lights on a vacant plot and found 3,054 kg of cocaine hydrochloride, which the Navy valued at over $141 million.",
+   "location": "Cartagena, Colombia",
+   "quantity": "3.05 t cocaine",
+   "arrests": "No arrests",
+   "source": "Infobae",
+   "url": "https://infobae.com/colombia/2026/10/27/incautaron-en-cartagena-mas-de-tres-toneladas-de-cocaina-avaluada-en-usd-141-millones"
   },
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombian Navy intercepts a fishing-style boat with 1.25 tonnes of cocaine packed in an ice chest off Chocó",
-   "summary": "The Navy reported the stop on 26 October in the Pacific west of Chocó, with the rectangular packages hidden among fish cargo and the vessel towed to Buenaventura.",
-   "location": "Chocó, Colombia",
-   "quantity": "1.25 t cocaine",
-   "arrests": "3 arrested",
+   "headline": "Colombian Navy detains eight on a coastal boat near Bahía Solano carrying 304 kg of marijuana hidden among mattresses and rice sacks",
+   "summary": "The Pacific naval force reported the stop on 27 October off Chocó, where 627 packages were concealed in the cargo, along with about 3 kg of cocaine.",
+   "location": "Bahía Solano, Colombia",
+   "quantity": "304 kg cannabis",
+   "arrests": "8 detained",
    "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/10/27/en-video-armada-incauto-12-toneladas-de-cocaina-ocultas-entre-cavas-de-pescado-en-el-pacifico-colombiano/"
+   "url": "https://www.infobae.com/colombia/2026/10/28/armada-incauto-303-kilos-de-marihuana-y-cocaina-ocultos-entre-colchones-y-costales-de-arroz-en-bahia-solano/"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Portugal's Judicial Police seize 3.7 tonnes of cocaine from a speedboat 80 nautical miles off the Algarve; one suspect dies after a collision",
+   "summary": "The interception happened on Sunday 11 October and was announced two days later, under the code name Mare Nostrum, with help from MAOC-N, the Navy, Spain's Guardia Civil and…",
+   "location": "Off Faro, Portugal",
+   "quantity": "3.7 t cocaine",
+   "arrests": "2 arrested, 1 dead",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/10/13/one-dead-two-arrested-as-portugal-seizes-37-tonnes-of-cocaine-off-faro-coast"
   }
  ]
 }

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "window": "Past 24 hours. Search indexes lagged; three verifiable new stories surfaced, and no new US federal, local US or SOUTHCOM strike items could be confirmed.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian marines find 3 tonnes of cocaine in 102 bundles on empty land at Punta Canoas near Cartagena","body":"Marines on a night patrol on 27 October noticed lights on a vacant plot and found 3,054 kg of cocaine hydrochloride, which the Navy valued at over $141 million. Nobody was arrested because those present fled as troops arrived; prosecutors are investigating who owned the load and where it was headed.","url":"https://infobae.com/colombia/2026/10/27/incautaron-en-cartagena-mas-de-tres-toneladas-de-cocaina-avaluada-en-usd-141-millones","quantity":"3.05 t cocaine","location":"Cartagena, Colombia","arrests":"No arrests","source":"Infobae","seizures":[{"drug":"cocaine","kg":3054,"place":"Colombia"}]},
+      {"headline":"Colombian Navy detains eight on a coastal boat near Bahía Solano carrying 304 kg of marijuana hidden among mattresses and rice sacks","body":"The Pacific naval force reported the stop on 27 October off Chocó, where 627 packages were concealed in the cargo, along with about 3 kg of cocaine. Seven Colombians and one Venezuelan were detained and seven phones seized.","url":"https://www.infobae.com/colombia/2026/10/28/armada-incauto-303-kilos-de-marihuana-y-cocaina-ocultos-entre-colchones-y-costales-de-arroz-en-bahia-solano/","quantity":"304 kg cannabis","location":"Bahía Solano, Colombia","arrests":"8 detained","source":"Infobae","seizures":[{"drug":"cannabis","kg":303.7,"place":"Colombia"},{"drug":"cocaine","kg":2.9,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Portugal's Judicial Police seize 3.7 tonnes of cocaine from a speedboat 80 nautical miles off the Algarve; one suspect dies after a collision","body":"The interception happened on Sunday 11 October and was announced two days later, under the code name Mare Nostrum, with help from MAOC-N, the Navy, Spain's Guardia Civil and Italy's Guardia di Finanza. The crew ignored orders to stop, a collision followed, and one of three suspects died of his injuries; two foreign nationals were arrested.","url":"https://www.euronews.com/2026/10/13/one-dead-two-arrested-as-portugal-seizes-37-tonnes-of-cocaine-off-faro-coast","quantity":"3.7 t cocaine","location":"Off Faro, Portugal","arrests":"2 arrested, 1 dead","source":"Euronews","seizures":[{"drug":"cocaine","kg":3700,"place":"Portugal"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
