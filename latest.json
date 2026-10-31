@@ -1,38 +1,27 @@
 {
- "date": "2026-10-30",
- "dateLabel": "Friday, October 30, 2026",
- "window": "Past 24 hours. Search indexes lagged; two verifiable US local stories surfaced, with no new federal, South America, SOUTHCOM strike or rest-of-world items confirmed.",
+ "date": "2026-10-31",
+ "dateLabel": "Saturday, October 31, 2026",
+ "window": "Past 24 hours. Search indexes lagged; only one new verifiable item (a SOUTHCOM boat strike) surfaced, with nothing new confirmed in the federal, local, South America or rest-of-world sections.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
+ "storyCount": 1,
  "sectionCounts": [
   {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 2
+   "id": "ongoing",
+   "name": "Ongoing Stories with New Developments",
+   "count": 1
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Montgomery police report a month-long operation netting about $1 million in drugs and six arrests",
-   "summary": "At a briefing on 29 October, Montgomery, Alabama police said the four-week push recovered 140 lb of marijuana, 5.5 lb of crystal meth, 1.5 lb of fentanyl and 172 g of cocaine.",
-   "location": "Montgomery, Alabama",
-   "quantity": "140 lb cannabis, 5.5 lb meth",
-   "arrests": "6 arrested",
-   "source": "WSFA",
-   "url": "https://www.wsfa.com/2026/10/29/montgomery-police-announce-1m-drug-bust-6-arrests-monthly-briefing/"
-  },
-  {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Bismarck apartment-building meth ring leads to three charged after warrant turns up 1.4 kg",
-   "summary": "Court documents say a search warrant carried out on a Tuesday, likely 27 October, at a North 2nd Street building in Bismarck, North Dakota, recovered over 1,400 g of…",
-   "location": "Bismarck, North Dakota",
-   "quantity": "1.4 kg meth",
-   "arrests": "3 charged",
-   "source": "KFYR",
-   "url": "https://www.kfyrtv.com/2026/10/30/neighbors-charged-meth-trafficking-case/"
+   "section": "ongoing",
+   "sectionName": "Ongoing Stories with New Developments",
+   "headline": "Another SOUTHCOM strike on an eastern Pacific speedboat kills five as the campaign passes 70 strikes",
+   "summary": "On 27 October, US Southern Command struck a go-fast boat on what it called established trafficking routes in the eastern Pacific, killing all five aboard; no drugs were recovered…",
+   "location": "Eastern Pacific",
+   "quantity": "5 killed",
+   "arrests": "",
+   "source": "Stars and Stripes",
+   "url": "https://www.stripes.com/theaters/americas/2026-10-27/us-strike-pacific-kills-5-23278633.html"
   }
  ]
 }

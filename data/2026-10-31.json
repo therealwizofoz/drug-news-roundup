@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-31",
+  "window": "Past 24 hours. Search indexes lagged; only one new verifiable item (a SOUTHCOM boat strike) surfaced, with nothing new confirmed in the federal, local, South America or rest-of-world sections.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[
+      {"headline":"Another SOUTHCOM strike on an eastern Pacific speedboat kills five as the campaign passes 70 strikes","body":"On 27 October, US Southern Command struck a go-fast boat on what it called established trafficking routes in the eastern Pacific, killing all five aboard; no drugs were recovered or weighed. Stars and Stripes puts the roughly year-old campaign at more than 70 strikes and at least 230 dead, though other outlets have cited higher death counts. The campaign remains legally contested: a UN investigator said in September there were grounds to view the strikes as possible crimes against humanity.","url":"https://www.stripes.com/theaters/americas/2026-10-27/us-strike-pacific-kills-5-23278633.html","quantity":"5 killed","location":"Eastern Pacific","source":"Stars and Stripes"}
+    ]}
+  ]
+}
