@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-01",
+  "window": "Past 24 hours. Search indexes lagged and returned no verifiable, dated new items; every section is empty rather than padded with stale or unconfirmed stories.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
