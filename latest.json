@@ -1,9 +1,27 @@
 {
- "date": "2026-11-03",
- "dateLabel": "Tuesday, November 3, 2026",
- "window": "Past 24 hours. Search indexes lagged and returned no verifiable, dated new items; every section is empty rather than padded with stale or already-logged stories.",
+ "date": "2026-11-04",
+ "dateLabel": "Wednesday, November 4, 2026",
+ "window": "Past 24 hours. Search indexes lagged; only one verifiable new item was found, and it describes an operation reported on 31 October.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 0,
- "sectionCounts": [],
- "stories": []
+ "storyCount": 1,
+ "sectionCounts": [
+  {
+   "id": "south-america",
+   "name": "South America",
+   "count": 1
+  }
+ ],
+ "stories": [
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian Navy and US agents recover 2 tonnes of cocaine from two speedboats in the Caribbean off Cartagena",
+   "summary": "Colombia's Navy reported, in a joint operation with US personnel, taking 2,001 kg of cocaine hydrochloride packed in 80 sacks from two go-fast boats; one crew had thrown bundles…",
+   "location": "Caribbean off Cartagena, Colombia",
+   "quantity": "2 t cocaine",
+   "arrests": "5 detained",
+   "source": "Vanguardia",
+   "url": "https://www.vanguardia.com/colombia/2026/10/31/armada-incauto-dos-toneladas-de-cocaina-en-aguas-del-caribe-durante-operacion-con-ee-uu/"
+  }
+ ]
 }
