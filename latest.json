@@ -1,27 +1,38 @@
 {
- "date": "2026-11-04",
- "dateLabel": "Wednesday, November 4, 2026",
- "window": "Past 24 hours. Search indexes lagged; only one verifiable new item was found, and it describes an operation reported on 31 October.",
+ "date": "2026-11-05",
+ "dateLabel": "Thursday, November 5, 2026",
+ "window": "Past 24 hours. Search indexes lagged and the US federal and South American feeds yielded no new verifiable items; two stories from 3 November are included.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 1,
+ "storyCount": 2,
  "sectionCounts": [
   {
-   "id": "south-america",
-   "name": "South America",
-   "count": 1
+   "id": "world",
+   "name": "Rest of World",
+   "count": 2
   }
  ],
  "stories": [
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombian Navy and US agents recover 2 tonnes of cocaine from two speedboats in the Caribbean off Cartagena",
-   "summary": "Colombia's Navy reported, in a joint operation with US personnel, taking 2,001 kg of cocaine hydrochloride packed in 80 sacks from two go-fast boats; one crew had thrown bundles…",
-   "location": "Caribbean off Cartagena, Colombia",
-   "quantity": "2 t cocaine",
-   "arrests": "5 detained",
-   "source": "Vanguardia",
-   "url": "https://www.vanguardia.com/colombia/2026/10/31/armada-incauto-dos-toneladas-de-cocaina-en-aguas-del-caribe-durante-operacion-con-ee-uu/"
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Spanish warehouses in Murcia yield an estimated 12 tonnes of cocaine, a regional record",
+   "summary": "Searches of two industrial units in the El Labradorcico estate in Águilas, begun after a police officer spotted an open building, ran until 3 November and raised the estimated…",
+   "location": "Águilas, Murcia, Spain",
+   "quantity": "~12 t cocaine",
+   "arrests": "No arrests; 1 under investigation",
+   "source": "El Español",
+   "url": "https://elespanol.com/reportajes/20261103/alijo-cocaina-aguilas-eleva-toneladas-duenos-naves-no-sabian-alquilaron/1003744445050_0.html"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Nigerian Customs' Lagos unit reports 3.4 tonnes of cannabis in a four-week run of seizures",
+   "summary": "Customs Federal Operations Unit Zone A said at a Lagos briefing on 3 November that its seizures over about four weeks included roughly 3,408 kg of cannabis in 5,986 parcels, plus…",
+   "location": "Lagos, Nigeria",
+   "quantity": "3.4 t cannabis",
+   "arrests": "",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/03/customs-intercepts-n6-19-billion-worth-of-smuggled-goods-including-3-4-tonnes-of-cannabis/"
   }
  ]
 }

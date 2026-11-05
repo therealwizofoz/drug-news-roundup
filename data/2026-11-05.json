@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "window": "Past 24 hours. Search indexes lagged and the US federal and South American feeds yielded no new verifiable items; two stories from 3 November are included.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Spanish warehouses in Murcia yield an estimated 12 tonnes of cocaine, a regional record","body":"Searches of two industrial units in the El Labradorcico estate in Águilas, begun after a police officer spotted an open building, ran until 3 November and raised the estimated haul to about 12 tonnes. No arrests were reported; one Moroccan national is under investigation, and investigators suspect an Albanian-Kosovar group moving the load by road across Europe.","url":"https://elespanol.com/reportajes/20261103/alijo-cocaina-aguilas-eleva-toneladas-duenos-naves-no-sabian-alquilaron/1003744445050_0.html","quantity":"~12 t cocaine","location":"Águilas, Murcia, Spain","arrests":"No arrests; 1 under investigation","source":"El Español","seizures":[{"drug":"cocaine","kg":12000,"place":"Spain"}]},
+      {"headline":"Nigerian Customs' Lagos unit reports 3.4 tonnes of cannabis in a four-week run of seizures","body":"Customs Federal Operations Unit Zone A said at a Lagos briefing on 3 November that its seizures over about four weeks included roughly 3,408 kg of cannabis in 5,986 parcels, plus small amounts of cocaine, methamphetamine and codeine syrup. The unit put the total value of all seized goods, not only drugs, at about N6.19 billion; no arrests were mentioned.","url":"https://nairametrics.com/2026/11/03/customs-intercepts-n6-19-billion-worth-of-smuggled-goods-including-3-4-tonnes-of-cannabis/","quantity":"3.4 t cannabis","location":"Lagos, Nigeria","source":"Nairametrics","seizures":[{"drug":"cannabis","kg":3407.83,"place":"Nigeria"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
