@@ -1,38 +1,43 @@
 {
- "date": "2026-11-05",
- "dateLabel": "Thursday, November 5, 2026",
- "window": "Past 24 hours. Search indexes lagged and the US federal and South American feeds yielded no new verifiable items; two stories from 3 November are included.",
+ "date": "2026-11-06",
+ "dateLabel": "Friday, November 6, 2026",
+ "window": "Past 24 hours. Search indexes lagged; South America and military counter-narcotics searches turned up nothing new and verifiable, so those sections are empty. The New Mexico case was announced 3 November.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 2,
  "sectionCounts": [
   {
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 1
+  },
+  {
    "id": "world",
    "name": "Rest of World",
-   "count": 2
+   "count": 1
   }
  ],
  "stories": [
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Spanish warehouses in Murcia yield an estimated 12 tonnes of cocaine, a regional record",
-   "summary": "Searches of two industrial units in the El Labradorcico estate in Águilas, begun after a police officer spotted an open building, ran until 3 November and raised the estimated…",
-   "location": "Águilas, Murcia, Spain",
-   "quantity": "~12 t cocaine",
-   "arrests": "No arrests; 1 under investigation",
-   "source": "El Español",
-   "url": "https://elespanol.com/reportajes/20261103/alijo-cocaina-aguilas-eleva-toneladas-duenos-naves-no-sabian-alquilaron/1003744445050_0.html"
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Albuquerque raid yields roughly 51 kg of fentanyl, the biggest powder seizure in DEA New Mexico history, and a newly hired state paralegal is held",
+   "summary": "Agents searching a northwest Albuquerque home on 29 October recovered about 44 kg of fentanyl powder, over 7 kg of fentanyl pills, some heroin and around 29 firearms.",
+   "location": "Albuquerque, New Mexico",
+   "quantity": "~51 kg fentanyl",
+   "arrests": "1 charged",
+   "source": "Albuquerque Journal",
+   "url": "https://www.abqjournal.com/news/fentanyl-bust-nets-state-doj-paralegal/3154665"
   },
   {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Nigerian Customs' Lagos unit reports 3.4 tonnes of cannabis in a four-week run of seizures",
-   "summary": "Customs Federal Operations Unit Zone A said at a Lagos briefing on 3 November that its seizures over about four weeks included roughly 3,408 kg of cannabis in 5,986 parcels, plus…",
-   "location": "Lagos, Nigeria",
-   "quantity": "3.4 t cannabis",
-   "arrests": "",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/03/customs-intercepts-n6-19-billion-worth-of-smuggled-goods-including-3-4-tonnes-of-cannabis/"
+   "headline": "Punjab police say a drone-dropped 36 kg heroin consignment near the Pakistan border led to four arrests",
+   "summary": "Amritsar's Counter Intelligence unit retrieved the heroin in the Lopoke border area and stopped the suspects, one of them a juvenile, near the Bharatmala Highway bridge, also…",
+   "location": "Amritsar, Punjab, India",
+   "quantity": "36 kg heroin",
+   "arrests": "4 arrested",
+   "source": "The Tribune",
+   "url": "https://www.tribuneindia.com/news/amritsar/ci-amritsar-busts-cross-border-drug-network-seizes-36-kg-heroin-4-held-including-juvenile/"
   }
  ]
 }

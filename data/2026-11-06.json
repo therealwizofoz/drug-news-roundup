@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-06",
+  "window": "Past 24 hours. Search indexes lagged; South America and military counter-narcotics searches turned up nothing new and verifiable, so those sections are empty. The New Mexico case was announced 3 November.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"Albuquerque raid yields roughly 51 kg of fentanyl, the biggest powder seizure in DEA New Mexico history, and a newly hired state paralegal is held","body":"Agents searching a northwest Albuquerque home on 29 October recovered about 44 kg of fentanyl powder, over 7 kg of fentanyl pills, some heroin and around 29 firearms. Angel Ramirez, 45, hired by the state Department of Justice on 13 October, was charged federally with fentanyl trafficking and a firearms offense and ordered detained; the case was announced 3 November and involved DEA, FBI, IRS, Homeland Security and local sheriffs.","url":"https://www.abqjournal.com/news/fentanyl-bust-nets-state-doj-paralegal/3154665","quantity":"~51 kg fentanyl","location":"Albuquerque, New Mexico","arrests":"1 charged","source":"Albuquerque Journal","seizures":[{"drug":"fentanyl","kg":51,"place":"New Mexico"}]}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Punjab police say a drone-dropped 36 kg heroin consignment near the Pakistan border led to four arrests","body":"Amritsar's Counter Intelligence unit retrieved the heroin in the Lopoke border area and stopped the suspects, one of them a juvenile, near the Bharatmala Highway bridge, also impounding two motorcycles. Police say a foreign-based handler ran the operation; a case was filed under India's NDPS Act, and reporting dated 6 November.","url":"https://www.tribuneindia.com/news/amritsar/ci-amritsar-busts-cross-border-drug-network-seizes-36-kg-heroin-4-held-including-juvenile/","quantity":"36 kg heroin","location":"Amritsar, Punjab, India","arrests":"4 arrested","source":"The Tribune","seizures":[{"drug":"heroin","kg":36,"place":"India"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
