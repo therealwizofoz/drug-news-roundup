@@ -1,43 +1,54 @@
 {
- "date": "2026-11-06",
- "dateLabel": "Friday, November 6, 2026",
- "window": "Past 24 hours. Search indexes lagged; South America and military counter-narcotics searches turned up nothing new and verifiable, so those sections are empty. The New Mexico case was announced 3 November.",
+ "date": "2026-11-07",
+ "dateLabel": "Saturday, November 7, 2026",
+ "window": "Past 24 hours. Search indexes lagged; the Colombian Navy operation was announced 3 November. No new SOUTHCOM strike announcements or federal press releases could be verified, so those beats add nothing today.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
+ "storyCount": 3,
  "sectionCounts": [
   {
-   "id": "federal",
-   "name": "National / Federal (US)",
+   "id": "local",
+   "name": "Local US Arrests",
    "count": 1
   },
   {
-   "id": "world",
-   "name": "Rest of World",
-   "count": 1
+   "id": "south-america",
+   "name": "South America",
+   "count": 2
   }
  ],
  "stories": [
   {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Albuquerque raid yields roughly 51 kg of fentanyl, the biggest powder seizure in DEA New Mexico history, and a newly hired state paralegal is held",
-   "summary": "Agents searching a northwest Albuquerque home on 29 October recovered about 44 kg of fentanyl powder, over 7 kg of fentanyl pills, some heroin and around 29 firearms.",
-   "location": "Albuquerque, New Mexico",
-   "quantity": "~51 kg fentanyl",
-   "arrests": "1 charged",
-   "source": "Albuquerque Journal",
-   "url": "https://www.abqjournal.com/news/fentanyl-bust-nets-state-doj-paralegal/3154665"
+   "section": "local",
+   "sectionName": "Local US Arrests",
+   "headline": "Operation Iron Scale: twelve charged and about 18 kg of cocaine seized in the Fort Wayne, Indiana area",
+   "summary": "Indiana State Police executed warrants on Tuesday 3 November with local task forces plus ATF, DEA and FBI, and announced results on 6 November.",
+   "location": "Fort Wayne, Indiana",
+   "quantity": "~18 kg cocaine",
+   "arrests": "12 charged",
+   "source": "WOWO",
+   "url": "https://wowo.com/operation-iron-scale-results-in-12-arrests-major-drug-and-firearm-seizures-in-fort-wayne-area/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Punjab police say a drone-dropped 36 kg heroin consignment near the Pakistan border led to four arrests",
-   "summary": "Amritsar's Counter Intelligence unit retrieved the heroin in the Lopoke border area and stopped the suspects, one of them a juvenile, near the Bharatmala Highway bridge, also…",
-   "location": "Amritsar, Punjab, India",
-   "quantity": "36 kg heroin",
-   "arrests": "4 arrested",
-   "source": "The Tribune",
-   "url": "https://www.tribuneindia.com/news/amritsar/ci-amritsar-busts-cross-border-drug-network-seizes-36-kg-heroin-4-held-including-juvenile/"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian Navy recovers 1.77 tonnes of cocaine in Cauca and Nariño, with no arrests",
+   "summary": "Announced 3 November, two Pacific-region operations yielded 66 bundles: 1,175 kg on a tributary of the San Juan de Micay river in López de Micay, Cauca, and 590 kg abandoned on…",
+   "location": "Cauca and Nariño, Colombia",
+   "quantity": "1,765 kg cocaine",
+   "arrests": "No arrests",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/11/03/armada-evito-que-usd-81-millones-llegaran-a-las-finanzas-del-narcotrafico-tras-decomisar-17-toneladas-de-cocaina-en-cauca-y-narino/"
+  },
+  {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Police find 150 kg of cocaine at a stash house in Granada, Meta, allegedly tied to FARC dissidents",
+   "summary": "Reported 7 November after an investigation begun in October, the property served as a collection point for cocaine made in Guaviare labs.",
+   "location": "Granada, Meta, Colombia",
+   "quantity": "150 kg cocaine",
+   "arrests": "No arrests",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/11/07/incautaron-150-kilos-de-cocaina-en-meta-que-serian-enviados-a-estados-unidos-por-encomiendas-relacionados-con-las-disidencias-de-las-farc/"
   }
  ]
 }
