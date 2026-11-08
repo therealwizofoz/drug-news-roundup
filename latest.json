@@ -1,54 +1,54 @@
 {
- "date": "2026-11-07",
- "dateLabel": "Saturday, November 7, 2026",
- "window": "Past 24 hours. Search indexes lagged; the Colombian Navy operation was announced 3 November. No new SOUTHCOM strike announcements or federal press releases could be verified, so those beats add nothing today.",
+ "date": "2026-11-08",
+ "dateLabel": "Sunday, November 8, 2026",
+ "window": "Past 24 hours. Search indexes lagged; several items describe operations from late October or early November, with dates stated in each story. No new SOUTHCOM strike announcements could be verified; the most recent tally found (USNI News, 5 October) put deaths at 238.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 3,
  "sectionCounts": [
   {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 1
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 2
   },
   {
-   "id": "south-america",
-   "name": "South America",
-   "count": 2
+   "id": "world",
+   "name": "Rest of World",
+   "count": 1
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Operation Iron Scale: twelve charged and about 18 kg of cocaine seized in the Fort Wayne, Indiana area",
-   "summary": "Indiana State Police executed warrants on Tuesday 3 November with local task forces plus ATF, DEA and FBI, and announced results on 6 November.",
-   "location": "Fort Wayne, Indiana",
-   "quantity": "~18 kg cocaine",
-   "arrests": "12 charged",
-   "source": "WOWO",
-   "url": "https://wowo.com/operation-iron-scale-results-in-12-arrests-major-drug-and-firearm-seizures-in-fort-wayne-area/"
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Border Patrol checkpoint in San Clemente yields over 1,400 pounds of cocaine from two back-to-back vehicle stops",
+   "summary": "Agents at the San Clemente checkpoint in California's San Diego Sector stopped two vehicles on 25 October and found about 550 vacuum-sealed packages of suspected cocaine, valued…",
+   "location": "San Clemente, California",
+   "quantity": "~651 kg cocaine",
+   "arrests": "2 arrested",
+   "source": "Fox News",
+   "url": "https://www.foxnews.com/us/border-patrol-seizes-nearly-10m-cocaine-back-to-back-california-stops"
   },
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombian Navy recovers 1.77 tonnes of cocaine in Cauca and Nariño, with no arrests",
-   "summary": "Announced 3 November, two Pacific-region operations yielded 66 bundles: 1,175 kg on a tributary of the San Juan de Micay river in López de Micay, Cauca, and 590 kg abandoned on…",
-   "location": "Cauca and Nariño, Colombia",
-   "quantity": "1,765 kg cocaine",
-   "arrests": "No arrests",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/11/03/armada-evito-que-usd-81-millones-llegaran-a-las-finanzas-del-narcotrafico-tras-decomisar-17-toneladas-de-cocaina-en-cauca-y-narino/"
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Coast Guard cutter William Trump brings ashore about 3,600 pounds of cocaine from two Caribbean interdictions",
+   "summary": "The cutter's crew landed the haul on Wednesday 4 November, with the drugs valued near $27 million. Four detainees were handed to federal agents at Port Everglades, Florida.",
+   "location": "Caribbean Sea / Port Everglades, Florida",
+   "quantity": "~1,643 kg cocaine",
+   "arrests": "4 detained",
+   "source": "Jamaica Observer",
+   "url": "https://www.jamaicaobserver.com/2026/11/05/us-coast-guard-seizes-us27-million-cocaine-caribbean-sea/"
   },
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Police find 150 kg of cocaine at a stash house in Granada, Meta, allegedly tied to FARC dissidents",
-   "summary": "Reported 7 November after an investigation begun in October, the property served as a collection point for cocaine made in Guaviare labs.",
-   "location": "Granada, Meta, Colombia",
-   "quantity": "150 kg cocaine",
-   "arrests": "No arrests",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/colombia/2026/11/07/incautaron-150-kilos-de-cocaina-en-meta-que-serian-enviados-a-estados-unidos-por-encomiendas-relacionados-con-las-disidencias-de-las-farc/"
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Mexican Navy seizes 1.1 tonnes of cocaine in two Pacific operations off Chiapas and Oaxaca",
+   "summary": "Security secretary Omar García Harfuch announced on 5 November that the navy recovered 1,149 kg of suspected cocaine in two at-sea operations; one person was arrested in the…",
+   "location": "Chiapas and Oaxaca, Mexico",
+   "quantity": "1,149 kg cocaine",
+   "arrests": "1 arrested",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/mexican-navy-seizes-1-1-tonnes-cocaine-chiapas-oaxaca-2026/"
   }
  ]
 }

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-08",
+  "window": "Past 24 hours. Search indexes lagged; several items describe operations from late October or early November, with dates stated in each story. No new SOUTHCOM strike announcements could be verified; the most recent tally found (USNI News, 5 October) put deaths at 238.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"Border Patrol checkpoint in San Clemente yields over 1,400 pounds of cocaine from two back-to-back vehicle stops","body":"Agents at the San Clemente checkpoint in California's San Diego Sector stopped two vehicles on 25 October and found about 550 vacuum-sealed packages of suspected cocaine, valued at roughly $9.8 million. Both drivers were arrested and the DEA took custody of them and the drugs; the case was publicized on 7 November.","url":"https://www.foxnews.com/us/border-patrol-seizes-nearly-10m-cocaine-back-to-back-california-stops","quantity":"~651 kg cocaine","location":"San Clemente, California","arrests":"2 arrested","source":"Fox News","seizures":[{"drug":"cocaine","kg":651,"place":"California"}]},
+      {"headline":"Coast Guard cutter William Trump brings ashore about 3,600 pounds of cocaine from two Caribbean interdictions","body":"The cutter's crew landed the haul on Wednesday 4 November, with the drugs valued near $27 million. Four detainees were handed to federal agents at Port Everglades, Florida.","url":"https://www.jamaicaobserver.com/2026/11/05/us-coast-guard-seizes-us27-million-cocaine-caribbean-sea/","quantity":"~1,643 kg cocaine","location":"Caribbean Sea / Port Everglades, Florida","arrests":"4 detained","source":"Jamaica Observer","seizures":[{"drug":"cocaine","kg":1643,"place":"Florida"}]}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Mexican Navy seizes 1.1 tonnes of cocaine in two Pacific operations off Chiapas and Oaxaca","body":"Security secretary Omar García Harfuch announced on 5 November that the navy recovered 1,149 kg of suspected cocaine in two at-sea operations; one person was arrested in the second and passed to federal prosecutors. The navy did not say when the operations took place.","url":"https://www.riotimesonline.com/mexican-navy-seizes-1-1-tonnes-cocaine-chiapas-oaxaca-2026/","quantity":"1,149 kg cocaine","location":"Chiapas and Oaxaca, Mexico","arrests":"1 arrested","source":"Rio Times","seizures":[{"drug":"cocaine","kg":1149,"place":"Mexico"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
