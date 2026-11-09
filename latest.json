@@ -1,15 +1,10 @@
 {
- "date": "2026-11-08",
- "dateLabel": "Sunday, November 8, 2026",
- "window": "Past 24 hours. Search indexes lagged; several items describe operations from late October or early November, with dates stated in each story. No new SOUTHCOM strike announcements could be verified; the most recent tally found (USNI News, 5 October) put deaths at 238.",
+ "date": "2026-11-09",
+ "dateLabel": "Monday, November 9, 2026",
+ "window": "Past 24 hours. Search indexes lagged badly and returned almost nothing dated in the window; the single story here describes a raid from 2 November. No new SOUTHCOM strike announcements could be verified.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 3,
+ "storyCount": 1,
  "sectionCounts": [
-  {
-   "id": "federal",
-   "name": "National / Federal (US)",
-   "count": 2
-  },
   {
    "id": "world",
    "name": "Rest of World",
@@ -18,37 +13,15 @@
  ],
  "stories": [
   {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Border Patrol checkpoint in San Clemente yields over 1,400 pounds of cocaine from two back-to-back vehicle stops",
-   "summary": "Agents at the San Clemente checkpoint in California's San Diego Sector stopped two vehicles on 25 October and found about 550 vacuum-sealed packages of suspected cocaine, valued…",
-   "location": "San Clemente, California",
-   "quantity": "~651 kg cocaine",
-   "arrests": "2 arrested",
-   "source": "Fox News",
-   "url": "https://www.foxnews.com/us/border-patrol-seizes-nearly-10m-cocaine-back-to-back-california-stops"
-  },
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Coast Guard cutter William Trump brings ashore about 3,600 pounds of cocaine from two Caribbean interdictions",
-   "summary": "The cutter's crew landed the haul on Wednesday 4 November, with the drugs valued near $27 million. Four detainees were handed to federal agents at Port Everglades, Florida.",
-   "location": "Caribbean Sea / Port Everglades, Florida",
-   "quantity": "~1,643 kg cocaine",
-   "arrests": "4 detained",
-   "source": "Jamaica Observer",
-   "url": "https://www.jamaicaobserver.com/2026/11/05/us-coast-guard-seizes-us27-million-cocaine-caribbean-sea/"
-  },
-  {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "Mexican Navy seizes 1.1 tonnes of cocaine in two Pacific operations off Chiapas and Oaxaca",
-   "summary": "Security secretary Omar García Harfuch announced on 5 November that the navy recovered 1,149 kg of suspected cocaine in two at-sea operations; one person was arrested in the…",
-   "location": "Chiapas and Oaxaca, Mexico",
-   "quantity": "1,149 kg cocaine",
-   "arrests": "1 arrested",
-   "source": "Rio Times",
-   "url": "https://www.riotimesonline.com/mexican-navy-seizes-1-1-tonnes-cocaine-chiapas-oaxaca-2026/"
+   "headline": "Jamaican SWAT team finds about 69 kg of cocaine in a Papine house and detains one man",
+   "summary": "Police officers serving a search warrant at a home on University Crescent in Papine, St Andrew, around 11:30 pm on 2 November found roughly 152 pounds of cocaine.",
+   "location": "Papine, St Andrew, Jamaica",
+   "quantity": "~69 kg cocaine",
+   "arrests": "1 detained",
+   "source": "Jamaica Gleaner",
+   "url": "https://jamaica-gleaner.com/article/news/20261105/construction-worker-arrested-after-517-million-cocaine-bust-st-andrew"
   }
  ]
 }

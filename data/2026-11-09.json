@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-09",
+  "window": "Past 24 hours. Search indexes lagged badly and returned almost nothing dated in the window; the single story here describes a raid from 2 November. No new SOUTHCOM strike announcements could be verified.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Jamaican SWAT team finds about 69 kg of cocaine in a Papine house and detains one man","body":"Police officers serving a search warrant at a home on University Crescent in Papine, St Andrew, around 11:30 pm on 2 November found roughly 152 pounds of cocaine. The sole occupant, a construction worker, was taken into custody pending charges while narcotics investigators continue the case.","url":"https://jamaica-gleaner.com/article/news/20261105/construction-worker-arrested-after-517-million-cocaine-bust-st-andrew","quantity":"~69 kg cocaine","location":"Papine, St Andrew, Jamaica","arrests":"1 detained","source":"Jamaica Gleaner","seizures":[{"drug":"cocaine","kg":69,"place":"Jamaica"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
