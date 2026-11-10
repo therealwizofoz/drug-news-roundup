@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; items below were announced 9 November and describe actions from 5 to 8 November. No new SOUTHCOM strike announcements could be verified.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[
+      {"headline":"Wiretap case in New York City: ex-NYPD detective among four arrested over fentanyl, crack and heroin sales plus 13 illegal guns","body":"The city's Special Narcotics Prosecutor and the NYPD announced on 9 November that raids on 5 November in Washington Heights, Great Kills and Eltingville turned up fentanyl, crack, heroin, a pill press and 13 unlicensed firearms. Prosecutors say the alleged ringleader and a retired detective were part of a group trying to supply Upper Manhattan and Staten Island; the case followed a wiretap that began in May. No drug weights were reported.","url":"https://www.amny.com/news/nypd-detective-cuffed-drug-sale-manhattan-staten-island/","quantity":"fentanyl, crack, heroin; 13 guns","location":"Manhattan and Staten Island, New York","arrests":"4 arrested","source":"amNY"}
+    ]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Mexico captures alleged Jalisco cartel cell chief 'R2' in Zapopan using DEA intelligence","body":"On 8 November Mexican forces arrested Rafael Alvarez, said to lead the CJNG cell known as Los Rs, in the Guadalajara area after a shootout in which he was wounded; 19 others were detained. Security Minister Omar Garcia Harfuch linked the cell to extortion, trafficking and homicides, and Alvarez faces a US extradition request. No drugs were reported seized.","url":"https://aljazeera.com/news/2026/11/9/mexico-arrests-major-leader-of-jalisco-cartel","location":"Zapopan, Jalisco, Mexico","arrests":"20 detained","source":"Al Jazeera"}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
