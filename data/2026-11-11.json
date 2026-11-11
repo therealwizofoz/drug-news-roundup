@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-11",
+  "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; the item below was announced 6 November and surfaced 7 November. No new SOUTHCOM strike announcements and no new South America seizures could be verified.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"Operation Iron Current: ICE investigators report over 6 tonnes of cocaine and marijuana from two go-fast boats tied to a Colombian network","body":"Homeland Security Investigations, working from Hattiesburg, Mississippi, said on 6 November that two go-fast boats carried roughly 3,188 kg of cocaine and 3,200 kg of marijuana, with a street value above $80 million. The probe targets a Colombia-based trafficking organization and is continuing; the reporting gave no arrest count and did not say where or when the boats were stopped, and the stated totals do not fully reconcile.","url":"https://wset.com/news/nation-world/federal-investigators-seize-6k-kilos-of-cocaine-marijuana-worth-more-than-805m-ice-illegal-drugs-narcotics-drug-trafficking-us-immigration-and-customs-enforcement-operation-homeland-security-investigations-dhs-iron-current-trump-true-crime","quantity":"3.2 t cocaine, 3.2 t marijuana","location":"Mississippi-led probe; interdiction site not stated","source":"WSET / ICE"}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

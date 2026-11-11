@@ -1,43 +1,27 @@
 {
- "date": "2026-11-10",
- "dateLabel": "Tuesday, November 10, 2026",
- "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; items below were announced 9 November and describe actions from 5 to 8 November. No new SOUTHCOM strike announcements could be verified.",
+ "date": "2026-11-11",
+ "dateLabel": "Wednesday, November 11, 2026",
+ "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; the item below was announced 6 November and surfaced 7 November. No new SOUTHCOM strike announcements and no new South America seizures could be verified.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
+ "storyCount": 1,
  "sectionCounts": [
   {
-   "id": "local",
-   "name": "Local US Arrests",
-   "count": 1
-  },
-  {
-   "id": "world",
-   "name": "Rest of World",
+   "id": "federal",
+   "name": "National / Federal (US)",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "local",
-   "sectionName": "Local US Arrests",
-   "headline": "Wiretap case in New York City: ex-NYPD detective among four arrested over fentanyl, crack and heroin sales plus 13 illegal guns",
-   "summary": "The city's Special Narcotics Prosecutor and the NYPD announced on 9 November that raids on 5 November in Washington Heights, Great Kills and Eltingville turned up fentanyl, crack…",
-   "location": "Manhattan and Staten Island, New York",
-   "quantity": "fentanyl, crack, heroin; 13 guns",
-   "arrests": "4 arrested",
-   "source": "amNY",
-   "url": "https://www.amny.com/news/nypd-detective-cuffed-drug-sale-manhattan-staten-island/"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Mexico captures alleged Jalisco cartel cell chief 'R2' in Zapopan using DEA intelligence",
-   "summary": "On 8 November Mexican forces arrested Rafael Alvarez, said to lead the CJNG cell known as Los Rs, in the Guadalajara area after a shootout in which he was wounded; 19 others were…",
-   "location": "Zapopan, Jalisco, Mexico",
-   "quantity": "",
-   "arrests": "20 detained",
-   "source": "Al Jazeera",
-   "url": "https://aljazeera.com/news/2026/11/9/mexico-arrests-major-leader-of-jalisco-cartel"
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Operation Iron Current: ICE investigators report over 6 tonnes of cocaine and marijuana from two go-fast boats tied to a Colombian network",
+   "summary": "Homeland Security Investigations, working from Hattiesburg, Mississippi, said on 6 November that two go-fast boats carried roughly 3,188 kg of cocaine and 3,200 kg of marijuana…",
+   "location": "Mississippi-led probe; interdiction site not stated",
+   "quantity": "3.2 t cocaine, 3.2 t marijuana",
+   "arrests": "",
+   "source": "WSET / ICE",
+   "url": "https://wset.com/news/nation-world/federal-investigators-seize-6k-kilos-of-cocaine-marijuana-worth-more-than-805m-ice-illegal-drugs-narcotics-drug-trafficking-us-immigration-and-customs-enforcement-operation-homeland-security-investigations-dhs-iron-current-trump-true-crime"
   }
  ]
 }
