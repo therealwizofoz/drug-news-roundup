@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-12",
+  "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; items below were announced 4-10 November. No new SOUTHCOM strike announcement after the 27 October strike could be verified.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombian Navy intercepts cocaine and marijuana worth over $26 million in two Pacific operations, five held","body":"Reporting dated 4 November says the navy carried out two maritime interdictions in Colombia's Pacific waters that together yielded 854 kg of cocaine and marijuana, with no per-drug split given. Five Colombian nationals were detained and handed to prosecutors.","url":"https://www.asuntoslegales.com.co/actualidad/armada-incauto-854-kilos-de-cocaina-y-marihuana-en-dos-operativos-en-el-pacifico-4517523","quantity":"854 kg cocaine and marijuana","location":"Pacific coast, Colombia","arrests":"5 arrested","source":"Asuntos Legales"}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Mexican Navy intercepts a small boat off Guerrero carrying about a tonne of suspected cocaine, six detained","body":"Announced 9 November, naval personnel stopped a small vessel southwest of Acapulco during a surveillance patrol and found 24 packages weighing a preliminary 1,000 kg. The six detainees, the drugs and the boat went to the federal Attorney General's Office; lab tests will confirm the final weight and substance.","url":"https://www.news247plus.com/news/World/mexican-navy-seizes-usd13-million-worth-of-cocaine-in-pacific-64054","quantity":"~1 t suspected cocaine","location":"Off Acapulco, Guerrero, Mexico","arrests":"6 detained","source":"News247Plus","seizures":[{"drug":"cocaine","kg":1000,"place":"Mexico"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

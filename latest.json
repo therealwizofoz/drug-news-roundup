@@ -1,27 +1,43 @@
 {
- "date": "2026-11-11",
- "dateLabel": "Wednesday, November 11, 2026",
- "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; the item below was announced 6 November and surfaced 7 November. No new SOUTHCOM strike announcements and no new South America seizures could be verified.",
+ "date": "2026-11-12",
+ "dateLabel": "Thursday, November 12, 2026",
+ "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; items below were announced 4-10 November. No new SOUTHCOM strike announcement after the 27 October strike could be verified.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 1,
+ "storyCount": 2,
  "sectionCounts": [
   {
-   "id": "federal",
-   "name": "National / Federal (US)",
+   "id": "south-america",
+   "name": "South America",
+   "count": 1
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "Operation Iron Current: ICE investigators report over 6 tonnes of cocaine and marijuana from two go-fast boats tied to a Colombian network",
-   "summary": "Homeland Security Investigations, working from Hattiesburg, Mississippi, said on 6 November that two go-fast boats carried roughly 3,188 kg of cocaine and 3,200 kg of marijuana…",
-   "location": "Mississippi-led probe; interdiction site not stated",
-   "quantity": "3.2 t cocaine, 3.2 t marijuana",
-   "arrests": "",
-   "source": "WSET / ICE",
-   "url": "https://wset.com/news/nation-world/federal-investigators-seize-6k-kilos-of-cocaine-marijuana-worth-more-than-805m-ice-illegal-drugs-narcotics-drug-trafficking-us-immigration-and-customs-enforcement-operation-homeland-security-investigations-dhs-iron-current-trump-true-crime"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombian Navy intercepts cocaine and marijuana worth over $26 million in two Pacific operations, five held",
+   "summary": "Reporting dated 4 November says the navy carried out two maritime interdictions in Colombia's Pacific waters that together yielded 854 kg of cocaine and marijuana, with no…",
+   "location": "Pacific coast, Colombia",
+   "quantity": "854 kg cocaine and marijuana",
+   "arrests": "5 arrested",
+   "source": "Asuntos Legales",
+   "url": "https://www.asuntoslegales.com.co/actualidad/armada-incauto-854-kilos-de-cocaina-y-marihuana-en-dos-operativos-en-el-pacifico-4517523"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Mexican Navy intercepts a small boat off Guerrero carrying about a tonne of suspected cocaine, six detained",
+   "summary": "Announced 9 November, naval personnel stopped a small vessel southwest of Acapulco during a surveillance patrol and found 24 packages weighing a preliminary 1,000 kg.",
+   "location": "Off Acapulco, Guerrero, Mexico",
+   "quantity": "~1 t suspected cocaine",
+   "arrests": "6 detained",
+   "source": "News247Plus",
+   "url": "https://www.news247plus.com/news/World/mexican-navy-seizes-usd13-million-worth-of-cocaine-in-pacific-64054"
   }
  ]
 }
