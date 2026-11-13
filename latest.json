@@ -1,43 +1,38 @@
 {
- "date": "2026-11-12",
- "dateLabel": "Thursday, November 12, 2026",
- "window": "Past 24 hours. Search indexes lagged and returned little dated inside the window; items below were announced 4-10 November. No new SOUTHCOM strike announcement after the 27 October strike could be verified.",
+ "date": "2026-11-13",
+ "dateLabel": "Friday, November 13, 2026",
+ "window": "Past 24 hours. Search indexes lagged; items below were announced 9-10 November. No new SOUTHCOM strike announcement could be verified.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 2,
  "sectionCounts": [
   {
    "id": "south-america",
    "name": "South America",
-   "count": 1
-  },
-  {
-   "id": "world",
-   "name": "Rest of World",
-   "count": 1
+   "count": 2
   }
  ],
  "stories": [
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombian Navy intercepts cocaine and marijuana worth over $26 million in two Pacific operations, five held",
-   "summary": "Reporting dated 4 November says the navy carried out two maritime interdictions in Colombia's Pacific waters that together yielded 854 kg of cocaine and marijuana, with no…",
-   "location": "Pacific coast, Colombia",
-   "quantity": "854 kg cocaine and marijuana",
-   "arrests": "5 arrested",
-   "source": "Asuntos Legales",
-   "url": "https://www.asuntoslegales.com.co/actualidad/armada-incauto-854-kilos-de-cocaina-y-marihuana-en-dos-operativos-en-el-pacifico-4517523"
+   "headline": "Colombian army destroys Nariño cocaine lab holding over 1.3 tonnes of product, and finds 2.7 tonnes of marijuana on a Putumayo barge",
+   "summary": "Reported 10 November: an army brigade working with police and the DEA dismantled a lab in Taminango, Nariño, recovering 1,185 kg of cocaine hydrochloride and 158 kg of coca base…",
+   "location": "Nariño and Putumayo, Colombia",
+   "quantity": "1.34 t cocaine, 2.7 t marijuana",
+   "arrests": "",
+   "source": "Primicias",
+   "url": "https://www.primicias.ec/internacional/colombia-putumayo-narino-cocaina-marihuana-comandos-frontera-ecuador-136820/"
   },
   {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Mexican Navy intercepts a small boat off Guerrero carrying about a tonne of suspected cocaine, six detained",
-   "summary": "Announced 9 November, naval personnel stopped a small vessel southwest of Acapulco during a surveillance patrol and found 24 packages weighing a preliminary 1,000 kg.",
-   "location": "Off Acapulco, Guerrero, Mexico",
-   "quantity": "~1 t suspected cocaine",
-   "arrests": "6 detained",
-   "source": "News247Plus",
-   "url": "https://www.news247plus.com/news/World/mexican-navy-seizes-usd13-million-worth-of-cocaine-in-pacific-64054"
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "FBI-led surveillance in Ibarra, Ecuador ends with 452 kg of cocaine seized and one trafficker held",
+   "summary": "On 9 November, after three days of surveillance, Ecuadorian police working with the FBI's Rochester organized-crime task force, its Bogotá-Quito office and the DEA's New York…",
+   "location": "Ibarra, Imbabura, Ecuador",
+   "quantity": "452 kg cocaine",
+   "arrests": "1 arrested",
+   "source": "Primicias",
+   "url": "https://www.primicias.ec/sucesos/fbi-decomiso-droga-ibarra-policia-ecuador-detenido-camion-cocaina-136843/"
   }
  ]
 }
