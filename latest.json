@@ -1,38 +1,27 @@
 {
- "date": "2026-11-13",
- "dateLabel": "Friday, November 13, 2026",
- "window": "Past 24 hours. Search indexes lagged; items below were announced 9-10 November. No new SOUTHCOM strike announcement could be verified.",
+ "date": "2026-11-14",
+ "dateLabel": "Saturday, November 14, 2026",
+ "window": "Past 24 hours. Search indexes lagged; the item below dates from 10 November. dea.gov returned 403, so DEA releases could not be confirmed, and no new SOUTHCOM strike announcement could be verified.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
+ "storyCount": 1,
  "sectionCounts": [
   {
    "id": "south-america",
    "name": "South America",
-   "count": 2
+   "count": 1
   }
  ],
  "stories": [
   {
    "section": "south-america",
    "sectionName": "South America",
-   "headline": "Colombian army destroys Nariño cocaine lab holding over 1.3 tonnes of product, and finds 2.7 tonnes of marijuana on a Putumayo barge",
-   "summary": "Reported 10 November: an army brigade working with police and the DEA dismantled a lab in Taminango, Nariño, recovering 1,185 kg of cocaine hydrochloride and 158 kg of coca base…",
-   "location": "Nariño and Putumayo, Colombia",
-   "quantity": "1.34 t cocaine, 2.7 t marijuana",
-   "arrests": "",
-   "source": "Primicias",
-   "url": "https://www.primicias.ec/internacional/colombia-putumayo-narino-cocaina-marihuana-comandos-frontera-ecuador-136820/"
-  },
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "FBI-led surveillance in Ibarra, Ecuador ends with 452 kg of cocaine seized and one trafficker held",
-   "summary": "On 9 November, after three days of surveillance, Ecuadorian police working with the FBI's Rochester organized-crime task force, its Bogotá-Quito office and the DEA's New York…",
-   "location": "Ibarra, Imbabura, Ecuador",
-   "quantity": "452 kg cocaine",
-   "arrests": "1 arrested",
-   "source": "Primicias",
-   "url": "https://www.primicias.ec/sucesos/fbi-decomiso-droga-ibarra-policia-ecuador-detenido-camion-cocaina-136843/"
+   "headline": "Brazil's Federal Police freeze up to R$93 million in a Santa Catarina port-sector laundering probe tied to cocaine exports",
+   "summary": "On 10 November, about 25 officers executed five search warrants in Itajaí and one preventive arrest warrant in Operation Recycling, a branch of the Operation Hinterland…",
+   "location": "Itajaí, Santa Catarina, Brazil",
+   "quantity": "R$93 m frozen",
+   "arrests": "1 arrest warrant",
+   "source": "O Liberal",
+   "url": "https://www.oliberal.com/variedades/familia-de-empresarios-que-atua-ha-14-anos-para-o-trafico-e-alvo-da-pf-1.1192695"
   }
  ]
 }
