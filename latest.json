@@ -1,27 +1,27 @@
 {
- "date": "2026-11-14",
- "dateLabel": "Saturday, November 14, 2026",
- "window": "Past 24 hours. Search indexes lagged; the item below dates from 10 November. dea.gov returned 403, so DEA releases could not be confirmed, and no new SOUTHCOM strike announcement could be verified.",
+ "date": "2026-11-15",
+ "dateLabel": "Sunday, November 15, 2026",
+ "window": "Past 24 hours. Search indexes lagged; the item below was announced on 9 November. dea.gov and the DOJ page returned 403 or empty to automated requests, so details come from search-result summaries of the release. No new SOUTHCOM strike announcement could be verified, and South America searches turned up nothing new beyond already-logged stories.",
  "siteUrl": "https://www.drugnewsroundup.com/",
  "storyCount": 1,
  "sectionCounts": [
   {
-   "id": "south-america",
-   "name": "South America",
+   "id": "federal",
+   "name": "National / Federal (US)",
    "count": 1
   }
  ],
  "stories": [
   {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Brazil's Federal Police freeze up to R$93 million in a Santa Catarina port-sector laundering probe tied to cocaine exports",
-   "summary": "On 10 November, about 25 officers executed five search warrants in Itajaí and one preventive arrest warrant in Operation Recycling, a branch of the Operation Hinterland…",
-   "location": "Itajaí, Santa Catarina, Brazil",
-   "quantity": "R$93 m frozen",
-   "arrests": "1 arrest warrant",
-   "source": "O Liberal",
-   "url": "https://www.oliberal.com/variedades/familia-de-empresarios-que-atua-ha-14-anos-para-o-trafico-e-alvo-da-pf-1.1192695"
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "About 120 kg of cocaine and a handgun found in a Long Island City high-rise apartment; two men face federal conspiracy charges",
+   "summary": "Announced on 9 November by the Southern District of New York and the DEA, the case centres on a Queens apartment leased by Glen Contreras where agents executed a search warrant.",
+   "location": "Long Island City, New York",
+   "quantity": "~120 kg cocaine",
+   "arrests": "2 charged",
+   "source": "DOJ / DEA",
+   "url": "https://www.justice.gov/usao-sdny/pr/two-men-charged-cocaine-trafficking-operating-queens-stash-apartment"
   }
  ]
 }

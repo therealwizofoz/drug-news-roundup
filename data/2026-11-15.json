@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-15",
+  "window": "Past 24 hours. Search indexes lagged; the item below was announced on 9 November. dea.gov and the DOJ page returned 403 or empty to automated requests, so details come from search-result summaries of the release. No new SOUTHCOM strike announcement could be verified, and South America searches turned up nothing new beyond already-logged stories.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"About 120 kg of cocaine and a handgun found in a Long Island City high-rise apartment; two men face federal conspiracy charges","body":"Announced on 9 November by the Southern District of New York and the DEA, the case centres on a Queens apartment leased by Glen Contreras where agents executed a search warrant. Contreras and Erick Marcano are each charged with conspiring to distribute five kilograms or more of cocaine, following an investigation that reportedly began in August 2026. The charges are allegations.","url":"https://www.justice.gov/usao-sdny/pr/two-men-charged-cocaine-trafficking-operating-queens-stash-apartment","quantity":"~120 kg cocaine","location":"Long Island City, New York","arrests":"2 charged","source":"DOJ / DEA","seizures":[{"drug":"cocaine","kg":120,"place":"New York"}]}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
