@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-16",
+  "window": "Past 24 hours. Searches in English, Spanish and Portuguese across US federal, local US, South American, European and military counter-narcotics sources surfaced no new, verifiable seizures or developments beyond stories already published. One reported SOUTHCOM strike item could not be confirmed (the only source matched a 2025 date), so it is excluded.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

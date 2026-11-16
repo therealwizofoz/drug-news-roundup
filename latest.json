@@ -1,27 +1,9 @@
 {
- "date": "2026-11-15",
- "dateLabel": "Sunday, November 15, 2026",
- "window": "Past 24 hours. Search indexes lagged; the item below was announced on 9 November. dea.gov and the DOJ page returned 403 or empty to automated requests, so details come from search-result summaries of the release. No new SOUTHCOM strike announcement could be verified, and South America searches turned up nothing new beyond already-logged stories.",
+ "date": "2026-11-16",
+ "dateLabel": "Monday, November 16, 2026",
+ "window": "Past 24 hours. Searches in English, Spanish and Portuguese across US federal, local US, South American, European and military counter-narcotics sources surfaced no new, verifiable seizures or developments beyond stories already published. One reported SOUTHCOM strike item could not be confirmed (the only source matched a 2025 date), so it is excluded.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 1,
- "sectionCounts": [
-  {
-   "id": "federal",
-   "name": "National / Federal (US)",
-   "count": 1
-  }
- ],
- "stories": [
-  {
-   "section": "federal",
-   "sectionName": "National / Federal (US)",
-   "headline": "About 120 kg of cocaine and a handgun found in a Long Island City high-rise apartment; two men face federal conspiracy charges",
-   "summary": "Announced on 9 November by the Southern District of New York and the DEA, the case centres on a Queens apartment leased by Glen Contreras where agents executed a search warrant.",
-   "location": "Long Island City, New York",
-   "quantity": "~120 kg cocaine",
-   "arrests": "2 charged",
-   "source": "DOJ / DEA",
-   "url": "https://www.justice.gov/usao-sdny/pr/two-men-charged-cocaine-trafficking-operating-queens-stash-apartment"
-  }
- ]
+ "storyCount": 0,
+ "sectionCounts": [],
+ "stories": []
 }
