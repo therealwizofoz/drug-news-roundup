@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-17",
+  "window": "Past 24 hours, with search-index lag: two Asia/Africa seizures from earlier in November surfaced as new. Searches across US federal, local US, South American and military counter-narcotics sources found nothing new and verifiable; the latest SOUTHCOM strike found was dated Oct 27 and is already logged.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {
+        "headline": "Kenyan police seize 454 kg of suspected methamphetamine in Kwale County after a cross-border handover from Tanzania",
+        "body": "A suspect stopped in Tanzania on 5 November was passed to Kenyan police at the Lungalunga-Horohoro crossing, and investigators then traced the drugs to Kinondo in Kwale County. Three people were arrested, and two cars and a motorcycle were impounded; police put the street value at Ksh3.6 billion.",
+        "url": "https://www.kenyans.co.ke/news/129229-police-recover-454kg-suspected-methamphetamine-worth-ksh36-billion-3-arrested",
+        "quantity": "454 kg methamphetamine",
+        "location": "Kwale County, Kenya",
+        "arrests": "3 arrested",
+        "source": "Kenyans.co.ke",
+        "seizures": [{"drug": "methamphetamine", "kg": 454, "place": "Kenya"}]
+      },
+      {
+        "headline": "Philippine police and PDEA recover 67 kg of shabu in Zamboanga City buy-bust, four held",
+        "body": "On 11 November, a joint PNP-PDEA team in Barangay Mercedes recovered about 2 kg during a sting, and a follow-up search of the area turned up another 65 kg. Four suspects were arrested; the operation was code-named Coplan Shadow Ice and officials valued the haul at P455.6 million.",
+        "url": "https://tribune.net.ph/2026/11/12/p4556m-worth-of-shabu-seized-in-zamboanga-city-drug-bust",
+        "quantity": "67 kg shabu",
+        "location": "Zamboanga City, Philippines",
+        "arrests": "4 arrested",
+        "source": "Daily Tribune",
+        "seizures": [{"drug": "methamphetamine", "kg": 67, "place": "Philippines"}]
+      }
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

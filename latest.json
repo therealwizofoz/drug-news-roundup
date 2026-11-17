@@ -1,9 +1,38 @@
 {
- "date": "2026-11-16",
- "dateLabel": "Monday, November 16, 2026",
- "window": "Past 24 hours. Searches in English, Spanish and Portuguese across US federal, local US, South American, European and military counter-narcotics sources surfaced no new, verifiable seizures or developments beyond stories already published. One reported SOUTHCOM strike item could not be confirmed (the only source matched a 2025 date), so it is excluded.",
+ "date": "2026-11-17",
+ "dateLabel": "Tuesday, November 17, 2026",
+ "window": "Past 24 hours, with search-index lag: two Asia/Africa seizures from earlier in November surfaced as new. Searches across US federal, local US, South American and military counter-narcotics sources found nothing new and verifiable; the latest SOUTHCOM strike found was dated Oct 27 and is already logged.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 0,
- "sectionCounts": [],
- "stories": []
+ "storyCount": 2,
+ "sectionCounts": [
+  {
+   "id": "world",
+   "name": "Rest of World",
+   "count": 2
+  }
+ ],
+ "stories": [
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Kenyan police seize 454 kg of suspected methamphetamine in Kwale County after a cross-border handover from Tanzania",
+   "summary": "A suspect stopped in Tanzania on 5 November was passed to Kenyan police at the Lungalunga-Horohoro crossing, and investigators then traced the drugs to Kinondo in Kwale County.",
+   "location": "Kwale County, Kenya",
+   "quantity": "454 kg methamphetamine",
+   "arrests": "3 arrested",
+   "source": "Kenyans.co.ke",
+   "url": "https://www.kenyans.co.ke/news/129229-police-recover-454kg-suspected-methamphetamine-worth-ksh36-billion-3-arrested"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "Philippine police and PDEA recover 67 kg of shabu in Zamboanga City buy-bust, four held",
+   "summary": "On 11 November, a joint PNP-PDEA team in Barangay Mercedes recovered about 2 kg during a sting, and a follow-up search of the area turned up another 65 kg.",
+   "location": "Zamboanga City, Philippines",
+   "quantity": "67 kg shabu",
+   "arrests": "4 arrested",
+   "source": "Daily Tribune",
+   "url": "https://tribune.net.ph/2026/11/12/p4556m-worth-of-shabu-seized-in-zamboanga-city-drug-bust"
+  }
+ ]
 }
