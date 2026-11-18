@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-18",
+  "window": "Past 24 hours, with search-index lag: the one new item is an Ecuadorian operation announced on 10 November. Searches across US federal, local US and military counter-narcotics sources surfaced nothing new and verifiable; recent strike and seizure results were either already logged or dated 2025.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {
+        "headline": "Ecuador's Gran Fénix 070 raids hit a Posorja port cocaine network, 11 held and 1.36 tonnes tallied",
+        "body": "Ecuadorian police announced on 10 November the results of a roughly three-month probe, executing 11 raids in Guayaquil, southern Quito and Sucre canton in Manabí. The 1,363 kg total combines four earlier interceptions (631 kg bound for Germany, 62 kg for New Zealand) with 670 kg taken inside Ecuador; investigators say the group contaminated cargo containers via the Posorja port. Eleven people were detained, ten Ecuadorians and one Colombian alleged to be the ringleader, and face organized-crime charges.",
+        "url": "https://www.vistazo.com/seguridad/2026-11-10-operativo-trafico-internacional-1-3-toneladas-cocaina-incautadas-11-detenidos-IC11312082",
+        "quantity": "1.36 t cocaine",
+        "location": "Guayaquil, Ecuador",
+        "arrests": "11 arrested",
+        "source": "Vistazo"
+      }
+    ]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
