@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-19",
+  "window": "Past 24 hours, with search-index lag: the one new item is a federal case in Georgia announced on 13 November. Searches of South America, SOUTHCOM strike reporting and rest-of-world sources returned nothing new and verifiable; results were either already logged, undated, or from earlier months.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {
+        "headline": "Georgia man arraigned after agents find about 60 pounds of fentanyl in 26 bricks inside a backyard shed",
+        "body": "Michael Antonio Cruz, 32, was arraigned in Atlanta on a 3 November federal indictment for conspiring to distribute methamphetamine and fentanyl and for possessing fentanyl with intent to distribute. Agents searched three homes in the Mableton and Austell area on 30 September; the fentanyl, nearly 60 pounds in 26 wrapped bricks, was in a shed, and more than $74,000 in cash turned up behind a false vent. Reports differ on whether the shed was in Mableton or Austell.",
+        "url": "https://www.dea.gov/press-releases/2026/11/13/mableton-man-faces-federal-charges-after-agents-seize-nearly-60-pounds",
+        "quantity": "~60 lb fentanyl",
+        "location": "Mableton, Georgia",
+        "arrests": "1 charged",
+        "source": "DEA",
+        "seizures": [{"drug": "fentanyl", "kg": 27, "place": "Georgia"}]
+      }
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
