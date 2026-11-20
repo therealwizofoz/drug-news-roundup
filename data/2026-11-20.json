@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-20",
+  "window": "Past 24 hours, with search-index lag: the one new item was published by New Zealand police on 7 November. Searches of US federal, local US, South America and SOUTHCOM strike reporting found nothing new and verifiable; hits were already logged, from earlier years, or undated.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {
+        "headline": "New Zealand's Operation Magpie nets cocaine, MDMA, ketamine and 70 kg of pseudoephedrine, with four men remanded",
+        "body": "Canterbury organised-crime detectives and Customs announced on 7 November that several border consignments had been intercepted and warrants executed across Canterbury. Seizures included 10 kg of cocaine, 24.5 kg of MDMA, 10.6 kg of ketamine, 70 kg of pseudoephedrine, thousands of ecstasy and LSD tablets, a 3D-printed firearm, pill-press equipment and more than $500,000 in cash. Four men aged 27 to 35 were remanded in custody ahead of a Christchurch District Court appearance.",
+        "url": "https://www.police.govt.nz/node/87004",
+        "quantity": "10 kg cocaine, 24.5 kg MDMA",
+        "location": "Canterbury, New Zealand",
+        "arrests": "4 arrested",
+        "source": "New Zealand Police",
+        "seizures": [
+          {"drug": "cocaine", "kg": 10, "place": "New Zealand"},
+          {"drug": "MDMA", "kg": 24.5, "place": "New Zealand"},
+          {"drug": "ketamine", "kg": 10.6, "place": "New Zealand"},
+          {"drug": "cannabis", "kg": 3, "place": "New Zealand"},
+          {"drug": "methamphetamine", "kg": 0.55, "place": "New Zealand"}
+        ]
+      }
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
