@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-21",
+  "window": "Past 24 hours, with search-index lag: searches of US federal, local US, South America, SOUTHCOM strike and world reporting found nothing new and verifiable. Hits were already logged, undated, or from earlier years (a Hong Kong 228 kg cocaine seizure turned out to be a 2025 article). A mid-November Pacific strike report had conflicting dates and death tolls and no official statement, so it was left out.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

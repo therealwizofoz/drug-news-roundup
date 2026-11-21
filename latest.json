@@ -1,27 +1,9 @@
 {
- "date": "2026-11-20",
- "dateLabel": "Friday, November 20, 2026",
- "window": "Past 24 hours, with search-index lag: the one new item was published by New Zealand police on 7 November. Searches of US federal, local US, South America and SOUTHCOM strike reporting found nothing new and verifiable; hits were already logged, from earlier years, or undated.",
+ "date": "2026-11-21",
+ "dateLabel": "Saturday, November 21, 2026",
+ "window": "Past 24 hours, with search-index lag: searches of US federal, local US, South America, SOUTHCOM strike and world reporting found nothing new and verifiable. Hits were already logged, undated, or from earlier years (a Hong Kong 228 kg cocaine seizure turned out to be a 2025 article). A mid-November Pacific strike report had conflicting dates and death tolls and no official statement, so it was left out.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 1,
- "sectionCounts": [
-  {
-   "id": "world",
-   "name": "Rest of World",
-   "count": 1
-  }
- ],
- "stories": [
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "New Zealand's Operation Magpie nets cocaine, MDMA, ketamine and 70 kg of pseudoephedrine, with four men remanded",
-   "summary": "Canterbury organised-crime detectives and Customs announced on 7 November that several border consignments had been intercepted and warrants executed across Canterbury.",
-   "location": "Canterbury, New Zealand",
-   "quantity": "10 kg cocaine, 24.5 kg MDMA",
-   "arrests": "4 arrested",
-   "source": "New Zealand Police",
-   "url": "https://www.police.govt.nz/node/87004"
-  }
- ]
+ "storyCount": 0,
+ "sectionCounts": [],
+ "stories": []
 }
