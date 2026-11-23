@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-23",
+  "window": "Past 24 hours, with search-index lag. Two verifiable new items found; Colombian Navy 1.8 t item surfaced with a November 2026 page date but was a 2023 article and was excluded. No SOUTHCOM strike newer than 27 October was found.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[
+      {"headline":"Florida and DEA charge two Ocala suspects over a counterfeit fentanyl pill operation with about 6,000 pills and a press","body":"Florida's attorney general and the DEA announced trafficking charges against two Ocala residents after a joint probe that began with Tampa police and traced a pressed-pill supplier from Marion County into Hillsborough County. A search at a residence, executed around 28-29 October, turned up roughly 6,000 pills and a pill press. Both defendants are held without bond and more charges may follow lab testing.","url":"https://www.dea.gov/press-releases/2026/11/19/attorney-general-james-uthmeier-and-dea-announce-arrests-and-charges-two","quantity":"~6,000 fentanyl pills","location":"Ocala, Florida","arrests":"2 charged","source":"DEA / Fox 13"}
+    ]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"French Navy stops a semi-submersible in the Atlantic for the first time, recovering 146 kg of cocaine","body":"On 12 November a French frigate's helicopter intercepted a stateless semi-submersible with four people aboard; three jumped overboard and one triggered a scuttling mechanism, but all were rescued and detained. About 146 kg of cocaine was recovered, and reports say several more tonnes sank with the boat. A US patrol aircraft, MAOC-N and JIATF South supported the operation, and France's OFAST Caraibes took over the case.","url":"https://www.jamaicaobserver.com/2026/11/17/french-navy-seizes-321-pounds-cocaine-atlantic-operation/","quantity":"146 kg cocaine","location":"Atlantic Ocean","arrests":"4 detained","source":"Jamaica Observer"}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

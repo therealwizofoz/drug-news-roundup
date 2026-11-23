@@ -1,9 +1,43 @@
 {
- "date": "2026-11-22",
- "dateLabel": "Sunday, November 22, 2026",
- "window": "Past 24 hours, with search-index lag: searches of US federal, local US, South America, SOUTHCOM strike and world reporting found nothing new and verifiable. Hits were already logged, undated, or from earlier years (a Colombian Navy 1.86 t Pacific seizure surfaced with a November 2026 page date but was actually a 2023 article). No SOUTHCOM strike newer than the 27 October one was found.",
+ "date": "2026-11-23",
+ "dateLabel": "Monday, November 23, 2026",
+ "window": "Past 24 hours, with search-index lag. Two verifiable new items found; Colombian Navy 1.8 t item surfaced with a November 2026 page date but was a 2023 article and was excluded. No SOUTHCOM strike newer than 27 October was found.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 0,
- "sectionCounts": [],
- "stories": []
+ "storyCount": 2,
+ "sectionCounts": [
+  {
+   "id": "federal",
+   "name": "National / Federal (US)",
+   "count": 1
+  },
+  {
+   "id": "world",
+   "name": "Rest of World",
+   "count": 1
+  }
+ ],
+ "stories": [
+  {
+   "section": "federal",
+   "sectionName": "National / Federal (US)",
+   "headline": "Florida and DEA charge two Ocala suspects over a counterfeit fentanyl pill operation with about 6,000 pills and a press",
+   "summary": "Florida's attorney general and the DEA announced trafficking charges against two Ocala residents after a joint probe that began with Tampa police and traced a pressed-pill…",
+   "location": "Ocala, Florida",
+   "quantity": "~6,000 fentanyl pills",
+   "arrests": "2 charged",
+   "source": "DEA / Fox 13",
+   "url": "https://www.dea.gov/press-releases/2026/11/19/attorney-general-james-uthmeier-and-dea-announce-arrests-and-charges-two"
+  },
+  {
+   "section": "world",
+   "sectionName": "Rest of World",
+   "headline": "French Navy stops a semi-submersible in the Atlantic for the first time, recovering 146 kg of cocaine",
+   "summary": "On 12 November a French frigate's helicopter intercepted a stateless semi-submersible with four people aboard; three jumped overboard and one triggered a scuttling mechanism, but…",
+   "location": "Atlantic Ocean",
+   "quantity": "146 kg cocaine",
+   "arrests": "4 detained",
+   "source": "Jamaica Observer",
+   "url": "https://www.jamaicaobserver.com/2026/11/17/french-navy-seizes-321-pounds-cocaine-atlantic-operation/"
+  }
+ ]
 }
