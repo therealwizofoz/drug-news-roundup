@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-24",
+  "window": "Past 24 hours, with search-index lag. Search returned few fresh items; one verified new story. A Hong Kong 228 kg cocaine item was excluded because it dates from 2025. No SOUTHCOM strike newer than 27 October was found.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"London police recover 893 kg of cocaine hidden among oranges, with eight held and about £450,000 in cash found","body":"On the evening of 22 November the Metropolitan Police made arrests at New Spitalfields Market in Leyton, where about 100 kg of cocaine was found, and a lorry stopped near Maidstone and searched at Dover yielded roughly 250 kg more. The total reached 893 kg, and a Cheshunt, Hertfordshire property produced around £450,000 in cash. Eight people remain in custody in a probe into an organised group smuggling class A drugs into the UK.","url":"https://news.met.police.uk/news/arrests-made-after-almost-a-tonne-of-cocaine-found-hidden-among-oranges-515397","quantity":"893 kg cocaine","location":"London, UK","arrests":"8 arrested","source":"Metropolitan Police","seizures":[{"drug":"cocaine","kg":893,"place":"United Kingdom"}]}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
