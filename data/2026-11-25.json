@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-25",
+  "window": "Past 24 hours, with search-index lag. Search returned few fresh items; two items published 17 November surfaced late and are included. No SOUTHCOM strike newer than 27 October could be confirmed (a single 15 November report had conflicting details and was excluded). No new US federal or local items were found.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[
+      {"headline":"Colombia's Operation Tridente reports about 10 tonnes of cocaine and 6.4 tonnes of marijuana taken on the Pacific coast","body":"President Abelardo de la Espriella announced the results of a Navy and Marine operation run with US Southern Command's interagency task force under a strategy called Escudo de las Américas. Forces destroyed 37 coca-paste labs, stopped about six vessels, raided three collection points and held 20 people; the government put the value near US$500 million. The announcement dates to 17 November and does not give the dates the operation was carried out.","url":"https://www.asuntoslegales.com.co/actualidad/resultados-de-la-operacion-tridente-4526687","quantity":"~10 t cocaine, 6.4 t marijuana","location":"Pacific coast, Colombia","arrests":"20 held","source":"Asuntos Legales","seizures":[{"drug":"cocaine","kg":9993,"place":"Colombia"},{"drug":"cannabis","kg":6426.7,"place":"Colombia"}]}
+    ]},
+    {"id":"world","name":"Rest of World","stories":[
+      {"headline":"Europe-wide raids on an Ecuador-to-Europe cocaine network lead to about 50 detentions and 2.3 million Swiss francs seized","body":"Searches on 10 and 11 November across Switzerland, Germany, the Czech Republic, the Netherlands and Spain targeted a group that allegedly hid cocaine from Ecuador in fruit shipments and laundered proceeds through front companies. Switzerland held 41 people, Germany five, and a senior figure was arrested on Gran Canaria; Europol and Eurojust assisted. Investigators also took 15 weapons and cryptocurrency, and tie the network to a 750 kg Antwerp seizure in August.","url":"https://www.extra.ec/noticia/ecuador/ecuador-50-detenidos-red-narcotrafico-enviaba-cocaina-europa-168160.html","quantity":"CHF 2.3 million cash","location":"Switzerland, Germany, Spain","arrests":"~50 detained","source":"Diario Extra"}
+    ]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}

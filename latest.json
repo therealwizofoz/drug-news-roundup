@@ -1,10 +1,15 @@
 {
- "date": "2026-11-24",
- "dateLabel": "Tuesday, November 24, 2026",
- "window": "Past 24 hours, with search-index lag. Search returned few fresh items; one verified new story. A Hong Kong 228 kg cocaine item was excluded because it dates from 2025. No SOUTHCOM strike newer than 27 October was found.",
+ "date": "2026-11-25",
+ "dateLabel": "Wednesday, November 25, 2026",
+ "window": "Past 24 hours, with search-index lag. Search returned few fresh items; two items published 17 November surfaced late and are included. No SOUTHCOM strike newer than 27 October could be confirmed (a single 15 November report had conflicting details and was excluded). No new US federal or local items were found.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 1,
+ "storyCount": 2,
  "sectionCounts": [
+  {
+   "id": "south-america",
+   "name": "South America",
+   "count": 1
+  },
   {
    "id": "world",
    "name": "Rest of World",
@@ -13,15 +18,26 @@
  ],
  "stories": [
   {
+   "section": "south-america",
+   "sectionName": "South America",
+   "headline": "Colombia's Operation Tridente reports about 10 tonnes of cocaine and 6.4 tonnes of marijuana taken on the Pacific coast",
+   "summary": "President Abelardo de la Espriella announced the results of a Navy and Marine operation run with US Southern Command's interagency task force under a strategy called Escudo de las…",
+   "location": "Pacific coast, Colombia",
+   "quantity": "~10 t cocaine, 6.4 t marijuana",
+   "arrests": "20 held",
+   "source": "Asuntos Legales",
+   "url": "https://www.asuntoslegales.com.co/actualidad/resultados-de-la-operacion-tridente-4526687"
+  },
+  {
    "section": "world",
    "sectionName": "Rest of World",
-   "headline": "London police recover 893 kg of cocaine hidden among oranges, with eight held and about £450,000 in cash found",
-   "summary": "On the evening of 22 November the Metropolitan Police made arrests at New Spitalfields Market in Leyton, where about 100 kg of cocaine was found, and a lorry stopped near…",
-   "location": "London, UK",
-   "quantity": "893 kg cocaine",
-   "arrests": "8 arrested",
-   "source": "Metropolitan Police",
-   "url": "https://news.met.police.uk/news/arrests-made-after-almost-a-tonne-of-cocaine-found-hidden-among-oranges-515397"
+   "headline": "Europe-wide raids on an Ecuador-to-Europe cocaine network lead to about 50 detentions and 2.3 million Swiss francs seized",
+   "summary": "Searches on 10 and 11 November across Switzerland, Germany, the Czech Republic, the Netherlands and Spain targeted a group that allegedly hid cocaine from Ecuador in fruit…",
+   "location": "Switzerland, Germany, Spain",
+   "quantity": "CHF 2.3 million cash",
+   "arrests": "~50 detained",
+   "source": "Diario Extra",
+   "url": "https://www.extra.ec/noticia/ecuador/ecuador-50-detenidos-red-narcotrafico-enviaba-cocaina-europa-168160.html"
   }
  ]
 }
