@@ -1,43 +1,9 @@
 {
- "date": "2026-11-25",
- "dateLabel": "Wednesday, November 25, 2026",
- "window": "Past 24 hours, with search-index lag. Search returned few fresh items; two items published 17 November surfaced late and are included. No SOUTHCOM strike newer than 27 October could be confirmed (a single 15 November report had conflicting details and was excluded). No new US federal or local items were found.",
+ "date": "2026-11-26",
+ "dateLabel": "Thursday, November 26, 2026",
+ "window": "Past 24 hours, with search-index lag. Searches across US federal, local US, South American, Brazilian and world sources surfaced no verifiable new items; apparent November hits proved to be older articles (2023 and 2025) re-dated by their sites and were excluded. No SOUTHCOM strike newer than 27 October could be confirmed.",
  "siteUrl": "https://www.drugnewsroundup.com/",
- "storyCount": 2,
- "sectionCounts": [
-  {
-   "id": "south-america",
-   "name": "South America",
-   "count": 1
-  },
-  {
-   "id": "world",
-   "name": "Rest of World",
-   "count": 1
-  }
- ],
- "stories": [
-  {
-   "section": "south-america",
-   "sectionName": "South America",
-   "headline": "Colombia's Operation Tridente reports about 10 tonnes of cocaine and 6.4 tonnes of marijuana taken on the Pacific coast",
-   "summary": "President Abelardo de la Espriella announced the results of a Navy and Marine operation run with US Southern Command's interagency task force under a strategy called Escudo de las…",
-   "location": "Pacific coast, Colombia",
-   "quantity": "~10 t cocaine, 6.4 t marijuana",
-   "arrests": "20 held",
-   "source": "Asuntos Legales",
-   "url": "https://www.asuntoslegales.com.co/actualidad/resultados-de-la-operacion-tridente-4526687"
-  },
-  {
-   "section": "world",
-   "sectionName": "Rest of World",
-   "headline": "Europe-wide raids on an Ecuador-to-Europe cocaine network lead to about 50 detentions and 2.3 million Swiss francs seized",
-   "summary": "Searches on 10 and 11 November across Switzerland, Germany, the Czech Republic, the Netherlands and Spain targeted a group that allegedly hid cocaine from Ecuador in fruit…",
-   "location": "Switzerland, Germany, Spain",
-   "quantity": "CHF 2.3 million cash",
-   "arrests": "~50 detained",
-   "source": "Diario Extra",
-   "url": "https://www.extra.ec/noticia/ecuador/ecuador-50-detenidos-red-narcotrafico-enviaba-cocaina-europa-168160.html"
-  }
- ]
+ "storyCount": 0,
+ "sectionCounts": [],
+ "stories": []
 }

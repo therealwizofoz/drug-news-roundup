@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-26",
+  "window": "Past 24 hours, with search-index lag. Searches across US federal, local US, South American, Brazilian and world sources surfaced no verifiable new items; apparent November hits proved to be older articles (2023 and 2025) re-dated by their sites and were excluded. No SOUTHCOM strike newer than 27 October could be confirmed.",
+  "sections": [
+    {"id":"federal","name":"National / Federal (US)","stories":[]},
+    {"id":"local","name":"Local US Arrests","stories":[]},
+    {"id":"south-america","name":"South America","stories":[]},
+    {"id":"world","name":"Rest of World","stories":[]},
+    {"id":"ongoing","name":"Ongoing Stories with New Developments","stories":[]}
+  ]
+}
